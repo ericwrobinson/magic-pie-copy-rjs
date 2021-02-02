@@ -1,9 +1,10 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience, seriously, and if you don't know, no you know.
+title: copywriting. storytelling. marketing.
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: Websites. Blogs & articles. Video scripts.  Social media strategies.
+  Sales collateral.   You name it, we write it.
 mainpitch:
   title: Why Kaldi
   description: >
