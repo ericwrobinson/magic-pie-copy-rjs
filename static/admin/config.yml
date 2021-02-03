@@ -1,14 +1,14 @@
 backend:
   name: git-gateway
   branch: master
-  local_backend: 
-  url: http://localhost:8080/api/v1
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
     delete: 'Delete {{collection}} “{{slug}}”'
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
+
+local_backend: true
 
 media_folder: static/img
 public_folder: /img
@@ -38,6 +38,19 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Hero, name: hero, widget: object, fields: [{
+              label: Title, 
+              name: title, 
+              widget: string
+            }, {
+              label: Subtitle, 
+              name: subtitle, 
+              widget: markdown
+            }, {
+              label: ButtonTitle, 
+              name: buttonTitle, 
+              widget: string
+            }]}
+          - {label: Work, name: work, widget: object, fields: [{
               label: Title, 
               name: title, 
               widget: string

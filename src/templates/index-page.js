@@ -2,12 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   hero,
+  work
 }) => (
   <div>
     <div
@@ -47,10 +45,12 @@ export const IndexPageTemplate = ({
       >
         {hero.subtitle}
       </h3>
-        <p>{hero.buttonTitle}</p>
+      <Link>{hero.buttonTitle}</Link>
     </div>
     <section className="section section--gradient">
-      <div> <p>Read More</p>
+      <h2>{work.title}</h2>
+      <p>{work.subtitle}</p>
+      <Link>{work.buttonTitle}</Link>
       </div>
     </section>
   </div>
@@ -58,6 +58,7 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   hero: PropTypes.object,
+  work: PropTypes.object,
 }
 
 const IndexPage = ({ data }) => {
@@ -67,6 +68,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         hero={frontmatter.hero}
+        work={frontmatter.work}
       />
     </Layout>
   )
@@ -87,6 +89,11 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         hero {
+          title
+          subtitle
+          buttonTitle
+        }
+        work {
           title
           subtitle
           buttonTitle

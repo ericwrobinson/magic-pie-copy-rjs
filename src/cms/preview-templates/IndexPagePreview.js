@@ -9,6 +9,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
     return (
       <IndexPageTemplate
         hero={data.hero}
+        work={data.work}
       />
     )
   } else {
