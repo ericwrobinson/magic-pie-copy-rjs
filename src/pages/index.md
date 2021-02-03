@@ -1,10 +1,12 @@
 ---
-templateKey: index-page
-title: copywriting. storytelling. marketing. done right, the first time.
-image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Websites. Blogs & articles. Video scripts.  Social media strategies.
   Sales collateral.   You name it, we write it.
+templateKey: index-page
+title: copywriting. storytelling. marketing. done right, the first time.
+subtitle: Websites. Blogs & articles. Video scripts. Social media strategies.
+  Sales collateral. You name it, we write it.
+image: /img/home-jumbotron.jpg
 mainpitch:
   title: Why Kaldi
   description: >
