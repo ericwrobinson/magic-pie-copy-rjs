@@ -11,7 +11,7 @@ subtitle: >-
   \n
 
 
-  You name it, we write it.
+  You name it, we write it, every time.
 image: /img/home-jumbotron.jpg
 mainpitch:
   title: Why Kaldi
