@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: copywriting. storytelling. marketing.
+title: copywriting. storytelling. marketing. done right.
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Websites. Blogs & articles. Video scripts.  Social media strategies.
