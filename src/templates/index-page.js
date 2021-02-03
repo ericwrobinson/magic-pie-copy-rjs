@@ -62,6 +62,7 @@ export const IndexPageTemplate = ({
         >
           {hero.subtitle}
         </h3>
+          <p>{hero.buttonTitle}</p>
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
@@ -73,7 +74,7 @@ export const IndexPageTemplate = ({
             padding: '0.25em',
           }}
         >
-          {work.title}
+          <p>{work.buttonTitle}</p>
         </h1>
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -88,6 +89,7 @@ export const IndexPageTemplate = ({
           }}
         >
           {work.subtitle}
+          {work.buttonTitle}
         </h3>
       </div>
     </div>
@@ -152,7 +154,7 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-
+  console.log('frontmatter', frontmatter)
   return (
     <Layout>
       <IndexPageTemplate
