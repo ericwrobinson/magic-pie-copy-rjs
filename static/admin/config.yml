@@ -59,6 +59,22 @@ collections:
               name: subtitle, 
               widget: markdown
             }, {
+              label: Logo1, 
+              name: workLogo1, 
+              widget: image
+            }, {
+              label: Logo2, 
+              name: workLogo2, 
+              widget: image
+            }, {
+              label: Logo3, 
+              name: workLogo3, 
+              widget: image
+            }, {
+              label: Logo4, 
+              name: workLogo4, 
+              widget: image
+            }, {
               label: ButtonTitle, 
               name: buttonTitle, 
               widget: string
