@@ -16,82 +16,111 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        display: 'flex',
+        height: '150px',
+        lineHeight: '1',
+        justifyContent: 'space-around',
+        alignItems: 'left',
+        flexDirection: 'column',
       }}
     >
-      <div
+      <h1
+        className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
         style={{
-          display: 'flex',
-          height: '150px',
+          boxShadow:
+            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+          backgroundColor: 'rgb(255, 68, 0)',
+          color: 'white',
           lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
+          padding: '0.25em',
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {hero.title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            whiteSpace: 'pre-line',
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {hero.subtitle}
-        </h3>
-          <p>{hero.buttonTitle}</p>
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          <p>{work.buttonTitle}</p>
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            whiteSpace: 'pre-line',
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {work.subtitle}
-          {work.buttonTitle}
-        </h3>
-      </div>
+        {hero.title}
+      </h1>
+      <h3
+        className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+        style={{
+          whiteSpace: 'pre-line',
+          boxShadow:
+            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+          backgroundColor: 'rgb(255, 68, 0)',
+          color: 'white',
+          lineHeight: '1',
+          padding: '0.25em',
+        }}
+      >
+        {hero.subtitle}
+      </h3>
+        <p>{hero.buttonTitle}</p>
+      <h1
+        className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+        style={{
+          boxShadow:
+            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+          backgroundColor: 'rgb(255, 68, 0)',
+          color: 'white',
+          lineHeight: '1',
+          padding: '0.25em',
+        }}
+      >
+        <p>{work.buttonTitle}</p>
+      </h1>
+      <div
+        className="full-width-image margin-top-0"
+        style={{
+          backgroundImage: `url(${
+            !!work.workLogo1.childImageSharp ? work.workLogo1.childImageSharp.fluid.src : work.workLogo1
+          })`,
+          backgroundPosition: `top left`,
+          backgroundAttachment: `fixed`,
+        }}
+      ></div>
+      <div
+        className="full-width-image margin-top-0"
+        style={{
+          backgroundImage: `url(${
+            !!work.workLogo2.childImageSharp ? work.workLogo2.childImageSharp.fluid.src : work.workLogo2
+          })`,
+          backgroundPosition: `top left`,
+          backgroundAttachment: `fixed`,
+        }}
+      ></div>
+      <div
+        className="full-width-image margin-top-0"
+        style={{
+          backgroundImage: `url(${
+            !!work.workLogo3.childImageSharp ? work.workLogo3.childImageSharp.fluid.src : work.workLogo3
+          })`,
+          backgroundPosition: `top left`,
+          backgroundAttachment: `fixed`,
+        }}
+      ></div>
+      <div
+        className="full-width-image margin-top-0"
+        style={{
+          backgroundImage: `url(${
+            !!work.workLogo4.childImageSharp ? work.workLogo4.childImageSharp.fluid.src : work.workLogo4
+          })`,
+          backgroundPosition: `top left`,
+          backgroundAttachment: `fixed`,
+        }}
+      ></div>
+      <h3
+        className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+        style={{
+          whiteSpace: 'pre-line',
+          boxShadow:
+            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+          backgroundColor: 'rgb(255, 68, 0)',
+          color: 'white',
+          lineHeight: '1',
+          padding: '0.25em',
+        }}
+      >
+        {work.subtitle}
+        {work.buttonTitle}
+      </h3>
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -143,7 +172,6 @@ export const IndexPageTemplate = ({
 )
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   hero: PropTypes.object,
   work: PropTypes.object,
   mainpitch: PropTypes.object,
@@ -158,7 +186,6 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
         hero={frontmatter.hero}
         work={frontmatter.work}
         mainpitch={frontmatter.mainpitch}

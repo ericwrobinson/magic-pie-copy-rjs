@@ -35,10 +35,7 @@ collections:
       - file: "src/pages/index.md"
         label: "Landing Page"
         name: "index"
-        fields:workLogo1
-          workLogo2
-          workLogo3
-          workLogo4
+        fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Hero, name: hero, widget: object, fields: [{
               label: Title, 
@@ -65,15 +62,15 @@ collections:
               label: Logo1, 
               name: workLogo1, 
               widget: image
-            },  {
+            }, {
               label: Logo2, 
               name: workLogo2, 
               widget: image
-            }, , {
+            }, {
               label: Logo3, 
               name: workLogo3, 
               widget: image
-            },  {
+            }, {
               label: Logo4, 
               name: workLogo4, 
               widget: image
