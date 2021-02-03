@@ -7,11 +7,7 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
-  image,
   hero,
-  work,
-  heading,
-  mainpitch
 }) => (
   <div>
     <div
@@ -52,118 +48,9 @@ export const IndexPageTemplate = ({
         {hero.subtitle}
       </h3>
         <p>{hero.buttonTitle}</p>
-      <h1
-        className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-        style={{
-          boxShadow:
-            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-          backgroundColor: 'rgb(255, 68, 0)',
-          color: 'white',
-          lineHeight: '1',
-          padding: '0.25em',
-        }}
-      >
-        <p>{work.buttonTitle}</p>
-      </h1>
-      <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!work.workLogo1.childImageSharp ? work.workLogo1.childImageSharp.fluid.src : work.workLogo1
-          })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      ></div>
-      <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!work.workLogo2.childImageSharp ? work.workLogo2.childImageSharp.fluid.src : work.workLogo2
-          })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      ></div>
-      <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!work.workLogo3.childImageSharp ? work.workLogo3.childImageSharp.fluid.src : work.workLogo3
-          })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      ></div>
-      <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!work.workLogo4.childImageSharp ? work.workLogo4.childImageSharp.fluid.src : work.workLogo4
-          })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      ></div>
-      <h3
-        className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-        style={{
-          whiteSpace: 'pre-line',
-          boxShadow:
-            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-          backgroundColor: 'rgb(255, 68, 0)',
-          color: 'white',
-          lineHeight: '1',
-          padding: '0.25em',
-        }}
-      >
-        {work.subtitle}
-        {work.buttonTitle}
-      </h3>
     </div>
     <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div> <p>Read More</p>
       </div>
     </section>
   </div>
@@ -171,8 +58,6 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   hero: PropTypes.object,
-  work: PropTypes.object,
-  mainpitch: PropTypes.object,
 }
 
 const IndexPage = ({ data }) => {
@@ -182,8 +67,6 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         hero={frontmatter.hero}
-        work={frontmatter.work}
-        mainpitch={frontmatter.mainpitch}
       />
     </Layout>
   )
@@ -207,43 +90,6 @@ export const pageQuery = graphql`
           title
           subtitle
           buttonTitle
-        }
-        work {
-          title
-          subtitle
-          workLogo1 {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          workLogo2 {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          workLogo3 {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          workLogo4 {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          buttonTitle
-        }
-        mainpitch {
-          title
-          description
         }
       }
     }
