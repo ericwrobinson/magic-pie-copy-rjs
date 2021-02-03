@@ -6,7 +6,9 @@ templateKey: index-page
 title: copywriting. storytelling. marketing. done right, the first time.
 subtitle: >-
   Websites. Blogs & articles. Video scripts. Social media strategies. Sales
-  collateral.
+  collateral.  
+
+  \n
 
 
   You name it, we write it.
