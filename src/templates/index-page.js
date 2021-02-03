@@ -11,8 +11,7 @@ export const IndexPageTemplate = ({
   hero,
   work,
   heading,
-  mainpitch,
-  intro,
+  mainpitch
 }) => (
   <div>
     <div
@@ -143,7 +142,6 @@ export const IndexPageTemplate = ({
                     </h3>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
@@ -175,9 +173,6 @@ IndexPageTemplate.propTypes = {
   hero: PropTypes.object,
   work: PropTypes.object,
   mainpitch: PropTypes.object,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
 }
 
 const IndexPage = ({ data }) => {
@@ -189,7 +184,6 @@ const IndexPage = ({ data }) => {
         hero={frontmatter.hero}
         work={frontmatter.work}
         mainpitch={frontmatter.mainpitch}
-        intro={frontmatter.intro}
       />
     </Layout>
   )
@@ -249,20 +243,6 @@ export const pageQuery = graphql`
         }
         mainpitch {
           title
-          description
-        }
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
           description
         }
       }
