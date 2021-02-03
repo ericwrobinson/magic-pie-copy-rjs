@@ -3,8 +3,7 @@ templateKey: index-page
 title: copywriting. storytelling. marketing.
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Websites. Blogs & articles. Video scripts.  Social media strategies.
-  Sales collateral.   You name it, we write it.
+subtitle: Websites. Blogs & articles. Video scripts. Social media strategies. Sales collateral. You name it, we write it.
 mainpitch:
   title: Why Kaldi
   description: >

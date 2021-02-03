@@ -10,7 +10,7 @@ export const IndexPageTemplate = ({
   image,
   title,
   heading,
-  subheading,
+  subtitle,
   mainpitch,
   description,
   intro,
@@ -60,7 +60,7 @@ export const IndexPageTemplate = ({
             padding: '0.25em',
           }}
         >
-          {subheading}
+          {subtitle}
         </h3>
       </div>
     </div>
@@ -118,7 +118,7 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
-  subheading: PropTypes.string,
+  subtitle: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -135,7 +135,7 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
+        subtitle={frontmatter.subtitle}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -167,7 +167,7 @@ export const pageQuery = graphql`
           }
         }
         heading
-        subheading
+        subtitle
         mainpitch {
           title
           description
