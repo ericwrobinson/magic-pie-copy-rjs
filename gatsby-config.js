@@ -12,6 +12,14 @@ module.exports = {
          indentedSyntax: true,
        },
      },
+     {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        typekit: {
+          id: 'lwv7qpl'
+        }
+      }
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -25,6 +33,12 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
       },
     },
     {

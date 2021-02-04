@@ -16,12 +16,12 @@ const Wrapper = styled.div``;
 const Header = ({ children, color, noPadding, h1, h2, h3 }) => {
 
 	const HeaderH1 = styled.h1`
-	  font-family: Sofia-Pro, sans-serif;
-		letter-spacing: -2px;
-		font-size: 92px;
-		margin-bottom: 18px;
+	  font-family: Gastromond, serif;
+		letter-spacing: 0px;
+		font-size: 74px;
+		margin-bottom: 30px;
 		color: ${color};
-		line-height: 82px;
+		line-height: 52px;
 		padding: ${({noPadding}) => noPadding ? 0 : 'inherit'};
 	  white-space: pre-line;
 
@@ -30,7 +30,7 @@ const Header = ({ children, color, noPadding, h1, h2, h3 }) => {
 		  color: white;
 		};
 	  @media only screen and (max-width: 780px) {
-			font-size: 72px;
+			font-size: 68px;
 			line-height: 72px;
 		}
 
@@ -47,7 +47,7 @@ const Header = ({ children, color, noPadding, h1, h2, h3 }) => {
 	`;
 
 	const HeaderH2 = styled.h2`
-	  font-family: Sofia-Pro, sans-serif;
+	  font-family: Gastromond, serif;
 		font-size: 64px;
 		line-height: 66px;
 		letter-spacing: -3px;
@@ -72,7 +72,7 @@ const Header = ({ children, color, noPadding, h1, h2, h3 }) => {
 	`;
 
 	const HeaderH3 = styled.h3`
-	  font-family: Sofia-Pro, sans-serif;
+	  font-family: Gastromond, serif;
 		font-size: 36px;
 		letter-spacing: -1px;
 		margin-bottom: 9px;

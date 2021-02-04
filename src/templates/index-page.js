@@ -3,35 +3,20 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import { HomePageHero } from '../components/Sections'
+import { Header,
+         // SubHeader,
+         // Body 
+       } from '../components/Typography';
 
 export const IndexPageTemplate = ({
   hero,
   work
 }) => (
   <div>
-    <div
-      style={{
-        display: 'flex',
-        height: '150px',
-        lineHeight: '1',
-        justifyContent: 'space-around',
-        alignItems: 'left',
-        flexDirection: 'column',
-      }}
-    >
-      <h1
-        className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-        style={{
-          boxShadow:
-            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-          backgroundColor: 'rgb(255, 68, 0)',
-          color: 'white',
-          lineHeight: '1',
-          padding: '0.25em',
-        }}
-      >
-        {hero.title}
-      </h1>
+    <HomePageHero>
+      <Header h1 color='white'>{hero.title}
+      </Header>
       <h3
         className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
         style={{
@@ -46,52 +31,48 @@ export const IndexPageTemplate = ({
       >
         {hero.subtitle}
       </h3>
-      <Link>{hero.buttonTitle}</Link>
-    </div>
+      <Link to={'#'}>{hero.buttonTitle}</Link>
+    </HomePageHero>
+
+
     <section className="section section--gradient">
-      <h2>{work.title}</h2>
+      <h2
+        className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
+        {work.title}</h2>
       <p>{work.subtitle}</p>
+        <div
+          className="quarter-width-image margin-top-0"
+          style={{
+            backgroundImage: `url(${
+              !!work.workLogo1.childImageSharp ? work.workLogo1.childImageSharp.fluid.src : work.workLogo1
+            })`
+          }}
+        ></div>
+        <div
+          className="quarter-width-image margin-top-0"
+          style={{
+            backgroundImage: `url(${
+              !!work.workLogo2.childImageSharp ? work.workLogo2.childImageSharp.fluid.src : work.workLogo2
+            })`
+          }}
+        ></div>
+        <div
+          className="quarter-width-image margin-top-0"
+          style={{
+            backgroundImage: `url(${
+              !!work.workLogo3.childImageSharp ? work.workLogo3.childImageSharp.fluid.src : work.workLogo3
+            })`
+          }}
+        ></div>
       <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!work.workLogo1.childImageSharp ? work.workLogo1.childImageSharp.fluid.src : work.workLogo1
-          })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      ></div>
-      <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!work.workLogo2.childImageSharp ? work.workLogo2.childImageSharp.fluid.src : work.workLogo2
-          })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      ></div>
-      <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!work.workLogo3.childImageSharp ? work.workLogo3.childImageSharp.fluid.src : work.workLogo3
-          })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      ></div>
-      <div
-        className="full-width-image margin-top-0"
+        className="quarter-width-image margin-top-0"
         style={{
           backgroundImage: `url(${
             !!work.workLogo4.childImageSharp ? work.workLogo4.childImageSharp.fluid.src : work.workLogo4
-          })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
+          })`
         }}
       ></div>
-      <Link>{work.buttonTitle}</Link>
+      <Link to={'#'}>{work.buttonTitle}</Link>
     </section>
   </div>
 )
