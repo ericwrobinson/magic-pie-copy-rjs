@@ -8,84 +8,90 @@ const propTypes = {
 	color  : PropTypes.string,
 },
 defaultProps = {
-	color  : Colors.Purple,
+	color  : Colors.Black,
 }
 
 const ButtonComponent = styled.div`
-	border-radius: 32px;
-	height: 32px;
+	border-radius: 40px;
+	height: 40px;
 	min-width: 121px;
-	border: 2px solid ${({ inverted, disabled, color }) => _borderColor(inverted, disabled, color) };
-	background-color: ${({ inverted, disabled, color }) => _backgroundColor(inverted, disabled, color) };
-	color: ${({ inverted, disabled, textColor }) => _textColor(inverted, disabled, textColor) };
+	background-color: ${({ inverted }) => inverted ? Colors.White : Colors.Black };
+	color: ${({ inverted }) => inverted ? Colors.Black : Colors.White };
 	align-items: center;
 	justify-content: center;
 	align-self: flex-start;
-	padding-left: 22px;
-	padding-right: 22px;
+	padding-left: 33px;
+	padding-right: 33px;
 	text-align: center;
 	transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
 
 	&:hover {
-		background-color: ${Colors.Purple};
-		color: ${Colors.White};
+		background-color: ${({ inverted }) => inverted ? Colors.Black : Colors.White };
+		color: ${({ inverted }) => inverted ? Colors.White : Colors.Black };
 	}
 `;
 
 const ButtonCopy = styled.span`
-	font-size: 18px;
+	font-size: 21px;
 	font-weight: bold;
-	letter-spacing: -0.25px;
-	line-height: 0;
-	font-family: Sofia-Pro, sans-serif;
+	letter-spacing: .6px;
+	line-height: 1.6;
+	font-family: Gastromond, serif;
 `;
 
-function _borderColor (inverted, disabled, color) {
-	if (disabled || (disabled && inverted)) {
-		return '#D3D3D3';
-	} else if (inverted) {
-		return color;
-	} else {
-		return color;
-	}
-}
+const LinkComponent = styled(Link)`
+  display: inline-block;
+`;
 
-function _backgroundColor (inverted, disabled, color) { 
-	if (inverted || (inverted && disabled)) {
-		return 'transparent'; 
-	} else if (disabled) {
-		return '#D3D3D3';
-	} else {
-		return color;
-	}
-}
+	// border: 2px solid ${({ inverted, disabled, color }) => _borderColor(inverted, disabled, color) };
+	// background-color: ${({ inverted, color }) => color ? color : inverted ? Colors.White : Colors.Black };
+	// color: ${({ inverted, color }) => color ? color : inverted ? Colors.Black : Colors.White };
 
-function _textColor (inverted, disabled, textColor) {
-	if (disabled && inverted) {
-		return '#D3D3D3';
-	} else if (inverted) {
-		return textColor;
-	} else if (disabled) {
-		return Colors.Purple;
-	} else {
-		return Colors.Purple;
-	}
-}
+
+// function _borderColor (inverted, disabled, color) {
+// 	if (disabled || (disabled && inverted)) {
+// 		return '#D3D3D3';
+// 	} else if (inverted) {
+// 		return color;
+// 	} else {
+// 		return color;
+// 	}
+// }
+
+// function _backgroundColor (inverted, disabled, color) { 
+// 	if (inverted) {
+// 		return Colors.White; 
+// 	} else if (disabled) {
+// 		return '#D3D3D3';
+// 	} else {
+// 		return color;
+// 	}
+// }
+
+// function _textColor (inverted, disabled) {
+// 	if (inverted) {
+// 		return Colors.Black;
+// 	} else if (disabled) {
+// 		return "#A8A8A8";
+// 	} else {
+// 		return Colors.White;
+// 	}
+// }
 
 /**
 A primary button that matches the brand.
 */
 const ButtonPrimary = ({ ...props }) => {
 	return (
-		<Link to={props.linkTo}>
+		<LinkComponent to={props.linkTo}>
 			<ButtonComponent
 				inverted={props.inverted} 
 				disabled={props.disabled} 
 				color={props.color}
 				textColor={props.textColor}>
-				<ButtonCopy>{props.title}</ButtonCopy>
+				<ButtonCopy>{props.children}</ButtonCopy>
 			</ButtonComponent>
-		</Link>
+		</LinkComponent>
 	);
 };
 

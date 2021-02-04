@@ -27,7 +27,7 @@ defaultProps = {
 
 const Wrapper = styled.div`
 	max-width: ${({ maxWidth }) =>  maxWidth ? 875 : null}px;
-	padding-bottom: ${({ paddingBottom }) => paddingBottom ? 18 : 0}px;
+	padding-bottom: ${({ paddingBottom }) => paddingBottom ? 44 : 0}px;
 `;
 
 const BodyCopy = styled.p`

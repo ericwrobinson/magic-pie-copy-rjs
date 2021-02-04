@@ -1,6 +1,6 @@
-import styled        				from 'styled-components';
-import PropTypes    			  from "prop-types";
-import React         				from "react";
+import styled from 'styled-components';
+import PropTypes from "prop-types";
+import React from "react";
 
 const propTypes = {
   siteTitle: PropTypes.string,
@@ -11,7 +11,7 @@ defaultProps = {
 }
 
 const Wrapper = styled.div`
-	max-width: ${({ noMaxWidth }) => noMaxWidth ? null : '1200px'};
+	max-width: ${({ noMaxWidth }) => noMaxWidth ? null : '1160px'};
 	flex-wrap: ${({wrap}) => wrap ? 'wrap' : null};
 	display: ${({ center }) => center ? null : 'flex'};
 	justify-content: ${({ flexCenter }) => flexCenter ? 'center' : null};
@@ -40,7 +40,7 @@ const SiteContent = ({ noMaxWidth, children, flexCenter, center, wrap, flexStart
 	</Wrapper>
 );
 
-SiteContent.propTypes 	  = propTypes;
-SiteContent.defaultProps  = defaultProps;
+SiteContent.propTypes = propTypes;
+SiteContent.defaultProps = defaultProps;
 
 export default SiteContent;
