@@ -12,7 +12,8 @@ import { Header,
 
 export const IndexPageTemplate = ({
   hero,
-  work
+  work,
+  services
 }) => (
   <div>
     <HomePageHero
@@ -51,6 +52,7 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   hero: PropTypes.object,
   work: PropTypes.object,
+  services: PropTypes.object,
 }
 
 const IndexPage = ({ data }) => {
@@ -61,6 +63,7 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         hero={frontmatter.hero}
         work={frontmatter.work}
+        services={frontmatter.services}
       />
     </Layout>
   )
@@ -117,6 +120,54 @@ export const pageQuery = graphql`
             }
           }
           buttonTitle
+        }
+        services {
+          title
+          subtitle
+          service1 {
+            title
+            subtitle
+            img {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          service2 {
+            title
+            subtitle
+            img {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          service3 {
+            title
+            subtitle
+            img {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          service4 {
+            title
+            subtitle
+            img {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
         }
       }
     }

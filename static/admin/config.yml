@@ -79,6 +79,71 @@ collections:
               name: buttonTitle, 
               widget: string
             }]}
+          - {label: Services, name: services, widget: object, fields: [{
+              label: Title, 
+              name: title, 
+              widget: string
+            }, {
+              label: Subtitle, 
+              name: subtitle, 
+              widget: markdown
+            }, {
+              label: Service1, name: workLogo1, widget: object, fields: [{
+                label: Image,
+                name: img,
+                widget: image
+              }, {
+                label: ServiceTitle,
+                name: title,
+                widget: text
+              }, {
+                label: ServiceSubtitle,
+                name: subtitle,
+                widget: text
+              }]}, {
+              label: Service2, name: workLogo1, widget: object, fields: [{
+                label: Image,
+                name: img,
+                widget: image
+              }, {
+                label: ServiceTitle,
+                name: title,
+                widget: text
+              }, {
+                label: ServiceSubtitle,
+                name: subtitle,
+                widget: text
+              }]}, {
+              label: Service3, name: workLogo1, widget: object, fields: [{
+                label: Image,
+                name: img,
+                widget: image
+              }, {
+                label: ServiceTitle,
+                name: title,
+                widget: text
+              }, {
+                label: ServiceSubtitle,
+                name: subtitle,
+                widget: text
+              }]}, {
+              label: Service4, name: workLogo1, widget: object, fields: [{
+                label: Image,
+                name: img,
+                widget: image
+              }, {
+                label: ServiceTitle,
+                name: title,
+                widget: text
+              }, {
+                label: ServiceSubtitle,
+                name: subtitle,
+                widget: text
+              }]}, {
+              label: ButtonTitle, 
+              name: buttonTitle, 
+              widget: string
+            }]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"

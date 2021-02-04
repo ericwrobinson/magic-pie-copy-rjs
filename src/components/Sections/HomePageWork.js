@@ -19,7 +19,7 @@ const ContentWrapper = styled.div``;
 const ImageRowWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
-	margin-top: 88px;
+	margin-top: 44px;
 	margin-bottom: 88px;
 `;
 
@@ -60,9 +60,9 @@ const WorkWrapper = styled.div`
 `;
 
 // <WorkImage src={workLogo1}/>
-// 			      <WorkImage src={workLogo2}/>
-// 			      <WorkImage src={workLogo3}/>
-// 			      <WorkImage src={workLogo4}/>
+// <WorkImage src={workLogo2}/>
+// <WorkImage src={workLogo3}/>
+// <WorkImage src={workLogo4}/>
 
 const HomePageWork = ({ 
 	children, 
