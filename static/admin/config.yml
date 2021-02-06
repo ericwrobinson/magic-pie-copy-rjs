@@ -79,7 +79,7 @@ collections:
               name: buttonTitle, 
               widget: string
             }]}
-          - {label: Services, name: services, widget: object, fields: [{
+          - {label: Services, name: work, widget: object, fields: [{
               label: Title, 
               name: title, 
               widget: string
@@ -88,62 +88,11 @@ collections:
               name: subtitle, 
               widget: markdown
             }, {
-              label: Service1, name: workLogo1, widget: object, fields: [{
-                label: Image,
-                name: img,
-                widget: image
-              }, {
-                label: ServiceTitle,
-                name: title,
-                widget: text
-              }, {
-                label: ServiceSubtitle,
-                name: subtitle,
-                widget: text
-              }]}, {
-              label: Service2, name: workLogo1, widget: object, fields: [{
-                label: Image,
-                name: img,
-                widget: image
-              }, {
-                label: ServiceTitle,
-                name: title,
-                widget: text
-              }, {
-                label: ServiceSubtitle,
-                name: subtitle,
-                widget: text
-              }]}, {
-              label: Service3, name: workLogo1, widget: object, fields: [{
-                label: Image,
-                name: img,
-                widget: image
-              }, {
-                label: ServiceTitle,
-                name: title,
-                widget: text
-              }, {
-                label: ServiceSubtitle,
-                name: subtitle,
-                widget: text
-              }]}, {
-              label: Service4, name: workLogo1, widget: object, fields: [{
-                label: Image,
-                name: img,
-                widget: image
-              }, {
-                label: ServiceTitle,
-                name: title,
-                widget: text
-              }, {
-                label: ServiceSubtitle,
-                name: subtitle,
-                widget: text
-              }]}, {
-              label: ButtonTitle, 
-              name: buttonTitle, 
-              widget: string
+              label: Service1, 
+              name: service1, 
+              widget: text
             }]}
+
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
