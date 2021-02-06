@@ -16,7 +16,6 @@ export const IndexPageTemplate = ({
   work,
   services
 }) => {
-  console.log('api', services)
   return (
   <div>
     <HomePageHero
@@ -43,16 +42,16 @@ export const IndexPageTemplate = ({
       buttonTitle={services.buttonTitle}
       serviceImage1={!!services.service1.img.childImageSharp ? services.service1.img.childImageSharp.fluid.src : services.service1.img}
       serviceTitle1={services.service1.title}
-      serviceSubtitle11={services.service1.subtitle}
+      serviceSubtitle1={services.service1.subtitle}
       serviceImage2={!!services.service2.img.childImageSharp ? services.service2.img.childImageSharp.fluid.src : services.service2.img}
       serviceTitle2={services.service2.title}
-      serviceSubtitle12={services.service2.subtitle}
+      serviceSubtitle2={services.service2.subtitle}
       serviceImage3={!!services.service3.img.childImageSharp ? services.service3.img.childImageSharp.fluid.src : services.service3.img}
       serviceTitle3={services.service3.title}
-      serviceSubtitle13={services.service3.subtitle}
+      serviceSubtitle3={services.service3.subtitle}
       serviceImage4={!!services.service4.img.childImageSharp ? services.service4.img.childImageSharp.fluid.src : services.service4.img}
       serviceTitle4={services.service4.title}
-      serviceSubtitle14={services.service4.subtitle}
+      serviceSubtitle4={services.service4.subtitle}
     >      
     </HomePageServices>
 
@@ -67,6 +66,7 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
+  console.log('api', frontmatter)
 
   return (
     <Layout>
@@ -178,6 +178,11 @@ export const pageQuery = graphql`
               }
             }
           }
+          buttonTitle
+        }
+        why {
+          title
+          subtitle
           buttonTitle
         }
       }

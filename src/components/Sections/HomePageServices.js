@@ -25,23 +25,28 @@ const ImageRowWrapper = styled.div`
 
 const ServiceWrapper = styled.div`
 	width:  25%;
-	height: 100px;
 	margin-left: 5px;
 	margin-right: 5px;
+	justify-content: center;
+	align-items: center;
 `;
 
 const ServiceImage = styled.div`
 	max-width: 150px;
+	height: 50px;
+	margin: 0 auto;
 `;
 
-const WorkWrapper = styled.div`
-  height: 40vh;
+const ServicesWrapper = styled.div`
   min-height: 600px;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+  height: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
 
 	::selection {
 	  background: #000;
@@ -88,7 +93,7 @@ const HomePageServices = ({
 
 	return (
 		<Wrapper>
-			<WorkWrapper>
+			<ServicesWrapper>
 				<SiteContent center>
 					<Header h2 color='white'>
 						{headerTitle}
@@ -102,7 +107,7 @@ const HomePageServices = ({
 			          backgroundImage: `url(${serviceImage1})`
 			        }}>
 			      	</ServiceImage>
-			      	<Header h3 color='white'>
+			      	<Header h4 color='white'>
 								{serviceTitle1}
 				      </Header>
 				      <Body color="white">
@@ -115,7 +120,7 @@ const HomePageServices = ({
 			          backgroundImage: `url(${serviceImage2})`
 			        }}>
 			      	</ServiceImage>
-			      	<Header h3 color='white'>
+			      	<Header h4 color='white'>
 								{serviceTitle2}
 				      </Header>
 				      <Body color="white">
@@ -128,7 +133,7 @@ const HomePageServices = ({
 			          backgroundImage: `url(${serviceImage3})`
 			        }}>
 			      	</ServiceImage>
-			      	<Header h3 color='white'>
+			      	<Header h4 color='white'>
 								{serviceTitle3}
 				      </Header>
 				      <Body color="white">
@@ -141,7 +146,7 @@ const HomePageServices = ({
 				        backgroundImage: `url(${serviceImage4})`
 				      }}>
 				    	</ServiceImage>
-				    	<Header h3 color='white'>
+				    	<Header h4 color='white'>
 								{serviceTitle4}
 				      </Header>
 				      <Body color="white">
@@ -154,7 +159,7 @@ const HomePageServices = ({
 		      	inverted
 		      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
 				</SiteContent>
-			</WorkWrapper>
+			</ServicesWrapper>
 		</Wrapper>
 	);
 }

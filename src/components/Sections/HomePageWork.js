@@ -39,6 +39,8 @@ const WorkWrapper = styled.div`
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
 
 	::selection {
 	  background: #000;

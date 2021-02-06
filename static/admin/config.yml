@@ -76,6 +76,11 @@ collections:
               ]}
               {label: ButtonTitle, name: buttonTitle, widget: string}
           ]}
+          - {label: WhySection, name: why, widget: object, fields: [
+              {label: Title, name: title, widget: markdown},
+              {lbel: Subtitle, name: subtitle, widget: markdown},
+              {label: ButtonTitle, name: buttonTitle, widget: string}
+          ]}
 
       - file: "src/pages/about/index.md"
         label: "About"

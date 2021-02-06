@@ -44,4 +44,11 @@ services:
     subtitle: >
       Get the perfect script or voice-over for your next video production.
   buttonTitle: learn more about our services
+why:
+  title: why magic pie?
+  subtitle: |
+    Magic Pie isn’t a critically acclaimed ad agency or hot new startup. That would be cool, but here’s the thing: Magic Pie is just an experienced writer with the skill set and flexibility to write what you want, when you need it.
+
+    Are you looking for web design, web development, or video marketing as well? No problem—we’ve got partners for that.
+  buttonTitle: more about us.
 ---

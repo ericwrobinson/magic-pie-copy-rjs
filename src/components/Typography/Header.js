@@ -19,7 +19,7 @@ const HeaderH1 = styled.h1`
 	font-size: 74px;
 	margin-bottom: 30px;
 	color: ${({color}) => color};
-	line-height: 52px;
+	line-height: 72px;
 	padding: ${({noPadding}) => noPadding ? 0 : 'inherit'};
   white-space: pre-line;
 
@@ -47,7 +47,7 @@ const HeaderH1 = styled.h1`
 const HeaderH2 = styled.h2`
   font-family: Gastromond, serif;
 	font-size: 46px;
-	line-height: 66px;
+	line-height: 48px;
 	letter-spacing: -1.25px;
 	margin-bottom: 16px;
 	color: ${({color}) => color};
@@ -96,7 +96,33 @@ const HeaderH3 = styled.h3`
 	}
 `;
 
-const Header = ({ children, color, noPadding, h1, h2, h3 }) => {
+const HeaderH4 = styled.h4`
+  font-family: Gastromond, serif;
+	font-size: 28px;
+	letter-spacing: -1px;
+	margin-bottom: 9px;
+	color: ${({color}) => color};
+	padding: ${({noPadding}) => noPadding ? 0 : 'inherit'};
+	white-space: pre-line;
+
+	::selection {
+	  background: #000;
+	  color: white;
+	}
+
+	@media only screen and (max-width: 780px) {
+		font-size: 24px;
+		letter-spacing: 0;
+		line-height: 28px;
+	}
+
+	@media only screen and (max-width: 580px) {
+		font-size: 20px;
+		line-height: 24px;
+	}
+`;
+
+const Header = ({ children, color, noPadding, h1, h2, h3, h4 }) => {
 
 	return (
 		<Wrapper>
@@ -106,6 +132,8 @@ const Header = ({ children, color, noPadding, h1, h2, h3 }) => {
 			<HeaderH2 color={color}>{children}</HeaderH2> }
 			{ h3 &&
 			<HeaderH3 color={color}>{children}</HeaderH3> }
+			{ h4 &&
+			<HeaderH4 color={color}>{children}</HeaderH4> }
 		</Wrapper>
 	);
 }
