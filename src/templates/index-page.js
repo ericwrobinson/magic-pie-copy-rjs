@@ -56,13 +56,6 @@ export const IndexPageTemplate = ({
     >      
     </HomePageServices>
 
-
-    <div>
-      <h2>{services.title}</h2>
-      <p>{services.subtitle}</p>
-      <h4>{services.service1.title}</h4>
-    </div>
-      
   </div>
 )}
 

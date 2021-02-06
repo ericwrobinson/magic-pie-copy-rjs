@@ -18,7 +18,7 @@ const HeaderH1 = styled.h1`
 	letter-spacing: 0px;
 	font-size: 74px;
 	margin-bottom: 30px;
-	color: ${(color) => color};
+	color: ${({color}) => color};
 	line-height: 52px;
 	padding: ${({noPadding}) => noPadding ? 0 : 'inherit'};
   white-space: pre-line;
@@ -50,7 +50,7 @@ const HeaderH2 = styled.h2`
 	line-height: 66px;
 	letter-spacing: -1.25px;
 	margin-bottom: 16px;
-	color: ${(color) => color};
+	color: ${({color}) => color};
 	padding: ${({noPadding}) => noPadding ? 0 : 'inherit'};
 	white-space: pre-line;
 
@@ -75,7 +75,7 @@ const HeaderH3 = styled.h3`
 	font-size: 36px;
 	letter-spacing: -1px;
 	margin-bottom: 9px;
-	color: ${(color) => color};
+	color: ${({color}) => color};
 	padding: ${({noPadding}) => noPadding ? 0 : 'inherit'};
 	white-space: pre-line;
 
@@ -99,8 +99,7 @@ const HeaderH3 = styled.h3`
 const Header = ({ children, color, noPadding, h1, h2, h3 }) => {
 
 	return (
-		<Wrapper 
-			color={color}>
+		<Wrapper>
 			{ h1 &&
 			<HeaderH1 color={color}>{children}</HeaderH1> }
 			{ h2 &&
