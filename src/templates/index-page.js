@@ -14,7 +14,9 @@ export const IndexPageTemplate = ({
   hero,
   work,
   services
-}) => (
+}) => {
+  console.log('api', services)
+  return (
   <div>
     <HomePageHero
       headerTitle={hero.title}
@@ -41,7 +43,7 @@ export const IndexPageTemplate = ({
     </div>
       
   </div>
-)
+)}
 
 IndexPageTemplate.propTypes = {
   hero: PropTypes.object,

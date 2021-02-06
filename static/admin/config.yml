@@ -45,25 +45,20 @@ collections:
           - {label: Work, name: work, widget: object, fields: [
               {label: Title, name: title, widget: string},
               {label: Subtitle, name: subtitle, widget: markdown},
-              {label: Logo1,name: workLogo1,widget: image},
+              {label: Logo1, name: workLogo1, widget: image},
               {label: Logo2, name: workLogo2, widget: image},
               {label: Logo3, name: workLogo3, widget: image},
               {label: Logo4, name: workLogo4, widget: image},
               {label: ButtonTitle, name: buttonTitle, widget: string
             }]}
-          - {label: Services, name: work, widget: object, fields: [{
-              label: Title, 
-              name: title, 
-              widget: string
-            }, {
-              label: Subtitle, 
-              name: subtitle, 
-              widget: markdown
-            }, {
-              label: Service1, 
-              name: service1, 
-              widget: text
-            }]}
+          - {label: Services, name: work, widget: object, fields: [
+              {label: Title, name: title,  widget: string},
+              {label: Subtitle, name: subtitle, widget: markdown},
+              - {label: Service1, name: service1, widget: object, fields: [
+                {label: img, name: img, widget: image},
+                {label: Title, name: title,  widget: string},
+                {label: Subtitle, name: subtitle, widget: markdown},
+          ]}
 
       - file: "src/pages/about/index.md"
         label: "About"
