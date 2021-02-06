@@ -37,47 +37,19 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Hero, name: hero, widget: object, fields: [{
-              label: Title, 
-              name: title, 
-              widget: markdown
-            }, {
-              label: Subtitle, 
-              name: subtitle, 
-              widget: markdown
-            }, {
-              label: ButtonTitle, 
-              name: buttonTitle, 
-              widget: string
-            }]}
-          - {label: Work, name: work, widget: object, fields: [{
-              label: Title, 
-              name: title, 
-              widget: string
-            }, {
-              label: Subtitle, 
-              name: subtitle, 
-              widget: markdown
-            }, {
-              label: Logo1, 
-              name: workLogo1, 
-              widget: image
-            }, {
-              label: Logo2, 
-              name: workLogo2, 
-              widget: image
-            }, {
-              label: Logo3, 
-              name: workLogo3, 
-              widget: image
-            }, {
-              label: Logo4, 
-              name: workLogo4, 
-              widget: image
-            }, {
-              label: ButtonTitle, 
-              name: buttonTitle, 
-              widget: string
+          - {label: Hero, name: hero, widget: object, fields: [
+              {label: Title, name: title, widget: markdown},
+              {lbel: Subtitle, name: subtitle, widget: markdown},
+              {label: ButtonTitle, name: buttonTitle, widget: string}
+          ]}
+          - {label: Work, name: work, widget: object, fields: [
+              {label: Title, name: title, widget: string},
+              {label: Subtitle, name: subtitle, widget: markdown},
+              {label: Logo1,name: workLogo1,widget: image},
+              {label: Logo2, name: workLogo2, widget: image},
+              {label: Logo3, name: workLogo3, widget: image},
+              {label: Logo4, name: workLogo4, widget: image},
+              {label: ButtonTitle, name: buttonTitle, widget: string
             }]}
           - {label: Services, name: work, widget: object, fields: [{
               label: Title, 

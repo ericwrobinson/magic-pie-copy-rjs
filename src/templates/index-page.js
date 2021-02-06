@@ -34,17 +34,11 @@ export const IndexPageTemplate = ({
     >      
     </HomePageWork>
 
-    <HomePageWork
-      h1 
-      headerTitle={work.title}
-      subitle={work.subtitle}
-      buttonTitle={hero.buttonTitle}
-      workLogo1={!!work.workLogo1.childImageSharp ? work.workLogo1.childImageSharp.fluid.src : work.workLogo1}
-      workLogo2={!!work.workLogo2.childImageSharp ? work.workLogo2.childImageSharp.fluid.src : work.workLogo2}
-      workLogo3={!!work.workLogo3.childImageSharp ? work.workLogo3.childImageSharp.fluid.src : work.workLogo3}
-      workLogo4={!!work.workLogo4.childImageSharp ? work.workLogo4.childImageSharp.fluid.src : work.workLogo4}
-    >      
-    </HomePageWork>
+    <div>
+      <h2>{services.title}</h2>
+      <p>{services.subtitle}</p>
+      <h4>{services.service1.title}</h4>
+    </div>
       
   </div>
 )
@@ -129,40 +123,7 @@ export const pageQuery = graphql`
             subtitle
             img {
               childImageSharp {
-                fluid(maxWidth: 800, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          service2 {
-            title
-            subtitle
-            img {
-              childImageSharp {
-                fluid(maxWidth: 800, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          service3 {
-            title
-            subtitle
-            img {
-              childImageSharp {
-                fluid(maxWidth: 800, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          service4 {
-            title
-            subtitle
-            img {
-              childImageSharp {
-                fluid(maxWidth: 800, quality: 100) {
+                fluid(maxWidth: 200, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
