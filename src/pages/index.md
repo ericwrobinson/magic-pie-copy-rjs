@@ -30,18 +30,18 @@ services:
       Refresh your website and marketing collateral with clear and concise copywriting.
   service2: 
     img: /img/home-jumbotron.jpg
-    title: web copy
+    title: blogs + articles
     subtitle: >
-      Refresh your website and marketing collateral with clear and concise copywriting.
+      Share brand stories that engage your audience and inspire action.
   service3: 
     img: /img/home-jumbotron.jpg
-    title: web copy
+    title: marketing collateral
     subtitle: >
-      Refresh your website and marketing collateral with clear and concise copywriting.
+      Printing is expensive. Get it done right the first time with copy that resonates.
   service4: 
     img: /img/home-jumbotron.jpg
-    title: web copy
+    title: video scripts
     subtitle: >
-      Refresh your website and marketing collateral with clear and concise copywriting.
-  buttonTitle: see our work
+      Get the perfect script or voice-over for your next video production.
+  buttonTitle: learn more about our services
 ---
