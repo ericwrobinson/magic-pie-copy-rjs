@@ -5,7 +5,8 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import {  HomePageHero,
           HomePageWork,
-          HomePageServices } from '../components/Sections';
+          HomePageServices,
+          HomePageWhy } from '../components/Sections';
 import { Header,
          // SubHeader,
          // Body 
@@ -14,7 +15,8 @@ import { Header,
 export const IndexPageTemplate = ({
   hero,
   work,
-  services
+  services,
+  why
 }) => {
   return (
   <div>
@@ -55,6 +57,13 @@ export const IndexPageTemplate = ({
     >      
     </HomePageServices>
 
+    <HomePageWhy
+      headerTitle={why.title}
+      subitle={why.subtitle}
+      buttonTitle={why.buttonTitle}
+      image={why.img}
+    >
+    </HomePageWhy>
   </div>
 )}
 
@@ -62,6 +71,7 @@ IndexPageTemplate.propTypes = {
   hero: PropTypes.object,
   work: PropTypes.object,
   services: PropTypes.object,
+  why: PropTypes.object
 }
 
 const IndexPage = ({ data }) => {
@@ -74,6 +84,7 @@ const IndexPage = ({ data }) => {
         hero={frontmatter.hero}
         work={frontmatter.work}
         services={frontmatter.services}
+        why={frontmatter.why}
       />
     </Layout>
   )
@@ -184,6 +195,7 @@ export const pageQuery = graphql`
           title
           subtitle
           buttonTitle
+          img
         }
       }
     }

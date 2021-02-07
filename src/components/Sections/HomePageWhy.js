@@ -12,8 +12,15 @@ defaultProps = {
 }
 
 const Wrapper = styled.div``;
+const WhyImage = styled.div`
+	width: 50%;
+	height: 100%;
+`;
 
-const ContentWrapper = styled.div``;
+const ContentWrapper = styled.div`
+	display: flex;
+  flex-direction: column;
+`;
 
 const WhyWrapper = styled.div`
   height: 80vh;
@@ -22,7 +29,6 @@ const WhyWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  text-align: center;
 
 	::selection {
 	  background: #000;
@@ -43,12 +49,13 @@ const WhyWrapper = styled.div`
 
 `;
 
-const HomePageHero = ({ children, headerTitle, subitle, buttonTitle }) => {
+const HomePageWhy = ({ children, headerTitle, subitle, buttonTitle, image }) => {
 	return (
 		<Wrapper>
 			<WhyWrapper>
-				<SiteContent center>
-					<Header h1 color='white'>
+				<SiteContent column>
+					<ContentWrapper>
+					<Header h2 color='white'>
 						{headerTitle}
 		      </Header>
 		      <Body paddingBottom>
@@ -57,13 +64,20 @@ const HomePageHero = ({ children, headerTitle, subitle, buttonTitle }) => {
 		      <ButtonPrimary 
 		      	inverted 
 		      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
+					</ContentWrapper>
+					<ContentWrapper>
+						<WhyImage style={{
+			          backgroundImage: `url(${image})`
+			        }}
+			      ></WhyImage>
+					</ContentWrapper>
 				</SiteContent>
 			</WhyWrapper>
 		</Wrapper>
 	);
 }
 
-HomePageHero.propTypes 	  = propTypes;
-HomePageHero.defaultProps  = defaultProps;
+HomePageWhy.propTypes 	  = propTypes;
+HomePageWhy.defaultProps  = defaultProps;
 
-export default HomePageHero;
+export default HomePageWhy;

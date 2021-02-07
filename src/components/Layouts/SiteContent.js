@@ -16,13 +16,14 @@ const Wrapper = styled.div`
 	display: ${({ center }) => center ? null : 'flex'};
 	justify-content: ${({ flexCenter }) => flexCenter ? 'center' : null};
 	align-items: ${({ flexStart }) => flexStart ? 'flex-start' : 'center'};
+	flex-direction: ${({ column }) => column ? 'column' : 'row'};
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 18px;
 	padding-right: 18px;
 `;
 
-const SiteContent = ({ noMaxWidth, children, flexCenter, center, wrap, flexStart, style, aosType, aosOffset, aosEasing, aosDuration, aosDelay }) => (
+const SiteContent = ({ column, noMaxWidth, children, flexCenter, center, wrap, flexStart, style, aosType, aosOffset, aosEasing, aosDuration, aosDelay }) => (
 	<Wrapper
 		data-aos={aosType}
     data-aos-once={true}
@@ -31,6 +32,7 @@ const SiteContent = ({ noMaxWidth, children, flexCenter, center, wrap, flexStart
     data-aos-duration={aosDuration}
     data-aos-delay={aosDelay}
     flexStart={flexStart}
+    column={column}
 		center={center}
 		noMaxWidth={noMaxWidth}
 		flexCenter={flexCenter}
