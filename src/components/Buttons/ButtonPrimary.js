@@ -15,6 +15,7 @@ const ButtonComponent = styled.div`
 	border-radius: 40px;
 	height: 40px;
 	min-width: 121px;
+	max-width: 352px;
 	background-color: ${({ inverted }) => inverted ? Colors.White : Colors.Black };
 	color: ${({ inverted }) => inverted ? Colors.Black : Colors.White };
 	align-items: center;
@@ -40,7 +41,7 @@ const ButtonCopy = styled.span`
 `;
 
 const LinkComponent = styled(Link)`
-  display: inline-block;
+  display: ${({ flex }) => flex ? 'flex' : 'inline-block'};
 `;
 
 	// border: 2px solid ${({ inverted, disabled, color }) => _borderColor(inverted, disabled, color) };
@@ -83,7 +84,9 @@ A primary button that matches the brand.
 */
 const ButtonPrimary = ({ ...props }) => {
 	return (
-		<LinkComponent to={props.linkTo}>
+		<LinkComponent 
+			flex={props.flex}
+			to={props.linkTo}>
 			<ButtonComponent
 				inverted={props.inverted} 
 				disabled={props.disabled} 

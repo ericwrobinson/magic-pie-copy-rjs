@@ -43,7 +43,7 @@ services:
     title: video scripts
     subtitle: >
       Get the perfect script or voice-over for your next video production.
-  buttonTitle: learn more about our services
+  buttonTitle: learn more
 why:
   title: why magic pie?
   subtitle: |

@@ -15,16 +15,25 @@ const Wrapper = styled.div``;
 const WhyImage = styled.div`
 	width: 50%;
 	height: 100%;
+	height: 400px;
+	width: 400px;
 `;
 
 const ContentWrapper = styled.div`
+	display: flex;
+	background-color: white;
+	padding: 44px;
+`;
+
+const HalfWrapper = styled.div`
 	display: flex;
   flex-direction: column;
 `;
 
 const WhyWrapper = styled.div`
-  height: 80vh;
-  background-color: black;
+  height: 40vh;
+  min-height: 600px;
+  background-color: #F2F2F2;
   color: white;
   display: flex;
   flex-direction: column;
@@ -32,7 +41,7 @@ const WhyWrapper = styled.div`
 
 	::selection {
 	  background: #000;
-	  color: white;
+	  color: black;
 	};
 
   @media only screen and (max-width: 780px) {
@@ -53,23 +62,25 @@ const HomePageWhy = ({ children, headerTitle, subitle, buttonTitle, image }) => 
 	return (
 		<Wrapper>
 			<WhyWrapper>
-				<SiteContent column>
+				<SiteContent>
 					<ContentWrapper>
-					<Header h2 color='white'>
-						{headerTitle}
-		      </Header>
-		      <Body paddingBottom>
-		      	{subitle}
-		      </Body>
-		      <ButtonPrimary 
-		      	inverted 
-		      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
-					</ContentWrapper>
-					<ContentWrapper>
-						<WhyImage style={{
-			          backgroundImage: `url(${image})`
-			        }}
-			      ></WhyImage>
+						<HalfWrapper>
+							<Header h2 color='black'>
+								{headerTitle}
+				      </Header>
+				      <Body paddingBottom>
+				      	{subitle}
+				      </Body>
+				      <ButtonPrimary 
+				      	flex
+				      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
+						</HalfWrapper>
+						<HalfWrapper>
+							<WhyImage style={{
+				          backgroundImage: `url(${image})`
+				        }}
+				      ></WhyImage>
+						</HalfWrapper>
 					</ContentWrapper>
 				</SiteContent>
 			</WhyWrapper>
