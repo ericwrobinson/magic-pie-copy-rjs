@@ -11,7 +11,7 @@ const propTypes = {
 },
 defaultProps = {
 	color  	 : Colors.Grey,
-	fontSize : 24,
+	fontSize : 21,
 	lineHeight : 36,
 }
 

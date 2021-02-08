@@ -7,6 +7,7 @@ hero:
     marketing.
   subtitle: |
     Websites. Blogs & articles. Video scripts. Social media strategies.
+    You name it, we write it.
   buttonTitle: contact us.
 work:
   title: work. like magic.
