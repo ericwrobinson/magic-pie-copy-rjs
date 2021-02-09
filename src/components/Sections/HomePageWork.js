@@ -25,9 +25,13 @@ const ImageRowWrapper = styled.div`
 
 const WorkImage = styled.div`
 	width:  25%;
-	height: 100px;
-	margin-left: 5px;
-	margin-right: 5px;
+	height: 90px;
+	margin-left: 25px;
+	margin-right: 25px;
+	background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
 `;
 
 const WorkWrapper = styled.div`

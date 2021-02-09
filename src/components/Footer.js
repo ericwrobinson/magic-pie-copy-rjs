@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components';
+import { ButtonPrimary } from './Buttons';
+import { Header } from './Typography'
+import { SiteContent } from './Layouts';
 
 import logo from '../img/logo.svg'
 import facebook from '../img/social/facebook.svg'
@@ -12,11 +15,27 @@ const StyledLink = styled(Link)`
   color: black;
 `;
 
+const CallToAction = styled.div`
+  background-color: #F2F2F2;
+  width: 100%;
+`;
+
+const CallToActionContent = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media only screen and (max-width: 780px) {
+    flex-direction: column;
+  }
+`;
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  background-color: white;
 `;
 
 const FooterNavItem = styled.li`
@@ -34,7 +53,17 @@ const FooterNav = styled.ul`
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-white has-text-black-ter">
+      <footer>
+        <CallToAction>
+          <SiteContent center>
+            <CallToActionContent>
+              <Header h2>call. text. email.</Header>
+              <ButtonPrimary 
+                linkTo={'#'}>contact us</ButtonPrimary>
+            </CallToActionContent>
+          </SiteContent>
+        </CallToAction>
+
           <div className="content has-text-centered">
             <img
               src={logo}
@@ -42,7 +71,6 @@ const Footer = class extends React.Component {
               style={{ width: '21em', height: '10em' }}
             />
           </div>
-
           <Wrapper className="content has-text-centered has-background-white has-text-black-ter">
               <div style={{ maxWidth: '100vw' }} className="rows has-text-centered">
                 <div className="row is-4">

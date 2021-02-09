@@ -2,6 +2,15 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
+import styled from 'styled-components';
+
+const NavWrapper = styled.div`
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+`;
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -39,10 +48,10 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <NavWrapper>
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '200px' }} />
+              <img src={logo} alt="Magic Pie Copy" style={{ width: '300px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -74,7 +83,7 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
           </div>
-        </div>
+        </NavWrapper>
       </nav>
     )
   }
