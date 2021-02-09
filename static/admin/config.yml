@@ -51,29 +51,17 @@ collections:
               {label: Logo4, name: workLogo4, widget: image},
               {label: ButtonTitle, name: buttonTitle, widget: string}
           ]}
-          - {label: Services, name: work, widget: object, fields: [
+          - {label: Services, name: services, widget: object, fields: [
               {label: Title, name: title,  widget: string},
               {label: Subtitle, name: subtitle, widget: markdown},
-              - {label: Service1, name: service1, widget: object, fields: [
-                {label: Image, name: img, widget: image},
-                {label: Title, name: title,  widget: string},
-                {label: Subtitle, name: subtitle, widget: markdown}
-              ]},
-              - {label: Service2, name: service2, widget: object, fields: [
-                {label: Image, name: img, widget: image},
-                {label: Title, name: title,  widget: string},
-                {label: Subtitle, name: subtitle, widget: markdown}
-              ]},
-              - {label: Service3, name: service3, widget: object, fields: [
-                {label: Image, name: img, widget: image},
-                {label: Title, name: title,  widget: string},
-                {label: Subtitle, name: subtitle, widget: markdown}
-              ]},
-              - {label: Service4, name: service4, widget: object, fields: [
-                {label: Image, name: img, widget: image},
-                {label: Title, name: title,  widget: string},
-                {label: Subtitle, name: subtitle, widget: markdown}
-              ]},
+              {label: Service1Title, name: service1Title,  widget: string},
+              {label: Service1Subtitle, name: service1Subtitle, widget: markdown},
+              {label: Service2Title, name: service2Title,  widget: string},
+              {label: Service2Subtitle, name: service2Subtitle, widget: markdown},
+              {label: Service3Title, name: service3Title,  widget: string},
+              {label: Service3Subtitle, name: service3Subtitle, widget: markdown},
+              {label: Service4Title, name: service4Title,  widget: string},
+              {label: Service4Subtitle, name: service4Subtitle, widget: markdown},
               {label: ButtonTitle, name: buttonTitle, widget: string}
           ]}
           - {label: WhySection, name: why, widget: object, fields: [

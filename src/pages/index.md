@@ -26,21 +26,17 @@ services:
   title: what can we do for you?
   subtitle: >
     When it comes to marketing materials, we’ve got the magic touch. Looking for something special? Let’s get together and conjure up some creative content for your business.
-  service1: 
-    title: web copy
-    subtitle: >
+  service1Title: web copy
+  service1Subtitle: >
       Refresh your website and marketing collateral with clear and concise copywriting.
-  service2: 
-    title: blogs + articles
-    subtitle: >
+  service2Title: blogs + articles
+  service2Subtitle: >
       Share brand stories that engage your audience and inspire action.
-  service3: 
-    title: marketing collateral
-    subtitle: >
+  service3Title: marketing collateral
+  service3Subtitle: >
       Printing is expensive. Get it done right the first time with copy that resonates.
-  service4: 
-    title: video scripts
-    subtitle: >
+  service4Title: video scripts
+  service4Subtitle: >
       Get the perfect script or voice-over for your next video production.
   buttonTitle: learn more
 why:

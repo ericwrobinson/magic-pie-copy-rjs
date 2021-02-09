@@ -11,6 +11,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         hero={data.hero}
         work={data.work}
         services={data.services}
+        why={data.why}
       />
     )
   } else {

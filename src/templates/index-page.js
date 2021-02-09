@@ -42,14 +42,14 @@ export const IndexPageTemplate = ({
       headerTitle={services.title}
       subitle={services.subtitle}
       buttonTitle={services.buttonTitle}
-      serviceTitle1={services.service1.title}
-      serviceSubtitle1={services.service1.subtitle}
-      serviceTitle2={services.service2.title}
-      serviceSubtitle2={services.service2.subtitle}
-      serviceTitle3={services.service3.title}
-      serviceSubtitle3={services.service3.subtitle}
-      serviceTitle4={services.service4.title}
-      serviceSubtitle4={services.service4.subtitle}
+      serviceTitle1={services.service1Title}
+      serviceSubtitle1={services.service1Subtitle}
+      serviceTitle2={services.service2Title}
+      serviceSubtitle2={services.service2Subtitle}
+      serviceTitle3={services.service3Title}
+      serviceSubtitle3={services.service3Subtitle}
+      serviceTitle4={services.service4Title}
+      serviceSubtitle4={services.service4Subtitle}
     >      
     </HomePageServices>
 
@@ -141,22 +141,14 @@ export const pageQuery = graphql`
         services {
           title
           subtitle
-          service1 {
-            title
-            subtitle
-          }
-          service2 {
-            title
-            subtitle
-          }
-          service3 {
-            title
-            subtitle
-          }
-          service4 {
-            title
-            subtitle
-          }
+          service1Title
+          service1Subtitle
+          service2Title
+          service2Subtitle
+          service3Title
+          service3Subtitle
+          service4Title
+          service4Subtitle
           buttonTitle
         }
         why {
