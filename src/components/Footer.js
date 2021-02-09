@@ -24,6 +24,7 @@ const CallToActionContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 44px;
 
   @media only screen and (max-width: 780px) {
     flex-direction: column;

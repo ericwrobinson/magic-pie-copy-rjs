@@ -21,13 +21,12 @@ defaultProps = {
 
 const Wrapper = styled.div``;
 
-const ContentWrapper = styled.div``;
-
-const ImageRowWrapper = styled.div`
+const ServiceRowWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
 	margin-top: 44px;
 	margin-bottom: 88px;
+	flex-wrap: wrap;
 `;
 
 const Divider = styled.img`
@@ -38,15 +37,24 @@ const Divider = styled.img`
 
 const ServiceWrapper = styled.div`
 	width:  25%;
-	margin-left: 5px;
-	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 	justify-content: center;
 	align-items: center;
+
+	@media only screen and (max-width: 780px) {
+		width: 50%;
+		margin-bottom: 16px;
+	}
+
+	@media only screen and (max-width: 580px) {
+		width: 100%;
+	}
 `;
 
 const ServiceImage = styled.img`
-	max-width: 130px;
-	height: 130px;
+	max-width: 100px;
+	height: 100px;
 	margin: 0 auto;
 `;
 
@@ -57,7 +65,7 @@ const ServicesWrapper = styled.div`
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  height: 100%;
+  height: 100%; 
   padding-top: 64px;
   padding-bottom: 64px;
 
@@ -113,7 +121,7 @@ const HomePageServices = ({
 		      	{subitle}
 		      </Body>
 
-		      <ImageRowWrapper>
+		      <ServiceRowWrapper>
 			      <ServiceWrapper> 
 			      	<ServiceImage src={webIcon}/>
 			      	<Header h4 color='white'>
@@ -156,7 +164,7 @@ const HomePageServices = ({
 				      	{serviceSubtitle4}
 				      </Body>
 				    </ServiceWrapper>
-		      </ImageRowWrapper>
+		      </ServiceRowWrapper>
 
 		      <ButtonPrimary 
 		      	inverted
