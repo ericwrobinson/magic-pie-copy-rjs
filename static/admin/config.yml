@@ -57,23 +57,23 @@ collections:
               - {label: Service1, name: service1, widget: object, fields: [
                 {label: Image, name: img, widget: image},
                 {label: Title, name: title,  widget: string},
-                {label: Subtitle, name: subtitle, widget: markdown},
-              ]}
+                {label: Subtitle, name: subtitle, widget: markdown}
+              ]},
               - {label: Service2, name: service2, widget: object, fields: [
                 {label: Image, name: img, widget: image},
                 {label: Title, name: title,  widget: string},
-                {label: Subtitle, name: subtitle, widget: markdown},
-              ]}
+                {label: Subtitle, name: subtitle, widget: markdown}
+              ]},
               - {label: Service3, name: service3, widget: object, fields: [
                 {label: Image, name: img, widget: image},
                 {label: Title, name: title,  widget: string},
-                {label: Subtitle, name: subtitle, widget: markdown},
-              ]}
+                {label: Subtitle, name: subtitle, widget: markdown}
+              ]},
               - {label: Service4, name: service4, widget: object, fields: [
                 {label: Image, name: img, widget: image},
                 {label: Title, name: title,  widget: string},
-                {label: Subtitle, name: subtitle, widget: markdown},
-              ]}
+                {label: Subtitle, name: subtitle, widget: markdown}
+              ]},
               {label: ButtonTitle, name: buttonTitle, widget: string}
           ]}
           - {label: WhySection, name: why, widget: object, fields: [
