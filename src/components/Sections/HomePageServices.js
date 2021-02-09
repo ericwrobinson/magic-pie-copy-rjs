@@ -7,6 +7,13 @@ import { Header,
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
+import curvesBlackTop from '../../img/curves/curves-black-top.svg';
+
+import webIcon from '../../img/icons/magic-pie-copy-icon-web.svg';
+import blogIcon from '../../img/icons/magic-pie-copy-icon-blogs.svg';
+import marketingIcon from '../../img/icons/magic-pie-copy-icon-marketing.svg';
+import videoIcon from '../../img/icons/magic-pie-copy-icon-video.svg';
+
 const propTypes = {
 },
 defaultProps = {
@@ -23,6 +30,12 @@ const ImageRowWrapper = styled.div`
 	margin-bottom: 88px;
 `;
 
+const Divider = styled.img`
+	width: 100%;
+	transform: rotate(180deg);
+  margin-bottom: -10px;
+`;
+
 const ServiceWrapper = styled.div`
 	width:  25%;
 	margin-left: 5px;
@@ -31,9 +44,9 @@ const ServiceWrapper = styled.div`
 	align-items: center;
 `;
 
-const ServiceImage = styled.div`
-	max-width: 150px;
-	height: 50px;
+const ServiceImage = styled.img`
+	max-width: 130px;
+	height: 130px;
 	margin: 0 auto;
 `;
 
@@ -77,10 +90,6 @@ const HomePageServices = ({
 	headerTitle, 
 	subitle, 
 	buttonTitle,
-	serviceImage1,
-	serviceImage2,
-	serviceImage3,
-	serviceImage4,
 	serviceTitle1,
 	serviceTitle2,
 	serviceTitle3,
@@ -93,7 +102,9 @@ const HomePageServices = ({
 
 	return (
 		<Wrapper>
+			<Divider src={curvesBlackTop} />
 			<ServicesWrapper>
+
 				<SiteContent center>
 					<Header h2 color='white'>
 						{headerTitle}
@@ -101,12 +112,10 @@ const HomePageServices = ({
 		      <Body paddingBottom>
 		      	{subitle}
 		      </Body>
+
 		      <ImageRowWrapper>
 			      <ServiceWrapper> 
-			      	<ServiceImage style={{
-			          backgroundImage: `url(${serviceImage1})`
-			        }}>
-			      	</ServiceImage>
+			      	<ServiceImage src={webIcon}/>
 			      	<Header h4 color='white'>
 								{serviceTitle1}
 				      </Header>
@@ -116,10 +125,8 @@ const HomePageServices = ({
 			      </ServiceWrapper>
 
 			      <ServiceWrapper> 
-			      	<ServiceImage style={{
-			          backgroundImage: `url(${serviceImage2})`
-			        }}>
-			      	</ServiceImage>
+
+			      	<ServiceImage src={blogIcon}/>
 			      	<Header h4 color='white'>
 								{serviceTitle2}
 				      </Header>
@@ -129,10 +136,8 @@ const HomePageServices = ({
 			      </ServiceWrapper>
 
 			      <ServiceWrapper> 
-			      	<ServiceImage style={{
-			          backgroundImage: `url(${serviceImage3})`
-			        }}>
-			      	</ServiceImage>
+
+			      	<ServiceImage src={marketingIcon}/>
 			      	<Header h4 color='white'>
 								{serviceTitle3}
 				      </Header>
@@ -142,10 +147,8 @@ const HomePageServices = ({
 			      </ServiceWrapper>
 
 				    <ServiceWrapper> 
-				    	<ServiceImage style={{
-				        backgroundImage: `url(${serviceImage4})`
-				      }}>
-				    	</ServiceImage>
+
+			      	<ServiceImage src={videoIcon}/>
 				    	<Header h4 color='white'>
 								{serviceTitle4}
 				      </Header>

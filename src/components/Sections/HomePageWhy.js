@@ -6,33 +6,51 @@ import { Header,
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
+import questionMark from '../../img/curves/question-mark-bubbble.svg';
+
 const propTypes = {
 },
 defaultProps = {
 }
 
-const Wrapper = styled.div``;
-const WhyImage = styled.div`
-	width: 50%;
-	height: 100%;
-	height: 400px;
-	width: 400px;
+const Divider = styled.img`
+	width: 45%;
+	text-align: right;
+	float: right;
+
+	@media only screen and (max-width: 780px) {
+	  width: 60%;
+	  margin: 0 auto;
+    margin-bottom: 44px;
+	}
 `;
+
+const Wrapper = styled.div``;
 
 const ContentWrapper = styled.div`
 	display: flex;
 	background-color: white;
+  justify-content: space-between;
 	padding: 44px;
+
+	@media only screen and (max-width: 780px) {
+	  flex-direction: column-reverse;
+	}
 `;
 
 const HalfWrapper = styled.div`
 	display: flex;
   flex-direction: column;
+  width: 50%;
+
+  @media only screen and (max-width: 780px) {
+	  width: 100%;
+	}
 `;
 
 const WhyWrapper = styled.div`
-  height: 40vh;
-  min-height: 600px;
+  min-height: 40vh;
+  padding: 20px;
   background-color: #F2F2F2;
   color: white;
   display: flex;
@@ -75,12 +93,7 @@ const HomePageWhy = ({ children, headerTitle, subitle, buttonTitle, image }) => 
 				      	flex
 				      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
 						</HalfWrapper>
-						<HalfWrapper>
-							<WhyImage style={{
-				          backgroundImage: `url(${image})`
-				        }}
-				      ></WhyImage>
-						</HalfWrapper>
+							<Divider src={questionMark} />
 					</ContentWrapper>
 				</SiteContent>
 			</WhyWrapper>

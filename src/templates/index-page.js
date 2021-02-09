@@ -42,16 +42,12 @@ export const IndexPageTemplate = ({
       headerTitle={services.title}
       subitle={services.subtitle}
       buttonTitle={services.buttonTitle}
-      serviceImage1={!!services.service1.img.childImageSharp ? services.service1.img.childImageSharp.fluid.src : services.service1.img}
       serviceTitle1={services.service1.title}
       serviceSubtitle1={services.service1.subtitle}
-      serviceImage2={!!services.service2.img.childImageSharp ? services.service2.img.childImageSharp.fluid.src : services.service2.img}
       serviceTitle2={services.service2.title}
       serviceSubtitle2={services.service2.subtitle}
-      serviceImage3={!!services.service3.img.childImageSharp ? services.service3.img.childImageSharp.fluid.src : services.service3.img}
       serviceTitle3={services.service3.title}
       serviceSubtitle3={services.service3.subtitle}
-      serviceImage4={!!services.service4.img.childImageSharp ? services.service4.img.childImageSharp.fluid.src : services.service4.img}
       serviceTitle4={services.service4.title}
       serviceSubtitle4={services.service4.subtitle}
     >      
@@ -148,46 +144,18 @@ export const pageQuery = graphql`
           service1 {
             title
             subtitle
-            img {
-              childImageSharp {
-                fluid(maxWidth: 200, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
           service2 {
             title
             subtitle
-            img {
-              childImageSharp {
-                fluid(maxWidth: 200, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
           service3 {
             title
             subtitle
-            img {
-              childImageSharp {
-                fluid(maxWidth: 200, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
           service4 {
             title
             subtitle
-            img {
-              childImageSharp {
-                fluid(maxWidth: 200, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
           buttonTitle
         }

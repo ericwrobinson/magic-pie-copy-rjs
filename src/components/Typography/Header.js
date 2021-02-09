@@ -46,10 +46,10 @@ const HeaderH1 = styled.h1`
 
 const HeaderH2 = styled.h2`
   font-family: Gastromond, serif;
-	font-size: 46px;
+	font-size: 52px;
 	line-height: 48px;
 	letter-spacing: -1.25px;
-	margin-bottom: 16px;
+	margin-bottom: 26px;
 	color: ${({color}) => color};
 	padding: ${({noPadding}) => noPadding ? 0 : 'inherit'};
 	white-space: pre-line;

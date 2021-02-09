@@ -10,7 +10,9 @@ hero:
     You name it, we write it.
   buttonTitle: contact us.
 work:
-  title: work. like magic.
+  title: |
+    work.
+    like magic.
   subtitle: >
     Whether you’re starting up or starting over, creating content for your
     business has never been easier. Update your marketing material and enhance
@@ -25,22 +27,18 @@ services:
   subtitle: >
     When it comes to marketing materials, we’ve got the magic touch. Looking for something special? Let’s get together and conjure up some creative content for your business.
   service1: 
-    img: /img/home-jumbotron.jpg
     title: web copy
     subtitle: >
       Refresh your website and marketing collateral with clear and concise copywriting.
   service2: 
-    img: /img/home-jumbotron.jpg
     title: blogs + articles
     subtitle: >
       Share brand stories that engage your audience and inspire action.
   service3: 
-    img: /img/home-jumbotron.jpg
     title: marketing collateral
     subtitle: >
       Printing is expensive. Get it done right the first time with copy that resonates.
   service4: 
-    img: /img/home-jumbotron.jpg
     title: video scripts
     subtitle: >
       Get the perfect script or voice-over for your next video production.

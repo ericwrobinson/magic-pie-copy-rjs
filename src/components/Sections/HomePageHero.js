@@ -6,6 +6,7 @@ import { Header,
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
+import curvesBlackTop from '../../img/curves/curves-black-top.svg';
 const propTypes = {
 },
 defaultProps = {
@@ -14,9 +15,12 @@ defaultProps = {
 const Wrapper = styled.div``;
 
 const ContentWrapper = styled.div``;
+const Divider = styled.img`
+	width: 100%;
+`;
 
 const WhyWrapper = styled.div`
-  height: 80vh;
+  height: 70vh;
   background-color: black;
   color: white;
   display: flex;
@@ -59,6 +63,7 @@ const HomePageHero = ({ children, headerTitle, subitle, buttonTitle }) => {
 		      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
 				</SiteContent>
 			</WhyWrapper>
+			<Divider src={curvesBlackTop} />
 		</Wrapper>
 	);
 }
