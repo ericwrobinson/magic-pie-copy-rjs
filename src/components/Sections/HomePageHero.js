@@ -22,15 +22,12 @@ const HeroImage = styled.img`
 	@media only screen and (max-width: 780px) {
 		width: 100%;
 	}
-
-
 `;
 
 const HeaderHider = styled.div`
 	position: absolute;
 	top: 0;
 	left: 0;
-
 `;
 
 const ContentWrapper = styled.div``;
@@ -63,7 +60,6 @@ const WhyWrapper = styled.div`
 	@media only screen and (max-width: 400px) {
 
 	}
-
 `;
 
 const HomePageHero = ({ children, headerTitle, subitle, buttonTitle }) => {
