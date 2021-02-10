@@ -76,7 +76,7 @@ const WhyWrapper = styled.div`
 
 `;
 
-const HomePageWhy = ({ children, headerTitle, subitle, buttonTitle, image }) => {
+const HomePageWhy = ({ children, headerTitle, subitle, buttonTitle }) => {
 	return (
 		<Wrapper>
 			<WhyWrapper>

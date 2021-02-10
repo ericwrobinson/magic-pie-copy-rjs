@@ -53,6 +53,5 @@ why:
 
 
     Are you looking for web design, web development, or video marketing as well? No problem—we’ve got partners for that.
-  img: /img/home-jumbotron.jpg
   buttonTitle: more about us.
 ---

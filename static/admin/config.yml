@@ -64,7 +64,7 @@ collections:
               {label: Service4Subtitle, name: service4Subtitle, widget: markdown},
               {label: ButtonTitle, name: buttonTitle, widget: string}
           ]}
-          - {label: WhySection, name: why, widget: object, fields: [
+          - {label: "Why Section", name: why, widget: object, fields: [
               {label: Title, name: title, widget: markdown},
               {label: Subtitle, name: subtitle, widget: markdown},
               {label: ButtonTitle, name: buttonTitle, widget: string}

@@ -57,7 +57,6 @@ export const IndexPageTemplate = ({
       headerTitle={why.title}
       subitle={why.subtitle}
       buttonTitle={why.buttonTitle}
-      image={!!why.img.childImageSharp ? why.img.childImageSharp.fluid.src : why.img}
     >
     </HomePageWhy>
   </div>
@@ -155,13 +154,6 @@ export const pageQuery = graphql`
           title
           subtitle
           buttonTitle
-          img {
-            childImageSharp {
-              fluid(maxWidth: 200, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
         }
       }
     }
