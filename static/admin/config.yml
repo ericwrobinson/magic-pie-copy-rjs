@@ -66,7 +66,7 @@ collections:
           ]}
           - {label: WhySection, name: why, widget: object, fields: [
               {label: Title, name: title, widget: markdown},
-              {lbel: Subtitle, name: subtitle, widget: markdown},
+              {label: Subtitle, name: subtitle, widget: markdown},
               {label: ButtonTitle, name: buttonTitle, widget: string}
           ]}
 
