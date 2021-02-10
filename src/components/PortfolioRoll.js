@@ -1,7 +1,48 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import styled from 'styled-components';
 import { Link, graphql, StaticQuery } from 'gatsby'
+import { Header,
+         Body } from './Typography';
+
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+
+const InnerWrapper = styled.div``;
+const CardWrapper = styled.article`
+  background-color: #151515;
+  padding: 1.25rem;
+  display: flex;
+  min-height: 400px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+
+  @media only screen and (max-width: 1402px) {
+    min-height: 400px;
+  }
+
+  @media only screen and (max-width: 580px) {
+
+  }
+
+  @media only screen and (max-width: 400px) {
+
+  }
+`;
+
+const SectionHeader = styled.header`
+  display: flex;
+  margin-bottom: 1em;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const Thumbnail = styled.div`
+  width: 80%;
+  max-width: 150px;
+  height: 100px;
+`;
 
 class PortfolioRoll extends React.Component {
   render() {
@@ -12,45 +53,33 @@ class PortfolioRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-4" key={post.id}>
-              <article
-                className={`portfolio-list-item tile is-child box notification ${
+            <div className="is-parent column is-6 is-4-desktop" key={post.id}>
+              <CardWrapper
+                className={`portfolio-list-item is-child ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
+                }`}>
+                <InnerWrapper>
+                  <SectionHeader>
+                    {post.frontmatter.featuredimage ? (
+                      <Thumbnail className="">
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            image: post.frontmatter.featuredimage,
+                            alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          }}
+                        />
+                      </Thumbnail>
+                    ) : null}
+                      >
+                    <Body color="white">
+                        {post.frontmatter.title}
+                    </Body>
+                  </SectionHeader>
+                    <Link className="button" to={post.fields.slug}>
+                      Keep Reading →
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
-              </article>
+                </InnerWrapper>
+              </CardWrapper>
             </div>
           ))}
       </div>
@@ -76,7 +105,6 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
               id
               fields {
                 slug

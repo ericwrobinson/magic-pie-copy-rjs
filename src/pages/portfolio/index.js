@@ -5,6 +5,10 @@ import { Hero } from '../../components/Sections';
 import Layout from '../../components/Layout'
 import PortfolioRoll from '../../components/PortfolioRoll'
 
+const SectionWrapper = styled.section`
+  background-color: black;
+`;
+
 export default class PortfolioIndexPage extends React.Component {
   render() {
     const 
@@ -22,13 +26,11 @@ export default class PortfolioIndexPage extends React.Component {
           subitle={subtitle}
         >
         </Hero>
-        <section className="section">
+        <SectionWrapper className="section">
           <div className="container">
-            <div className="content">
               <PortfolioRoll />
-            </div>
           </div>
-        </section>
+        </SectionWrapper>
       </Layout>
     )
   }
