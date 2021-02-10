@@ -2,9 +2,7 @@
 templateKey: index-page
 hero:
   title: |
-    copywriting.  
-    storytelling. 
-    marketing.
+    copywriting. storytelling. marketing.
   subtitle: |
     Websites. Blogs. Articles.
     Video scripts. Social media strategies.

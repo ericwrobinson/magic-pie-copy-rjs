@@ -8,8 +8,6 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-local_backend: true
-
 media_folder: static/img
 public_folder: /img
 
@@ -43,7 +41,7 @@ collections:
               {label: ButtonTitle, name: buttonTitle, widget: string}
           ]}
           - {label: Work, name: work, widget: object, fields: [
-              {label: Title, name: title, widget: string},
+              {label: Title, name: title, widget: markdown},
               {label: Subtitle, name: subtitle, widget: markdown},
               {label: Logo1, name: workLogo1, widget: image},
               {label: Logo2, name: workLogo2, widget: image},
@@ -52,16 +50,16 @@ collections:
               {label: ButtonTitle, name: buttonTitle, widget: string}
           ]}
           - {label: Services, name: services, widget: object, fields: [
-              {label: Title, name: title,  widget: string},
+              {label: Title, name: title,  widget: markdown},
               {label: Subtitle, name: subtitle, widget: markdown},
               {label: Service1Title, name: service1Title,  widget: string},
-              {label: Service1Subtitle, name: service1Subtitle, widget: markdown},
+              {label: Service1Subtitle, name: service1Subtitle, widget: string},
               {label: Service2Title, name: service2Title,  widget: string},
-              {label: Service2Subtitle, name: service2Subtitle, widget: markdown},
+              {label: Service2Subtitle, name: service2Subtitle, widget: string},
               {label: Service3Title, name: service3Title,  widget: string},
-              {label: Service3Subtitle, name: service3Subtitle, widget: markdown},
+              {label: Service3Subtitle, name: service3Subtitle, widget: string},
               {label: Service4Title, name: service4Title,  widget: string},
-              {label: Service4Subtitle, name: service4Subtitle, widget: markdown},
+              {label: Service4Subtitle, name: service4Subtitle, widget: string},
               {label: ButtonTitle, name: buttonTitle, widget: string}
           ]}
           - {label: "Why Section", name: why, widget: object, fields: [
