@@ -14,28 +14,38 @@ defaultProps = {
 
 const Wrapper = styled.div``;
 
-const ContentWrapper = styled.div``;
-
 const ImageRowWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
 	margin-top: 44px;
 	margin-bottom: 88px;
+	justify-content: space-between;
+	flex-wrap: wrap;
 `;
 
 const WorkImage = styled.div`
-	width:  25%;
+	width:  20%;
 	height: 90px;
-	margin-left: 25px;
-	margin-right: 25px;
 	background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
   background-position: center;
+
+	@media only screen and (max-width: 780px) {
+		width:  40%;
+		margin: 20px;
+	}
+
+	@media only screen and (max-width: 580px) {
+		margin: 20px;
+		width:  60%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
 `;
 
 const WorkWrapper = styled.div`
-  height: 40vh;
   min-height: 600px;
   background-color: white;
   color: black;
@@ -88,7 +98,10 @@ const HomePageWork = ({
 					<Header h2 color='black'>
 						{headerTitle}
 		      </Header>
-		      <Body paddingBottom>
+		      <Body 
+			      maxWidth 
+			      center 
+			      paddingBottom>
 		      	{subitle}
 		      </Body>
 		      <ImageRowWrapper>

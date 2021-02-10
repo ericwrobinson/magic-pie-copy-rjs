@@ -12,6 +12,11 @@ const NavWrapper = styled.div`
   margin: 0 auto;
 `;
 
+const LogoImage = styled.img`
+  width: 300px;
+  padding: 15px;
+`;
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -50,24 +55,22 @@ const Navbar = class extends React.Component {
       >
         <NavWrapper>
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Magic Pie Copy" style={{ width: '300px' }} />
+            <Link to="/" title="Logo">
+              <LogoImage src={logo} alt="Magic Pie Copy"/>
             </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
           </div>
+
+          {/* Hamburger menu */}
           <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
+            className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+            data-target="navMenu"
+            onClick={() => this.toggleHamburger()}>
+            <span />
+            <span />
+            <span />
+          </div>
+
+          <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
             <div className="navbar-end has-text-centered">
               <Link className="navbar-item" to="#">
                 work

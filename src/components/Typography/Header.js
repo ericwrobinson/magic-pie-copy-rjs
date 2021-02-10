@@ -99,6 +99,7 @@ const HeaderH3 = styled.h3`
 const HeaderH4 = styled.h4`
   font-family: Gastromond, serif;
 	font-size: 28px;
+	line-height: 33px;
 	letter-spacing: -1px;
 	margin-bottom: 9px;
 	color: ${({color}) => color};

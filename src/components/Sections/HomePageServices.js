@@ -117,7 +117,10 @@ const HomePageServices = ({
 					<Header h2 color='white'>
 						{headerTitle}
 		      </Header>
-		      <Body paddingBottom>
+		      <Body 
+			      maxWidth 
+			      center 
+			      paddingBottom>
 		      	{subitle}
 		      </Body>
 

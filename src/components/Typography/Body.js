@@ -28,6 +28,7 @@ defaultProps = {
 const Wrapper = styled.div`
 	max-width: ${({ maxWidth }) =>  maxWidth ? 875 : null}px;
 	padding-bottom: ${({ paddingBottom }) => paddingBottom ? 44 : 0}px;
+	margin: ${({ center }) =>  center ? '0 auto' : null};
 `;
 
 const BodyCopy = styled.p`
@@ -51,15 +52,12 @@ const BodyCopy = styled.p`
 
 
 
-const Body = ({ fontSize, children, color, maxWidth, bold, paddingBottom, style, opacity, tight, lineHeight }) => {
-
-	
-
-	
+const Body = ({ fontSize, children, center, color, maxWidth, bold, paddingBottom, style, opacity, tight, lineHeight }) => {
 
 	return (
 		<Wrapper
 			maxWidth={maxWidth}
+			center={center}
 			paddingBottom={paddingBottom}
 			style={style}>
 			<BodyCopy

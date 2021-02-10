@@ -11,6 +11,7 @@ defaultProps = {
 }
 
 const Wrapper = styled.div`
+  width: 100%;
 	max-width: ${({ noMaxWidth }) => noMaxWidth ? null : '1160px'};
 	flex-wrap: ${({wrap}) => wrap ? 'wrap' : null};
 	display: ${({ center }) => center ? null : 'flex'};
