@@ -1,52 +1,116 @@
-import React          from "react";
-import PropTypes 			from 'prop-types';
-import styled         from 'styled-components';
+import React from "react";
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import { Header,
+				 Body } from '../Typography';
+import { ButtonPrimary } from '../Buttons';
+import { SiteContent } from '../Layouts';
 
-
+import homeHero from '../../img/magic-pie-copy-home-hero.svg';
+import curvesBlackTop from '../../img/curves/curves-black-top.svg';
 const propTypes = {
 },
 defaultProps = {
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
 
-const Hero = ({ children, color, noPadding, h1, h2, h3 }) => {
+`;
 
-	const HeroWrapper = styled.div`
-	  font-family: Sofia-Pro, sans-serif;
-		letter-spacing: -2px;
-		font-size: 92px;
-		margin-bottom: 18px;
-		color: ${color};
-		line-height: 82px;
-		padding: ${({noPadding}) => noPadding ? 0 : 'inherit'};
-	  white-space: pre-line;
+const HeroImage = styled.img`
+	width: 850px;
+	margin: 0 auto;
 
-		::selection {
-		  background: #000;
-		  color: white;
-		};
-	  @media only screen and (max-width: 780px) {
-			font-size: 72px;
-			line-height: 72px;
-		}
+	@media only screen and (max-width: 780px) {
+		width: 100%;
+	}
+`;
 
-		@media only screen and (max-width: 580px) {
-			font-size: 52px;
-			line-height: 52px;
-		}
+const ContentWrapper = styled.div``;
 
-		@media only screen and (max-width: 400px) {
-			font-size: 42px;
-			line-height: 42px;
-		}
+const Divider = styled.img`
+	width: 100%;
+	transform: rotate(180deg);
+	margin-bottom: -10px;
+`;
 
-	`;
+const WhyWrapper = styled.div`
+  min-height: 500px;
+  height: 40vh;
+  background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
+  color: ${({ inverted }) => inverted ? '#f2f2f2' : 'black' };
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+
+	::selection {
+	  background: #000;
+	  color: #f2f2f2;
+	};
+
+  @media only screen and (max-width: 780px) {
+
+	}
+
+	@media only screen and (max-width: 580px) {
+
+	}
+
+	@media only screen and (max-width: 400px) {
+
+	}
+
+`;
+
+// <HeroImage src={homeHero}/>
+
+
+const Hero = ({ 
+	children, 
+	inverted, 
+	headerTitle, 
+	subitle, 
+	buttonTitle, 
+	divider,
+	maxWidth,
+	center
+	}) => {
+
 
 	return (
-		<Wrapper 
-			color={color}>
-			<HeroWrapper noPadding={noPadding} color={color}>{children}</HeroWrapper>
+		<Wrapper inverted={inverted}>
+			<WhyWrapper
+				inverted={inverted}>
+				<SiteContent
+					center>
+
+					<Header 
+						h1
+						color={inverted ? '#f2f2f2' : 'black' }>
+						{headerTitle}
+		      </Header>
+
+		      <Body 
+		      	paddingBottom
+		      	maxWidth={maxWidth}
+		      	center={center}
+		      	color={inverted ? '#f2f2f2' : 'black' }>
+		      	{subitle}
+		      </Body>
+
+		      { buttonTitle &&
+			      <ButtonPrimary 
+			      	inverted={inverted} 
+			      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
+		      }
+
+				</SiteContent>
+			</WhyWrapper>
+			{ divider && 
+				<Divider src={curvesBlackTop} />
+			}
 		</Wrapper>
 	);
 }
