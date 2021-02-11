@@ -1,5 +1,4 @@
 @import "~bulma/sass/utilities/initial-variables"
-@import "~bulma"
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -129,36 +128,100 @@ footer.footer
 .social
   padding: 2em
 .social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: #f8f8f8
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
+  padding: .5em .5em .3em .5em
+  border-radius: 1em
+  background-color: #f8f8f8
+  margin: .5em
+  width: 1em
+  height: 1em
+  vertical-align: middle
 
-// blog roll
-.blog-list-item.is-featured
-  background-color: #d6400033;
-.blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
-.blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+// portfolio roll
+.portfolio-list-item.is-featured
+  background-color: #d6400033
+
+.content 
+  @extend %block;
+  // Inline
+  li + li 
+    margin-top: 0.25em
+  // Block
+  p
+    font-size: 21px
+    font-family: sofia-pro, sans-serif
+    line-height: 36px
+    letter-spacing: normal
+  dl,
+  ol,
+  ul,
+  blockquote,
+  pre,
+  table 
+    &:not(:last-child) 
+      font-family: sofia-pro, sans-serif
+      margin-bottom: 1em 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 
+    color: black
+    font-weight: bold
+    font-family: sofia-pro, sans-serif
+  h1 
+    font-size: 36px
+    margin-bottom: 0.5em
+    &:not(:first-child) 
+      margin-top: 1em
+  h2 
+    font-size: 24px
+    margin-bottom: 0.69em
+    letter-spacing: -0.5px
+    &:not(:first-child) 
+      margin-top: 1.1428em
+    line-height: 30.48px
+  h3 
+    font-size: 21px
+    letter-spacing: -0.5px
+    margin-bottom: 0.6666em
+    &:not(:first-child)
+      margin-top: 1.3333em
+  h4 
+    font-size: 1.25em
+    margin-bottom: 0.8em
+  h5 
+    font-size: 1.125em
+    margin-bottom: 0.8888em
+  h6 
+    font-size: 1em
+    margin-bottom: 1em
 
 
+@import "~bulma"
 
+
+body
+  color: inherit
+  font-size: 21px
+
+a 
+  color: inherit
+  cursor: pointer
+  text-decoration: none
+
+a:hover
+  color: inherit
 
 // // responsiveness
 // +tablet-only
-//   .blog-list-item .featured-thumbnail
+//   .portfolio-list-item .featured-thumbnail
 //     flex-basis: 50%;
 
 // +mobile
-//   .blog-list-item header
+//   .portfolio-list-item header
 //     display: block
-//   .blog-list-item .featured-thumbnail
+//   .portfolio-list-item .featured-thumbnail
 //     text-align: center;
 //     max-width: 70%;
 //     margin: 0 0 1em;

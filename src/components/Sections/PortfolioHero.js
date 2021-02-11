@@ -7,38 +7,32 @@ import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
 import homeHero from '../../img/magic-pie-copy-home-hero.svg';
-import curvesBlackTop from '../../img/curves/curves-black-top.svg';
+import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
 const propTypes = {
 },
 defaultProps = {
 }
 
 const Wrapper = styled.div`
-  background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
-
-`;
-
-const HeroImage = styled.img`
-	width: 850px;
-	margin: 0 auto;
-
-	@media only screen and (max-width: 780px) {
-		width: 100%;
-	}
 `;
 
 const ContentWrapper = styled.div``;
 
 const Divider = styled.img`
+	position: absolute;
+  z-index: 2;
 	width: 100%;
-	transform: rotate(180deg);
-	margin-bottom: -10px;
+	bottom: -5px;
 `;
 
-const HeroWrapper = styled.div`
+const HeaderWrapper = styled.div`
+	position: relative;
   min-height: 500px;
   height: 40vh;
   background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: ${({ inverted }) => inverted ? '#f2f2f2' : 'black' };
   display: flex;
   flex-direction: column;
@@ -64,13 +58,25 @@ const HeroWrapper = styled.div`
 
 `;
 
-// <HeroImage src={homeHero}/>
+const BackgroundOverlay = styled.div`
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+`;
 
 
-const Hero = ({ 
+
+const PortfolioHero = ({ 
 	children, 
 	inverted, 
 	headerTitle, 
+	featuredimage,
 	subtitle, 
 	buttonTitle, 
 	divider,
@@ -78,17 +84,22 @@ const Hero = ({
 	center
 	}) => {
 
+	let isInverted = featuredimage ? true : inverted;
+
 
 	return (
-		<Wrapper inverted={inverted}>
-			<HeroWrapper
-				inverted={inverted}>
+		<Wrapper inverted={featuredimage ? true : inverted}>
+			<HeaderWrapper
+				style={{
+	          backgroundImage: `url(${!featuredimage ? null : featuredimage.childImageSharp ? featuredimage.childImageSharp.fluid.src : featuredimage})`
+	        }}
+				featuredimage={featuredimage}
+				inverted={isInverted}>
 				<SiteContent
 					center>
-
 					<Header 
 						h1
-						color={inverted ? '#f2f2f2' : 'black' }>
+						color={isInverted ? '#f2f2f2' : 'black' }>
 						{headerTitle}
 		      </Header>
 
@@ -96,26 +107,31 @@ const Hero = ({
 		      	paddingBottom
 		      	maxWidth={maxWidth}
 		      	center={center}
-		      	color={inverted ? '#f2f2f2' : 'black' }>
+		      	color={isInverted ? '#f2f2f2' : 'black' }>
 		      	{subtitle}
 		      </Body>
 
 		      { buttonTitle &&
 			      <ButtonPrimary 
-			      	inverted={inverted} 
+			      	inverted={isInverted} 
 			      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
 		      }
 
 				</SiteContent>
-			</HeroWrapper>
+					{ featuredimage && 
+					<BackgroundOverlay/>
+				}
 			{ divider && 
-				<Divider src={curvesBlackTop} />
+				<Divider src={curvesWhiteBottom} />
 			}
+			</HeaderWrapper>
+			
+			
 		</Wrapper>
 	);
 }
 
-Hero.propTypes 	  = propTypes;
-Hero.defaultProps  = defaultProps;
+PortfolioHero.propTypes 	  = propTypes;
+PortfolioHero.defaultProps  = defaultProps;
 
-export default Hero;
+export default PortfolioHero;

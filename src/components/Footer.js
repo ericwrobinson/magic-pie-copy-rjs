@@ -18,6 +18,7 @@ const StyledLink = styled(Link)`
 const CallToAction = styled.div`
   background-color: #F2F2F2;
   width: 100%;
+  padding-top: 44px;
 `;
 
 const CallToActionContent = styled.div`

@@ -22,14 +22,14 @@ export const IndexPageTemplate = ({
   <div>
     <HomePageHero
       headerTitle={hero.title}
-      subitle={hero.subtitle}
+      subtitle={hero.subtitle}
       buttonTitle={hero.buttonTitle}
     >
     </HomePageHero>
 
     <HomePageWork
       headerTitle={work.title}
-      subitle={work.subtitle}
+      subtitle={work.subtitle}
       buttonTitle={work.buttonTitle}
       workLogo1={!!work.workLogo1.childImageSharp ? work.workLogo1.childImageSharp.fluid.src : work.workLogo1}
       workLogo2={!!work.workLogo2.childImageSharp ? work.workLogo2.childImageSharp.fluid.src : work.workLogo2}
@@ -40,7 +40,7 @@ export const IndexPageTemplate = ({
 
     <HomePageServices
       headerTitle={services.title}
-      subitle={services.subtitle}
+      subtitle={services.subtitle}
       buttonTitle={services.buttonTitle}
       serviceTitle1={services.service1Title}
       serviceSubtitle1={services.service1Subtitle}
@@ -55,7 +55,7 @@ export const IndexPageTemplate = ({
 
     <HomePageWhy
       headerTitle={why.title}
-      subitle={why.subtitle}
+      subtitle={why.subtitle}
       buttonTitle={why.buttonTitle}
     >
     </HomePageWhy>

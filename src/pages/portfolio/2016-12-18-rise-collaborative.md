@@ -1,13 +1,17 @@
 ---
-templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
-date: 2016-12-17T15:04:10.000Z
+templateKey: 'portfolio-post'
+date: 2020-01-01T15:06:10.000Z
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
+logoWhite: /img/rise-white.png
+title: 'Rise Collaborative'
+subtitle: >-
+  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
+  Mountain coffee beans in our store next week.
 tags:
-  - flavor
-  - tasting
+  - website copywriting
+  - blog
+  - articles
 ---
 ![flavor wheel](/img/flavor_wheel.jpg)
 

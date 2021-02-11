@@ -1,13 +1,15 @@
 ---
-templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
-date: 2017-01-04T15:04:10.000Z
+templateKey: 'portfolio-post'
+date: 2020-01-01T15:05:10.000Z
 featuredpost: false
 featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+logoWhite: /img/onthemark-white.png
+title: 'On the Mark Consulting'
+subtitle: >-
+  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
+  Mountain coffee beans in our store next week.
 tags:
-  - brewing
-  - chemex
+  - website copywriting
 ---
 ![chemex](/img/chemex.jpg)
 
