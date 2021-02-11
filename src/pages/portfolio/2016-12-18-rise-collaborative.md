@@ -3,7 +3,7 @@ templateKey: 'portfolio-post'
 date: 2020-01-01T15:06:10.000Z
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
-logoWhite: /img/fantasypros-white.png
+logoWhite: /img/rise-white.png
 title: 'Rise Collaborative'
 subtitle: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
