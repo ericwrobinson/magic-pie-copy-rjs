@@ -87,7 +87,7 @@ const PortfolioHero = ({
 
 
 	return (
-		<Wrapper inverted={featuredimage ? true : isInverted}>
+		<Wrapper inverted={featuredimage ? true : inverted}>
 			<HeaderWrapper
 				style={{
 	          backgroundImage: `url(${!featuredimage ? null : featuredimage.childImageSharp ? featuredimage.childImageSharp.fluid.src : featuredimage})`

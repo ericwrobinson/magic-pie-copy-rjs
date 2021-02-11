@@ -27,7 +27,9 @@ export default class PortfolioIndexPage extends React.Component {
         >
         </Hero>
         <SectionWrapper className="section">
+
             <PortfolioRoll />
+            
         </SectionWrapper>
       </Layout>
     )

@@ -16,4 +16,4 @@ CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewTemplate('index', withStyled(IndexPagePreview));
 CMS.registerPreviewTemplate('about', AboutPagePreview);
 CMS.registerPreviewTemplate('products', ProductPagePreview);
-CMS.registerPreviewTemplate('portfolio', PortfolioPostPreview);
+CMS.registerPreviewTemplate('portfolio', withStyled(PortfolioPostPreview));

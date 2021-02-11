@@ -28,40 +28,44 @@ export const PortfolioPostTemplate = ({
   title,
   helmet,
 }) => {
+  
   const PostContent = contentComponent || Content
+
   return (
-    <section className="section">
-      {helmet || ''}
+    <React.Fragment>
       <PortfolioHero
-        maxWidth
-        center
-        featuredimage={featuredimage}
-        headerTitle={title}
-        subtitle={subtitle}/>
-      <div className="container content">
+          maxWidth
+          center
+          featuredimage={featuredimage}
+          headerTitle={title}
+          subtitle={subtitle}/>
+      <section className="section">
+        {helmet || ''}
+        <div className="container content">
 
-        <div className="columns">
-          <ContentWrapper className="column is-10 is-offset-1">
-            
-            <PostContent content={content} />
+          <div className="columns">
+            <ContentWrapper className="column is-10 is-offset-1">
+              
+              <PostContent content={content} />
 
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map((tag) => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+              {tags && tags.length ? (
+                <div style={{ marginTop: `4rem` }}>
+                  <h4>Tags</h4>
+                  <ul className="taglist">
+                    {tags.map((tag) => (
+                      <li key={tag + `tag`}>
+                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
 
-          </ContentWrapper>
+            </ContentWrapper>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </React.Fragment>
   )
 }
 

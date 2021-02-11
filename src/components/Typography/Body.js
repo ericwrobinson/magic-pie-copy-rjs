@@ -27,35 +27,37 @@ defaultProps = {
 
 const Wrapper = styled.div`
 	max-width: ${({ maxWidth }) =>  maxWidth ? 875 : null}px;
+	width: ${({ width }) =>  width ? width : null }; 
 	padding-bottom: ${({ paddingBottom }) => paddingBottom ? 44 : 0}px;
 	margin: ${({ center }) =>  center ? '0 auto' : null};
 `;
 
 const BodyCopy = styled.p`
-	  font-family: Sofia-Pro, sans-serif;
-		font-size: ${({fontSize}) => fontSize}px;
-		opacity: ${({opacity}) => opacity ? 1 : .8};
-		line-height: ${({tight, lineHeight}) => _lineHeightAdjust(tight, lineHeight)}px;
-		color: ${({color}) => color};
-		font-weight: ${({bold}) => bold ? 700 : 400};
-	  white-space: pre-line;
+  font-family: Sofia-Pro, sans-serif;
+	font-size: ${({ fontSize }) => fontSize}px;
+	opacity: ${({ opacity }) => opacity ? 1 : .8};
+	line-height: ${({ tight, lineHeight }) => _lineHeightAdjust(tight, lineHeight)}px;
+	color: ${({ color }) => color};
+	font-weight: ${({ bold }) => bold ? 700 : 400};
+  white-space: pre-line;
 
-		::selection {
-		  background: #000;
-		  color: white;
-		}
+	::selection {
+	  background: #000;
+	  color: white;
+	}
 
-		@media only screen and (max-width: 780px) {
+	@media only screen and (max-width: 780px) {
 
-		}
-	`;
+	}
+`;
 
 
 
-const Body = ({ fontSize, children, center, color, maxWidth, bold, paddingBottom, style, opacity, tight, lineHeight }) => {
+const Body = ({ width, fontSize, children, center, color, maxWidth, bold, paddingBottom, style, opacity, tight, lineHeight }) => {
 
 	return (
 		<Wrapper
+			width={width}
 			maxWidth={maxWidth}
 			center={center}
 			paddingBottom={paddingBottom}

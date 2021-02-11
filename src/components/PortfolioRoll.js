@@ -39,9 +39,9 @@ const SectionHeader = styled.header`
 `;
 
 const Thumbnail = styled.div`
-  width: 80%;
-  max-width: 150px;
-  height: 100px;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 `;
 
 class PortfolioRoll extends React.Component {
@@ -62,18 +62,19 @@ class PortfolioRoll extends React.Component {
                 }`}>
                 <InnerWrapper>
                   <SectionHeader>
-                    {post.frontmatter.featuredimage ? (
+                    {post.frontmatter.logoWhite ? (
                       <Thumbnail className="">
                         <PreviewCompatibleImage
                           imageInfo={{
-                            image: post.frontmatter.featuredimage,
+                            image: post.frontmatter.logoWhite,
                             alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                           }}
                         />
                       </Thumbnail>
                     ) : null}
-                      >
-                    <Body color="white">
+                    <Body
+                      width="300px"
+                      color="white">
                         {post.frontmatter.title}
                     </Body>
                   </SectionHeader>
@@ -116,9 +117,9 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
-                featuredimage {
+                logoWhite {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 250, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

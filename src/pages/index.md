@@ -18,7 +18,7 @@ work:
     your brand with a little love from the Magic Pie Copywriting Company.
   workLogo1: /img/43north-black.png
   workLogo2: /img/launchny-black.png
-  workLogo3: /img/fatnasypros-black.png
+  workLogo3: /img/fantasypros-black.png
   workLogo4: /img/thumbsupstudio-black.png
   buttonTitle: see our work
 services:

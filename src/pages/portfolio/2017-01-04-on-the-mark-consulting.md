@@ -3,6 +3,7 @@ templateKey: 'portfolio-post'
 date: 2020-01-01T15:05:10.000Z
 featuredpost: false
 featuredimage: /img/chemex.jpg
+logoWhite: /img/onthemark-white.png
 title: 'On the Mark Consulting'
 subtitle: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
