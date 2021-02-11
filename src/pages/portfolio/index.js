@@ -4,6 +4,7 @@ import { Hero } from '../../components/Sections';
 
 import Layout from '../../components/Layout'
 import PortfolioRoll from '../../components/PortfolioRoll'
+import { PortfolioServices } from '../../components/Sections';
 
 const SectionWrapper = styled.section`
   background-color: black;
@@ -18,19 +19,24 @@ export default class PortfolioIndexPage extends React.Component {
 
     return (
       <Layout>
+      
         <Hero
           divider
           maxWidth
           center
           headerTitle={title}
-          subtitle={subtitle}
-        >
-        </Hero>
-        <SectionWrapper className="section">
+          subtitle={subtitle}/>
 
+        <SectionWrapper className="section">
+          <div className="container">
             <PortfolioRoll />
-            
+          </div>
         </SectionWrapper>
+
+        <PortfolioServices
+          headerTitle={'need something done? \nsee what we can do.'}
+          subtitle={'So now that you’ve read and seen the work we’ve done, check out the services we offer and then let us know how we can make your business better.'}
+          buttonTitle={'our services'}/>
       </Layout>
     )
   }

@@ -12,7 +12,7 @@ defaultProps = {
 
 const Wrapper = styled.div`
   width: 100%;
-	max-width: ${({ noMaxWidth }) => noMaxWidth ? null : '1160px'};
+	max-width: ${({ noMaxWidth }) => noMaxWidth ? null : '1440px'};
 	flex-wrap: ${({wrap}) => wrap ? 'wrap' : null};
 	display: ${({ center }) => center ? null : 'flex'};
 	justify-content: ${({ flexCenter, spaceBetween }) => spaceBetween ? 'space-between' : flexCenter ? 'center' : null};

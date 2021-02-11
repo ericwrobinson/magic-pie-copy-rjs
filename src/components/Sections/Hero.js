@@ -35,7 +35,7 @@ const Divider = styled.img`
 	margin-bottom: -10px;
 `;
 
-const WhyWrapper = styled.div`
+const HeroWrapper = styled.div`
   min-height: 500px;
   height: 40vh;
   background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
@@ -81,7 +81,7 @@ const Hero = ({
 
 	return (
 		<Wrapper inverted={inverted}>
-			<WhyWrapper
+			<HeroWrapper
 				inverted={inverted}>
 				<SiteContent
 					center>
@@ -107,7 +107,7 @@ const Hero = ({
 		      }
 
 				</SiteContent>
-			</WhyWrapper>
+			</HeroWrapper>
 			{ divider && 
 				<Divider src={curvesBlackTop} />
 			}

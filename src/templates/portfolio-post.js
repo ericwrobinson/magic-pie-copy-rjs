@@ -28,7 +28,7 @@ export const PortfolioPostTemplate = ({
   title,
   helmet,
 }) => {
-  
+
   const PostContent = contentComponent || Content
 
   return (
@@ -36,6 +36,7 @@ export const PortfolioPostTemplate = ({
       <PortfolioHero
           maxWidth
           center
+          divider
           featuredimage={featuredimage}
           headerTitle={title}
           subtitle={subtitle}/>

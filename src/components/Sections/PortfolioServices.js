@@ -30,26 +30,17 @@ const Wrapper = styled.div``;
 const ContentWrapper = styled.div`
 	display: flex;
 	background-color: white;
-  justify-content: space-between;
+  flex-direction: column;
 	padding: 44px;
+	text-align: center;
+  align-items: center;
 
 	@media only screen and (max-width: 780px) {
 	  flex-direction: column-reverse;
 	}
 `;
 
-const HalfWrapper = styled.div`
-	display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-
-  @media only screen and (max-width: 780px) {
-	  width: 100%;
-	}
-`;
-
-const WhyWrapper = styled.div`
+const SecondWrapper = styled.div`
   min-height: 40vh;
   padding: 20px;
   background-color: #F2F2F2;
@@ -57,7 +48,6 @@ const WhyWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 	::selection {
 	  background: #000;
 	  color: black;
@@ -77,32 +67,29 @@ const WhyWrapper = styled.div`
 
 `;
 
-const HomePageWhy = ({ children, headerTitle, subtitle, buttonTitle }) => {
+const PortfolioServices = ({ children, headerTitle, subtitle, buttonTitle }) => {
 	return (
 		<Wrapper>
-			<WhyWrapper>
-				<SiteContent>
+			<SecondWrapper>
+				<SiteContent center>
 					<ContentWrapper>
-						<HalfWrapper>
-							<Header h2 color='black'>
-								{headerTitle}
-				      </Header>
-				      <Body paddingBottom>
-				      	{subtitle}
-				      </Body>
-				      <ButtonPrimary 
-				      	flex
-				      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
-						</HalfWrapper>
-							<Divider src={questionMark} />
+						<Header h2 color='black'>
+							{headerTitle}
+			      </Header>
+			      <Body paddingBottom>
+			      	{subtitle}
+			      </Body>
+			      <ButtonPrimary 
+			      	flex
+			      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
 					</ContentWrapper>
 				</SiteContent>
-			</WhyWrapper>
+			</SecondWrapper>
 		</Wrapper>
 	);
 }
 
-HomePageWhy.propTypes 	  = propTypes;
-HomePageWhy.defaultProps  = defaultProps;
+PortfolioServices.propTypes 	  = propTypes;
+PortfolioServices.defaultProps  = defaultProps;
 
-export default HomePageWhy;
+export default PortfolioServices;

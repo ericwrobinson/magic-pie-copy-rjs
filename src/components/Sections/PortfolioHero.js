@@ -7,25 +7,26 @@ import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
 import homeHero from '../../img/magic-pie-copy-home-hero.svg';
-import curvesBlackTop from '../../img/curves/curves-black-top.svg';
+import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
 const propTypes = {
 },
 defaultProps = {
 }
 
 const Wrapper = styled.div`
-	position: relative;
 `;
 
 const ContentWrapper = styled.div``;
 
 const Divider = styled.img`
+	position: absolute;
+  z-index: 2;
 	width: 100%;
-	transform: rotate(180deg);
-	margin-bottom: -10px;
+	bottom: -5px;
 `;
 
 const HeaderWrapper = styled.div`
+	position: relative;
   min-height: 500px;
   height: 40vh;
   background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
@@ -117,13 +118,15 @@ const PortfolioHero = ({
 		      }
 
 				</SiteContent>
-			</HeaderWrapper>
-			{ featuredimage && 
-				<BackgroundOverlay/>
-			}
+					{ featuredimage && 
+					<BackgroundOverlay/>
+				}
 			{ divider && 
-				<Divider src={curvesBlackTop} />
+				<Divider src={curvesWhiteBottom} />
 			}
+			</HeaderWrapper>
+			
+			
 		</Wrapper>
 	);
 }
