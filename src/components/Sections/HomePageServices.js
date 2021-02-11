@@ -59,13 +59,13 @@ const ServiceImage = styled.img`
 `;
 
 const ServicesWrapper = styled.div`
-  min-height: 600px;
+	height: 55vh;
+  min-height: 800px;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  height: 100%; 
   padding-top: 64px;
   padding-bottom: 64px;
 
@@ -75,10 +75,10 @@ const ServicesWrapper = styled.div`
 	};
 
   @media only screen and (max-width: 780px) {
-
 	}
 
 	@media only screen and (max-width: 580px) {
+		height: auto;
 
 	}
 

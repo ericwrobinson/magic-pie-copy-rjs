@@ -46,6 +46,7 @@ const WorkImage = styled.div`
 `;
 
 const WorkWrapper = styled.div`
+	height: 50vh;
   min-height: 600px;
   background-color: white;
   color: black;
@@ -66,7 +67,7 @@ const WorkWrapper = styled.div`
 	}
 
 	@media only screen and (max-width: 580px) {
-
+		height: auto;
 	}
 
 	@media only screen and (max-width: 400px) {
