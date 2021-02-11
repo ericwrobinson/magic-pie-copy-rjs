@@ -34,14 +34,10 @@ const ContentWrapper = styled.div`
 	padding: 44px;
 	text-align: center;
   align-items: center;
-
-	@media only screen and (max-width: 780px) {
-	  flex-direction: column-reverse;
-	}
 `;
 
 const SecondWrapper = styled.div`
-  min-height: 40vh;
+  min-height: 450px;
   padding: 20px;
   background-color: #F2F2F2;
   color: white;
@@ -81,7 +77,7 @@ const PortfolioServices = ({ children, headerTitle, subtitle, buttonTitle }) => 
 			      </Body>
 			      <ButtonPrimary 
 			      	flex
-			      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
+			      	linkTo={'/services/'}>{buttonTitle}</ButtonPrimary>
 					</ContentWrapper>
 				</SiteContent>
 			</SecondWrapper>
