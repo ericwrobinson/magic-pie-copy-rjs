@@ -18,13 +18,29 @@ const Wrapper = styled.div`
 	justify-content: ${({ flexCenter, spaceBetween }) => spaceBetween ? 'space-between' : flexCenter ? 'center' : null};
 	align-items: ${({ flexStart }) => flexStart ? 'flex-start' : 'center'};
 	flex-direction: ${({ column }) => column ? 'column' : 'row'};
+	z-index: 2;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 18px;
 	padding-right: 18px;
 `;
 
-const SiteContent = ({ column, spaceBetween, noMaxWidth, children, flexCenter, center, wrap, flexStart, style, aosType, aosOffset, aosEasing, aosDuration, aosDelay }) => (
+const SiteContent = ({ 
+	column, 
+	spaceBetween, 
+	noMaxWidth, 
+	children, 
+	flexCenter, 
+	center, 
+	wrap, 
+	flexStart, 
+	style, 
+	aosType, 
+	aosOffset, 
+	aosEasing,
+	aosDuration,
+	aosDelay 
+}) => (
 	<Wrapper
 		data-aos={aosType}
     data-aos-once={true}

@@ -48,6 +48,8 @@ class PortfolioRoll extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
+    console.log('pr data', data);
+  console.log('pr posts', posts);
 
     return (
       <div className="columns is-multiline">

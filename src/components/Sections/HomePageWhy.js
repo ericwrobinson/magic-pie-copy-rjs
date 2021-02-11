@@ -76,7 +76,7 @@ const WhyWrapper = styled.div`
 
 `;
 
-const HomePageWhy = ({ children, headerTitle, subitle, buttonTitle }) => {
+const HomePageWhy = ({ children, headerTitle, subtitle, buttonTitle }) => {
 	return (
 		<Wrapper>
 			<WhyWrapper>
@@ -87,7 +87,7 @@ const HomePageWhy = ({ children, headerTitle, subitle, buttonTitle }) => {
 								{headerTitle}
 				      </Header>
 				      <Body paddingBottom>
-				      	{subitle}
+				      	{subtitle}
 				      </Body>
 				      <ButtonPrimary 
 				      	flex

@@ -23,13 +23,11 @@ export default class PortfolioIndexPage extends React.Component {
           maxWidth
           center
           headerTitle={title}
-          subitle={subtitle}
+          subtitle={subtitle}
         >
         </Hero>
         <SectionWrapper className="section">
-          <div className="container">
-              <PortfolioRoll />
-          </div>
+            <PortfolioRoll />
         </SectionWrapper>
       </Layout>
     )

@@ -1,9 +1,9 @@
 ---
 templateKey: 'portfolio-post'
-date: 2020-01-01T15:06:11.000Z
+date: 2020-01-01T15:06:10.000Z
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
-title: 'FantasyPros'
+title: 'Rise Collaborative'
 subtitle: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.
@@ -12,6 +12,7 @@ tags:
   - blog
   - articles
 ---
+![flavor wheel](/img/flavor_wheel.jpg)
 
 The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
 
@@ -21,7 +22,6 @@ While this is going to be a big change for professional coffee tasters, it means
 
 The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
 
-![flavor wheel](/img/flavor_wheel.jpg)
 * producers
 * roasters
 * importers/exporters

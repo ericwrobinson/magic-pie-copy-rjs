@@ -1,32 +1,50 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
-import { Helmet } from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+import { kebabCase } from 'lodash';
+import { Helmet } from 'react-helmet';
+import { graphql, Link } from 'gatsby';
+
+import { Header,
+         Body
+       } from '../components/Typography'
+import { PortfolioHero } from '../components/Sections';
+
+import Layout from '../components/Layout';
+import Content, { HTMLContent } from '../components/Content';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+
+const ContentWrapper = styled.div`
+  margin-top: 44px;
+`;
 
 export const PortfolioPostTemplate = ({
   content,
   contentComponent,
-  description,
+  subtitle,
   tags,
+  featuredimage,
   title,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
-
   return (
     <section className="section">
       {helmet || ''}
+      <PortfolioHero
+        maxWidth
+        center
+        featuredimage={featuredimage}
+        headerTitle={title}
+        subtitle={subtitle}/>
       <div className="container content">
+
         <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
+          <ContentWrapper className="column is-10 is-offset-1">
+            
             <PostContent content={content} />
+
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -39,7 +57,8 @@ export const PortfolioPostTemplate = ({
                 </ul>
               </div>
             ) : null}
-          </div>
+
+          </ContentWrapper>
         </div>
       </div>
     </section>
@@ -49,26 +68,26 @@ export const PortfolioPostTemplate = ({
 PortfolioPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
+  subtitle: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
 }
 
 const PortfolioPost = ({ data }) => {
   const { markdownRemark: post } = data
-
   return (
     <Layout>
       <PortfolioPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+        subtitle={post.frontmatter.subtitle}
+        featuredimage={post.frontmatter.featuredimage}
         helmet={
           <Helmet titleTemplate="%s | Portfolio">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
+              name="subtitle"
+              content={`${post.frontmatter.subtitle}`}
             />
           </Helmet>
         }
@@ -95,8 +114,15 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
+        subtitle
         tags
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 1200, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

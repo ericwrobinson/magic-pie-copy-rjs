@@ -66,7 +66,7 @@ const WhyWrapper = styled.div`
 
 `;
 
-const HomePageHero = ({ children, headerTitle, subitle, buttonTitle }) => {
+const HomePageHero = ({ children, headerTitle, subtitle, buttonTitle }) => {
 	return (
 		<Wrapper>
 			<WhyWrapper>
@@ -78,7 +78,7 @@ const HomePageHero = ({ children, headerTitle, subitle, buttonTitle }) => {
 			      </Header>
 	      	</HeaderHider>
 		      <Body paddingBottom>
-		      	{subitle}
+		      	{subtitle}
 		      </Body>
 		      <ButtonPrimary 
 		      	inverted 

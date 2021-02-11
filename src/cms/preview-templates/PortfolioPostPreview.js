@@ -7,7 +7,7 @@ const PortfolioPostPreview = ({ entry, widgetFor }) => {
   return (
     <PortfolioPostTemplate
       content={widgetFor('body')}
-      description={entry.getIn(['data', 'description'])}
+      subtitle={entry.getIn(['data', 'subtitle'])}
       tags={tags && tags.toJS()}
       title={entry.getIn(['data', 'title'])}
     />

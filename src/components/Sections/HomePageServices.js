@@ -96,7 +96,7 @@ const ServicesWrapper = styled.div`
 const HomePageServices = ({ 
 	children, 
 	headerTitle, 
-	subitle, 
+	subtitle, 
 	buttonTitle,
 	serviceTitle1,
 	serviceTitle2,
@@ -121,7 +121,7 @@ const HomePageServices = ({
 			      maxWidth 
 			      center 
 			      paddingBottom>
-		      	{subitle}
+		      	{subtitle}
 		      </Body>
 
 		      <ServiceRowWrapper>

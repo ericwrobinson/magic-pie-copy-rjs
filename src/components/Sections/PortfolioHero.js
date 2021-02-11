@@ -14,17 +14,7 @@ defaultProps = {
 }
 
 const Wrapper = styled.div`
-  background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
-
-`;
-
-const HeroImage = styled.img`
-	width: 850px;
-	margin: 0 auto;
-
-	@media only screen and (max-width: 780px) {
-		width: 100%;
-	}
+	position: relative;
 `;
 
 const ContentWrapper = styled.div``;
@@ -35,10 +25,13 @@ const Divider = styled.img`
 	margin-bottom: -10px;
 `;
 
-const WhyWrapper = styled.div`
+const HeaderWrapper = styled.div`
   min-height: 500px;
   height: 40vh;
   background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: ${({ inverted }) => inverted ? '#f2f2f2' : 'black' };
   display: flex;
   flex-direction: column;
@@ -64,13 +57,25 @@ const WhyWrapper = styled.div`
 
 `;
 
-// <HeroImage src={homeHero}/>
+const BackgroundOverlay = styled.div`
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+`;
 
 
-const Hero = ({ 
+
+const PortfolioHero = ({ 
 	children, 
 	inverted, 
 	headerTitle, 
+	featuredimage,
 	subtitle, 
 	buttonTitle, 
 	divider,
@@ -78,17 +83,22 @@ const Hero = ({
 	center
 	}) => {
 
+	let isInverted = featuredimage ? true : inverted;
+
 
 	return (
-		<Wrapper inverted={inverted}>
-			<WhyWrapper
-				inverted={inverted}>
+		<Wrapper inverted={featuredimage ? true : isInverted}>
+			<HeaderWrapper
+				style={{
+	          backgroundImage: `url(${!featuredimage ? null : featuredimage.childImageSharp ? featuredimage.childImageSharp.fluid.src : featuredimage})`
+	        }}
+				featuredimage={featuredimage}
+				inverted={isInverted}>
 				<SiteContent
 					center>
-
 					<Header 
 						h1
-						color={inverted ? '#f2f2f2' : 'black' }>
+						color={isInverted ? '#f2f2f2' : 'black' }>
 						{headerTitle}
 		      </Header>
 
@@ -96,18 +106,21 @@ const Hero = ({
 		      	paddingBottom
 		      	maxWidth={maxWidth}
 		      	center={center}
-		      	color={inverted ? '#f2f2f2' : 'black' }>
+		      	color={isInverted ? '#f2f2f2' : 'black' }>
 		      	{subtitle}
 		      </Body>
 
 		      { buttonTitle &&
 			      <ButtonPrimary 
-			      	inverted={inverted} 
+			      	inverted={isInverted} 
 			      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
 		      }
 
 				</SiteContent>
-			</WhyWrapper>
+			</HeaderWrapper>
+			{ featuredimage && 
+				<BackgroundOverlay/>
+			}
 			{ divider && 
 				<Divider src={curvesBlackTop} />
 			}
@@ -115,7 +128,7 @@ const Hero = ({
 	);
 }
 
-Hero.propTypes 	  = propTypes;
-Hero.defaultProps  = defaultProps;
+PortfolioHero.propTypes 	  = propTypes;
+PortfolioHero.defaultProps  = defaultProps;
 
-export default Hero;
+export default PortfolioHero;

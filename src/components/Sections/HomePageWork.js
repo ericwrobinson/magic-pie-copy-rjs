@@ -83,7 +83,7 @@ const WorkWrapper = styled.div`
 const HomePageWork = ({ 
 	children, 
 	headerTitle, 
-	subitle, 
+	subtitle, 
 	buttonTitle,
 	workLogo1,
 	workLogo2,
@@ -102,13 +102,13 @@ const HomePageWork = ({
 			      maxWidth 
 			      center 
 			      paddingBottom>
-		      	{subitle}
+		      	{subtitle}
 		      </Body>
 		      <ImageRowWrapper>
 			      <WorkImage style={{
 			          backgroundImage: `url(${workLogo1})`
-			        }}
-			      ></WorkImage>
+			        }}>
+			      </WorkImage>
 			      <WorkImage style={{
 			          backgroundImage: `url(${workLogo2})`
 			        }}
