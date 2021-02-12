@@ -4,29 +4,37 @@ import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 import styled from 'styled-components';
 
-const NavWrapper = styled.div`
+const Nav = styled.div`
   max-width: 1800px;
+`;
+
+const NavWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px 0 20px;
+  padding-left: 20px;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1023px) {
+    padding: 0 20px;
   }
 
   @media only screen and (max-width: 580px) {
-    padding: 0 10px 0 10px;
-  }
-
-  @media only screen and (max-width: 400px) {
-
+    padding: 0 10px;
   }
 `;
 
 const LogoImage = styled.img`
   width: 300px;
   padding: 15px;
+`;
+
+const NavMenu = styled.div`
+  padding-right: 20px;
+
+  @media only screen and (max-width: 580px) {
+    padding-right: 10px;
+  }
 `;
 
 const Navbar = class extends React.Component {
@@ -60,7 +68,7 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
+      <Nav
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
@@ -86,8 +94,9 @@ const Navbar = class extends React.Component {
             <span />
             <span />
           </div>
+        </NavWrapper>
 
-          <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
+          <NavMenu id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
             <div className="navbar-end has-text-centered">
               <Link className="navbar-item" to="/portfolio/">
                 work
@@ -102,9 +111,8 @@ const Navbar = class extends React.Component {
                 contact
               </Link>
             </div>
-          </div>
-        </NavWrapper>
-      </nav>
+          </NavMenu>
+      </Nav>
     )
   }
 }

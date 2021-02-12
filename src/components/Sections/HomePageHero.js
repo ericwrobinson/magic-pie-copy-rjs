@@ -16,7 +16,7 @@ defaultProps = {
 const Wrapper = styled.div``;
 
 const HeroImage = styled.img`
-	width: 850px;
+	max-width: 650px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 4;
