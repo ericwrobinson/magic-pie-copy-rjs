@@ -22,10 +22,8 @@ const HeroImage = styled.img`
 	z-index: 4;
 
 	@media only screen and (max-width: 780px) {
-		width: 100%;
+		width: 80%;
 	}
-
-
 `;
 
 const HeaderHider = styled.div`
@@ -36,6 +34,7 @@ const HeaderHider = styled.div`
 `;
 
 const ContentWrapper = styled.div``;
+
 const Divider = styled.img`
 	width: 100%;
 `;

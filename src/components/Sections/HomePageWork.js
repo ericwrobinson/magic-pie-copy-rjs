@@ -63,11 +63,11 @@ const WorkWrapper = styled.div`
 	};
 
   @media only screen and (max-width: 780px) {
-
+	  height: 100%;
 	}
 
 	@media only screen and (max-width: 580px) {
-		height: auto;
+	  height: 100%;
 	}
 
 	@media only screen and (max-width: 400px) {

@@ -47,7 +47,7 @@ const HeaderH1 = styled.h1`
 const HeaderH2 = styled.h2`
   font-family: Gastromond, serif;
 	font-size: 52px;
-	line-height: 48px;
+	line-height: 58px;
 	letter-spacing: -1.25px;
 	margin-bottom: 26px;
 	color: ${({color}) => color};
@@ -60,13 +60,13 @@ const HeaderH2 = styled.h2`
 	}
 	@media only screen and (max-width: 780px) {
 		font-size: 52px;
-	letter-spacing: -1px;
-		line-height: 52px;
+		letter-spacing: -1px;
+		line-height: 56px;
 	}
 
 	@media only screen and (max-width: 580px) {
-		font-size: 42px;
-		line-height: 42px;
+		font-size: 36px;
+		line-height: 40px;
 	}
 `;
 
@@ -87,12 +87,12 @@ const HeaderH3 = styled.h3`
 	@media only screen and (max-width: 780px) {
 		font-size: 28px;
 		letter-spacing: 0;
-		line-height: 28px;
+		line-height: 32px;
 	}
 
 	@media only screen and (max-width: 580px) {
 		font-size: 24px;
-		line-height: 24px;
+		line-height: 28px;
 	}
 `;
 

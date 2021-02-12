@@ -5,11 +5,23 @@ import logo from '../img/logo.svg'
 import styled from 'styled-components';
 
 const NavWrapper = styled.div`
-  max-width: 1440px;
+  max-width: 1800px;
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px 0 20px;
+
+  @media only screen and (max-width: 768px) {
+  }
+
+  @media only screen and (max-width: 580px) {
+    padding: 0 10px 0 10px;
+  }
+
+  @media only screen and (max-width: 400px) {
+
+  }
 `;
 
 const LogoImage = styled.img`
@@ -55,7 +67,12 @@ const Navbar = class extends React.Component {
       >
         <NavWrapper>
           <div className="navbar-brand">
-            <Link to="/" title="Logo">
+            <Link 
+              style={{
+                justifyContent: 'center',
+                alignItems: 'center'
+              }}
+              to="/" title="Logo">
               <LogoImage src={logo} alt="Magic Pie Copy"/>
             </Link>
           </div>

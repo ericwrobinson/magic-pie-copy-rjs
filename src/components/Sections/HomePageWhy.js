@@ -91,7 +91,7 @@ const HomePageWhy = ({ children, headerTitle, subtitle, buttonTitle }) => {
 				      	{subtitle}
 				      </Body>
 				      <ButtonPrimary 
-				      	flex
+				      	flexBox
 				      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
 						</HalfWrapper>
 							<Divider src={questionMark} />

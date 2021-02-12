@@ -41,7 +41,7 @@ const ButtonCopy = styled.span`
 `;
 
 const LinkComponent = styled(Link)`
-  display: ${({ flex }) => flex ? 'flex' : 'inline-block'};
+  display: ${({ flexBox }) => flexBox ? 'flex' : 'inline-block'};
 `;
 
 	// border: 2px solid ${({ inverted, disabled, color }) => _borderColor(inverted, disabled, color) };
@@ -85,7 +85,7 @@ A primary button that matches the brand.
 const ButtonPrimary = ({ ...props }) => {
 	return (
 		<LinkComponent 
-			flex={props.flex}
+			flexBox={props.flexBox}
 			to={props.linkTo}>
 			<ButtonComponent
 				inverted={props.inverted} 
