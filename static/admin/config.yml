@@ -86,7 +86,7 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [{label: Service, name: services, widget: list, fields: [{label: Image, name: image, widget: image}, {label: ServiceTitle, name: serviceTitle, widget: string}, {label: ServiceSubtitle, name: serviceSubtitle, widget: markdown}]}]}
-          - {label: CTA, name: cta, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Subtitle, name: subtitle, widget: string}]}
+          - {label: CTA, name: cta, widget: object, fields: [{label: Title, name: title1, widget: string}, {label: Subtitle, name: subtitle1, widget: string}, {label: Button Title, name: buttonTitle1, widget: string}, {label: Title, name: title2, widget: string}, {label: Subtitle, name: subtitle2, widget: string}, {label: Button Title, name: buttonTitle2, widget: string}]}
 
 
 

@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { ServicesPageTemplate } from '../../templates/services-page'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { ServicesPageTemplate } from '../../templates/services-page';
 
 const ServicesPagePreview = ({ entry, getAsset }) => {
   const entryServices = entry.getIn(['data', 'intro', 'services'])
@@ -16,31 +16,15 @@ const ServicesPagePreview = ({ entry, getAsset }) => {
     <ServicesPageTemplate
       image={getAsset(entry.getIn(['data', 'image']))}
       title={entry.getIn(['data', 'title'])}
-      heading={entry.getIn(['data', 'heading'])}
       subtitle={entry.getIn(['data', 'subtitle'])}
       intro={{ services }}
-      main={{
-        heading: entry.getIn(['data', 'main', 'heading']),
-        description: entry.getIn(['data', 'main', 'description']),
-        image1: {
-          image: getAsset(entry.getIn(['data', 'main', 'image1', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image1', 'alt']),
-        },
-        image2: {
-          image: getAsset(entry.getIn(['data', 'main', 'image2', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image2', 'alt']),
-        },
-        image3: {
-          image: getAsset(entry.getIn(['data', 'main', 'image3', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image3', 'alt']),
-        },
-      }}
-      fullImage={entry.getIn(['data', 'full_image'])}
-      testimonials={testimonials}
-      pricing={{
-        heading: entry.getIn(['data', 'pricing', 'heading']),
-        description: entry.getIn(['data', 'pricing', 'description']),
-        plans: pricingPlans,
+      cta={{
+        title1: entry.getIn(['data', 'cta', 'title1']),
+        subtitle1: entry.getIn(['data', 'cta', 'subtitle1']),
+        title2: entry.getIn(['data', 'cta', 'title2']),
+        buttonTitle1: entry.getIn(['data', 'cta', 'buttonTitle1']),
+        subtitle2: entry.getIn(['data', 'cta', 'subtitle2']),
+        buttonTitle2: entry.getIn(['data', 'cta', 'buttonTitle2'])
       }}
     />
   )
@@ -53,4 +37,4 @@ ServicesPagePreview.propTypes = {
   getAsset: PropTypes.func,
 }
 
-export default ServicesPagePreview
+export default ServicesPagePreview;

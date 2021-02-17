@@ -35,6 +35,14 @@ export const ServicesPageTemplate = ({
       <div className="column is-10 is-offset-1">
         <Features gridItems={intro.services} />
       </div>
+      <SplitCTA
+        headerTitle1={cta.title1}
+        subtitle1={cta.subtitle1}
+        buttonTitle1={cta.buttonTitle1}
+        headerTitle2={cta.title2}
+        subtitle2={cta.subtitle2}
+        buttonTitle2={cta.buttonTitle2}
+      />
     </GridWrapper>
   </React.Fragment>
 )
@@ -47,9 +55,12 @@ ServicesPageTemplate.propTypes = {
     services: PropTypes.array,
   }),
   cta: PropTypes.shape({
-    title: PropTypes.string,
-    subtitle: PropTypes.string,
-    buttonTitle: PropTypes.string,
+    title1: PropTypes.string,
+    subtitle1: PropTypes.string,
+    buttonTitle1: PropTypes.string,
+    title2: PropTypes.string,
+    subtitle2: PropTypes.string,
+    buttonTitle2: PropTypes.string,
   }),
 }
 
@@ -58,7 +69,6 @@ const ServicesPage = ({ data }) => {
   console.log('frn', frontmatter)
   return (
     <Layout>
-
       <ServicesPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
@@ -66,16 +76,6 @@ const ServicesPage = ({ data }) => {
         intro={frontmatter.intro}
         cta={frontmatter.cta}
       />
-
-      <SplitCTA
-        headerTitle1={frontmatter.cta.title1}
-        subtitle1={frontmatter.cta.subtitle1}
-        buttonTitle1={frontmatter.cta.buttonTitle1}
-        headerTitle2={frontmatter.cta.title2}
-        subtitle2={frontmatter.cta.subtitle2}
-        buttonTitle2={frontmatter.cta.buttonTitle2}
-      />
-
     </Layout>
   )
 }
