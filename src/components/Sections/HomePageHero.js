@@ -30,7 +30,7 @@ const HeaderHider = styled.div`
 	position: absolute;
 	top: 0;
 	left: 0;
-
+	opacity: 0;
 `;
 
 const ContentWrapper = styled.div``;
@@ -72,7 +72,7 @@ const HomePageHero = ({ children, headerTitle, subtitle, buttonTitle }) => {
 		<Wrapper>
 			<WhyWrapper>
 				<SiteContent center>
-	      	<HeroImage src={homeHero}/>
+	      	<HeroImage src={homeHero} alt={headerTitle}/>
 	      	<HeaderHider>
 						<Header h1 color='black'>
 							{headerTitle}

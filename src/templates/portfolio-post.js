@@ -7,8 +7,7 @@ import { Helmet } from 'react-helmet';
 import { graphql, Link } from 'gatsby';
 
 import { Header,
-         Body
-       } from '../components/Typography'
+         Body } from '../components/Typography';
 import { PortfolioHero } from '../components/Sections';
 
 import Layout from '../components/Layout';

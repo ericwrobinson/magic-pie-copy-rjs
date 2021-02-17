@@ -5,6 +5,7 @@ import HomePageWork from './HomePageWork';
 import HomePageServices from './HomePageServices';
 import HomePageWhy from './HomePageWhy';
 import Hero from './Hero';
+import SplitCTA from './SplitCTA';
 
 export {
 	PortfolioServices,
@@ -13,5 +14,6 @@ export {
 	HomePageWork,
 	HomePageServices,
 	HomePageWhy,
-	Hero
+	Hero,
+	SplitCTA
 }
