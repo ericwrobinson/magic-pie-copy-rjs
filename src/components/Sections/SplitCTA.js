@@ -54,8 +54,7 @@ const WhyWrapper = styled.div`
 	};
 
   @media only screen and (max-width: 780px) {
-  flex-direction: row;
-
+	  flex-direction: row;
 	}
 
 	@media only screen and (max-width: 580px) {

@@ -11,7 +11,6 @@ const ServicesPagePreview = ({ entry, getAsset }) => {
 
   const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans'])
   const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
-
   return (
     <ServicesPageTemplate
       image={getAsset(entry.getIn(['data', 'image']))}

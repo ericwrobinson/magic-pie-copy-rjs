@@ -25,7 +25,7 @@ export const ServicesPageTemplate = ({
   intro,
   cta,
 }) => (
-  <React.Fragment>
+  <div>
     <Hero
       maxWidth
       center
@@ -35,7 +35,8 @@ export const ServicesPageTemplate = ({
       <div className="column is-10 is-offset-1">
         <Features gridItems={intro.services} />
       </div>
-      <SplitCTA
+    </GridWrapper>
+    <SplitCTA
         headerTitle1={cta.title1}
         subtitle1={cta.subtitle1}
         buttonTitle1={cta.buttonTitle1}
@@ -43,8 +44,7 @@ export const ServicesPageTemplate = ({
         subtitle2={cta.subtitle2}
         buttonTitle2={cta.buttonTitle2}
       />
-    </GridWrapper>
-  </React.Fragment>
+  </div>
 )
 
 ServicesPageTemplate.propTypes = {
@@ -66,7 +66,6 @@ ServicesPageTemplate.propTypes = {
 
 const ServicesPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-  console.log('frn', frontmatter)
   return (
     <Layout>
       <ServicesPageTemplate
