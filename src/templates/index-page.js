@@ -24,8 +24,7 @@ export const IndexPageTemplate = ({
       headerTitle={hero.title}
       subtitle={hero.subtitle}
       buttonTitle={hero.buttonTitle}
-    >
-    </HomePageHero>
+    />
 
     <HomePageWork
       headerTitle={work.title}
@@ -35,8 +34,7 @@ export const IndexPageTemplate = ({
       workLogo2={!!work.workLogo2.childImageSharp ? work.workLogo2.childImageSharp.fluid.src : work.workLogo2}
       workLogo3={!!work.workLogo3.childImageSharp ? work.workLogo3.childImageSharp.fluid.src : work.workLogo3}
       workLogo4={!!work.workLogo4.childImageSharp ? work.workLogo4.childImageSharp.fluid.src : work.workLogo4}
-    >      
-    </HomePageWork>
+    />      
 
     <HomePageServices
       headerTitle={services.title}
@@ -50,15 +48,13 @@ export const IndexPageTemplate = ({
       serviceSubtitle3={services.service3Subtitle}
       serviceTitle4={services.service4Title}
       serviceSubtitle4={services.service4Subtitle}
-    >      
-    </HomePageServices>
+    />
 
     <HomePageWhy
       headerTitle={why.title}
       subtitle={why.subtitle}
       buttonTitle={why.buttonTitle}
-    >
-    </HomePageWhy>
+    />
   </div>
 )}
 
