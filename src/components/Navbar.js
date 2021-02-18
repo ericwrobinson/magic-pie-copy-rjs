@@ -6,6 +6,7 @@ import styled from 'styled-components';
 
 const Nav = styled.div`
   max-width: 1800px;
+  margin: 0 auto;
 `;
 
 const NavWrapper = styled.div`
@@ -101,7 +102,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/portfolio/">
                 work
               </Link>
-              <Link className="navbar-item" to="/products/">
+              <Link className="navbar-item" to="/services/">
                 services
               </Link>
               <Link className="navbar-item" to="/about/">
