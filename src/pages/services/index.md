@@ -46,5 +46,5 @@ cta:
   buttonTitle1: see my work
   title2: partners make perfect.
   subtitle2: "Creating killer content takes more than just a writer’s touch. To build websites and make other high-quality marketing materials, I work with a talented team of creatives who design art, develop code, and produce videos that will knock your socks off, plain and simple."
-  buttonTitle2: see my work
+  buttonTitle2: meet the guys
 ---
