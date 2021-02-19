@@ -16,13 +16,13 @@ defaultProps = {
 const Wrapper = styled.div``;
 
 const HeroImage = styled.img`
-	max-width: 650px;
+	max-width: 850px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 4;
 
 	@media only screen and (max-width: 780px) {
-		width: 80%;
+		width: 90%;
 	}
 `;
 
