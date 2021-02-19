@@ -26,7 +26,6 @@ export default class PortfolioIndexPage extends React.Component {
             divider
             maxWidth
             center
-            inverted
             minHeight="750px"
             headerTitle={title}
             subtitle={subtitle}/>

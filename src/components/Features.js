@@ -88,8 +88,6 @@ const FeatureGrid = ({ gridItems }) => {
       <GridWrapper className="columns is-multiline">
         {gridItems.map((item, index) => {
 
-          console.log('item', item.serviceImage);
-
           return (
             <Wrapper key={index} even={index % 2 === 0}>
               <ImageWrapper>

@@ -8,6 +8,9 @@ import { NewLink } from './Buttons';
 
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
+const Wrapper = styled.div`
+  padding-bottom: 88px;
+`;
 const InnerWrapper = styled.div``;
 const CardWrapper = styled.article`
   background-color: #151515;
@@ -29,11 +32,9 @@ const CardWrapper = styled.article`
   }
 
   @media only screen and (max-width: 580px) {
-
   }
 
   @media only screen and (max-width: 400px) {
-
   }
 `;
 
@@ -56,7 +57,7 @@ class PortfolioRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <div className="columns is-multiline">
+      <Wrapper className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
 
@@ -94,7 +95,7 @@ class PortfolioRoll extends React.Component {
               </Link>
             </div>
           ))}
-      </div>
+      </Wrapper>
     )
   }
 }

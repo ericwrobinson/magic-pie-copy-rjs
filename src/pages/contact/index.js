@@ -22,6 +22,7 @@ const Wrapper = styled.div`
   justify-content: center;
   padding-top: 80px;
   min-height: 600px;
+  padding-bottom: 88px;
   
   @media only screen and (max-width: 780px) {
     flex-direction: column;
