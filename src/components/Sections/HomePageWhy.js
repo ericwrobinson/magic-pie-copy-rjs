@@ -9,8 +9,10 @@ import { SiteContent } from '../Layouts';
 import questionMark from '../../img/curves/question-mark-bubbble.svg';
 
 const propTypes = {
+	linkTo: PropTypes.string,
 },
 defaultProps = {
+	linkTo: "#"
 }
 
 const Divider = styled.img`
@@ -77,7 +79,7 @@ const WhyWrapper = styled.div`
 
 `;
 
-const HomePageWhy = ({ children, headerTitle, subtitle, buttonTitle }) => {
+const HomePageWhy = ({ children, headerTitle, subtitle, buttonTitle, linkTo }) => {
 	return (
 		<Wrapper>
 			<WhyWrapper>
@@ -92,7 +94,7 @@ const HomePageWhy = ({ children, headerTitle, subtitle, buttonTitle }) => {
 				      </Body>
 				      <ButtonPrimary 
 				      	flexBox
-				      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
+				      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 						</HalfWrapper>
 							<Divider src={questionMark} />
 					</ContentWrapper>

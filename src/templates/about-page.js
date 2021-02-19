@@ -55,6 +55,7 @@ export const AboutPageTemplate = ({
       />
 
       <ThreeCol
+        id="partners"
         image1={partners.partnerLogo1}
         headerTitle1={partners.partnerType1}
         buttonTitle1={partners.partnerButtonTitle1}

@@ -40,9 +40,11 @@ export const ServicesPageTemplate = ({
     <SplitCTA
         headerTitle1={cta.title1}
         subtitle1={cta.subtitle1}
+        linkTo1='/portfolio'
         buttonTitle1={cta.buttonTitle1}
         headerTitle2={cta.title2}
         subtitle2={cta.subtitle2}
+        linkTo2='/about/#partners'
         buttonTitle2={cta.buttonTitle2}
       />
   </PageTransition>

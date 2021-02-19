@@ -18,6 +18,7 @@ const ButtonComponent = styled.div`
 	max-width: 352px;
 	background-color: ${({ inverted }) => inverted ? Colors.White : Colors.Black };
 	color: ${({ inverted }) => inverted ? Colors.Black : Colors.White };
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	align-self: flex-start;
@@ -36,8 +37,9 @@ const ButtonCopy = styled.span`
 	font-size: 21px;
 	font-weight: bold;
 	letter-spacing: 1px;
-	line-height: 1.6;
-	font-family: Gastromond, serif;
+	line-height: 1.2;
+	font-family: kansasnew, serif;
+
 `;
 
 const LinkComponent = styled(Link)`

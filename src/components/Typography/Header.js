@@ -14,7 +14,8 @@ defaultProps = {
 const Wrapper = styled.div``;
 
 const HeaderH1 = styled.h1`
-  font-family: Gastromond, serif;
+  font-family: kansasnew, serif;
+  font-weight: bold;
 	letter-spacing: 0px;
 	font-size: 74px;
 	margin-bottom: 30px;
@@ -45,7 +46,8 @@ const HeaderH1 = styled.h1`
 `;
 
 const HeaderH2 = styled.h2`
-  font-family: Gastromond, serif;
+  font-family: kansasnew, serif;
+  font-weight: bold;
 	font-size: 52px;
 	line-height: 58px;
 	letter-spacing: -1.25px;
@@ -71,7 +73,8 @@ const HeaderH2 = styled.h2`
 `;
 
 const HeaderH3 = styled.h3`
-  font-family: Gastromond, serif;
+  font-family: kansasnew, serif;
+  font-weight: bold;
 	font-size: 36px;
 	letter-spacing: -1px;
 	margin-bottom: 9px;
@@ -97,10 +100,10 @@ const HeaderH3 = styled.h3`
 `;
 
 const HeaderH4 = styled.h4`
-  font-family: Gastromond, serif;
+  font-family: kansasnew, serif;
+  font-weight: bold;
 	font-size: 28px;
 	line-height: 33px;
-	letter-spacing: -1px;
 	margin-bottom: 9px;
 	color: ${({color}) => color};
 	padding: ${({noPadding}) => noPadding ? 0 : 'inherit'};

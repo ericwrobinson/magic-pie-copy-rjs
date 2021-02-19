@@ -8,9 +8,12 @@ import { SiteContent } from '../Layouts';
 
 import homeHero from '../../img/magic-pie-copy-home-hero.svg';
 import curvesBlackTop from '../../img/curves/curves-black-top.svg';
+
 const propTypes = {
+	linkTo: PropTypes.string,
 },
 defaultProps = {
+	linkTo: "#"
 }
 
 const Wrapper = styled.div``;
@@ -67,7 +70,7 @@ const WhyWrapper = styled.div`
 
 `;
 
-const HomePageHero = ({ children, headerTitle, subtitle, buttonTitle }) => {
+const HomePageHero = ({ children, headerTitle, subtitle, buttonTitle, linkTo }) => {
 	return (
 		<Wrapper>
 			<WhyWrapper>
@@ -83,7 +86,7 @@ const HomePageHero = ({ children, headerTitle, subtitle, buttonTitle }) => {
 		      </Body>
 		      <ButtonPrimary 
 		      	inverted 
-		      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
+		      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 				</SiteContent>
 			</WhyWrapper>
 			<Divider src={curvesBlackTop} />

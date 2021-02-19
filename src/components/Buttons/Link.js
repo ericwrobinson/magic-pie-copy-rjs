@@ -54,9 +54,10 @@ const NewLink = ({ to, external, href, children, inverted }) => {
 
         <SwitchLink
 	        href={href}
+	        target={external ? "_blank" : null}
 	        external={external} 
 	        to={to} 
-					>{children}</SwitchLink>
+					>{children} →</SwitchLink>
 
 		</Wrapper>
 	);

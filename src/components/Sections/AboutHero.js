@@ -9,9 +9,13 @@ import { SiteContent } from '../Layouts';
 import homeHero from '../../img/magic-pie-copy-home-hero.svg';
 import curvesBlackTop from '../../img/curves/curves-black-top.svg';
 import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
+import linkedinWhite from '../../img/social/linkedin-white.svg';
+
 const propTypes = {
+	linkTo: PropTypes.string,
 },
 defaultProps = {
+	linkTo: "#"
 }
 
 const Wrapper = styled.div`
@@ -61,7 +65,12 @@ const Image = styled.div`
 		min-height: 400px;
 		margin-bottom: -40px;
 	}
+`;
 
+const LinkedInWrapper = styled.img`
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
 `;
 
 const Divider = styled.img`
@@ -99,7 +108,6 @@ const HeroWrapper = styled.div`
 	@media only screen and (max-width: 400px) {
 
 	}
-
 `;
 
 // <HeroImage src={homeHero}/>
@@ -147,7 +155,12 @@ const AboutHero = ({
 		      	color={inverted ? '#f2f2f2' : 'black' }>
 		      	{subtitle}
 		      </Body>
-
+		      <a 
+		      	href={'https://www.linkedin.com/company/magic-pie-copywriting-company/'} 
+		      	target="_blank"
+		      	alt={'link to Magic Pie Copy LinkedIn'}>
+		      	<LinkedInWrapper src={linkedinWhite} alt="LinkedIn icon"/>
+		      	</a>
 		      { buttonTitle &&
 			      <ButtonPrimary 
 			      	inverted={inverted} 

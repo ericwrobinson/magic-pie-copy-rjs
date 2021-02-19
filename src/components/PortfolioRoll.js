@@ -87,7 +87,7 @@ class PortfolioRoll extends React.Component {
                       </Body>
                     </SectionHeader>
                       <NewLink inverted to={post.fields.slug}>
-                        learn more →
+                        learn more
                       </NewLink>
                   </InnerWrapper>
                 </CardWrapper>

@@ -8,8 +8,10 @@ import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
 const propTypes = {
+	linkTo: PropTypes.string,
 },
 defaultProps = {
+	linkTo: "#"
 }
 
 const Wrapper = styled.div``;
@@ -89,7 +91,8 @@ const HomePageWork = ({
 	workLogo1,
 	workLogo2,
 	workLogo3,
-	workLogo4
+	workLogo4,
+	linkTo
 }) => {
 
 	return (
@@ -125,7 +128,7 @@ const HomePageWork = ({
 		      </ImageRowWrapper>
 
 		      <ButtonPrimary 
-		      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
+		      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 				</SiteContent>
 			</WorkWrapper>
 		</Wrapper>

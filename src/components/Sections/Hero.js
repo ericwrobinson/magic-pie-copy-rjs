@@ -9,9 +9,12 @@ import { SiteContent } from '../Layouts';
 import homeHero from '../../img/magic-pie-copy-home-hero.svg';
 import curvesBlackTop from '../../img/curves/curves-black-top.svg';
 import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
+
 const propTypes = {
+	linkTo: PropTypes.string,
 },
 defaultProps = {
+	linkTo: "#"
 }
 
 const Wrapper = styled.div`

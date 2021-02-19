@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Header,
 				 Body } from '../Typography';
-import { ButtonPrimary } from '../Buttons';
+import { NewLink } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
 const propTypes = {
@@ -40,26 +40,29 @@ const ThirdWrapper = styled.div`
 
   @media only screen and (max-width: 980px) {
 	  width: 100%;
+	  padding: 20px 0px;
+    min-height: 300px;
 	  margin-bottom: 42px;
 	}
 `;
 
 const Image = styled.div`
 	width:  80%;
-	height: 90px;
+	height: 120px;
 	background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
   background-position: center;
 
 	@media only screen and (max-width: 980px) {
-		width:  50%;
+		width:  80%;
+		height: 120px;
 		margin: 20px;
 	}
 
 	@media only screen and (max-width: 580px) {
 		margin: 20px;
-		width:  60%;
+		width:  80%;
 		margin: 0 auto;
 		margin-bottom: 20px;
 	}
@@ -119,9 +122,9 @@ const ThreeCol = ({
 							<Header h4 color='black'>
 								{headerTitle1}
 				      </Header>
-				      <ButtonPrimary 
-				      	flexBox
-				      	linkTo={linkTo1}>{buttonTitle1}</ButtonPrimary>
+				      <NewLink 
+				      	external
+				      	href={linkTo1}>{buttonTitle1}</NewLink>
 						</ThirdWrapper>
 						<ThirdWrapper>
 							<Image style={{
@@ -130,9 +133,9 @@ const ThreeCol = ({
 							<Header h4 color='black'>
 								{headerTitle2}
 				      </Header>
-				      <ButtonPrimary 
-				      	flexBox
-				      	linkTo={linkTo2}>{buttonTitle2}</ButtonPrimary>
+				      <NewLink 
+				      	external
+				      	href={linkTo2}>{buttonTitle2}</NewLink>
 						</ThirdWrapper>
 						<ThirdWrapper>
 							<Image style={{
@@ -141,9 +144,9 @@ const ThreeCol = ({
 							<Header h4 color='black'>
 								{headerTitle3}
 				      </Header>
-				      <ButtonPrimary 
-				      	flexBox
-				      	linkTo={linkTo3}>{buttonTitle3}</ButtonPrimary>
+				      <NewLink 
+				      	external
+				      	href={linkTo3}>{buttonTitle3}</NewLink>
 						</ThirdWrapper>
 					</ContentWrapper>
 				</SiteContent>

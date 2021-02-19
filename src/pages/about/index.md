@@ -20,7 +20,7 @@ intro:
     next-level content for corporate websites, videos, blogs, and more.
   buttonTitle: see my work
 partners:
-  partnerLogo3: /img/thumbsupstudio-black.png
+  partnerLogo3: /img/jeremy-hulburt.jpg
   partnerType1: web design
   partnerType2: web development
   partnerType3: video production
@@ -33,8 +33,8 @@ partners:
     videos that will knock your socks off, plain and simple.
   title: partners make perfect.
   partnerButtonLink1: https://thumbsupstudio.com
-  partnerButtonLink2: https://thumbsupstudio.com
-  partnerLogo1: /img/thumbsupstudio-black.png
-  partnerButtonLink3: https://thumbsupstudio.com
-  partnerLogo2: /img/thumbsupstudio-black.png
+  partnerButtonLink2: https://michaelsmealstudios.com/portfolio/
+  partnerLogo1: /img/thumbsupstudio-color.jpg
+  partnerButtonLink3: https://www.jeremyhurlburt.com/
+  partnerLogo2: /img/michael-smeal-studios.jpg
 ---

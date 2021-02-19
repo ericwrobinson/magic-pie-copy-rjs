@@ -15,8 +15,10 @@ import marketingIcon from '../../img/icons/magic-pie-copy-icon-marketing.svg';
 import videoIcon from '../../img/icons/magic-pie-copy-icon-video.svg';
 
 const propTypes = {
+	linkTo: PropTypes.string,
 },
 defaultProps = {
+	linkTo: "#"
 }
 
 const Wrapper = styled.div``;
@@ -99,6 +101,7 @@ const HomePageServices = ({
 	headerTitle, 
 	subtitle, 
 	buttonTitle,
+	linkTo,
 	serviceTitle1,
 	serviceTitle2,
 	serviceTitle3,
@@ -172,7 +175,7 @@ const HomePageServices = ({
 
 		      <ButtonPrimary 
 		      	inverted
-		      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
+		      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 				</SiteContent>
 			</ServicesWrapper>
 		</Wrapper>

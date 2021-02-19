@@ -9,7 +9,7 @@ import logo from '../img/logo.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+import linkedin from '../img/social/linkedin.svg'
 
 const StyledLink = styled(Link)`
   color: black;
@@ -52,6 +52,31 @@ const FooterNav = styled.ul`
   margin-left: 0;
 `;
 
+const Copyright = styled.span`
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #757575;
+`;
+
+const Copyright2 = styled.span`
+  font-size: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 44px;
+  color: #471bf4;
+
+  a {
+    padding-left: 1.5px;
+    font-weight: bold;
+  }
+`;
+
 const Footer = class extends React.Component {
   render() {
     return (
@@ -61,7 +86,7 @@ const Footer = class extends React.Component {
             <CallToActionContent>
               <Header h2>call. text. email.</Header>
               <ButtonPrimary 
-                linkTo={'#'}>contact us</ButtonPrimary>
+                linkTo='/contact'>contact us</ButtonPrimary>
             </CallToActionContent>
           </SiteContent>
         </CallToAction>
@@ -70,7 +95,7 @@ const Footer = class extends React.Component {
             <img
               src={logo}
               alt="Magic Pie Copy"
-              style={{ width: '21em', height: '10em' }}
+              style={{ marginTop: '88px', width: '14em', height: '3em' }}
             />
           </div>
           <Wrapper className="content has-text-centered has-background-white has-text-black-ter">
@@ -84,7 +109,7 @@ const Footer = class extends React.Component {
                         </StyledLink>
                       </FooterNavItem>
                       <FooterNavItem>
-                        <StyledLink to="/products">
+                        <StyledLink to="/services">
                           about
                         </StyledLink>
                       </FooterNavItem>
@@ -98,14 +123,14 @@ const Footer = class extends React.Component {
                 </div>
 
                 <div className="row is-4 is-center social">
-                  <a title="facebook" href="https://facebook.com">
+                  <a title="facebook" target="_blank" href="https://www.facebook.com/MagicPieCopy/">
                     <img
                       src={facebook}
                       alt="Facebook"
                       style={{ width: '1em', height: '1em' }}
                     />
                   </a>
-                  <a title="twitter" href="https://twitter.com">
+                  <a title="twitter" target="_blank" href="https://twitter.com/MagicPieCopy">
                     <img
                       className="fas fa-lg"
                       src={twitter}
@@ -113,23 +138,19 @@ const Footer = class extends React.Component {
                       style={{ width: '1em', height: '1em' }}
                     />
                   </a>
-                  <a title="instagram" href="https://instagram.com">
+                  <a title="linkedin" target="_blank" href="https://www.linkedin.com/company/magic-pie-copywriting-company/">
                     <img
-                      src={instagram}
-                      alt="Instagram"
-                      style={{ width: '1em', height: '1em' }}
-                    />
-                  </a>
-                  <a title="vimeo" href="https://vimeo.com">
-                    <img
-                      src={vimeo}
-                      alt="Vimeo"
+                      src={linkedin}
+                      alt="Linkedin"
                       style={{ width: '1em', height: '1em' }}
                     />
                   </a>
                 </div>
               </div>
           </Wrapper>
+          <Copyright>© Copyright 2021 Magic Pie Copywriting LLC. All Rights Reserved.</Copyright>
+          <Copyright2>Website Design & Development by  <br/><a href="" target="_blank"> Thumbs Up Studio LLC</a></Copyright2>
+
       </footer>
     )
   }

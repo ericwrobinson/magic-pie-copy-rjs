@@ -9,9 +9,13 @@ import { SiteContent } from '../Layouts';
 import questionMark from '../../img/curves/question-mark-bubbble.svg';
 
 const propTypes = {
+	linkTo1: PropTypes.string,
+	linkTo2: PropTypes.string,
 },
 defaultProps = {
-}
+	linkTo1: "#",
+	linkTo2: "#"
+};
 
 const Wrapper = styled.div``;
 
@@ -32,12 +36,15 @@ const HalfWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 45%;
-  margin-left: 3%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
   background-color: white;
 
   @media only screen and (max-width: 780px) {
 	  width: 100%;
 	  margin-bottom: 42px;
+	  margin-left: 0;
+	  margin-right: 0;
 	}
 `;
 
@@ -67,7 +74,16 @@ const WhyWrapper = styled.div`
 
 `;
 
-const SplitCTA = ({ headerTitle1, subtitle1, buttonTitle1, headerTitle2, subtitle2, buttonTitle2 }) => {
+const SplitCTA = ({ 
+	headerTitle1, 
+	subtitle1, 
+	buttonTitle1, 
+	linkTo1,
+	headerTitle2, 
+	subtitle2, 
+	buttonTitle2,
+	linkTo2
+}) => {
 	return (
 		<Wrapper>
 			<WhyWrapper>
@@ -82,7 +98,7 @@ const SplitCTA = ({ headerTitle1, subtitle1, buttonTitle1, headerTitle2, subtitl
 				      </Body>
 				      <ButtonPrimary 
 				      	flexBox
-				      	linkTo={'#'}>{buttonTitle1}</ButtonPrimary>
+				      	linkTo={linkTo1}>{buttonTitle1}</ButtonPrimary>
 						</HalfWrapper>
 						<HalfWrapper>
 							<Header h3 color='black'>
@@ -93,7 +109,7 @@ const SplitCTA = ({ headerTitle1, subtitle1, buttonTitle1, headerTitle2, subtitl
 				      </Body>
 				      <ButtonPrimary 
 				      	flexBox
-				      	linkTo={'#'}>{buttonTitle2}</ButtonPrimary>
+				      	linkTo={linkTo2}>{buttonTitle2}</ButtonPrimary>
 						</HalfWrapper>
 					</ContentWrapper>
 				</SiteContent>
