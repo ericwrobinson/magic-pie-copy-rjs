@@ -10,8 +10,19 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 const GridWrapper = styled.div``;
 
 const ImageWrapper = styled.div`
-  min-width: 30%;
-  max-width: 400px;
+  display: flex;
+  width: 45%;
+  max-width: 321px;
+  max-height: 321px;
+
+  @media only screen and (max-width: 1300px) {
+    width: 65%;
+  }
+
+  @media only screen and (max-width: 980px) {
+    margin-bottom: 44px;
+    max-width: 400px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -32,8 +43,9 @@ const Wrapper = styled.div`
     position: absolute;
     height: 100%;
     width: 100%;
-    left: 15px;
+    left: ${({ even }) => even ? '15px' : '-15px'};
     top: 15px;
+
 
     z-index: -1;
   }
@@ -42,6 +54,9 @@ const Wrapper = styled.div`
     flex-direction: column;
   }
 
+  @media only screen and (max-width: 980px) {
+    padding: 80px 42px;
+  }
   @media only screen and (max-width: 580px) {
 
   }
@@ -59,6 +74,11 @@ const ContentWrapper = styled.div`
   flex-direction: column;
   margin-left: ${({ even }) => even ? '80px' : null };
   margin-right: ${({ even }) => even ? null : '80px' };
+
+  @media only screen and (max-width: 980px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 `;
 
 const FeatureGrid = ({ gridItems }) => {
@@ -68,10 +88,12 @@ const FeatureGrid = ({ gridItems }) => {
       <GridWrapper className="columns is-multiline">
         {gridItems.map((item, index) => {
 
+          console.log('item', item.serviceImage);
+
           return (
             <Wrapper key={index} even={index % 2 === 0}>
               <ImageWrapper>
-                <PreviewCompatibleImage imageInfo={item} />
+                <img src={item.serviceImage.publicURL} alt={item} />
               </ImageWrapper>
 
               <ContentWrapper even={index % 2 === 0}>

@@ -32,20 +32,34 @@ const ContentWrapper = styled.div``;
 
 const Image = styled.div`
 	width:  80%;
-	min-height: 200px;
+	min-height: 600px;
 	background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
   background-position: center;
 	margin: 0 auto;
+	margin-bottom: -110px;
+
+	@media only screen and (min-width: 1800px) {
+		width:  80%;
+		margin-bottom: -200px;
+	}
 
 	@media only screen and (max-width: 980px) {
-		width:  50%;
+		width:  70%;
+		margin-bottom: -80px;
+	}
+
+	@media only screen and (max-width: 780px) {
+		width:  80%;
+		margin-bottom: -80px;
 	}
 
 	@media only screen and (max-width: 580px) {
-		width:  60%;
+		width:  80%;
 		margin: 0 auto;
+		min-height: 400px;
+		margin-bottom: -40px;
 	}
 
 `;
@@ -54,17 +68,19 @@ const Divider = styled.img`
 	width: 100%;
 	transform: ${({ inverted }) => inverted ? null : 'rotate(180deg)' };
 	margin-bottom: -10px;
+	z-index: 1;
 `;
 
 const HeroWrapper = styled.div`
-  min-height: ${({ minHeight }) => minHeight ? minHeight : '500px'};
-  height: ${({ height }) => height ? height : '40vh'};
+  min-height: ${({ minHeight }) => minHeight ? minHeight : '300px'};
+  padding-top: 240px;
   background-color: ${({ inverted, backgroundColor }) => backgroundColor ? backgroundColor : inverted ? 'black' : '#f2f2f2' };
   color: ${({ inverted }) => inverted ? '#f2f2f2' : 'black' };
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+  z-index: -1;
 
 	::selection {
 	  background: #000;
@@ -72,7 +88,8 @@ const HeroWrapper = styled.div`
 	};
 
   @media only screen and (max-width: 780px) {
-
+  	padding-top: 140px;
+		height: auto;
 	}
 
 	@media only screen and (max-width: 580px) {
@@ -88,7 +105,7 @@ const HeroWrapper = styled.div`
 // <HeroImage src={homeHero}/>
 
 
-const Hero = ({ 
+const AboutHero = ({ 
 	children, 
 	inverted, 
 	headerTitle, 
@@ -137,12 +154,12 @@ const Hero = ({
 			      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 		      }
 				</SiteContent>
+				{ image && 
+					<Image style={{
+	          backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`
+	        }}/>
+	      }
 			</HeroWrapper>
-			{ image && 
-				<Image style={{
-          backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`
-        }}/>
-      }
 			{ divider && 
 				<Divider 
 					inverted={inverted} 
@@ -152,7 +169,7 @@ const Hero = ({
 	);
 }
 
-Hero.propTypes 	  = propTypes;
-Hero.defaultProps  = defaultProps;
+AboutHero.propTypes 	  = propTypes;
+AboutHero.defaultProps  = defaultProps;
 
-export default Hero;
+export default AboutHero;

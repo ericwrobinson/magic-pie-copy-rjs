@@ -76,8 +76,34 @@ collections:
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: Hero, name: hero, widget: object, fields: [
+              {label: Title, name: title, widget: markdown},
+              {label: Subtitle, name: subtitle, widget: markdown},
+              {label: ButtonTitle, name: buttonTitle, widget: string, required: false},
+              {label: Button URL, name: buttonUrl, widget: string, required: false},
+              {label: Image, name: image, widget: image}
+          ]}
+          - {label: Intro, name: intro, widget: object, fields: [
+              {label: Title, name: title, widget: string},
+              {label: subtitle, name: subtitle, widget: markdown},
+              {label: Button Title, name: buttonTitle, widget: string}
+            ]}
+          - {label: Partners, name: partners, widget: object, fields: [
+              {label: Title, name: title, widget: string},
+              {label: subtitle, name: subtitle, widget: markdown},
+              {label: Partner Logo 1, name: partnerLogo1, widget: image},
+              {label: Partner Type 1, name: partnerType1, widget: text},
+              {label: Button Text 1, name: partnerButtonTitle1, widget: text},
+              {label: Button Url 1, name: partnerButtonLink1, widget: text},
+              {label: Partner Logo 2, name: partnerLogo2, widget: image},
+              {label: Partner Type 2, name: partnerType2, widget: text},
+              {label: Button Text 2, name: partnerButtonTitle2, widget: text},
+              {label: Button Url 2, name: partnerButtonLink2, widget: text},
+              {label: Partner Logo 3, name: partnerLogo3, widget: image},
+              {label: Partner Type 3, name: partnerType3, widget: text},
+              {label: Button Text 3, name: partnerButtonTitle3, widget: text},
+              {label: Button Url 3, name: partnerButtonLink3, widget: text}
+            ]}
       - file: "src/pages/services/index.md"
         label: "Services Page"
         name: "services"

@@ -8,28 +8,28 @@ subtitle: Whether it’s social media, websites, print material, your next video
   need, when you need it.
 intro:
   services:
-    - image: /img/coffee.png
+    - serviceImage: /img/magic-pie-copy-icon-web.svg
       serviceTitle: websites.
       serviceSubtitle: >
         We wrote most of these websites with input from a talented team of
         dedicated pros in Corporate America. Each website is carefully crafted
         to reach a certain audience, pique their interest, and drive them to
         action.
-    - image: /img/coffee-gear.png
+    - serviceImage: /img/magic-pie-copy-icon-blogs.svg
       serviceTitle: blogs + articles.
       serviceSubtitle: >
         Need some fresh content for your website so people know you’re still in
         business? I’m your guy. Let’s find something your customer base will be
         interested in and let’s write something that will help improve their
         lives and your business. BAM.
-    - image: /img/tutorials.png
+    - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: marketing collateral.
       serviceSubtitle: >
         I work with business owners, key stakeholders, and other marketers to
         share ideas and execute strategies. Through close collaborations, we
         create next-level content for corporate websites, videos, blogs, and
         more.
-    - image: /img/meeting-space.png
+    - serviceImage: /img/magic-pie-copy-icon-video.svg
       serviceTitle: video scripts.
       serviceSubtitle: >
         It’s a lot easier to make high-quality video content when you’ve got a

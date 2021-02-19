@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import styled from 'styled-components';
+import PageTransition from 'gatsby-plugin-page-transitions';
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -25,7 +26,7 @@ export const ServicesPageTemplate = ({
   intro,
   cta,
 }) => (
-  <div>
+  <PageTransition>
     <Hero
       maxWidth
       center
@@ -44,7 +45,7 @@ export const ServicesPageTemplate = ({
         subtitle2={cta.subtitle2}
         buttonTitle2={cta.buttonTitle2}
       />
-  </div>
+  </PageTransition>
 )
 
 ServicesPageTemplate.propTypes = {
@@ -106,12 +107,8 @@ export const servicesPageQuery = graphql`
           services {
             serviceTitle
             serviceSubtitle
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+            serviceImage {
+              publicURL
             }
           }
         }

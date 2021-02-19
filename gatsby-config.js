@@ -7,6 +7,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-plugin-page-transitions',
+      options: {
+        transitionTime: 350
+      }
+    },
+    {
        resolve: 'gatsby-plugin-sass',
        options: {
          indentedSyntax: true,

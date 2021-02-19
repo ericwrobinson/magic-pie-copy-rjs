@@ -35,7 +35,7 @@ const ButtonComponent = styled.div`
 const ButtonCopy = styled.span`
 	font-size: 21px;
 	font-weight: bold;
-	letter-spacing: .6px;
+	letter-spacing: 1px;
 	line-height: 1.6;
 	font-family: Gastromond, serif;
 `;

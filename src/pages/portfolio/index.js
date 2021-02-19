@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Hero } from '../../components/Sections';
+import PageTransition from 'gatsby-plugin-page-transitions';
 
+import { Hero } from '../../components/Sections';
 import Layout from '../../components/Layout'
 import PortfolioRoll from '../../components/PortfolioRoll'
 import { PortfolioServices } from '../../components/Sections';
@@ -18,26 +19,28 @@ export default class PortfolioIndexPage extends React.Component {
       buttonTitle = '';
 
     return (
-      <Layout>
-      
-        <Hero
-          divider
-          maxWidth
-          center
-          headerTitle={title}
-          subtitle={subtitle}/>
+      <PageTransition>
+        <Layout>
+        
+          <Hero
+            divider
+            maxWidth
+            center
+            headerTitle={title}
+            subtitle={subtitle}/>
 
-        <SectionWrapper className="section">
-          <div className="container">
-            <PortfolioRoll />
-          </div>
-        </SectionWrapper>
+          <SectionWrapper className="section">
+            <div className="container">
+              <PortfolioRoll />
+            </div>
+          </SectionWrapper>
 
-        <PortfolioServices
-          headerTitle={'need something done? \nsee what we can do.'}
-          subtitle={'So now that you’ve read and seen the work we’ve done, check out the services we offer and then let us know how we can make your business better.'}
-          buttonTitle={'our services'}/>
-      </Layout>
+          <PortfolioServices
+            headerTitle={'need something done? \nsee what we can do.'}
+            subtitle={'So now that you’ve read and seen the work we’ve done, check out the services we offer and then let us know how we can make your business better.'}
+            buttonTitle={'our services'}/>
+        </Layout>
+      </PageTransition>
     )
   }
 }
