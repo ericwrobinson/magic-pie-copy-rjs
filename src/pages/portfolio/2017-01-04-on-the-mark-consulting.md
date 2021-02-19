@@ -1,13 +1,12 @@
 ---
-templateKey: 'portfolio-post'
+templateKey: portfolio-post
 date: 2020-01-01T15:05:10.000Z
 featuredpost: false
-featuredimage: /img/chemex.jpg
+title: On the Mark Consulting
+subtitle: We’re proud to announce that we’ll be offering a small batch of
+  Jamaica Blue Mountain coffee beans in our store next week.
+featuredimage: ""
 logoWhite: /img/onthemark-white.png
-title: 'On the Mark Consulting'
-subtitle: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
 tags:
   - website copywriting
 ---

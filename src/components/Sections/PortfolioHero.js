@@ -8,6 +8,7 @@ import { SiteContent } from '../Layouts';
 
 import homeHero from '../../img/magic-pie-copy-home-hero.svg';
 import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
+
 const propTypes = {
 },
 defaultProps = {
@@ -45,17 +46,13 @@ const HeaderWrapper = styled.div`
 	};
 
   @media only screen and (max-width: 780px) {
-
 	}
 
 	@media only screen and (max-width: 580px) {
-
 	}
 
 	@media only screen and (max-width: 400px) {
-
 	}
-
 `;
 
 const BackgroundOverlay = styled.div`
@@ -69,8 +66,6 @@ const BackgroundOverlay = styled.div`
   left: 0;
   bottom: 0;
 `;
-
-
 
 const PortfolioHero = ({ 
 	children, 
@@ -91,7 +86,8 @@ const PortfolioHero = ({
 		<Wrapper inverted={featuredimage ? true : inverted}>
 			<HeaderWrapper
 				style={{
-	          backgroundImage: `url(${!featuredimage ? null : featuredimage.childImageSharp ? featuredimage.childImageSharp.fluid.src : featuredimage})`
+	          
+	          	backgroundImage: `url(${!featuredimage ? null : featuredimage.childImageSharp ? featuredimage.childImageSharp.fluid.src : featuredimage})`
 	        }}
 				featuredimage={featuredimage}
 				inverted={isInverted}>

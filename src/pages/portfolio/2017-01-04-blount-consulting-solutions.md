@@ -1,13 +1,12 @@
 ---
-templateKey: 'portfolio-post'
+templateKey: portfolio-post
 date: 2020-01-01T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+title: Blount Consulting Solutions
+subtitle: We’re proud to announce that we’ll be offering a small batch of
+  Jamaica Blue Mountain coffee beans in our store next week.
+featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/blount-white.png
-title: 'Blount Consulting Solutions'
-subtitle: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
 tags:
   - website copywriting
 ---
