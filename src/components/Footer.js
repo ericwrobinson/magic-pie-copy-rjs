@@ -63,13 +63,13 @@ const Copyright = styled.span`
 `;
 
 const Copyright2 = styled.span`
-  font-size: 10px;
+  font-size: 12px;
   width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
   margin-bottom: 44px;
-  color: #471bf4;
+  color: black;
 
   a {
     padding-left: 1.5px;
@@ -149,7 +149,7 @@ const Footer = class extends React.Component {
               </div>
           </Wrapper>
           <Copyright>© Copyright 2021 Magic Pie Copywriting LLC. All Rights Reserved.</Copyright>
-          <Copyright2>Website Design & Development by  <br/><a href="" target="_blank"> Thumbs Up Studio LLC</a></Copyright2>
+          <Copyright2>Website Designed & Developed by  <br/><a href="" target="_blank"> Thumbs Up Studio LLC</a></Copyright2>
 
       </footer>
     )
