@@ -54,13 +54,13 @@ const Image = styled.div`
 `;
 
 const Divider = styled.img`
-	width: 100%;
+	width: 180%;
 	transform: ${({ inverted }) => inverted ? null : 'rotate(180deg)' };
 	margin-bottom: -10px;
 `;
 
 const HeroWrapper = styled.div`
-  min-height: ${({ minHeight }) => minHeight ? minHeight : '500px'};
+  min-height: ${({ minHeight }) => minHeight ? minHeight : '600px'};
   height: ${({ height }) => height ? height : '40vh'};
   background-color: ${({ inverted, backgroundColor }) => backgroundColor ? backgroundColor : inverted ? 'black' : '#f2f2f2' };
   color: ${({ inverted }) => inverted ? '#f2f2f2' : 'black' };

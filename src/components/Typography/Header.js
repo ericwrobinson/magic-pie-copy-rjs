@@ -75,7 +75,7 @@ const HeaderH2 = styled.h2`
 const HeaderH3 = styled.h3`
   font-family: kansasnew, serif;
   font-weight: bold;
-	font-size: 36px;
+	font-size: 42px;
 	letter-spacing: -1px;
 	margin-bottom: 9px;
 	color: ${({color}) => color};
