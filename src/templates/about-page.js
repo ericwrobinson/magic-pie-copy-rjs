@@ -15,9 +15,7 @@ import { Hero,
 
 
 export const AboutPageTemplate = ({
-  image,
-  title,
-  subtitle,
+  hero,
   intro,
   partners
 }) => (
@@ -27,9 +25,9 @@ export const AboutPageTemplate = ({
       center
       inverted
       divider
-      headerTitle={title}
-      subtitle={subtitle}
-      image={image}
+      headerTitle={hero.title}
+      subtitle={hero.subtitle}
+      image={hero.image}
     />
 
     <Hero
@@ -58,23 +56,25 @@ export const AboutPageTemplate = ({
       image1={partners.partnerLogo1}
       headerTitle1={partners.partnerType1}
       buttonTitle1={partners.partnerButtonTitle1}
-      linkTo1={partners.partnerButtongLink1}
+      linkTo1={partners.partnerButtonLink1}
       image2={partners.partnerLogo2}
       headerTitle2={partners.partnerType2}
       buttonTitle2={partners.partnerButtonTitle2}
-      linkTo2={partners.partnerButtongLink2}
+      linkTo2={partners.partnerButtonLink2}
       image3={partners.partnerLogo3}
       headerTitle3={partners.partnerType3}
       buttonTitle3={partners.partnerButtonTitle3}
-      linkTo3={partners.partnerButtongLink3}
+      linkTo3={partners.partnerButtonLink3}
     />
   </div>
 )
 
-AboutPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  subtitle: PropTypes.string,
+AboutPageTemplate.propTypes = { 
+  intro: PropTypes.shape({
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  }),
   intro: PropTypes.shape({
     title: PropTypes.string,
     subtitle: PropTypes.string,
@@ -88,13 +88,10 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-  console.log('frontmatter', frontmatter)
   return (
     <Layout>
       <AboutPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        subtitle={frontmatter.subtitle}
+        hero={frontmatter.hero}
         intro={frontmatter.intro}
         partners={frontmatter.partners}
       />
@@ -116,15 +113,17 @@ export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+        hero {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
+          title
+          subtitle
         }
-        title
-        subtitle
         intro {
           title
           subtitle
@@ -142,7 +141,7 @@ export const aboutPageQuery = graphql`
           }
           partnerType1
           partnerButtonTitle1
-          partnerButtongLink1
+          partnerButtonLink1
           partnerLogo2 {
             childImageSharp {
               fluid(maxWidth: 800, quality: 100) {
@@ -152,7 +151,7 @@ export const aboutPageQuery = graphql`
           }
           partnerType2
           partnerButtonTitle2
-          partnerButtongLink2
+          partnerButtonLink2
           partnerLogo3 {
             childImageSharp {
               fluid(maxWidth: 800, quality: 100) {
@@ -162,7 +161,7 @@ export const aboutPageQuery = graphql`
           }
           partnerType3
           partnerButtonTitle3
-          partnerButtongLink3
+          partnerButtonLink3
         }
       }
     }

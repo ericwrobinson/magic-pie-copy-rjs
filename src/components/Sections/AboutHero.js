@@ -38,23 +38,28 @@ const Image = styled.div`
   text-align: center;
   background-position: center;
 	margin: 0 auto;
-	margin-bottom: -120px;
-	z-index: -1;
+	margin-bottom: -110px;
 
-	@media only screen and (min-width: 1600px) {
+	@media only screen and (min-width: 1800px) {
 		width:  80%;
-		margin-bottom: -230px;
+		margin-bottom: -200px;
 	}
 
 	@media only screen and (max-width: 980px) {
+		width:  70%;
+		margin-bottom: -80px;
+	}
+
+	@media only screen and (max-width: 780px) {
 		width:  80%;
+		margin-bottom: -80px;
 	}
 
 	@media only screen and (max-width: 580px) {
 		width:  80%;
 		margin: 0 auto;
 		min-height: 400px;
-		margin-bottom: -50px;
+		margin-bottom: -40px;
 	}
 
 `;
@@ -63,11 +68,11 @@ const Divider = styled.img`
 	width: 100%;
 	transform: ${({ inverted }) => inverted ? null : 'rotate(180deg)' };
 	margin-bottom: -10px;
+	z-index: 1;
 `;
 
 const HeroWrapper = styled.div`
-  min-height: ${({ minHeight }) => minHeight ? minHeight : '200px'};
-  height: ${({ height }) => height ? height : '30vh'};
+  min-height: ${({ minHeight }) => minHeight ? minHeight : '300px'};
   padding-top: 140px;
   background-color: ${({ inverted, backgroundColor }) => backgroundColor ? backgroundColor : inverted ? 'black' : '#f2f2f2' };
   color: ${({ inverted }) => inverted ? '#f2f2f2' : 'black' };
