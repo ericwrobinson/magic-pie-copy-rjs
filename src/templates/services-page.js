@@ -107,12 +107,8 @@ export const servicesPageQuery = graphql`
           services {
             serviceTitle
             serviceSubtitle
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+            serviceImage {
+              publicURL
             }
           }
         }

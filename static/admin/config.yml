@@ -79,7 +79,8 @@ collections:
           - {label: Hero, name: hero, widget: object, fields: [
               {label: Title, name: title, widget: markdown},
               {label: Subtitle, name: subtitle, widget: markdown},
-              {label: ButtonTitle, name: buttonTitle, widget: string},
+              {label: ButtonTitle, name: buttonTitle, widget: string, required: false},
+              {label: Button URL, name: buttonUrl, widget: string, required: false},
               {label: Image, name: image, widget: image}
           ]}
           - {label: Intro, name: intro, widget: object, fields: [
