@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
+import PageTransition from 'gatsby-plugin-page-transitions';
 
 import Layout from '../components/Layout';
 import {  HomePageHero,
@@ -19,43 +20,45 @@ export const IndexPageTemplate = ({
   why
 }) => {
   return (
-  <div>
-    <HomePageHero
-      headerTitle={hero.title}
-      subtitle={hero.subtitle}
-      buttonTitle={hero.buttonTitle}
-    />
+    <PageTransition>
+      <div>
+        <HomePageHero
+          headerTitle={hero.title}
+          subtitle={hero.subtitle}
+          buttonTitle={hero.buttonTitle}
+        />
 
-    <HomePageWork
-      headerTitle={work.title}
-      subtitle={work.subtitle}
-      buttonTitle={work.buttonTitle}
-      workLogo1={!!work.workLogo1.childImageSharp ? work.workLogo1.childImageSharp.fluid.src : work.workLogo1}
-      workLogo2={!!work.workLogo2.childImageSharp ? work.workLogo2.childImageSharp.fluid.src : work.workLogo2}
-      workLogo3={!!work.workLogo3.childImageSharp ? work.workLogo3.childImageSharp.fluid.src : work.workLogo3}
-      workLogo4={!!work.workLogo4.childImageSharp ? work.workLogo4.childImageSharp.fluid.src : work.workLogo4}
-    />      
+        <HomePageWork
+          headerTitle={work.title}
+          subtitle={work.subtitle}
+          buttonTitle={work.buttonTitle}
+          workLogo1={!!work.workLogo1.childImageSharp ? work.workLogo1.childImageSharp.fluid.src : work.workLogo1}
+          workLogo2={!!work.workLogo2.childImageSharp ? work.workLogo2.childImageSharp.fluid.src : work.workLogo2}
+          workLogo3={!!work.workLogo3.childImageSharp ? work.workLogo3.childImageSharp.fluid.src : work.workLogo3}
+          workLogo4={!!work.workLogo4.childImageSharp ? work.workLogo4.childImageSharp.fluid.src : work.workLogo4}
+        />      
 
-    <HomePageServices
-      headerTitle={services.title}
-      subtitle={services.subtitle}
-      buttonTitle={services.buttonTitle}
-      serviceTitle1={services.service1Title}
-      serviceSubtitle1={services.service1Subtitle}
-      serviceTitle2={services.service2Title}
-      serviceSubtitle2={services.service2Subtitle}
-      serviceTitle3={services.service3Title}
-      serviceSubtitle3={services.service3Subtitle}
-      serviceTitle4={services.service4Title}
-      serviceSubtitle4={services.service4Subtitle}
-    />
+        <HomePageServices
+          headerTitle={services.title}
+          subtitle={services.subtitle}
+          buttonTitle={services.buttonTitle}
+          serviceTitle1={services.service1Title}
+          serviceSubtitle1={services.service1Subtitle}
+          serviceTitle2={services.service2Title}
+          serviceSubtitle2={services.service2Subtitle}
+          serviceTitle3={services.service3Title}
+          serviceSubtitle3={services.service3Subtitle}
+          serviceTitle4={services.service4Title}
+          serviceSubtitle4={services.service4Subtitle}
+        />
 
-    <HomePageWhy
-      headerTitle={why.title}
-      subtitle={why.subtitle}
-      buttonTitle={why.buttonTitle}
-    />
-  </div>
+        <HomePageWhy
+          headerTitle={why.title}
+          subtitle={why.subtitle}
+          buttonTitle={why.buttonTitle}
+        />
+      </div>
+    </PageTransition>
 )}
 
 IndexPageTemplate.propTypes = {

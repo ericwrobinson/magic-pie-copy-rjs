@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import PageTransition from 'gatsby-plugin-page-transitions';
 
 import { kebabCase } from 'lodash';
 import { Helmet } from 'react-helmet';
@@ -31,7 +32,7 @@ export const PortfolioPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <React.Fragment>
+    <PageTransition>
       <PortfolioHero
           maxWidth
           center
@@ -65,7 +66,7 @@ export const PortfolioPostTemplate = ({
           </div>
         </div>
       </section>
-    </React.Fragment>
+    </PageTransition>
   )
 }
 

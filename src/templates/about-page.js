@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import styled from 'styled-components';
+import PageTransition from 'gatsby-plugin-page-transitions';
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -19,54 +20,56 @@ export const AboutPageTemplate = ({
   intro,
   partners
 }) => (
-  <div>
-    <AboutHero
-      maxWidth
-      center
-      inverted
-      divider
-      headerTitle={hero.title}
-      subtitle={hero.subtitle}
-      image={hero.image}
-    />
+  <PageTransition>
+    <div>
+      <AboutHero
+        maxWidth
+        center
+        inverted
+        divider
+        headerTitle={hero.title}
+        subtitle={hero.subtitle}
+        image={hero.image}
+      />
 
-    <Hero
-      maxWidth
-      center
-      h2
-      height={'300px'}
-      backgroundColor={'white'}
-      headerTitle={intro.title}
-      subtitle={intro.subtitle}
-      buttonTitle={intro.buttonTitle}
-      linkTo={'/services'}
-    />
+      <Hero
+        maxWidth
+        center
+        h2
+        height={'300px'}
+        backgroundColor={'white'}
+        headerTitle={intro.title}
+        subtitle={intro.subtitle}
+        buttonTitle={intro.buttonTitle}
+        linkTo={'/services'}
+      />
 
-    <Hero
-      maxWidth
-      center
-      h2
-      minHeight={'400px'}
-      height={'400px'}
-      headerTitle={partners.title}
-      subtitle={partners.subtitle}
-    />
+      <Hero
+        maxWidth
+        center
+        h2
+        minHeight={'400px'}
+        height={'400px'}
+        headerTitle={partners.title}
+        subtitle={partners.subtitle}
+      />
 
-    <ThreeCol
-      image1={partners.partnerLogo1}
-      headerTitle1={partners.partnerType1}
-      buttonTitle1={partners.partnerButtonTitle1}
-      linkTo1={partners.partnerButtonLink1}
-      image2={partners.partnerLogo2}
-      headerTitle2={partners.partnerType2}
-      buttonTitle2={partners.partnerButtonTitle2}
-      linkTo2={partners.partnerButtonLink2}
-      image3={partners.partnerLogo3}
-      headerTitle3={partners.partnerType3}
-      buttonTitle3={partners.partnerButtonTitle3}
-      linkTo3={partners.partnerButtonLink3}
-    />
-  </div>
+      <ThreeCol
+        image1={partners.partnerLogo1}
+        headerTitle1={partners.partnerType1}
+        buttonTitle1={partners.partnerButtonTitle1}
+        linkTo1={partners.partnerButtonLink1}
+        image2={partners.partnerLogo2}
+        headerTitle2={partners.partnerType2}
+        buttonTitle2={partners.partnerButtonTitle2}
+        linkTo2={partners.partnerButtonLink2}
+        image3={partners.partnerLogo3}
+        headerTitle3={partners.partnerType3}
+        buttonTitle3={partners.partnerButtonTitle3}
+        linkTo3={partners.partnerButtonLink3}
+      />
+    </div>
+  </PageTransition>
 )
 
 AboutPageTemplate.propTypes = { 
