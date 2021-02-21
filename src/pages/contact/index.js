@@ -29,6 +29,16 @@ const Wrapper = styled.div`
   }
 `;
 
+const Subheading = styled.div`
+  text-transform: uppercase;
+  font-six: 18px;
+  letter-spacing: 3px;
+  font-family: sofia-pro, sans-serif;
+  font-weight: bold;
+  padding-bottom: 18px;
+  color: rgba(0, 0, 0, .4);
+`;
+
 const HalfWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -87,6 +97,9 @@ export default class Index extends React.Component {
             <div className="container">
               <Wrapper>
                 <HalfWrapper>
+                  <Subheading>
+                    Contact
+                  </Subheading>
                   <Header h2>let’s make some magic happen.</Header>
                   <Body>{bodyCopy}</Body>
                 </HalfWrapper>

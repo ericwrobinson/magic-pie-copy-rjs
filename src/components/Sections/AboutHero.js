@@ -32,6 +32,16 @@ const HeroImage = styled.img`
 	}
 `;
 
+const Subheading = styled.div`
+	text-transform: uppercase;
+	font-six: 18px;
+	letter-spacing: 3px;
+	font-family: sofia-pro, sans-serif;
+	font-weight: bold;
+	padding-bottom: 18px;
+	color: ${({ inverted }) => inverted ? 'rgba(255, 255, 255, .4)' : 'rgba(0, 0, 0, .4)' };
+`;
+
 const ContentWrapper = styled.div``;
 
 const Image = styled.div`
@@ -127,7 +137,8 @@ const AboutHero = ({
 	backgroundColor,
 	h2,
 	linkTo,
-	image
+	image,
+	subheading
 	}) => {
 
 	let heading = h2 ? true : false;
@@ -141,6 +152,12 @@ const AboutHero = ({
 				inverted={inverted}>
 				<SiteContent
 					center>
+					{ subheading &&
+						<Subheading
+							inverted={inverted}>
+							{subheading}
+						</Subheading>
+					}
 					<Header 
 						h1={!h2}
 						h2={h2}

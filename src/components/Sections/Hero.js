@@ -22,6 +22,16 @@ const Wrapper = styled.div`
 
 `;
 
+const Subheading = styled.div`
+	text-transform: uppercase;
+	font-six: 18px;
+	letter-spacing: 3px;
+	font-family: sofia-pro, sans-serif;
+	font-weight: bold;
+	padding-bottom: 18px;
+	color: ${({ inverted }) => inverted ? 'rgba(255, 255, 255, .4)' : 'rgba(0, 0, 0, .4)' };
+`;
+
 const HeroImage = styled.img`
 	width: 850px;
 	margin: 0 auto;
@@ -75,15 +85,12 @@ const HeroWrapper = styled.div`
 	};
 
   @media only screen and (max-width: 780px) {
-
 	}
 
 	@media only screen and (max-width: 580px) {
-
 	}
 
 	@media only screen and (max-width: 400px) {
-
 	}
 
 `;
@@ -105,11 +112,11 @@ const Hero = ({
 	backgroundColor,
 	h2,
 	linkTo,
-	image
+	image,
+	subheading
 	}) => {
 
 	let heading = h2 ? true : false;
-
 	return (
 		<Wrapper inverted={inverted}>
 			<HeroWrapper
@@ -119,6 +126,12 @@ const Hero = ({
 				inverted={inverted}>
 				<SiteContent
 					center>
+					{ subheading &&
+						<Subheading
+							inverted={inverted}>
+							{subheading}
+						</Subheading>
+					}
 					<Header 
 						h1={!h2}
 						h2={h2}

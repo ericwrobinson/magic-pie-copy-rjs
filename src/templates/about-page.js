@@ -27,6 +27,7 @@ export const AboutPageTemplate = ({
         center
         inverted
         divider
+        subheading={hero.subheading}
         headerTitle={hero.title}
         subtitle={hero.subtitle}
         image={hero.image}
@@ -125,6 +126,7 @@ export const aboutPageQuery = graphql`
               }
             }
           }
+          subheading
           title
           subtitle
         }

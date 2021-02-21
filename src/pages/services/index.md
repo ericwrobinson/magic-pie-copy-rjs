@@ -1,6 +1,7 @@
 ---
 templateKey: services-page
 path: /services
+subheading: Services 
 image: /img/jumbotron.jpg
 title: what'll it be?
 subtitle: Whether it’s social media, websites, print material, your next video

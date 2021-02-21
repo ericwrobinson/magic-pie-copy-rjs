@@ -23,6 +23,7 @@ export const ServicesPageTemplate = ({
   image,
   title,
   subtitle,
+  subheading,
   intro,
   cta,
 }) => (
@@ -30,6 +31,7 @@ export const ServicesPageTemplate = ({
     <Hero
       maxWidth
       center
+      subheading={subheading}
       headerTitle={title}
       subtitle={subtitle}/>
     <GridWrapper className="columns">
@@ -73,6 +75,7 @@ const ServicesPage = ({ data }) => {
     <Layout>
       <ServicesPageTemplate
         image={frontmatter.image}
+        subheading={frontmatter.subheading}
         title={frontmatter.title}
         subtitle={frontmatter.subtitle}
         intro={frontmatter.intro}
@@ -103,6 +106,7 @@ export const servicesPageQuery = graphql`
             }
           }
         }
+        subheading
         title
         subtitle
         intro {
