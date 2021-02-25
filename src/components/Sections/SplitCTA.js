@@ -28,6 +28,7 @@ const ContentWrapper = styled.div`
 
 	@media only screen and (max-width: 780px) {
   	flex-direction: column;
+		padding: 16px;
 	}
 `;
 

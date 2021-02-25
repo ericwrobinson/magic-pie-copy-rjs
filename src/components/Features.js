@@ -7,7 +7,10 @@ import { Header,
 import { SiteContent } from '../components/Layouts';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-const GridWrapper = styled.div``;
+const GridWrapper = styled.div`
+  padding: 0 12px 0 12px;
+  margin-top: 2px;
+`;
 
 const ImageWrapper = styled.div`
   display: flex;
@@ -16,12 +19,17 @@ const ImageWrapper = styled.div`
   max-height: 321px;
 
   @media only screen and (max-width: 1300px) {
-    width: 65%;
+    width: 100%;
   }
 
   @media only screen and (max-width: 980px) {
     margin-bottom: 44px;
     max-width: 400px;
+    min-height: 150px;
+
+    img {
+      min-height: 150px;
+    }
   }
 `;
 
@@ -45,20 +53,24 @@ const Wrapper = styled.div`
     width: 100%;
     left: ${({ even }) => even ? '15px' : '-15px'};
     top: 15px;
-
-
     z-index: -1;
   }
 
   @media only screen and (max-width: 980px) {
     flex-direction: column;
-  }
-
-  @media only screen and (max-width: 980px) {
     padding: 80px 42px;
   }
   @media only screen and (max-width: 580px) {
-
+    &:after {
+      content: '';
+      background-color: ${({ even }) => even ? '#0045FF' : '#FF0000'};
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: ${({ even }) => even ? '10px' : '-10px'};
+      top: 10px;
+      z-index: -1;
+    }
   }
 
   @media only screen and (max-width: 400px) {

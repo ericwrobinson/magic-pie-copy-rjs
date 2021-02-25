@@ -64,9 +64,13 @@ const Image = styled.div`
 `;
 
 const Divider = styled.img`
-	width: 180%;
+	width: 100%;
 	transform: ${({ inverted }) => inverted ? null : 'rotate(180deg)' };
 	margin-bottom: -10px;
+
+	@media only screen and (max-width: 580px) {
+		min-width:  100.1%;
+	}
 `;
 
 const HeroWrapper = styled.div`

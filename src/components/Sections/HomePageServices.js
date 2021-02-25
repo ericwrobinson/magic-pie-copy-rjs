@@ -35,6 +35,10 @@ const Divider = styled.img`
 	width: 100%;
 	transform: rotate(180deg);
   margin-bottom: -10px;
+
+	@media only screen and (max-width: 580px) {
+		min-width:  100.1%;
+	}
 `;
 
 const ServiceWrapper = styled.div`

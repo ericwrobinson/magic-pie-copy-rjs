@@ -24,6 +24,10 @@ const Divider = styled.img`
   z-index: 2;
 	width: 100%;
 	bottom: -5px;
+
+	@media only screen and (max-width: 580px) {
+		min-width:  100.1%;
+	}
 `;
 
 const HeaderWrapper = styled.div`

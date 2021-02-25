@@ -22,6 +22,8 @@ export const IndexPageTemplate = ({
   return (
     <PageTransition>
       <HomePageHero
+        maxWidth
+        center
         headerTitle={hero.title}
         subtitle={hero.subtitle}
         buttonTitle={hero.buttonTitle}

@@ -34,7 +34,7 @@ export const ServicesPageTemplate = ({
       subheading={subheading}
       headerTitle={title}
       subtitle={subtitle}/>
-    <GridWrapper className="columns">
+    <GridWrapper>
       <div className="column is-10 is-offset-1">
         <Features gridItems={intro.services} />
       </div>

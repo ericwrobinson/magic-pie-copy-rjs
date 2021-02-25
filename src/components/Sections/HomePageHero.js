@@ -40,6 +40,11 @@ const ContentWrapper = styled.div``;
 
 const Divider = styled.img`
 	width: 100%;
+	margin-top: -8px;
+
+	@media only screen and (max-width: 580px) {
+		min-width:  100.1%;
+	}
 `;
 
 const WhyWrapper = styled.div`

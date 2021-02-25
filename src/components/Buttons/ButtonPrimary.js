@@ -15,7 +15,7 @@ const ButtonComponent = styled.div`
 	border-radius: 40px;
 	height: 40px;
 	min-width: 121px;
-	max-width: 352px;
+	max-width: 400px;
 	background-color: ${({ inverted }) => inverted ? Colors.White : Colors.Black };
 	color: ${({ inverted }) => inverted ? Colors.Black : Colors.White };
 	display: flex;
