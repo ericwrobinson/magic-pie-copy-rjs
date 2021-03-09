@@ -86,7 +86,9 @@ const HomePageHero = ({ children, headerTitle, subtitle, buttonTitle, linkTo }) 
 							{headerTitle}
 			      </Header>
 	      	</HeaderHider>
-		      <Body paddingBottom>
+		      <Body 
+		      	paddingBottom
+		      	color="#c4c4c4">
 		      	{subtitle}
 		      </Body>
 		      <ButtonPrimary 

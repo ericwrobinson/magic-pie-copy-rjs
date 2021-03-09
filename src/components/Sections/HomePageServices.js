@@ -138,7 +138,7 @@ const HomePageServices = ({
 			      	<Header h4 color='white'>
 								{serviceTitle1}
 				      </Header>
-				      <Body>
+				      <Body color="#c4c4c4">
 				      	{serviceSubtitle1}
 				      </Body>
 			      </ServiceWrapper>
@@ -149,7 +149,7 @@ const HomePageServices = ({
 			      	<Header h4 color='white'>
 								{serviceTitle2}
 				      </Header>
-				      <Body>
+				      <Body color="#c4c4c4">
 				      	{serviceSubtitle2}
 				      </Body>
 			      </ServiceWrapper>
@@ -160,7 +160,7 @@ const HomePageServices = ({
 			      	<Header h4 color='white'>
 								{serviceTitle3}
 				      </Header>
-				      <Body>
+				      <Body color="#c4c4c4">
 				      	{serviceSubtitle3}
 				      </Body>
 			      </ServiceWrapper>
@@ -171,7 +171,7 @@ const HomePageServices = ({
 				    	<Header h4 color='white'>
 								{serviceTitle4}
 				      </Header>
-				      <Body>
+				      <Body color="#c4c4c4">
 				      	{serviceSubtitle4}
 				      </Body>
 				    </ServiceWrapper>

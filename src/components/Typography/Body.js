@@ -12,7 +12,7 @@ const propTypes = {
 defaultProps = {
 	color  	 : Colors.Grey,
 	fontSize : 21,
-	lineHeight : 36,
+	lineHeight : 31,
 }
 
 	function _lineHeightAdjust ( tight, lineHeight ) {

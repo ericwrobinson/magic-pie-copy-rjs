@@ -108,7 +108,7 @@ const FeatureGrid = ({ gridItems }) => {
 
               <ContentWrapper even={index % 2 === 0}>
                 <Header h3 color="white">{item.serviceTitle}</Header>
-                <Body>{item.serviceSubtitle}</Body>
+                <Body color="#c4c4c4">{item.serviceSubtitle}</Body>
               </ContentWrapper>
 
             </Wrapper>
