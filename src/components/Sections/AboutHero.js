@@ -6,7 +6,7 @@ import { Header,
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
-import homeHero from '../../img/magic-pie-copy-home-hero.svg';
+// import homeHero from '../../img/magic-pie-copy-home-hero.svg';
 import curvesBlackTop from '../../img/curves/curves-black-top.svg';
 import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
 import linkedinWhite from '../../img/social/linkedin-white.svg';
@@ -23,26 +23,15 @@ const Wrapper = styled.div`
 
 `;
 
-const HeroImage = styled.img`
-	width: 850px;
-	margin: 0 auto;
-
-	@media only screen and (max-width: 780px) {
-		width: 100%;
-	}
-`;
-
 const Subheading = styled.div`
 	text-transform: uppercase;
-	font-six: 18px;
+	font-size: 18px;
 	letter-spacing: 3px;
 	font-family: sofia-pro, sans-serif;
 	font-weight: bold;
 	padding-bottom: 18px;
 	color: ${({ inverted }) => inverted ? 'rgba(255, 255, 255, .4)' : 'rgba(0, 0, 0, .4)' };
 `;
-
-const ContentWrapper = styled.div``;
 
 const Image = styled.div`
 	width:  80%;
@@ -141,8 +130,6 @@ const AboutHero = ({
 	subheading
 	}) => {
 
-	let heading = h2 ? true : false;
-
 	return (
 		<Wrapper inverted={inverted}>
 			<HeroWrapper
@@ -175,6 +162,7 @@ const AboutHero = ({
 		      <a 
 		      	href={'https://www.linkedin.com/company/magic-pie-copywriting-company/'} 
 		      	target="_blank"
+						rel="noreferrer"
 		      	alt={'link to Magic Pie Copy LinkedIn'}>
 		      	<LinkedInWrapper src={linkedinWhite} alt="LinkedIn icon"/>
 		      	</a>

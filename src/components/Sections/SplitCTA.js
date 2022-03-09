@@ -6,8 +6,6 @@ import { Header,
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
-import questionMark from '../../img/curves/question-mark-bubbble.svg';
-
 const propTypes = {
 	linkTo1: PropTypes.string,
 	linkTo2: PropTypes.string,

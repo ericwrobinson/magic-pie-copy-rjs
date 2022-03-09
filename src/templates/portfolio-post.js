@@ -7,13 +7,13 @@ import { kebabCase } from 'lodash';
 import { Helmet } from 'react-helmet';
 import { graphql, Link } from 'gatsby';
 
-import { Header,
-         Body } from '../components/Typography';
+// import { Header,
+//          Body } from '../components/Typography';
 import { PortfolioHero } from '../components/Sections';
 
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+// import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const ContentWrapper = styled.div`
   margin-top: 44px;

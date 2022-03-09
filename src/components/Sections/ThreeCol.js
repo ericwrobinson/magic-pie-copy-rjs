@@ -1,8 +1,9 @@
 import React from "react";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Header,
-				 Body } from '../Typography';
+				//  Body 
+				} from '../Typography';
 import { NewLink } from '../Buttons';
 import { SiteContent } from '../Layouts';
 

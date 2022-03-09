@@ -7,7 +7,7 @@ import { SiteContent } from './Layouts';
 
 import logo from '../img/logo.svg'
 import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
+// import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import linkedin from '../img/social/linkedin.svg'
 
@@ -123,14 +123,14 @@ const Footer = class extends React.Component {
                 </div>
 
                 <div className="row is-4 is-center social">
-                  <a title="facebook" target="_blank" href="https://www.facebook.com/MagicPieCopy/">
+                  <a title="facebook" target="_blank" rel="noreferrer" href="https://www.facebook.com/MagicPieCopy/">
                     <img
                       src={facebook}
                       alt="Facebook"
                       style={{ width: '1em', height: '1em' }}
                     />
                   </a>
-                  <a title="twitter" target="_blank" href="https://twitter.com/MagicPieCopy">
+                  <a title="twitter" target="_blank" rel="noreferrer" href="https://twitter.com/MagicPieCopy">
                     <img
                       className="fas fa-lg"
                       src={twitter}
@@ -138,7 +138,7 @@ const Footer = class extends React.Component {
                       style={{ width: '1em', height: '1em' }}
                     />
                   </a>
-                  <a title="linkedin" target="_blank" href="https://www.linkedin.com/company/magic-pie-copywriting-company/">
+                  <a title="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/magic-pie-copywriting-company/">
                     <img
                       src={linkedin}
                       alt="Linkedin"
@@ -149,7 +149,7 @@ const Footer = class extends React.Component {
               </div>
           </Wrapper>
           <Copyright>© Copyright 2021 Magic Pie Copywriting LLC. All Rights Reserved.</Copyright>
-          <Copyright2>Website Designed & Developed by  <br/><a href="" target="_blank"> Thumbs Up Studio LLC</a></Copyright2>
+          <Copyright2>Website Designed & Developed by  <br/><a href="https://www.thumbsupstudio.com" target="_blank" rel="noreferrer"> Thumbs Up Studio LLC</a></Copyright2>
 
       </footer>
     )

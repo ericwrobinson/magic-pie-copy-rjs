@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import PageTransition from 'gatsby-plugin-page-transitions';
 
 import Layout from '../components/Layout';
@@ -8,10 +8,11 @@ import {  HomePageHero,
           HomePageWork,
           HomePageServices,
           HomePageWhy } from '../components/Sections';
-import { Header,
+// import { 
+  // Header,
          // SubHeader,
          // Body 
-       } from '../components/Typography';
+      //  } from '../components/Typography';
 
 export const IndexPageTemplate = ({
   hero,

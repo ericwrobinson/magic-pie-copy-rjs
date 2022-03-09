@@ -6,11 +6,11 @@ const ServicesPagePreview = ({ entry, getAsset }) => {
   const entryServices = entry.getIn(['data', 'intro', 'services'])
   const services = entryServices ? entryServices.toJS() : []
 
-  const entryTestimonials = entry.getIn(['data', 'testimonials'])
-  const testimonials = entryTestimonials ? entryTestimonials.toJS() : []
+  // const entryTestimonials = entry.getIn(['data', 'testimonials'])
+  // const testimonials = entryTestimonials ? entryTestimonials.toJS() : []
 
-  const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans'])
-  const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
+  // const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans'])
+  // const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
   return (
     <ServicesPageTemplate
       image={getAsset(entry.getIn(['data', 'image']))}

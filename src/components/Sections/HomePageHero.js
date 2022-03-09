@@ -36,8 +36,6 @@ const HeaderHider = styled.div`
 	opacity: 0;
 `;
 
-const ContentWrapper = styled.div``;
-
 const Divider = styled.img`
 	width: 100%;
 	margin-top: -8px;

@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import PageTransition from 'gatsby-plugin-page-transitions';
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+// import Features from '../components/Features'
+// import Testimonials from '../components/Testimonials'
+// import Pricing from '../components/Pricing'
+// import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import { Hero,
          AboutHero,
@@ -75,7 +75,7 @@ export const AboutPageTemplate = ({
 )
 
 AboutPageTemplate.propTypes = { 
-  intro: PropTypes.shape({
+  hero: PropTypes.shape({
     title: PropTypes.string,
     subtitle: PropTypes.string,
     image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),

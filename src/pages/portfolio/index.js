@@ -16,9 +16,7 @@ export default class PortfolioIndexPage extends React.Component {
     const 
       subheading = 'Work',
       title = 'magic pie works.',
-      subtitle = 'Magic Pie Copywriting means communicating, collaborating, and creating. How do we do it? Usually with a conversation over a cup of coffee or a couple cold ones. Then we work together to identify needs, chalk up a plan of action, and execute shared strategies. The result is rock-solid copy for websites, videos, blogs, social media, and more.',
-      buttonTitle = '';
-
+      subtitle = 'Magic Pie Copywriting means communicating, collaborating, and creating. How do we do it? Usually with a conversation over a cup of coffee or a couple cold ones. Then we work together to identify needs, chalk up a plan of action, and execute shared strategies. The result is rock-solid copy for websites, videos, blogs, social media, and more.';
     return (
       <PageTransition>
         <Layout>

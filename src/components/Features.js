@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { Header,
          Body } from '../components/Typography';
 import { SiteContent } from '../components/Layouts';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+// import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 const GridWrapper = styled.div`
   padding: 0 12px 0 12px;

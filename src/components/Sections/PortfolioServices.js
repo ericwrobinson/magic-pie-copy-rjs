@@ -1,29 +1,15 @@
 import React from "react";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Header,
 				 Body } from '../Typography';
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
-import questionMark from '../../img/curves/question-mark-bubbble.svg';
-
 const propTypes = {
 },
 defaultProps = {
 }
-
-const Divider = styled.img`
-	width: 45%;
-	text-align: right;
-	float: right;
-
-	@media only screen and (max-width: 780px) {
-	  width: 60%;
-	  margin: 0 auto;
-    margin-bottom: 44px;
-	}
-`;
 
 const Wrapper = styled.div``;
 

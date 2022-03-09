@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components';
 import { Link, graphql, StaticQuery } from 'gatsby'
-import { Header,
+import { 
+        // Header,
          Body } from './Typography';
 import { NewLink } from './Buttons';
 
