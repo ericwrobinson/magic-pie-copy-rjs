@@ -1,12 +1,12 @@
 import React from "react";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Header,
 				 Body } from '../Typography';
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
-import homeHero from '../../img/magic-pie-copy-home-hero.svg';
+// import homeHero from '../../img/magic-pie-copy-home-hero.svg';
 import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
 
 const propTypes = {
@@ -16,8 +16,6 @@ defaultProps = {
 
 const Wrapper = styled.div`
 `;
-
-const ContentWrapper = styled.div``;
 
 const Divider = styled.img`
 	position: absolute;
@@ -72,7 +70,7 @@ const BackgroundOverlay = styled.div`
 `;
 
 const PortfolioHero = ({ 
-	children, 
+	// children, 
 	inverted, 
 	headerTitle, 
 	featuredimage,

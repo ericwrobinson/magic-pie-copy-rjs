@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Magic Pie Copy',
-    description:
-      'Copywriting done right.',
+    description: 'Copywriting done right.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -5,7 +5,7 @@ featuredpost: false
 title: On the Mark Consulting
 subtitle: We’re proud to announce that we’ll be offering a small batch of
   Jamaica Blue Mountain coffee beans in our store next week.
-featuredimage: ""
+featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/onthemark-white.png
 tags:
   - website copywriting
