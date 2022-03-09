@@ -42,7 +42,7 @@ services:
   service4Title: video scripts
   service3Title: marketing collateral
   service2Title: blogs + articles
-  service1Title: web copy
+  service1Title: websites
 why:
   title: why magic pie?
   subtitle: >
