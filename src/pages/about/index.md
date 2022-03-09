@@ -2,7 +2,7 @@
 templateKey: about-page
 path: /about
 hero:
-  subheading: About
+  subheading: About Us
   title: okay, you got me.
   subtitle: >-
     Magic Pie Copywriting is really just me, James. I’ve been a professional
