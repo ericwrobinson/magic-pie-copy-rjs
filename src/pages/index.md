@@ -3,10 +3,10 @@ templateKey: index-page
 hero:
   title: |
     copywriting. storytelling. marketing.
-  subtitle: |
+  subtitle: |-
     Websites. Blogs. Articles.
     Video scripts. Social media strategies.
-    You name it, we write it.
+    You name it, we write it. Dude.
   buttonTitle: contact us.
 work:
   title: |
@@ -21,6 +21,7 @@ work:
   workLogo3: /img/fantasypros-black.png
   workLogo4: /img/thumbsupstudio-black.png
   buttonTitle: see our work
+  subheading: yo
 services:
   buttonTitle: learn more
   service1Subtitle: >
