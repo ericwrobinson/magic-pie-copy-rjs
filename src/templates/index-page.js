@@ -8,12 +8,7 @@ import {  HomePageHero,
           HomePageWork,
           HomePageServices,
           HomePageWhy } from '../components/Sections';
-// import { 
-  // Header,
-         // SubHeader,
-         // Body 
-      //  } from '../components/Typography';
-
+          
 export const IndexPageTemplate = ({
   hero,
   work,

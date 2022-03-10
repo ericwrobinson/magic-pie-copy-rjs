@@ -84,7 +84,7 @@ const WorkWrapper = styled.div`
 // <WorkImage src={workLogo4}/>
 
 const HomePageWork = ({ 
-	children, 
+	// children, 
 	headerTitle, 
 	subtitle, 
 	buttonTitle,
