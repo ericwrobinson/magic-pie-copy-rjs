@@ -18,10 +18,10 @@ work:
     Whether you’re starting up or starting over, creating content for your
     business has never been easier. Update your marketing material and enhance
     your brand with a little love from the Magic Pie Copywriting Company.
-  workLogo1: /img/43north-black.png
-  workLogo2: /img/launchny-black.png
-  workLogo3: /img/fantasypros-black.png
-  workLogo4: /img/thumbsupstudio-black.png
+  workLogo1: /img/43north-white.png
+  workLogo2: /img/launchNY-white.png
+  workLogo3: /img/fantasypros-white.png
+  workLogo4: /img/thumbsupstudio-color.jpg
   buttonTitle: see our work
   subheading: yo
 services:
