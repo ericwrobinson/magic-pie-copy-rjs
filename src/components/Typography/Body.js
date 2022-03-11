@@ -1,7 +1,7 @@
 import React          from "react";
 import PropTypes 			from 'prop-types';
 import styled         from 'styled-components';
-import { Colors } 		from '../Layouts/Colors';
+import { colors } 		from '../../theme';
 
 
 const propTypes = {
@@ -10,7 +10,7 @@ const propTypes = {
 	lineHeight : PropTypes.number,
 },
 defaultProps = {
-	color  	 : Colors.Grey,
+	color  	 : colors.black,
 	fontSize : 21,
 	lineHeight : 31,
 }

@@ -7,12 +7,12 @@ import { Header,
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
-import curvesBlackTop from '../../img/curves/curves-black-top.svg';
-
 import webIcon from '../../img/icons/magic-pie-copy-icon-web.svg';
 import blogIcon from '../../img/icons/magic-pie-copy-icon-blogs.svg';
 import marketingIcon from '../../img/icons/magic-pie-copy-icon-marketing.svg';
 import videoIcon from '../../img/icons/magic-pie-copy-icon-video.svg';
+import servicesIcon from '../../img/curves/magic-pie-services.svg';
+import { colors } from "../../theme";
 
 const propTypes = {
 	linkTo: PropTypes.string,
@@ -29,16 +29,6 @@ const ServiceRowWrapper = styled.div`
 	margin-top: 44px;
 	margin-bottom: 88px;
 	flex-wrap: wrap;
-`;
-
-const Divider = styled.img`
-	width: 100%;
-	transform: rotate(180deg);
-  margin-bottom: -10px;
-
-	@media only screen and (max-width: 580px) {
-		min-width:  100.1%;
-	}
 `;
 
 const ServiceWrapper = styled.div`
@@ -67,7 +57,6 @@ const ServiceImage = styled.img`
 const ServicesWrapper = styled.div`
 	height: 55vh;
   min-height: 800px;
-  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -92,13 +81,8 @@ const ServicesWrapper = styled.div`
 	@media only screen and (max-width: 400px) {
 
 	}
-
 `;
 
-// <WorkImage src={workLogo1}/>
-// <WorkImage src={workLogo2}/>
-// <WorkImage src={workLogo3}/>
-// <WorkImage src={workLogo4}/>
 
 const HomePageServices = ({ 
 	children, 
@@ -118,17 +102,17 @@ const HomePageServices = ({
 
 	return (
 		<Wrapper>
-			<Divider src={curvesBlackTop} />
 			<ServicesWrapper>
-
 				<SiteContent center>
+					<img width="110px" src={servicesIcon}/>
 					<Header h2 color='white'>
 						{headerTitle}
 		      </Header>
 		      <Body 
 			      maxWidth 
 			      center 
-			      paddingBottom>
+			      paddingBottom
+						color={colors.white}>
 		      	{subtitle}
 		      </Body>
 

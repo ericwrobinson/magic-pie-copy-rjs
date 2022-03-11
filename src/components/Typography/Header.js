@@ -3,7 +3,6 @@ import PropTypes 			from 'prop-types';
 import styled         from 'styled-components';
 import { Colors } 		from '../Layouts/Colors';
 
-
 const propTypes = {
 	color  : PropTypes.string,
 },
@@ -14,7 +13,7 @@ defaultProps = {
 const Wrapper = styled.div``;
 
 const HeaderH1 = styled.h1`
-  font-family: kansasnew, serif;
+  font-family: tuppence, serif;
   font-weight: bold;
 	letter-spacing: 0px;
 	font-size: 74px;
@@ -46,7 +45,7 @@ const HeaderH1 = styled.h1`
 `;
 
 const HeaderH2 = styled.h2`
-  font-family: kansasnew, serif;
+  font-family: tuppence, serif;
   font-weight: bold;
 	font-size: 52px;
 	line-height: 58px;
@@ -73,7 +72,7 @@ const HeaderH2 = styled.h2`
 `;
 
 const HeaderH3 = styled.h3`
-  font-family: kansasnew, serif;
+  font-family: tuppence, serif;
   font-weight: bold;
 	font-size: 42px;
 	letter-spacing: -1px;
@@ -100,7 +99,7 @@ const HeaderH3 = styled.h3`
 `;
 
 const HeaderH4 = styled.h4`
-  font-family: kansasnew, serif;
+  font-family: tuppence, serif;
   font-weight: bold;
 	font-size: 28px;
 	line-height: 33px;

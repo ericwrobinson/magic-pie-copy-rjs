@@ -1,13 +1,38 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import { graphql } from 'gatsby';
 import PageTransition from 'gatsby-plugin-page-transitions';
+import { colors, gradients } from '../theme';
+import curvesPurpleBottom from '../img/curves/curves-purple-bottom.svg';
+import curvesBlackTop from '../img/curves/curves-black-top.svg';
 
 import Layout from '../components/Layout';
 import {  HomePageHero,
           HomePageWork,
           HomePageServices,
           HomePageWhy } from '../components/Sections';
+
+const SectionWrapper = styled.div`
+  background: ${gradients.purpleGradient};
+  
+`;
+const Divider = styled.img`
+	width: 100%;
+	margin-top: ${({top}) => top ? '-158px' : 0};
+	margin-bottom: ${({top}) => top ? 0 : '-158px'};
+  position: relative;
+  z-index: 4;
+	
+  @media only screen and (min-width: 2500px) {
+    margin-top: ${({top}) => top ? '-240px' : 0};
+    margin-bottom: ${({top}) => top ? 0 : '-240px'};
+  }
+	
+  @media only screen and (max-width: 580px) {
+		min-width:  100.1%;
+	}
+`;
           
 export const IndexPageTemplate = ({
   hero,
@@ -25,7 +50,8 @@ export const IndexPageTemplate = ({
         buttonTitle={hero.buttonTitle}
         linkTo='/contact'
       />
-
+  <SectionWrapper>
+			<Divider top src={curvesPurpleBottom} />
       <HomePageWork
         headerTitle={work.title}
         subtitle={work.subtitle}
@@ -51,6 +77,9 @@ export const IndexPageTemplate = ({
         serviceTitle4={services.service4Title}
         serviceSubtitle4={services.service4Subtitle}
       />
+			<Divider src={curvesBlackTop} />
+  </SectionWrapper>
+      
 
       <HomePageWhy
         headerTitle={why.title}

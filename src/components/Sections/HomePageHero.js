@@ -1,13 +1,12 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Header,
+import { Text,
 				 Body } from '../Typography';
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
-import homeHero from '../../img/magic-pie-copy-home-hero.svg';
-import curvesBlackTop from '../../img/curves/curves-black-top.svg';
+import curvesPurpleBottom from '../../img/curves/curves-purple-bottom.svg';
 
 const propTypes = {
 	linkTo: PropTypes.string,
@@ -18,41 +17,16 @@ defaultProps = {
 
 const Wrapper = styled.div``;
 
-const HeroImage = styled.img`
-	max-width: 850px;
-	margin: 0 auto;
-	position: relative;
-	z-index: 4;
-
-	@media only screen and (max-width: 780px) {
-		width: 90%;
-	}
-`;
-
-const HeaderHider = styled.div`
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 0;
-`;
-
-const Divider = styled.img`
-	width: 100%;
-	margin-top: -8px;
-
-	@media only screen and (max-width: 580px) {
-		min-width:  100.1%;
-	}
-`;
-
 const WhyWrapper = styled.div`
   height: 70vh;
-  background-color: black;
+	min-height: 650px;
+  background-color: white;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+	margin-bottom: 128px;
 
 	::selection {
 	  background: #000;
@@ -78,15 +52,10 @@ const HomePageHero = ({ children, headerTitle, subtitle, buttonTitle, linkTo }) 
 		<Wrapper>
 			<WhyWrapper>
 				<SiteContent center>
-	      	<HeroImage src={homeHero} alt={headerTitle}/>
-	      	<HeaderHider>
-						<Header h1 color='black'>
-							{headerTitle}
-			      </Header>
-	      	</HeaderHider>
+					<Text align='center'>{headerTitle}</Text>
 		      <Body 
 		      	paddingBottom
-		      	color="#c4c4c4">
+		      	color='black'>
 		      	{subtitle}
 		      </Body>
 		      <ButtonPrimary 
@@ -94,7 +63,6 @@ const HomePageHero = ({ children, headerTitle, subtitle, buttonTitle, linkTo }) 
 		      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 				</SiteContent>
 			</WhyWrapper>
-			<Divider src={curvesBlackTop} />
 		</Wrapper>
 	);
 }

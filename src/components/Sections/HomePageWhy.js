@@ -33,7 +33,6 @@ const ContentWrapper = styled.div`
 	display: flex;
 	background-color: white;
   justify-content: space-between;
-	padding: 44px;
 
 	@media only screen and (max-width: 780px) {
 	  flex-direction: column-reverse;
@@ -53,9 +52,7 @@ const HalfWrapper = styled.div`
 
 const WhyWrapper = styled.div`
   min-height: 40vh;
-  padding: 20px;
-  background-color: #F2F2F2;
-  color: white;
+	margin-top: 228px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

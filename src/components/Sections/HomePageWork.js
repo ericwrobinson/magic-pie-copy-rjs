@@ -1,11 +1,14 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Header,
+import { Text,
 				 Body 
-			 } from '../Typography'
+			 } from '../Typography';
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
+
+import { colors } from '../../theme';
+import workIcon from '../../img/curves/magic-pie-work.svg';
 
 const propTypes = {
 	linkTo: PropTypes.string,
@@ -20,7 +23,7 @@ const ImageRowWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
 	margin-top: 44px;
-	margin-bottom: 88px;
+	margin-bottom: 44px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 `;
@@ -49,15 +52,15 @@ const WorkImage = styled.div`
 
 const WorkWrapper = styled.div`
 	height: 50vh;
+	min-height: 650px ;
   min-height: 600px;
-  background-color: white;
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
   padding-top: 64px;
-  padding-bottom: 64px;
+  margin-bottom: 128px;
 
 	::selection {
 	  background: #000;
@@ -76,6 +79,15 @@ const WorkWrapper = styled.div`
 
 	}
 
+`;
+
+const Divider = styled.img`
+	width: 100%;
+	margin-bottom: -8px;
+
+	@media only screen and (max-width: 580px) {
+		min-width:  100.1%;
+	}
 `;
 
 // <WorkImage src={workLogo1}/>
@@ -97,15 +109,19 @@ const HomePageWork = ({
 
 	return (
 		<Wrapper>
+			{/* <Divider src={curvesPurpleBottom} /> */}
+
 			<WorkWrapper>
 				<SiteContent center>
-					<Header h2 color='black'>
+					<img width="110px" src={workIcon}/>
+					<Text h2 size="xlarge" align='center' color={colors.white}>
 						{headerTitle}
-		      </Header>
+		      </Text>
 		      <Body 
 			      maxWidth 
 			      center 
-			      paddingBottom>
+			      paddingBottom
+						color={colors.white}>
 		      	{subtitle}
 		      </Body>
 		      <ImageRowWrapper>
