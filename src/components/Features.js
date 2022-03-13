@@ -19,6 +19,10 @@ const ImageWrapper = styled.div`
   max-width: 321px;
   max-height: 321px;
 
+  img {
+    width: 100%;
+  }
+
   @media only screen and (max-width: 1300px) {
     width: 100%;
   }
@@ -29,6 +33,9 @@ const ImageWrapper = styled.div`
     min-height: 150px;
 
     img {
+      width: 60%;
+      text-align: center ;
+      margin: 0 auto;
       min-height: 150px;
     }
   }

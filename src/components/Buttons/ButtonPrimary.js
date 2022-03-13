@@ -2,6 +2,7 @@ import { Link }   from "gatsby";
 import styled     from 'styled-components';
 import PropTypes  from "prop-types";
 import React      	from "react";
+import {colors, gradients } from '../../theme'
 import { Colors } 		from '../Layouts/Colors';
 
 const propTypes = {
@@ -16,8 +17,8 @@ const ButtonComponent = styled.div`
 	height: 40px;
 	min-width: 121px;
 	max-width: 400px;
-	background-color: ${({ inverted }) => inverted ? Colors.White : Colors.Black };
-	color: ${({ inverted }) => inverted ? Colors.Black : Colors.White };
+	background: ${({ inverted }) => inverted ? colors.white : gradients.orangeRed };
+	color: ${({ inverted }) => inverted ? colors.black : colors.white };
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -27,8 +28,8 @@ const ButtonComponent = styled.div`
 	transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
 
 	&:hover {
-		background-color: ${({ inverted }) => inverted ? Colors.Black : Colors.White };
-		color: ${({ inverted }) => inverted ? Colors.White : Colors.Black };
+		background: ${({ inverted }) => inverted ? gradients.orangeRed  : colors.white };
+		color: ${({ inverted }) => inverted ? colors.white : colors.black };
 	}
 `;
 

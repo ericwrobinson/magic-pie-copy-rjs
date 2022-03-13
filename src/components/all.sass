@@ -217,9 +217,8 @@ a:hover
 
 .navbar-burger
   height: auto
-  width: auto
-  min-height: 3.25rem
-  min-width: 3.25rem
+  padding: 32px
+  width: 150px
 
 .navbar-burger span
   height: 2px
@@ -253,15 +252,14 @@ a:hover
     padding: 0.5rem 1rem
     position: relative
 
+.navbar-item, .navbar-link:hover
+  color: black
+
 // // responsiveness
 // +tablet-only
 //   .portfolio-list-item .featured-thumbnail
 //     flex-basis: 50%;
 
-// +mobile
-//   .portfolio-list-item header
-//     display: block
-//   .portfolio-list-item .featured-thumbnail
-//     text-align: center;
-//     max-width: 70%;
-//     margin: 0 0 1em;
+ +mobile
+   .navbar-item, .navbar-link 
+      font-size: 32px
