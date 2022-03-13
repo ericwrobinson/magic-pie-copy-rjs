@@ -21,7 +21,7 @@ work:
   workLogo1: /img/43north-white.png
   workLogo2: /img/launchNY-white.png
   workLogo3: /img/fantasypros-white.png
-  workLogo4: /img/thumbsupstudio-color.jpg
+  workLogo4: /img/rise-white.png
   buttonTitle: View Our Work
 services:
   buttonTitle: See Our Services
