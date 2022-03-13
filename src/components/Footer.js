@@ -5,18 +5,19 @@ import { ButtonPrimary } from './Buttons';
 import { Header } from './Typography'
 import { SiteContent } from './Layouts';
 
-import logo from '../img/logo.svg'
+import logo from '../img/magic-pie-logo.svg';
 import facebook from '../img/social/facebook.svg'
 // import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import linkedin from '../img/social/linkedin.svg'
+import { colors } from '../theme';
 
 const StyledLink = styled(Link)`
-  color: black;
+  color: ${colors.black};
 `;
 
 const CallToAction = styled.div`
-  background-color: #F2F2F2;
+  background-color: ${colors.black};
   width: 100%;
   padding-top: 44px;
 `;
@@ -84,7 +85,7 @@ const Footer = class extends React.Component {
         <CallToAction>
           <SiteContent center>
             <CallToActionContent>
-              <Header h2>call. text. email.</Header>
+              <Header h2 color={colors.white}>Call. Text. Email.</Header>
               <ButtonPrimary 
                 linkTo='/contact'>contact us</ButtonPrimary>
             </CallToActionContent>
@@ -95,7 +96,7 @@ const Footer = class extends React.Component {
             <img
               src={logo}
               alt="Magic Pie Copy"
-              style={{ marginTop: '88px', width: '14em', height: '3em' }}
+              style={{ marginTop: '88px', width: '16em' }}
             />
           </div>
           <Wrapper className="content has-text-centered has-background-white has-text-black-ter">

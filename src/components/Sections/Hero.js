@@ -6,7 +6,7 @@ import { Header,
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
-import curvesBlackTop from '../../img/curves/curves-black-top.svg';
+import curvesBlackTop from '../../img/curves/curves-purple-bottom.svg';
 import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
 
 const propTypes = {
@@ -17,7 +17,7 @@ defaultProps = {
 }
 
 const Wrapper = styled.div`
-  background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
+  background-color: ${({ inverted }) => inverted ? 'black' : 'white' };
 
 `;
 
@@ -53,7 +53,7 @@ const Image = styled.div`
 
 const Divider = styled.img`
 	width: 100%;
-	transform: ${({ inverted }) => inverted ? null : 'rotate(180deg)' };
+	/* transform: ${({ inverted }) => inverted ? null : 'rotate(180deg)' }; */
 	margin-bottom: -10px;
 
 	@media only screen and (max-width: 580px) {
@@ -64,7 +64,7 @@ const Divider = styled.img`
 const HeroWrapper = styled.div`
   min-height: ${({ minHeight }) => minHeight ? minHeight : '600px'};
   height: ${({ height }) => height ? height : '40vh'};
-  background-color: ${({ inverted, backgroundColor }) => backgroundColor ? backgroundColor : inverted ? 'black' : '#f2f2f2' };
+  background-color: ${({ inverted, backgroundColor }) => backgroundColor ? backgroundColor : inverted ? 'black' : 'white' };
   color: ${({ inverted }) => inverted ? '#f2f2f2' : 'black' };
   display: flex;
   flex-direction: column;

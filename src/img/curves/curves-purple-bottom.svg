@@ -3,21 +3,27 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1632.5 192.5" style="enable-background:new 0 0 1632.5 192.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:url(#gentle-wave-2_00000030465294016393428990000001673250796178022568_);}
-	.st1{fill:#0000FF;}
+	.st0{fill:url(#gentle-wave-2_00000030462201952974363320000014052836574696771224_);}
+	.st1{fill:url(#gentle-wave_00000046311448947477174900000001045917145783109281_);}
 	.st2{fill:#190041;}
 </style>
 <g id="Group_922" transform="translate(1427.902 118.971) rotate(180)">
 	
-		<linearGradient id="gentle-wave-2_00000034079159188677836590000009284000895045157814_" gradientUnits="userSpaceOnUse" x1="202.25705" y1="26.5" x2="-396.391174" y2="26.5">
+		<linearGradient id="gentle-wave-2_00000125577780650662052980000004232853861321968043_" gradientUnits="userSpaceOnUse" x1="923.9245" y1="26.5" x2="1865.546265" y2="26.5">
 		<stop  offset="0" style="stop-color:#FF6C00"/>
 		<stop  offset="1" style="stop-color:#FF0000"/>
 	</linearGradient>
-	<path id="gentle-wave-2" style="fill:url(#gentle-wave-2_00000034079159188677836590000009284000895045157814_);" d="
+	<path id="gentle-wave-2" style="fill:url(#gentle-wave-2_00000125577780650662052980000004232853861321968043_);" d="
 		M1427.900024,9.5C1199.599976,9.5,1130.699951,45.400002,1001,45.400002C751.5,45.400002,709.700012,9.5,574.700012,9.5
 		S336.299988,119,201.300003,119S-145.899994,9.5-204.600006,9.5V-66h1632.5V9.5z"/>
-	<path id="gentle-wave" class="st1" d="M1427.900024,9.5c-213.400024,0-187.5,55-378.200073,55c-162.5,0-150-55-413.5-55
-		S216.5,110.699997,81.5,110.699997S-69.599998,9.5-204.600006,9.5V-66h1632.5V9.5z"/>
+	
+		<linearGradient id="gentle-wave_00000081612343677849275760000016904826195782878864_" gradientUnits="userSpaceOnUse" x1="1427.900024" y1="22.349998" x2="3060.400146" y2="22.349998">
+		<stop  offset="0" style="stop-color:#FF00FF"/>
+		<stop  offset="1" style="stop-color:#4D00FF"/>
+	</linearGradient>
+	<path id="gentle-wave" style="fill:url(#gentle-wave_00000081612343677849275760000016904826195782878864_);" d="M1427.900024,9.5
+		c-213.400024,0-187.5,55-378.200073,55c-162.5,0-150-55-413.5-55S216.5,110.699997,81.5,110.699997S-69.599998,9.5-204.600006,9.5
+		V-66h1632.5V9.5z"/>
 </g>
 <path class="st2" d="M1632.5,192.5v-83c-53,0-87.699951-15.599998-118.5-34.599998
 	C1452.599976,52.600002,1378.599976,25.200001,1310.800049,10.5c-103.699951,11.9-223.199951,70.099998-394.099976,91.300003

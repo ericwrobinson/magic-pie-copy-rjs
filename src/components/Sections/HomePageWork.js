@@ -51,9 +51,7 @@ const WorkImage = styled.div`
 `;
 
 const WorkWrapper = styled.div`
-	height: 50vh;
-	min-height: 650px ;
-  min-height: 600px;
+	min-height: 50vh;
   color: black;
   display: flex;
   flex-direction: column;

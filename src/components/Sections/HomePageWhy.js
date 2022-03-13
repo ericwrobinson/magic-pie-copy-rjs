@@ -15,8 +15,8 @@ defaultProps = {
 	linkTo: "#"
 }
 
-const Divider = styled.img`
-	width: 45%;
+const ImageWrapper = styled.img`
+	width: 33.33%;
 	text-align: right;
 	float: right;
 
@@ -35,7 +35,7 @@ const ContentWrapper = styled.div`
   justify-content: space-between;
 
 	@media only screen and (max-width: 780px) {
-	  flex-direction: column-reverse;
+	  flex-direction: column;
 	}
 `;
 
@@ -43,7 +43,7 @@ const HalfWrapper = styled.div`
 	display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 60%;
 
   @media only screen and (max-width: 780px) {
 	  width: 100%;
@@ -52,7 +52,8 @@ const HalfWrapper = styled.div`
 
 const WhyWrapper = styled.div`
   min-height: 40vh;
-	margin-top: 228px;
+	margin-top: 268px;
+	margin-bottom: 128px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -82,6 +83,7 @@ const HomePageWhy = ({ children, headerTitle, subtitle, buttonTitle, linkTo }) =
 			<WhyWrapper>
 				<SiteContent>
 					<ContentWrapper>
+						<ImageWrapper src={questionMark} />
 						<HalfWrapper>
 							<Header h2 color='black'>
 								{headerTitle}
@@ -93,7 +95,6 @@ const HomePageWhy = ({ children, headerTitle, subtitle, buttonTitle, linkTo }) =
 				      	flexBox
 				      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 						</HalfWrapper>
-							<Divider src={questionMark} />
 					</ContentWrapper>
 				</SiteContent>
 			</WhyWrapper>

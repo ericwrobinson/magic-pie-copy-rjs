@@ -6,16 +6,17 @@ import { Hero } from '../../components/Sections';
 import Layout from '../../components/Layout';
 import PortfolioRoll from '../../components/PortfolioRoll';
 import { PortfolioServices } from '../../components/Sections';
+import { gradients } from '../../theme';
 
 const SectionWrapper = styled.section`
-  background-color: black;
+  background: ${gradients.purpleGradient};
 `;
 
 export default class PortfolioIndexPage extends React.Component {
   render() {
     const 
       subheading = 'Work',
-      title = 'magic pie works.',
+      title = 'Magic pie works.',
       subtitle = 'Magic Pie Copywriting means communicating, collaborating, and creating. How do we do it? Usually with a conversation over a cup of coffee or a couple cold ones. Then we work together to identify needs, chalk up a plan of action, and execute shared strategies. The result is rock-solid copy for websites, videos, blogs, social media, and more.';
     return (
       <PageTransition>
@@ -37,9 +38,9 @@ export default class PortfolioIndexPage extends React.Component {
           </SectionWrapper>
 
           <PortfolioServices
-            headerTitle={'need something done? \nsee what we can do.'}
+            headerTitle={'Need some good copy? \nSee what we can do.'}
             subtitle={'So now that you’ve read and seen the work we’ve done, check out the services we offer and then let us know how we can make your business better.'}
-            buttonTitle={'our services'}/>
+            buttonTitle={'Our Services'}/>
         </Layout>
       </PageTransition>
     )

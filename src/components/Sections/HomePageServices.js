@@ -55,14 +55,13 @@ const ServiceImage = styled.img`
 `;
 
 const ServicesWrapper = styled.div`
-	height: 55vh;
-  min-height: 800px;
+	min-height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
   padding-top: 64px;
-  padding-bottom: 64px;
+  padding-bottom: 248px;
 
 	::selection {
 	  background: #000;

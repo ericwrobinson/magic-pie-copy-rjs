@@ -6,7 +6,6 @@ import { Header,
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
-// import homeHero from '../../img/magic-pie-copy-home-hero.svg';
 import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
 
 const propTypes = {
@@ -32,7 +31,7 @@ const HeaderWrapper = styled.div`
 	position: relative;
   min-height: 500px;
   height: 40vh;
-  background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
+  background-color: ${({ inverted }) => inverted ? 'black' : 'white' };
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

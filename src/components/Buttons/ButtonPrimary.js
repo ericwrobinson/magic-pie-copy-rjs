@@ -22,8 +22,7 @@ const ButtonComponent = styled.div`
 	align-items: center;
 	justify-content: center;
 	align-self: flex-start;
-	padding-left: 33px;
-	padding-right: 33px;
+	padding: 6px 33px 11px 33px;
 	text-align: center;
 	transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
 
@@ -34,12 +33,11 @@ const ButtonComponent = styled.div`
 `;
 
 const ButtonCopy = styled.span`
-	font-size: 21px;
+	font-size: 24px;
 	font-weight: bold;
 	letter-spacing: 1px;
 	line-height: 1.2;
-	font-family: kansasnew, serif;
-
+	font-family: tuppence, serif;
 `;
 
 const LinkComponent = styled(Link)`

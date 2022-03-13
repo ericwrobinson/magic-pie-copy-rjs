@@ -3,7 +3,7 @@ templateKey: services-page
 path: /services
 subheading: Services 
 image: /img/jumbotron.jpg
-title: what'll it be?
+title: What'll it be?
 subtitle: Whether it’s social media, websites, print material, your next video
   script, or your fantasy football league roundup email, we’ll write what you
   need, when you need it.
@@ -42,10 +42,10 @@ intro:
 
         Get to know a brand, its products, or its corporate culture in these videos produced by the brain trust at Magic Pie Copy.
 cta:
-  title1: working wonders.
+  title1: Read our work.
   subtitle1: I work with business owners, key stakeholders, and other marketers to share ideas and execute strategies. Through close collaborations, we create next-level content for corporate websites, videos, blogs, and more.
-  buttonTitle1: see my work
-  title2: partners make perfect.
+  buttonTitle1: View Work
+  title2: Partners make perfect.
   subtitle2: "Creating killer content takes more than just a writer’s touch. To build websites and make other high-quality marketing materials, I work with a talented team of creatives who design art, develop code, and produce videos that will knock your socks off, plain and simple."
-  buttonTitle2: meet the guys
+  buttonTitle2: Meet the Crew
 ---

@@ -3,7 +3,9 @@ templateKey: about-page
 path: /about
 hero:
   subheading: About Us
-  title: okay, you got me.
+  title: |
+    Okay,
+    you got me.
   subtitle: >-
     Magic Pie Copywriting is really just me, James. I’ve been a professional
     writer since 2012, and now that the gig economy is in full swing, I’m taking

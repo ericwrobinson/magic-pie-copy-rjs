@@ -12,8 +12,8 @@ hero:
   buttonTitle: contact us.
 work:
   title: |
-    work.
-    like magic.
+    Work.
+    Like magic.
   subtitle: >
     Whether you’re starting up or starting over, creating content for your
     business has never been easier. Update your marketing material and enhance
@@ -22,10 +22,9 @@ work:
   workLogo2: /img/launchNY-white.png
   workLogo3: /img/fantasypros-white.png
   workLogo4: /img/thumbsupstudio-color.jpg
-  buttonTitle: see our work
-  subheading: yo
+  buttonTitle: View Our Work
 services:
-  buttonTitle: learn more
+  buttonTitle: See Our Services
   service1Subtitle: >
     Refresh your website and marketing collateral with clear and concise
     copywriting.
@@ -40,13 +39,17 @@ services:
     When it comes to marketing materials, we’ve got the magic touch. Looking for
     something special? Let’s get together and conjure up some creative content
     for your business.
-  title: what can we do for you?
+  title: |
+    All of your writing needs.
+    All in one place.
   service4Title: video scripts
   service3Title: marketing collateral
   service2Title: blogs + articles
   service1Title: websites
 why:
-  title: why magic pie?
+  title:  |
+    Why? 
+    Magic pie.
   subtitle: >
     Magic Pie isn’t a critically acclaimed ad agency or hot new startup. That
     would be cool, but here’s the thing: Magic Pie is just an experienced writer
@@ -54,5 +57,5 @@ why:
 
 
     Are you looking for web design, web development, or video marketing as well? No problem—we’ve got partners for that.
-  buttonTitle: more about us.
+  buttonTitle: More About Us.
 ---

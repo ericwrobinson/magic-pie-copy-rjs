@@ -31,7 +31,7 @@ const Wrapper = styled.div`
 
 const Subheading = styled.div`
   text-transform: uppercase;
-  font-six: 18px;
+  font-size: 18px;
   letter-spacing: 3px;
   font-family: sofia-pro, sans-serif;
   font-weight: bold;
@@ -100,7 +100,7 @@ export default class Index extends React.Component {
                   <Subheading>
                     Contact
                   </Subheading>
-                  <Header h2>let’s make some magic happen.</Header>
+                  <Header h2>Let’s make some magic happen.</Header>
                   <Body>{bodyCopy}</Body>
                 </HalfWrapper>
                 <HalfWrapper>
@@ -122,7 +122,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="field">
                       <label className="label" htmlFor={'name'}>
-                        name
+                        Name
                       </label>
                       <div className="control">
                         <input
@@ -137,7 +137,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="field">
                       <label className="label" htmlFor={'email'}>
-                        email
+                        Email
                       </label>
                       <div className="control">
                         <input
@@ -152,7 +152,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="field">
                       <label className="label" htmlFor={'phone'}>
-                        phone
+                        Phone
                       </label>
                       <div className="control">
                         <input
@@ -167,7 +167,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="field">
                       <label className="label" htmlFor={'message'}>
-                        message
+                        Message
                       </label>
                       <div className="control">
                         <textarea

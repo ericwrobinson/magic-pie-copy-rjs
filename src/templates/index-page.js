@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { graphql } from 'gatsby';
 import PageTransition from 'gatsby-plugin-page-transitions';
-import { colors, gradients } from '../theme';
+import {gradients } from '../theme';
 import curvesPurpleBottom from '../img/curves/curves-purple-bottom.svg';
 import curvesBlackTop from '../img/curves/curves-black-top.svg';
 
@@ -28,7 +28,14 @@ const Divider = styled.img`
     margin-top: ${({top}) => top ? '-240px' : 0};
     margin-bottom: ${({top}) => top ? 0 : '-240px'};
   }
-	
+
+	@media only screen and (max-width: 1300px) {
+    margin-bottom: ${({top}) => top ? 0 : '-100px'};
+		min-width:  100.1%;
+	}
+  @media only screen and (max-width: 780px) {
+    margin-bottom: ${({top}) => top ? 0 : '-60px'};
+	}
   @media only screen and (max-width: 580px) {
 		min-width:  100.1%;
 	}

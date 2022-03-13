@@ -14,7 +14,7 @@ import { Hero,
          SplitCTA } from '../components/Sections';
 
 const GridWrapper = styled.div`
-  background-color: #F2F2F2;
+  background-color: white;
   position: relative;
   z-index: -2;
 `;

@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { Header,
          Body } from '../components/Typography';
 import { SiteContent } from '../components/Layouts';
+import { gradients } from '../theme';
 // import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 const GridWrapper = styled.div`
@@ -36,7 +37,8 @@ const ImageWrapper = styled.div`
 const Wrapper = styled.div`
   position:relative;
   width: 100%;
-  background-color: black;
+  border-radius: 16px;
+  background: ${gradients.purpleGradient};
   color: white;
   padding: 140px 82px;
   margin-bottom: 80px;
@@ -47,7 +49,8 @@ const Wrapper = styled.div`
 
   &:after {
     content: '';
-    background-color: ${({ even }) => even ? '#0045FF' : '#FF0000'};
+    background: ${({ even }) => even ? gradients.orangeRed : gradients.pinkPurple};
+    border-radius: 16px;
     position: absolute;
     height: 100%;
     width: 100%;
