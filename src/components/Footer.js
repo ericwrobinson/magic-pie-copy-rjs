@@ -19,14 +19,13 @@ const StyledLink = styled(Link)`
 const CallToAction = styled.div`
   background-color: ${colors.black};
   width: 100%;
-  padding-top: 44px;
+  padding: 88px 0;
 `;
 
 const CallToActionContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 44px;
 
   @media only screen and (max-width: 780px) {
     flex-direction: column;
@@ -87,7 +86,7 @@ const Footer = class extends React.Component {
             <CallToActionContent>
               <Header h2 color={colors.white}>Call. Text. Email.</Header>
               <ButtonPrimary 
-                linkTo='/contact'>contact us</ButtonPrimary>
+                linkTo='/contact'>Get in Touch</ButtonPrimary>
             </CallToActionContent>
           </SiteContent>
         </CallToAction>

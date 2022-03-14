@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 `;
 const InnerWrapper = styled.div``;
 const CardWrapper = styled.article`
-  background-color: #151515;
+  background-color: rgba(255,255,255,.1);
   padding: 1.25rem;
   display: flex;
   min-height: 400px;
@@ -23,7 +23,6 @@ const CardWrapper = styled.article`
   align-content: center;
   justify-content: center;
   transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
-  
   :hover {
     transform: scale(1.05, 1.05);
   }
