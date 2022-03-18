@@ -11,7 +11,7 @@ export const colors = {
   navyBlue: '#0A0085',
   purple: '#3308C4',
   gray: '#7F7F7F',
-  darkGray: '#A7A7A7',
+  darkGray: '#5f5f5f',
   grayLight: '#E0E0E0',
   'off-white': '#f8f8f8',
   error: '#FF0000'
@@ -19,7 +19,7 @@ export const colors = {
 
 export const gradients = {
   triColorGradient: 'linear-gradient(112deg, ' + colors.pink + ' -5%,' + colors.purple + ' 41%,' + colors.babyBlue + ' 100%)',
-  orangeRed: 'linear-gradient(180deg, ' + colors.orange + ' 0%,' + colors.red + ' 100%)',
+  orangeRed: 'linear-gradient(90deg, ' + colors.orange + ' 0%,' + colors.red + ' 100%)',
   pinkPurple: 'linear-gradient(180deg, ' + colors.pink + ' 0%,' + colors.purple + ' 100%)',
   purpleGradient: 'linear-gradient(180deg, ' + colors.darkPurple + ' 0%,' + colors.darkestPurple + ' 100%)',
   lightBlueGradient: 'linear-gradient(135deg, ' + colors.babyBlue + ' 0%, #0070F2 100%)'

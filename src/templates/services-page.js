@@ -29,7 +29,7 @@ export const ServicesPageTemplate = ({
 }) => (
   <PageTransition>
     <Hero
-      maxWidth
+      maxWidth='680px'
       center
       subheading={subheading}
       headerTitle={title}
@@ -70,7 +70,8 @@ ServicesPageTemplate.propTypes = {
 }
 
 const ServicesPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
+  console.log('ftont', frontmatter)
   return (
     <Layout>
       <ServicesPageTemplate

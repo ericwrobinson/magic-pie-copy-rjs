@@ -3,13 +3,12 @@ import styled     from 'styled-components';
 import PropTypes  from "prop-types";
 import React      	from "react";
 import {colors, gradients } from '../../theme'
-import { Colors } 		from '../Layouts/Colors';
 
 const propTypes = {
 	color  : PropTypes.string,
 },
 defaultProps = {
-	color  : Colors.Black,
+	color  : colors.black,
 }
 
 const ButtonComponent = styled.div`
@@ -26,6 +25,13 @@ const ButtonComponent = styled.div`
 	padding: 6px 33px 11px 33px;
 	text-align: center;
 	transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
+
+	/* &:after {
+		content: 'hello';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	} */
 
 	&:hover {
 		background: ${({ inverted }) => inverted ? gradients.orangeRed  : colors.white };

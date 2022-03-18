@@ -34,7 +34,7 @@ export const PortfolioPostTemplate = ({
   return (
     <PageTransition>
       <PortfolioHero
-          maxWidth
+          maxWidth='680px'
           center
           divider
           featuredimage={featuredimage}

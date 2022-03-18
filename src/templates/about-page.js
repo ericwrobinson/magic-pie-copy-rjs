@@ -23,7 +23,7 @@ export const AboutPageTemplate = ({
   <PageTransition>
     <div>
       <AboutHero
-        maxWidth
+        maxWidth='680px'
         center
         inverted
         divider
@@ -34,7 +34,7 @@ export const AboutPageTemplate = ({
       />
 
       <Hero
-        maxWidth
+        maxWidth='680px'
         center
         h2
         height={'300px'}
@@ -46,7 +46,7 @@ export const AboutPageTemplate = ({
       />
 
       <Hero
-        maxWidth
+        maxWidth='680px'
         center
         h2
         minHeight={'400px'}

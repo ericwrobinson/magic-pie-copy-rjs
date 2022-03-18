@@ -10,7 +10,7 @@ const propTypes = {
 	lineHeight : PropTypes.number,
 },
 defaultProps = {
-	color  	 : colors.black,
+	color  	 : colors.darkGray,
 	fontSize : 21,
 	lineHeight : 31,
 }
@@ -26,7 +26,7 @@ defaultProps = {
 	}
 
 const Wrapper = styled.div`
-	max-width: ${({ maxWidth }) =>  maxWidth ? 875 : null}px;
+	max-width: ${({ maxWidth }) =>  maxWidth ?? null};
 	width: ${({ width }) =>  width ? width : null }; 
 	padding-bottom: ${({ paddingBottom }) => paddingBottom ? 44 : 0}px;
 	margin: ${({ center }) =>  center ? '0 auto' : null};
@@ -35,14 +35,16 @@ const Wrapper = styled.div`
 const BodyCopy = styled.p`
   font-family: Sofia-Pro, sans-serif;
 	font-size: ${({ fontSize }) => fontSize}px;
-	opacity: ${({ opacity }) => opacity ? 1 : .8};
+	opacity: 1;
+	/* opacity: ${({ opacity }) => opacity ? 1 : .8}; */
 	line-height: ${({ tight, lineHeight }) => _lineHeightAdjust(tight, lineHeight)}px;
 	color: ${({ color }) => color};
 	font-weight: ${({ bold }) => bold ? 700 : 400};
   white-space: pre-line;
+	text-align: ${({ align }) => align ?? null};
 
 	::selection {
-	  background: #000;
+	  background: ${colors.orange};
 	  color: white;
 	}
 

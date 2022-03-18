@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Header,
+	Text,
 				 Body 
 			 } from '../Typography'
 import { ButtonPrimary } from '../Buttons';
@@ -104,11 +105,11 @@ const HomePageServices = ({
 			<ServicesWrapper>
 				<SiteContent center>
 					<img width="110px" src={servicesIcon}/>
-					<Header h2 color='white'>
+					<Text h2 size="xlarge" color='white' align="center">
 						{headerTitle}
-		      </Header>
+		      </Text>
 		      <Body 
-			      maxWidth 
+			      maxWidth='680px' 
 			      center 
 			      paddingBottom
 						color={colors.white}>
@@ -161,7 +162,6 @@ const HomePageServices = ({
 		      </ServiceRowWrapper>
 
 		      <ButtonPrimary 
-		      	inverted
 		      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 				</SiteContent>
 			</ServicesWrapper>

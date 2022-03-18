@@ -7,7 +7,7 @@ hero:
     Marketing.
   subtitle: Boost your brand and make a name for your business with creative
     content that works like magic.
-  buttonTitle: contact us.
+  buttonTitle: Contact Us.
 work:
   title: |
     Work.

@@ -1,13 +1,13 @@
 import React          from "react";
 import PropTypes 			from 'prop-types';
 import styled         from 'styled-components';
-import { Colors } 		from '../Layouts/Colors';
+import { colors } 		from '../../theme';
 
 const propTypes = {
 	color  : PropTypes.string,
 },
 defaultProps = {
-	color  : Colors.Black,
+	color  : colors.black,
 }
 
 const Wrapper = styled.div``;
@@ -24,9 +24,9 @@ const HeaderH1 = styled.h1`
   white-space: pre-line;
 
 	::selection {
-	  background: #000;
+	  background: ${colors.orange};
 	  color: white;
-	};
+	}
   @media only screen and (max-width: 780px) {
 		font-size: 68px;
 		line-height: 72px;
@@ -56,7 +56,7 @@ const HeaderH2 = styled.h2`
 	white-space: pre-line;
 
 	::selection {
-	  background: #000;
+	  background: ${colors.orange};
 	  color: white;
 	}
 	@media only screen and (max-width: 780px) {
@@ -82,7 +82,7 @@ const HeaderH3 = styled.h3`
 	white-space: pre-line;
 
 	::selection {
-	  background: #000;
+	  background: ${colors.orange};
 	  color: white;
 	}
 
@@ -109,7 +109,7 @@ const HeaderH4 = styled.h4`
 	white-space: pre-line;
 
 	::selection {
-	  background: #000;
+	  background: ${colors.orange};
 	  color: white;
 	}
 
@@ -120,8 +120,8 @@ const HeaderH4 = styled.h4`
 	}
 
 	@media only screen and (max-width: 580px) {
-		font-size: 20px;
-		line-height: 24px;
+		/* font-size: 21px;
+		line-height: 24px; */
 	}
 `;
 

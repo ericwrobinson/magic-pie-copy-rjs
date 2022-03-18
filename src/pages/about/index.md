@@ -17,24 +17,24 @@ hero:
     Let’s connect!
   image: /img/james-photo.jpg
 intro:
-  title: working wonders.
+  title: Working Wonders.
   subtitle: I work with business owners, key stakeholders, and other marketers to
     share ideas and execute strategies. Through close collaborations, we create
     next-level content for corporate websites, videos, blogs, and more.
   buttonTitle: see my work
 partners:
   partnerLogo3: /img/jeremy-hulburt.jpg
-  partnerType1: web design
-  partnerType2: web development
-  partnerType3: video production
-  partnerButtonTitle1: meet eric
-  partnerButtonTitle2: meet mike
-  partnerButtonTitle3: meet jeremy
+  partnerType1: Web Design & Development
+  partnerType2: Web Development
+  partnerType3: Video Production
+  partnerButtonTitle1: Meet Eric
+  partnerButtonTitle2: Meet Mike
+  partnerButtonTitle3: Meet Jeremy
   subtitle: Creating killer content takes more than just a writer’s touch. To
     build websites and make other high-quality marketing materials, I work with
     a talented team of creatives who design art, develop code, and produce
     videos that will knock your socks off, plain and simple.
-  title: partners make perfect.
+  title: Partners Make Perfect.
   partnerButtonLink1: https://thumbsupstudio.com
   partnerButtonLink2: https://michaelsmealstudios.com/portfolio/
   partnerLogo1: /img/thumbsupstudio-color.jpg

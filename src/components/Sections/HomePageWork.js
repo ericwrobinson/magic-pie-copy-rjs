@@ -116,7 +116,7 @@ const HomePageWork = ({
 						{headerTitle}
 		      </Text>
 		      <Body 
-			      maxWidth 
+						maxWidth='680px'  
 			      center 
 			      paddingBottom
 						color={colors.white}>

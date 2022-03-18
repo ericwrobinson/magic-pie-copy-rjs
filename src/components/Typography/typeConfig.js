@@ -3,34 +3,34 @@ export const titleConfig = {
         desktop: {
             fontSize: '74px',
             letterSpacing: '.09px',
-            lineHeight: '70px',
+            lineHeight: '80px',
         },
         tablet: {
             fontSize: '68px',
             letterSpacing: '.09px',
-            lineHeight: '62px',
+            lineHeight: '74px',
         },
         mobile: {
             fontSize: '62px',
             letterSpacing: '.12px',
-            lineHeight: '54px',
+            lineHeight: '66px',
         }
     },
     xlarge: {
         desktop: {
             fontSize: '56px',
             letterSpacing: '.16px',
-            lineHeight: '60px',
+            lineHeight: '64px',
         },
         tablet: {
             fontSize: '52px',
             letterSpacing: '.16px',
-            lineHeight: '40px',
+            lineHeight: '58px',
         },
         mobile: {
             fontSize: '48px',
             letterSpacing: '.04px',
-            lineHeight: '35px',
+            lineHeight: '52px',
         }
     },
     large: {

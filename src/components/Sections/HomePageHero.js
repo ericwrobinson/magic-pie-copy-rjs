@@ -53,13 +53,14 @@ const HomePageHero = ({ children, headerTitle, subtitle, buttonTitle, linkTo }) 
 			<WhyWrapper>
 				<SiteContent center>
 					<Text align='center'>{headerTitle}</Text>
+					<div style={{  height: "16px" }}/>
 		      <Body 
-		      	paddingBottom
-		      	color='black'>
+					center
+						maxWidth='540px'
+		      	paddingBottom>
 		      	{subtitle}
 		      </Body>
 		      <ButtonPrimary 
-		      	inverted 
 		      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 				</SiteContent>
 			</WhyWrapper>

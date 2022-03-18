@@ -30,7 +30,7 @@ const Wrapper = styled(props => {
   font-weight: ${({ $bold }) => $bold ? 'bold' : 'normal'};
   text-align: ${({ align }) => align};
   color: ${({ color }) => color};
-  margin: 0;
+  margin-bottom: ${({ marginBottom }) => marginBottom ?? '8px'};
   text-decoration: none;
   white-space: pre-line;
 `;

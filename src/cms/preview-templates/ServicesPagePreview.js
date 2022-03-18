@@ -8,7 +8,7 @@ const ServicesPagePreview = ({ entry, getAsset }) => {
 
   // const entryTestimonials = entry.getIn(['data', 'testimonials'])
   // const testimonials = entryTestimonials ? entryTestimonials.toJS() : []
-
+  console.log('services', services)
   // const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans'])
   // const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
   return (
@@ -16,6 +16,7 @@ const ServicesPagePreview = ({ entry, getAsset }) => {
       image={getAsset(entry.getIn(['data', 'image']))}
       title={entry.getIn(['data', 'title'])}
       subtitle={entry.getIn(['data', 'subtitle'])}
+      subheading={entry.getIn(['data', 'subheading'])}
       intro={{ services }}
       cta={{
         title1: entry.getIn(['data', 'cta', 'title1']),
