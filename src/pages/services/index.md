@@ -1,7 +1,7 @@
 ---
 templateKey: services-page
 path: /services
-subheading: Services 
+subheading: Services
 image: /img/jumbotron.jpg
 title: What'll it be?
 subtitle: Whether it’s social media, websites, print material, your next video
@@ -16,6 +16,7 @@ intro:
         dedicated pros in Corporate America. Each website is carefully crafted
         to reach a certain audience, pique their interest, and drive them to
         action.
+      image: /img/magic-pie-copy-icon-web.svg
     - serviceImage: /img/magic-pie-copy-icon-blogs.svg
       serviceTitle: blogs + articles.
       serviceSubtitle: >
@@ -23,6 +24,7 @@ intro:
         business? I’m your guy. Let’s find something your customer base will be
         interested in and let’s write something that will help improve their
         lives and your business. BAM.
+      image: /img/magic-pie-copy-icon-blogs.svg
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: marketing collateral.
       serviceSubtitle: >
@@ -30,6 +32,7 @@ intro:
         share ideas and execute strategies. Through close collaborations, we
         create next-level content for corporate websites, videos, blogs, and
         more.
+      image: /img/magic-pie-copy-icon-marketing.svg
     - serviceImage: /img/magic-pie-copy-icon-video.svg
       serviceTitle: video scripts.
       serviceSubtitle: >
@@ -41,11 +44,17 @@ intro:
 
 
         Get to know a brand, its products, or its corporate culture in these videos produced by the brain trust at Magic Pie Copy.
+      image: /img/magic-pie-copy-icon-video.svg
 cta:
   title1: Read our work.
-  subtitle1: I work with business owners, key stakeholders, and other marketers to share ideas and execute strategies. Through close collaborations, we create next-level content for corporate websites, videos, blogs, and more.
+  subtitle1: I work with business owners, key stakeholders, and other marketers to
+    share ideas and execute strategies. Through close collaborations, we create
+    next-level content for corporate websites, videos, blogs, and more.
   buttonTitle1: View Work
   title2: Partners make perfect.
-  subtitle2: "Creating killer content takes more than just a writer’s touch. To build websites and make other high-quality marketing materials, I work with a talented team of creatives who design art, develop code, and produce videos that will knock your socks off, plain and simple."
+  subtitle2: Creating killer content takes more than just a writer’s touch. To
+    build websites and make other high-quality marketing materials, I work with
+    a talented team of creatives who design art, develop code, and produce
+    videos that will knock your socks off, plain and simple.
   buttonTitle2: Meet the Crew
 ---
