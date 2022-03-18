@@ -1,10 +1,11 @@
 ---
 templateKey: index-page
 hero:
-  title: |
+  title: |-
     Copywriting. 
     Storytelling. 
-    Marketing.
+    Marketing.\
+    Hello World.
   subtitle: |-
     Websites. Blogs. Articles.
     Video scripts. Social media strategies.
@@ -47,7 +48,7 @@ services:
   service2Title: blogs + articles
   service1Title: websites
 why:
-  title:  |
+  title: |
     Why? 
     Magic pie.
   subtitle: >
