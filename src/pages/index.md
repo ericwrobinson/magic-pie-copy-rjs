@@ -5,8 +5,7 @@ hero:
     Copywriting. 
     Storytelling. 
     Marketing.
-  subtitle: Whether you're starting up or starting over, creating content has
-    never been easier.
+  subtitle: We create content for your business.
   buttonTitle: get a quote
 work:
   title: Work. Like magic.
@@ -17,14 +16,12 @@ work:
   workLogo4: /img/rise-white.png
   buttonTitle: see the work
 services:
-  buttonTitle: see how it's done
+  buttonTitle: learn more
   service1Subtitle: Refresh your website with clear and concise copy that resonates.
-  service2Subtitle: |
-    Share brand stories that engage your audience and inspire action.
-  service3Subtitle: Tell your story, boost your brand, and sell your services to the world.
-  service4Subtitle: Get the perfect script for your next big video production project.
-  subtitle: When it comes to marketing materials, we’ve got the magic touch. Let’s
-    get together and conjure up some creative content for your business.
+  service2Subtitle: Share stories that celebrate your brand and connect with customers.
+  service3Subtitle: Promote your products and services in catalogs, mailers, and more.
+  service4Subtitle: "Get the perfect video script for your next big creative campaign. "
+  subtitle: Let’s conjure up some creative content for your business.
   title: Presto chango.
   service4Title: Video Scripts
   service3Title: Print Collateral
@@ -33,11 +30,12 @@ services:
 why:
   title: Why Magic Pie?
   subtitle: >-
-    Magic Pie isn’t a critically acclaimed ad agency or hot new startup. That
-    would be cool, but here’s the thing: Magic Pie is just an experienced writer
-    with the skill set and flexibility to write what you want, when you need it.
+    We're not a critically acclaimed ad agency or hot new startup. That would be
+    cool, but here’s the thing: Magic Pie is just a freelance writer with the
+    skill set, experience, and flexibility to make some pretty sweet marketing
+    materials. 
 
 
     Are you looking for web design, web development, or video marketing, too? No problem! We’ve got partners for that.
-  buttonTitle: learn more
+  buttonTitle: meet the team
 ---
