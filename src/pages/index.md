@@ -5,12 +5,12 @@ hero:
     Copywriting. 
     Storytelling. 
     Marketing.
-  subtitle: Update your marketing material and enhance your brand with a little
-    love from the Magic Pie Copywriting Company.
+  subtitle: Whether you're starting up or starting over, creating content has
+    never been easier.
   buttonTitle: get a quote
 work:
   title: Work. Like magic.
-  subtitle: See the websites. Watch some videos. Read an article or two.
+  subtitle: Find out why these clients said, "Hey, that's pretty good."
   workLogo1: /img/43north-white.png
   workLogo2: /img/launchNY-white.png
   workLogo3: /img/fantasypros-white.png
@@ -22,14 +22,14 @@ services:
   service2Subtitle: |
     Share brand stories that engage your audience and inspire action.
   service3Subtitle: Tell your story, boost your brand, and sell your services to the world.
-  service4Subtitle: Get the perfect video script to promote your brand, product, or service.
+  service4Subtitle: Get the perfect script for your next big video production project.
   subtitle: When it comes to marketing materials, we’ve got the magic touch. Let’s
     get together and conjure up some creative content for your business.
   title: Presto chango.
-  service4Title: video scripts
-  service3Title: print collateral
-  service2Title: blogs + articles
-  service1Title: websites
+  service4Title: Video Scripts
+  service3Title: Print Collateral
+  service2Title: Blogs & Articles
+  service1Title: Websites
 why:
   title: Why Magic Pie?
   subtitle: >-
