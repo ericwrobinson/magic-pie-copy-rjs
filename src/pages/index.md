@@ -19,7 +19,7 @@ services:
   buttonTitle: learn more
   service1Subtitle: Refresh your website with clear and concise copy that resonates.
   service2Subtitle: Share stories that celebrate your brand and connect with customers.
-  service3Subtitle: Promote your products and services in catalogs, mailers, and more.
+  service3Subtitle: Promote your brand, products, or services in catalogs and mailers.
   service4Subtitle: "Get the perfect video script for your next big creative campaign. "
   subtitle: Let’s conjure up some creative content for your business.
   title: Presto chango.
