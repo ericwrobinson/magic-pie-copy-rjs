@@ -14,7 +14,7 @@ intro:
   title: Meet my clients. See our work.
   subtitle: My clients are business owners and marketing professionals who need
     next-level content for websites, landing pages, videos, and more.
-  buttonTitle: view portfolio
+  buttonTitle: see the work
 partners:
   partnerLogo3: /img/michael-smeal-studios.jpg
   partnerType1: |
