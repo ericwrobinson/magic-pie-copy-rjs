@@ -34,5 +34,5 @@ partners:
   partnerButtonLink2: https://bertholt.design/
   partnerLogo1: /img/thumbsupstudio-color.jpg
   partnerButtonLink3: https://michaelsmealstudios.com/portfolio/
-  partnerLogo2: /img/favicon-16x16.png
+  partnerLogo2: /img/logo.svg
 ---
