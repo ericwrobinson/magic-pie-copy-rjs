@@ -11,10 +11,9 @@ hero:
   buttonTitle: ""
   buttonUrl: ""
 intro:
-  title: My clients. Our work.
-  subtitle: I work with clients—business owners and marketing professionals near
-    and far—to create next-level content for websites, landing pages, videos,
-    blogs, and more.
+  title: Meet my clients. See our work.
+  subtitle: I work with business owners and marketing professionals to create
+    next-level content for websites, landing pages, videos, and more.
   buttonTitle: view portfolio
 partners:
   partnerLogo3: /img/michael-smeal-studios.jpg
@@ -27,7 +26,7 @@ partners:
   partnerButtonTitle2: Meet Bertholt
   partnerButtonTitle3: Meet Mike
   subtitle: |-
-    I make brands sound good. My partners make them look beautiful. 
+    I make brands sound good. My partners make brands look beautiful. 
     Put us together and get something spectacular.
   title: Good partners. Great stuff.
   partnerButtonLink1: https://thumbsupstudio.com
