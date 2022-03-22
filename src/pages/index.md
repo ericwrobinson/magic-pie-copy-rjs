@@ -28,14 +28,9 @@ services:
   service2Title: Blogs & Articles
   service1Title: Websites
 why:
-  title: Why Magic Pie?
-  subtitle: >-
-    We're not a critically acclaimed ad agency or hot new startup. That would be
-    cool, but here’s the thing: Magic Pie is just a freelance writer with the
-    skill set, experience, and flexibility to make some pretty sweet marketing
-    materials. 
-
-
-    Are you looking for web design, web development, or video marketing, too? No problem! We’ve got partners for that.
+  title: Who? What? How?
+  subtitle: "Here's the trick: The Magic Pie Copywriting Company is really just
+    one guy, a freelance copywriter. But don't feel deceived! He usually works
+    with a graphic designer and web developer, too."
   buttonTitle: meet the team
 ---
