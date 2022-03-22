@@ -9,7 +9,7 @@ hero:
   buttonTitle: get a quote
 work:
   title: Work. Like magic.
-  subtitle: Find out why these clients said, "Hey, that's pretty good."
+  subtitle: Find out why these clients said, "Hey, that's pretty good!"
   workLogo1: /img/43north-white.png
   workLogo2: /img/launchNY-white.png
   workLogo3: /img/fantasypros-white.png
@@ -31,7 +31,7 @@ why:
   title: Who? What? How?
   subtitle: "Here's the trick: Magic Pie Copywriting is really just one guy—a
     freelance copywriter from Buffalo, New York. But don't feel deceived! He
-    usually works with a small network of marketing professionals, too.
-    Together, they can make some pretty cool stuff."
+    usually works with a small team of marketing professionals, too. Together,
+    they make some pretty cool stuff."
   buttonTitle: meet the team
 ---
