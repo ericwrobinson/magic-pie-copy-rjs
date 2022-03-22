@@ -2,10 +2,8 @@
 templateKey: about-page
 path: /about
 hero:
-  subheading: About Us
-  title: |
-    Okay,
-    you got me.
+  subheading: About us
+  title: Okay, you got me.
   subtitle: >-
     Magic Pie Copywriting is really just me, James. I’ve been a professional
     writer since 2012, and now that the gig economy is in full swing, I’m taking
@@ -16,12 +14,13 @@ hero:
 
     Let’s connect!
   image: /img/james-photo.jpg
+  buttonTitle: sdd
+  buttonUrl: ddd
 intro:
-  title: Working Wonders.
-  subtitle: I work with business owners, key stakeholders, and other marketers to
-    share ideas and execute strategies. Through close collaborations, we create
+  title: Working wonders.
+  subtitle: I work with business owners and marketing professionals to create
     next-level content for corporate websites, videos, blogs, and more.
-  buttonTitle: see my work
+  buttonTitle: view portfolio
 partners:
   partnerLogo3: /img/jeremy-hulburt.jpg
   partnerType1: Web Design & Development
