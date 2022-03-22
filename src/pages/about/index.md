@@ -12,7 +12,7 @@ hero:
   buttonUrl: ""
 intro:
   title: Meet my clients. See our work.
-  subtitle: I work with business owners and marketing professionals to create
+  subtitle: My clients are business owners and marketing professionals who need
     next-level content for websites, landing pages, videos, and more.
   buttonTitle: view portfolio
 partners:
@@ -25,7 +25,9 @@ partners:
   partnerButtonTitle1: Meet Eric
   partnerButtonTitle2: Meet Bertholt
   partnerButtonTitle3: Meet Mike
-  subtitle: My partners make brands look beautiful. Check 'em out!
+  subtitle: |-
+    I make brands sound good. My partners make brands look beautiful. 
+    Put us together and get something spectacular. 
   title: "Good partners. Great stuff. "
   partnerButtonLink1: https://thumbsupstudio.com
   partnerButtonLink2: https://bertholt.design/
