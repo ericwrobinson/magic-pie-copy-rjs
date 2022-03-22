@@ -29,8 +29,8 @@ services:
   service1Title: Websites
 why:
   title: Who? What? How?
-  subtitle: "Here's the trick: The Magic Pie Copywriting Company is really just
-    one guy, a freelance copywriter. But don't feel deceived! He usually works
-    with a graphic designer and web developer, too."
+  subtitle: "Here's the trick: Magic Pie Copywriting is really just one guy, a
+    freelance copywriter. But don't feel deceived! He usually works with a
+    graphic designer and web developer, too."
   buttonTitle: meet the team
 ---
