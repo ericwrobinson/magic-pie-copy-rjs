@@ -10,7 +10,7 @@ hero:
 
 
     I've been a professional copywriter since 2012. Now that the gig economy is in full swing, I'm taking my talents to the streets.
-  image: /img/jumbotron.jpg
+  image: /img/jc3-1-.png
   buttonTitle: ""
   buttonUrl: ""
 intro:
