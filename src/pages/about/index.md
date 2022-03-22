@@ -7,7 +7,7 @@ hero:
   subtitle: Magic Pie Copywriting is really just me, James... more or less. I've
     been a professional copywriter since 2012, but now that the gig economy is
     in full swing, I'm taking my talents to the streets.
-  image: /img/logo.svg
+  image: /img/jumbotron.jpg
   buttonTitle: ""
   buttonUrl: ""
 intro:
@@ -25,10 +25,11 @@ partners:
   partnerButtonTitle1: Meet Eric
   partnerButtonTitle2: Meet Bertholt
   partnerButtonTitle3: Meet Mike
-  subtitle: Creating killer content takes more than just a writer’s touch. To
-    build websites and make other high-quality marketing materials, I work with
-    a talented team of creatives who design art, develop code, and produce
-    videos that will knock your socks off, plain and simple.
+  subtitle: >-
+    If you're looking for straight-up copy, I'm all you need.
+
+
+    For web design and development, print materials, or video production—let me introduce you to the rest of the team.
   title: Good partners. Great stuff.
   partnerButtonLink1: https://thumbsupstudio.com
   partnerButtonLink2: https://bertholt.design/
