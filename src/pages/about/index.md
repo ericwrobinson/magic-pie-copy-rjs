@@ -6,7 +6,7 @@ hero:
   title: Okay, you got me.
   subtitle: >-
     Magic Pie Copywriting is really just me, James—plus a few freelance
-    marketing partners if you need 'em. 
+    marketing partners if we need 'em. 
 
 
     I've been a professional copywriter since 2012. Now that the gig economy is in full swing, I'm taking my talents to the streets.
@@ -16,7 +16,7 @@ hero:
 intro:
   title: Working wonders.
   subtitle: I work with business owners and marketing professionals to create
-    next-level content for corporate websites, videos, blogs, and more.
+    next-level content for websites, landing pages, videos, blogs, and more.
   buttonTitle: view portfolio
 partners:
   partnerLogo3: /img/michael-smeal-studios.jpg
