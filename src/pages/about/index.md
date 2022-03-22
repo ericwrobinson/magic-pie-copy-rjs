@@ -11,7 +11,7 @@ hero:
   buttonTitle: ""
   buttonUrl: ""
 intro:
-  title: Meet my clients. See some work.
+  title: Meet my clients. See our work.
   subtitle: I work with business owners and marketing professionals to create
     next-level content for websites, landing pages, videos, and more.
   buttonTitle: view portfolio
