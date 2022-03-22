@@ -16,9 +16,10 @@ intro:
     next-level content for corporate websites, videos, blogs, and more.
   buttonTitle: view portfolio
 partners:
-  partnerLogo3: /img/favicon-16x16.png
+  partnerLogo3: /img/michael-smeal-studios.jpg
   partnerType1: Web Design & Development
-  partnerType2: Graphic Design
+  partnerType2: |
+    Graphic Design
   partnerType3: Web Development
   partnerButtonTitle1: Meet Eric
   partnerButtonTitle2: Meet Bertholt
