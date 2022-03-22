@@ -4,19 +4,17 @@ path: /about
 hero:
   subheading: About us
   title: Okay, you got me.
-  subtitle: >-
-    Magic Pie Copywriting is really just me, James—plus a few freelance
-    marketing partners if we need 'em. 
-
-
-    I've been a professional copywriter since 2012. Now that the gig economy is in full swing, I'm taking my talents to the streets.
+  subtitle: Magic Pie Copywriting is really just me, James, a pro copywriter since
+    2012. When it comes to copy, I'm your guy. For graphic design, web
+    development, or video production—let's meet the team.
   image: /img/jc3-1-.png
   buttonTitle: ""
   buttonUrl: ""
 intro:
-  title: Working wonders.
-  subtitle: I work with business owners and marketing professionals to create
-    next-level content for websites, landing pages, videos, blogs, and more.
+  title: My clients. Our work.
+  subtitle: I work with clients—business owners and marketing professionals near
+    and far—to create next-level content for websites, landing pages, videos,
+    blogs, and more.
   buttonTitle: view portfolio
 partners:
   partnerLogo3: /img/michael-smeal-studios.jpg
@@ -28,11 +26,9 @@ partners:
   partnerButtonTitle1: Meet Eric
   partnerButtonTitle2: Meet Bertholt
   partnerButtonTitle3: Meet Mike
-  subtitle: >-
-    If you're looking for straight-up copy, I'm all you need.
-
-
-    For web design and development, print materials, or video production—let me introduce you to the rest of the team.
+  subtitle: |-
+    I make brands sound good. My partners make them look beautiful. 
+    Put us together and get something spectacular.
   title: Good partners. Great stuff.
   partnerButtonLink1: https://thumbsupstudio.com
   partnerButtonLink2: https://bertholt.design/
