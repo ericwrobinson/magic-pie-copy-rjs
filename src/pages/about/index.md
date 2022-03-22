@@ -5,8 +5,8 @@ hero:
   subheading: About us
   title: Okay, you got me.
   subtitle: >-
-    Magic Pie Copywriting is really just me, James, plus my freelance marketing
-    partners if you need 'em. 
+    Magic Pie Copywriting is really just me, James—plus a few freelance
+    marketing partners if you need 'em. 
 
 
     I've been a professional copywriter since 2012. Now that the gig economy is in full swing, I'm taking my talents to the streets.
