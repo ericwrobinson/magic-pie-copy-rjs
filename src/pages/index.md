@@ -32,6 +32,6 @@ why:
   subtitle: "Here's the trick: Magic Pie Copywriting is really just one guy—a
     freelance copywriter from Buffalo, New York. But don't feel deceived! He
     usually works with a small network of marketing professionals, too.
-    Together, we can make some pretty cool stuff."
+    Together, they can make some pretty cool stuff."
   buttonTitle: meet the team
 ---
