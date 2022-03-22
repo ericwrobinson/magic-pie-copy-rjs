@@ -104,17 +104,17 @@ const Footer = class extends React.Component {
                   <section className="menu">
                     <FooterNav>
                       <FooterNavItem>
-                        <StyledLink to="/about">
+                        <StyledLink to="/portfolio">
                           work
                         </StyledLink>
                       </FooterNavItem>
                       <FooterNavItem>
-                        <StyledLink to="/services">
+                        <StyledLink to="/about">
                           about
                         </StyledLink>
                       </FooterNavItem>
                       <FooterNavItem>
-                        <StyledLink to="/contact/examples">
+                        <StyledLink to="/services">
                           services
                         </StyledLink>
                       </FooterNavItem>

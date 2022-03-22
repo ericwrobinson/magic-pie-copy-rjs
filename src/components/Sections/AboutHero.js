@@ -159,13 +159,13 @@ const AboutHero = ({
 		      	color={inverted ? '#f2f2f2' : 'black' }>
 		      	{subtitle}
 		      </Body>
-		      <a 
+		      {/* <a 
 		      	href={'https://www.linkedin.com/company/magic-pie-copywriting-company/'} 
 		      	target="_blank"
 						rel="noreferrer"
 		      	alt={'link to Magic Pie Copy LinkedIn'}>
 		      	<LinkedInWrapper src={linkedinWhite} alt="LinkedIn icon"/>
-		      	</a>
+		      	</a> */}
 		      { buttonTitle &&
 			      <ButtonPrimary 
 			      	inverted={inverted} 
