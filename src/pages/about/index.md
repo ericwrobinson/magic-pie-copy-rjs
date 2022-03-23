@@ -25,8 +25,9 @@ partners:
   partnerButtonTitle1: Meet Eric
   partnerButtonTitle2: Meet Bertholt
   partnerButtonTitle3: Meet Mike
-  subtitle: "I make businesses sound good. My partners make brands look beautiful.
-    Put us together and get something spectacular. "
+  subtitle: "My job is to make businesses sound good. My creative partners? They
+    make brands look beautiful. Put us together and get something
+    spectacular—online, on paper, or onscreen. "
   title: "Good partners. Great stuff. "
   partnerButtonLink1: https://thumbsupstudio.com
   partnerButtonLink2: https://bertholt.design/
