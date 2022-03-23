@@ -3,10 +3,10 @@ templateKey: about-page
 path: /about
 hero:
   subheading: About us
-  title: Okay, you got me.
-  subtitle: "Hi, I'm James. I've been a professional copywriter since 2012. Magic
-    Pie Copywriting is my freelance business. Want to see some of my work and
-    meet my partners? Let's do it. "
+  title: You got me.
+  subtitle: "I'm James. I've been a professional copywriter and content strategist
+    since 2012. Magic Pie Copywriting is my freelance copywriting business. Want
+    to see some of my work and meet my creative partners? Let's do it.  "
   image: /img/jc3-1-.png
   buttonTitle: ""
   buttonUrl: ""
