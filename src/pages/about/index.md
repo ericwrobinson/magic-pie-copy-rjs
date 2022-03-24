@@ -30,7 +30,7 @@ intro:
 
 
     There's only one way to find out.
-  buttonTitle: see the work
+  buttonTitle: see my work
 partners:
   partnerLogo3: /img/michael-smeal-studios.jpg
   partnerType1: |
