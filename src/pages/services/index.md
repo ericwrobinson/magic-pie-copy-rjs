@@ -29,7 +29,31 @@ intro:
       image: /img/magic-pie-copy-icon-web.svg
     - serviceImage: /img/magic-pie-copy-icon-blogs.svg
       serviceTitle: Blogs & Articles
-      serviceSubtitle: test
+      serviceSubtitle: >-
+        I've written hundreds of blogs, man. Hundreds of 'em. For a lot of
+        different businesses in a lot of different industries, too.
+
+
+        Education. Technology. Education technology. Manufacturing. Startups. Small businesses. Health. Fitness. Skin care. Accounting. Assisted living. HVAC. Marketing. Jobs. Cats. Dogs. Diversity. Fantasy football. Food. Booze. Buffalo. BBQ.
+
+
+        The list goes on and on. 
+
+
+        But why do businesses need blogs? 
+
+
+        1. To establish employees as thought leaders
+
+        2. To promote products or services
+
+        3. To celebrate company culture
+
+
+        So when people visit their website, they can learn more about the brand, and–more to the point–fall in love with it. 
+
+
+        Put simply, blogs win customers and influence them.
       image: /img/magic-pie-copy-icon-blogs.svg
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: Print Collateral
