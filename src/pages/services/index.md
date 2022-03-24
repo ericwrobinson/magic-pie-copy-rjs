@@ -34,7 +34,7 @@ intro:
         different businesses in a lot of different industries, too.
 
 
-        Education. Technology. Education technology. Manufacturing. Startups. Small businesses. Health. Fitness. Skin care. Accounting. Assisted living. HVAC. Marketing. Jobs. Cats. Dogs. Diversity. Fantasy football. Food. Booze. Buffalo. BBQ.
+        Education. Technology. Education technology. Robots. Startups. Small businesses. Health. Fitness. Skin care. Accounting. Assisted living. HVAC. Marketing. Hiring. Firing. Cats. Dogs. Diversity. Fantasy football. Food. Booze. Buffalo. BBQ...
 
 
         The list goes on and on. 
@@ -53,7 +53,7 @@ intro:
         So when people visit their website, they can learn more about the brand, and–more to the point–fall in love with it. 
 
 
-        Put simply, blogs win customers and influence them.
+        Put simply, the best blogs win customers and influence them.
       image: /img/magic-pie-copy-icon-blogs.svg
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: Print Collateral
