@@ -4,8 +4,8 @@ path: /services
 subheading: Services
 image: /img/jumbotron.jpg
 title: So, what'll it be?
-subtitle: Websites. Blogs. Brochures. Articles. Anthems. Ads. Emails. Pitches.
-  Slogans. Tags. Mags. Mailers. Postcards. Catalogs. Case studies. And more.
+subtitle: Websites. Blogs. Brochures. Articles. Anthems. Ads. Emails. Slogans.
+  Tags. Mags. Mailers. Postcards. Catalogs. Case studies. And more.
 intro:
   services:
     - serviceImage: /img/magic-pie-copy-icon-web.svg
