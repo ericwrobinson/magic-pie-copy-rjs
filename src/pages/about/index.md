@@ -5,8 +5,8 @@ hero:
   subheading: About us
   title: You got me.
   subtitle: >-
-    I'm James. I've been a professional copywriter and content strategist since
-    2012. Magic Pie Copywriting is my freelance copywriting business. 
+    So my name is James and I've been a professional copywriter since 2012.
+    Magic Pie Copywriting is my freelance copywriting business. 
 
 
     Want to see some of my work and meet my creative partners? 
