@@ -5,7 +5,7 @@ subheading: Services
 image: /img/jumbotron.jpg
 title: So, what'll it be?
 subtitle: Websites. Blogs. Brochures. Articles. Anthems. Ads. Emails. Slogans.
-  Tags. Mags. Mailers. Postcards. Catalogs. Case studies. And more.
+  Tags. Mags. Mailers. Postcards. Catalogs. Case studies. And so on.
 intro:
   services:
     - serviceImage: /img/magic-pie-copy-icon-web.svg
