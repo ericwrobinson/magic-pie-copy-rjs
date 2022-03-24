@@ -3,23 +3,35 @@ templateKey: about-page
 path: /about
 hero:
   subheading: About us
-  title: You got me.
-  subtitle: >-
-    So my name is James and I've been a professional copywriter since 2012.
-    Magic Pie Copywriting is my freelance copywriting business. 
-
-
-    Want to see some of my work and meet my creative partners? 
-
-
-    Let's do it.  
+  title: Okay, you got me.
+  subtitle: Magic Pie Copywriting is really just me, James. I've been a
+    professional copywriter since 2012, and now that the gig economy is in full
+    swing, I'm taking my talents to the streets.
   image: /img/jumbotron.jpg
   buttonTitle: ""
   buttonUrl: ""
 intro:
-  title: Meet my clients. See our work.
-  subtitle: My clients are business owners and marketing professionals who need
-    next-level content for websites, landing pages, videos, and more.
+  title: What have I done?
+  subtitle: >+
+    I've earned two degrees in English education. I've taught. I've learned.
+    I've failed.
+
+
+    Cut to me slinging suds and serving wings at the world's greatest dive bar. Good times. 
+
+
+    Then, finally, a full-time writing job. Then another. And then another.
+
+
+    Ten years later, I'm still here. I'm still writing.
+
+
+    As a freelancer, I've written copy for clients in Amarillo, Buffalo, and Chicago. B2B. B2C. Websites. Videos. All sorts of stuff. I love it. Will you?
+
+
+    There's only one way to find out. 
+
+
   buttonTitle: see the work
 partners:
   partnerLogo3: /img/michael-smeal-studios.jpg
@@ -33,8 +45,8 @@ partners:
   partnerButtonTitle3: Meet Mike
   subtitle: "My job is to make businesses sound good. My creative partners? They
     make brands look beautiful. Put us together and get something
-    spectacular—online, on paper, or onscreen. "
-  title: "Good partners. Great stuff. "
+    spectacular—online, on paper, or on-screen. "
+  title: Good partners. Great work.
   partnerButtonLink1: https://thumbsupstudio.com
   partnerButtonLink2: https://bertholt.design/
   partnerLogo1: /img/thumbsupstudio-color.jpg
