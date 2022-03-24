@@ -10,11 +10,22 @@ intro:
   services:
     - serviceImage: /img/magic-pie-copy-icon-web.svg
       serviceTitle: Websites
-      serviceSubtitle: >
-        We wrote most of these websites with input from a talented team of
-        dedicated pros in Corporate America. Each website is carefully crafted
-        to reach a certain audience, pique their interest, and drive them to
-        action.
+      serviceSubtitle: >-
+        Whether you're starting up or starting over, building your new website
+        has never been easier (or better). 
+
+
+        As your freelance copywriter, I'll work with you to: 
+
+
+        1. Sketch a site structure
+
+        2. Define your brand voice
+
+        3. Write fresh copy for every page
+
+
+        Throughout the process, I'll introduce you to my web design and development partners. These guys—they're wizards. Together, we'll customize a website that invites, engages, and inspires your audience.
       image: /img/magic-pie-copy-icon-web.svg
     - serviceImage: /img/magic-pie-copy-icon-blogs.svg
       serviceTitle: Blogs & Articles
