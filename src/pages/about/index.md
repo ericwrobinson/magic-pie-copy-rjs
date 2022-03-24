@@ -12,26 +12,24 @@ hero:
   buttonUrl: ""
 intro:
   title: What have I done?
-  subtitle: >+
+  subtitle: >-
     I've earned two degrees in English education. I've taught. I've learned.
     I've failed.
 
 
-    Cut to me slinging suds and serving wings at the world's greatest dive bar. Good times. 
+    I've slung suds and served wings. I've washed dishes. I've mopped floors and bummed smokes out back.
 
 
     Then, finally, a full-time writing job. Then another. And then another.
 
 
-    Ten years later, I'm still here. I'm still writing.
+    Ten years after my first full-time writing job, I'm still here. I'm still writing.
 
 
     As a freelancer, I've written copy for clients in Amarillo, Buffalo, and Chicago. B2B. B2C. Websites. Videos. All sorts of stuff. I love it. Will you?
 
 
-    There's only one way to find out. 
-
-
+    There's only one way to find out.
   buttonTitle: see the work
 partners:
   partnerLogo3: /img/michael-smeal-studios.jpg
