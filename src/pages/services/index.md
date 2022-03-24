@@ -3,10 +3,9 @@ templateKey: services-page
 path: /services
 subheading: Services
 image: /img/jumbotron.jpg
-title: What'll it be?
-subtitle: Whether it’s social media, websites, print material, your next video
-  script, or your fantasy football league roundup email, we’ll write what you
-  need, when you need it.
+title: So, what'll it be?
+subtitle: Websites. Blogs. Brochures. Articles. Anthems. Ads. Emails. Pitches.
+  Slogans. Tags. Mags. Mailers. Postcards. Catalogs. Case studies. And more.
 intro:
   services:
     - serviceImage: /img/magic-pie-copy-icon-web.svg
