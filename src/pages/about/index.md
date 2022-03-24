@@ -13,11 +13,16 @@ hero:
 intro:
   title: What have I done?
   subtitle: >-
-    I've earned two degrees in English education. I've taught. I've learned.
-    I've failed.
+    I've earned two degrees in English education. 
+
+    I've taught. I've learned. I've failed.
 
 
-    I've slung suds and served wings. I've washed dishes. I've mopped floors and bummed smokes out back.
+    I've slung suds and served wings. 
+
+    I've washed dishes. 
+
+    I've mopped floors and bummed smokes out back.
 
 
     Then, finally, a full-time writing job. Then another. And then another.
