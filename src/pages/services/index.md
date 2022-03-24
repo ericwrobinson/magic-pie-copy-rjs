@@ -30,8 +30,8 @@ intro:
     - serviceImage: /img/magic-pie-copy-icon-blogs.svg
       serviceTitle: Blogs & Articles
       serviceSubtitle: >-
-        I've written hundreds of blogs, man. Hundreds of 'em. For a lot of
-        different businesses in a lot of different industries, too.
+        I've written well over a hundred blogs. For a lot of different
+        businesses in a lot of different industries, too.
 
 
         Education. Technology. Education technology. Startups. Small businesses. Manufacturing. Health. Fitness. Skin care. Art. Accounting. Assisted living. Heating and cooling. Marketing. Hiring. Firing. Cats. Dogs. Diversity. Fantasy football. Food. Booze. Buffalo. BBQ...
