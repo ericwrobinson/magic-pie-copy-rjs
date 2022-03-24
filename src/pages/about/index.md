@@ -23,7 +23,7 @@ intro:
     Then, finally, a full-time writing job. Then another. And then another.
 
 
-    Ten years after my first full-time writing job, I'm still here. I'm still writing.
+    Ten years later, I'm still here. I'm still writing.
 
 
     As a freelancer, I've written copy for clients in Amarillo, Buffalo, and Chicago. B2B. B2C. Websites. Videos. All sorts of stuff. I love it. Will you?
