@@ -34,7 +34,7 @@ intro:
         different businesses in a lot of different industries, too.
 
 
-        Education. Technology. Education technology. Startups. Small businesses. Manufacturing. Health. Fitness. Skin care. Art. Accounting. Assisted living. HVAC. Marketing. Hiring. Firing. Cats. Dogs. Diversity. Fantasy football. Food. Booze. Buffalo. BBQ...
+        Education. Technology. Education technology. Startups. Small businesses. Manufacturing. Health. Fitness. Skin care. Art. Accounting. Assisted living. Heating and cooling. Marketing. Hiring. Firing. Cats. Dogs. Diversity. Fantasy football. Food. Booze. Buffalo. BBQ...
 
 
         The list goes on and on. 
