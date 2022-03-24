@@ -42,11 +42,12 @@ intro:
       image: /img/magic-pie-copy-icon-video.svg
 cta:
   title1: See it.
-  subtitle1: It's time to pull the rabbit out of our hat. Are you ready? Wiggle
-    your fingers, push the button, and say the magic words...
+  subtitle1: It's time for us to pull the rabbit out of our hat. Are you ready?
+    Wiggle your fingers, push the button, and say the magic words...
   buttonTitle1: see the work
   title2: Believe it.
-  subtitle2: Creating killer content takes more than just a writer’s touch. Meet
-    the team of creatives who  help us make the magic happen.
+  subtitle2: Creating incredible content takes more than just a writer’s touch.
+    Meet the graphic designers and web developers who help us make the magic
+    happen.
   buttonTitle2: meet the guys
 ---
