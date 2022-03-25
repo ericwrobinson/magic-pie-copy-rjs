@@ -12,7 +12,7 @@ intro:
       serviceTitle: Websites
       serviceSubtitle: >-
         Whether you're starting up or starting over, building your new website
-        has never been easier (or better). 
+        has never been easier. 
 
 
         As your freelance copywriter, I'll work with you to: 
