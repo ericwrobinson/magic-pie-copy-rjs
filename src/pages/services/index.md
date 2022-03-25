@@ -33,14 +33,16 @@ intro:
         industries, too. 
 
 
-        But why do businesses need blogs? For at least three reasons:
+        But why do businesses need blogs? For at least four reasons:
 
 
         1. To establish employees as thought leaders
 
         2. To promote products or services
 
-        3. To celebrate company culture
+        3. To share company news
+
+        4. To celebrate company culture
 
 
         So when people visit your website, they can learn more about your brand, and–more to the point–fall in love with it. 
