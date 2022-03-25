@@ -34,12 +34,6 @@ intro:
         businesses in a lot of different industries, too.
 
 
-        Education. Technology. Education technology. Startups. Small businesses. Manufacturing. Health. Fitness. Art. Accounting. Assisted living.  Marketing. Hiring. Firing. Cats. Dogs. Diversity. Fantasy football. Food. Booze. Buffalo. BBQ...
-
-
-        The list goes on and on. 
-
-
         But why do businesses need blogs? For at least three reasons:
 
 
