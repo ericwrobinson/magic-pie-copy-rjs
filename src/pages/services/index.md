@@ -46,7 +46,7 @@ intro:
         So when people visit your website, they can learn more about your brand, and–more to the point–fall in love with it. 
 
 
-        Put simply, the best blogs win customers and influence them.
+        Put simply, the best blogs win customers and influence them. 
       image: /img/magic-pie-copy-icon-blogs.svg
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: Print Collateral
@@ -60,7 +60,7 @@ intro:
         With high-quality print materials, your products pop off the page. Your story is sensational. Your brand? It's unbeatable! 
 
 
-        With well-written (and beautifully designed) print collateral, you can attract, captivate, and activate your audience. 
+        With well-written (and beautifully designed) print collateral, you can attract, captivate, and activate your audience. Sound good? Let's do it. 
       image: /img/magic-pie-copy-icon-marketing.svg
     - serviceImage: /img/magic-pie-copy-icon-video.svg
       serviceTitle: Video Scripts
