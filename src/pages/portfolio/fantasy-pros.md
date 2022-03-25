@@ -13,25 +13,14 @@ tags:
   - blog
   - articles
 ---
+Remember 2020? How could we forget, right?
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+When the pandemic popped up, I needed to exercise an itch to write, more-so than usual. And because I'm somewhat of a fantasy football fanatic, I thought I'd take a shot and see if I could write some articles for FantasyPros. 
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+So I sent an email to the head content guy over there. I told him I was really good at fantasy football. I even showed him my virtual trophy case on Yahoo Sports, along with some writing samples, of course. 
 
-## What the updates mean to you
+He liked it, so he hired me. I was added to the FantasyPros writers email chain and Slack channel, given access to WordPress, and given regular assignments. By the summertime, I was invited to write a weekly column called "Heat Index," in which I evaluated several low-key player's performance and helped readers decide whether to roster him on their fantasy teams. 
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+It was fun. I got to crack open some cold ones and write about a subject I was both knowledgable in and passionate about. But it was also grueling. And as soon as fantasy football became work, it became less fun. I served as a FantasyPros staffer for a year, though, and quietly dipped out. 
 
-![flavor wheel](/img/flavor_wheel.jpg)
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
-
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
-
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
-
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+These days, I've got other fantasies to fantasize about.
