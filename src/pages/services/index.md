@@ -18,7 +18,7 @@ intro:
         As your freelance copywriter, I'll work with you to: 
 
 
-        1. Sketch a site structure
+        1. Outline a site structure
 
         2. Define your brand voice
 
@@ -30,11 +30,11 @@ intro:
     - serviceImage: /img/magic-pie-copy-icon-blogs.svg
       serviceTitle: Blogs & Articles
       serviceSubtitle: >-
-        I've written well over a hundred blogs. For a lot of different
+        I must have written more than a hundred blogs. For a lot of different
         businesses in a lot of different industries, too.
 
 
-        Education. Technology. Education technology. Startups. Small businesses. Manufacturing. Health. Fitness. Skin care. Art. Accounting. Assisted living.  Marketing. Hiring. Firing. Cats. Dogs. Diversity. Fantasy football. Food. Booze. Buffalo. BBQ...
+        Education. Technology. Education technology. Startups. Small businesses. Manufacturing. Health. Fitness. Art. Accounting. Assisted living.  Marketing. Hiring. Firing. Cats. Dogs. Diversity. Fantasy football. Food. Booze. Buffalo. BBQ...
 
 
         The list goes on and on. 
@@ -57,11 +57,16 @@ intro:
       image: /img/magic-pie-copy-icon-blogs.svg
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: Print Collateral
-      serviceSubtitle: >
-        I work with business owners, key stakeholders, and other marketers to
-        share ideas and execute strategies. Through close collaborations, we
-        create next-level content for corporate websites, videos, blogs, and
-        more.
+      serviceSubtitle: >-
+        Who says print is dead? When you visit customers or attend trade shows,
+        you've got to give people something to look at. To touch. To read. Same
+        thing goes for your storefront, too. 
+
+
+        With high-quality print materials, your product pops off the page. Your mission is undeniable. Your brand is unbeatable. You attract, engage, and activate your audience. 
+
+
+        But your print collateral must be carefully calculated. Every word counts. But, of course, it all starts with your copy.
       image: /img/magic-pie-copy-icon-marketing.svg
     - serviceImage: /img/magic-pie-copy-icon-video.svg
       serviceTitle: Video Scripts
