@@ -21,7 +21,7 @@ So I sent an email to the head content guy over there. I told him I was really g
 
 He liked it, so he hired me. 
 
-I was quickly added to the FantasyPros writers email chain and Slack channel, granted access to the company's WordPress account, and given regular assignments. By the summertime, I was invited to write a weekly column called "Heat Index," in which I evaluated the performance of football players who were coming off of surprise performance. It was my job to help readers determine whether to roster these players on their fantasy teams moving forward. 
+I was quickly added to the FantasyPros writers email chain and Slack channel, granted access to the company's WordPress account, and given regular assignments. By the summertime, I was invited to write a weekly column called "Heat Index," in which I evaluated the performance of football players who were coming off of surprise performances. It was my job to help readers determine whether to roster these players on their fantasy teams moving forward. 
 
 It was fun. I got to crack open some cold ones and write about a subject I was both knowledgable in and passionate about. But it was also grueling. And as soon as fantasy football became work, it became less fun. I served as a FantasyPros staffer for a year and then quietly dipped out. 
 
