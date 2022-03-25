@@ -28,7 +28,8 @@ intro:
     - serviceImage: /img/magic-pie-copy-icon-blogs.svg
       serviceTitle: Blogs & Articles
       serviceSubtitle: >-
-        I must have written more than a hundred blogs. For a lot of different
+        This isn't the coolest sentence I've ever typed, but... I've written
+        well over a hundred blogs. (Cool, bro.) For a lot of different
         businesses in a lot of different industries, too. 
 
 
@@ -53,7 +54,7 @@ intro:
         Who says print is dead? 
 
 
-        When you sit down with customers or talk to people at trade shows, you've got to leave something behind. Something memorable. To touch. To read. To experience. Same thing goes for your storefront, food truck, or pizza place. 
+        When you sit down with customers or talk to people at trade shows, you've got to leave something behind. Something memorable. Something to touch. To read. To experience. Same thing goes for your storefront, food truck, or pizza place. 
 
 
         With high-quality print materials, your products pop off the page. Your mission is undeniable. Your brand? It's unbeatable! With well-written, beautifully designed print collateral, you can attract, engage, and activate your audience. 
