@@ -52,10 +52,10 @@ intro:
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: Print Collateral
       serviceSubtitle: >-
-        Who says print is dead? When you sit down with customers or talk to
-        people at trade shows, you've got to leave something behind. Something
-        memorable. To touch. To read. To experience. Same thing goes for your
-        storefront, food truck, or pizza place. 
+        Who says print is dead? 
+
+
+        When you sit down with customers or talk to people at trade shows, you've got to leave something behind. Something memorable. To touch. To read. To experience. Same thing goes for your storefront, food truck, or pizza place. 
 
 
         With high-quality print materials, your products pop off the page. Your mission is undeniable. Your brand? It's unbeatable! With well-written, beautifully designed print collateral, you can attract, engage, and activate your audience. 
