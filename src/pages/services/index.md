@@ -31,7 +31,7 @@ intro:
       serviceTitle: Blogs & Articles
       serviceSubtitle: >-
         I must have written more than a hundred blogs. For a lot of different
-        businesses in a lot of different industries, too.
+        businesses in a lot of different industries, too. 
 
 
         But why do businesses need blogs? For at least three reasons:
