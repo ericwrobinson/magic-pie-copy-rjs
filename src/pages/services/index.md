@@ -57,10 +57,10 @@ intro:
         When you sit down with customers or talk to people at trade shows, you've got to leave something behind. Something memorable. Something to touch. To read. To experience. Same thing goes for your storefront, food truck, or pizza place. 
 
 
-        With high-quality print materials, your products pop off the page. Your mission is undeniable. Your brand? It's unbeatable! With well-written, beautifully designed print collateral, you can attract, engage, and activate your audience. 
+        With high-quality print materials, your products pop off the page. Your story is sensational. Your brand? It's unbeatable! 
 
 
-        But it must be carefully calculated. Every word counts. And, of course, it all starts with your copy.
+        With well-written (and beautifully designed) print collateral, you can attract, captivate, and activate your audience. 
       image: /img/magic-pie-copy-icon-marketing.svg
     - serviceImage: /img/magic-pie-copy-icon-video.svg
       serviceTitle: Video Scripts
