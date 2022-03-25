@@ -7,7 +7,7 @@ hero:
   subtitle: Magic Pie Copywriting is really just me, James. I've been a
     professional copywriter since 2012, and now that the gig economy is in full
     swing, I'm taking my talents to the streets.
-  image: /img/bertholtllc-logo.png
+  image: /img/43north-black.png
   buttonTitle: ""
   buttonUrl: ""
 intro:
