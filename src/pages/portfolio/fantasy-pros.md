@@ -3,10 +3,10 @@ templateKey: portfolio-post
 date: 2020-01-01T15:06:11.000Z
 featuredpost: false
 title: FantasyPros
-subtitle: "FantasyPros is one of America's leading fantasy sports resources. The
-  website features an aggregation of fantasy sports expert advice from around
-  the web to help fantasy sports players make the best, most informed decisions.
-  "
+subtitle: "FantasyPros is one of the world's leading fantasy sports resources.
+  The website features an aggregation of fantasy sports expert advice from
+  around the web to help fantasy sports players make the best, most informed
+  decisions. "
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/fantasypros-white.png
 tags:
