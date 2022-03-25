@@ -58,15 +58,16 @@ intro:
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: Print Collateral
       serviceSubtitle: >-
-        Who says print is dead? When you visit customers or attend trade shows,
-        you've got to give people something to look at. To touch. To read. Same
-        thing goes for your storefront, too. 
+        Who says print is dead? When you sit down with customers or talk to
+        people at trade shows, you've got to leave something behind. Something
+        memorable. To touch. To read. To experience. Same thing goes for your
+        storefront, food truck, or pizza place. 
 
 
-        With high-quality print materials, your product pops off the page. Your mission is undeniable. Your brand is unbeatable. You attract, engage, and activate your audience. 
+        With high-quality print materials, your products pop off the page. Your mission is undeniable. Your brand? It's unbeatable! With well-written, beautifully designed print collateral, you can attract, engage, and activate your audience. 
 
 
-        But your print collateral must be carefully calculated. Every word counts. But, of course, it all starts with your copy.
+        But it must be carefully calculated. Every word counts. And, of course, it all starts with your copy.
       image: /img/magic-pie-copy-icon-marketing.svg
     - serviceImage: /img/magic-pie-copy-icon-video.svg
       serviceTitle: Video Scripts
