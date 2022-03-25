@@ -29,8 +29,8 @@ intro:
       serviceTitle: Blogs & Articles
       serviceSubtitle: >-
         This isn't the coolest sentence I've ever typed, but... I've written
-        well over a hundred blogs. (Cool, bro.) For a lot of different
-        businesses in a lot of different industries, too. 
+        well over a hundred blogs. For a lot of businesses in a lot of
+        industries, too. 
 
 
         But why do businesses need blogs? For at least three reasons:
@@ -64,15 +64,19 @@ intro:
       image: /img/magic-pie-copy-icon-marketing.svg
     - serviceImage: /img/magic-pie-copy-icon-video.svg
       serviceTitle: Video Scripts
-      serviceSubtitle: >
-        It’s a lot easier to make high-quality video content when you’ve got a
-        world-class team of marketing professionals at your disposal.
+      serviceSubtitle: >-
+        You work in marketing? What's your team look like? Understaffed and
+        overworked? Burned out? Up against a hard-and-fast deadline that's
+        creeping ever closer?
 
 
-        While many of these videos were created with an in-house team of talented creatives at a local startup, they reflect the Magic Pie craft of scriptwriting and voice-over work.
+        I get it. I've been there. I know how it feels.
 
 
-        Get to know a brand, its products, or its corporate culture in these videos produced by the brain trust at Magic Pie Copy.
+        Which is why I understand how nice it can be to pass off a project—such as writing a video script—to someone who can look at it from a fresh perspective.
+
+
+        Need a creative partner to write a sick script and hype the squad? I'm that dude. 
       image: /img/magic-pie-copy-icon-video.svg
 cta:
   title1: See it.
