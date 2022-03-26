@@ -76,6 +76,9 @@ intro:
 
 
         Which is why I understand how nice it can be to pass off a project—such as writing a video script—to someone who can look at it from a fresh perspective. Someone who can take it, run with it, and bring it to life. Someone like me.
+
+
+        Need a creative partner to write a solid script and hype the squad? I'm your guy.
       image: /img/magic-pie-copy-icon-video.svg
 cta:
   title1: See it.
