@@ -13,6 +13,8 @@ tags:
   - blog
   - articles
 ---
+![](/img/magic-pie-copy-work-fantasy-pros-feature-image.png)
+
 ### Remember 2020? How could we forget, right?
 
 When the pandemic hit home that March, I needed to scratch my itch to write—more-so than usual. And because I'm somewhat of a fantasy football fanatic, **I thought I'd take a shot and see if I could write some articles for [FantasyPros](https://www.fantasypros.com/).** 
@@ -26,7 +28,5 @@ I was added to the FantasyPros writers email chain and Slack channel, granted ac
 It was fun. **I got to crack open some cold ones and write about a subject I was both knowledgable in and passionate about.** But it was also grueling. And as soon as fantasy football became work, it became less fun. I served as a FantasyPros featured writer for a year and then quietly dipped out. 
 
 All in all, **I contributed to 46 articles at FantasyPros**, some of which you're encouraged to explore here. Thanks for reading.
-
-
 
 ![](/img/fantasy-pros-12-sleeper-nfl-draft-prospects.png)
