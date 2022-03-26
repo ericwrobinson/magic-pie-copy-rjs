@@ -13,11 +13,11 @@ tags:
   - blog
   - articles
 ---
-![](/img/magic-pie-copy-work-fantasy-pros-feature-image.png)
+![](/img/magic-pie-copy-work-fantasy-pros-feature-image.png<a href="url">https://www.fantasypros.com/2020/04/12-sleeper-nfl-draft-prospects/</a>)
 
 ### Remember 2020? How could we forget, right?
 
-When the pandemic hit home that March, I needed to scratch my itch to write—more-so than usual. And because I'm somewhat of a fantasy football fanatic, **I thought I'd take a shot and see if I could write some articles for [FantasyPros](https://www.fantasypros.com/).** 
+When the pandemic hit home that March, I needed to scratch my itch to write—more-so than usual. And because I'm somewhat of a fantasy football fanatic, **I thought I'd take a shot and see if I could write some articles for FantasyPros.** 
 
 So I sent an email to the head content guy over there. I told him I was really good at fantasy football. I even showed him my virtual trophy case on Yahoo Sports, along with some writing samples, of course. 
 
@@ -29,4 +29,4 @@ It was fun. **I got to crack open some cold ones and write about a subject I was
 
 All in all, **I contributed to 46 articles at FantasyPros**, some of which you're encouraged to explore here. Thanks for reading.
 
-![](/img/fantasy-pros-12-sleeper-nfl-draft-prospects.png)
+![]()
