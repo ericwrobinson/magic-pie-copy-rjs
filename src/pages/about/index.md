@@ -35,7 +35,7 @@ intro:
 
 
     There's only one way to find out.
-  buttonTitle: see my work
+  buttonTitle: see my services
 partners:
   partnerLogo3: /img/michael-smeal-studios.jpg
   partnerType1: |
