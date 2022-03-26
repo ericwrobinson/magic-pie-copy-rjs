@@ -17,7 +17,7 @@ Remember 2020? How could we forget, right?
 
 When the pandemic hit home, I needed to scratch my itch to write, more-so than usual. And because I'm somewhat of a fantasy football fanatic, I thought I'd take a shot and see if I could write some articles for FantasyPros. 
 
-So I sent an email to the head content guy over there. I told him I was really good at fantasy football. I even showed him my virtual trophy case on Yahoo Sports, along with some writing samples, of course. 
+So I sent an email to the head content guy over there. I told him I was really good at fantasy football. I even showed him my virtual trophy case on Yahoo Sports—along with some writing samples, of course. 
 
 He liked it, so he hired me. 
 
