@@ -5,7 +5,8 @@ hero:
     Copywriting. 
     Storytelling. 
     Marketing.
-  subtitle: We create content for your business.
+  subtitle: Boost your brand and make a name for your business with creative
+    content from Magic Pie Copywriting.
   buttonTitle: get a quote
 work:
   title: Work. Like magic.
