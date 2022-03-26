@@ -7,12 +7,14 @@ subtitle: FantasyPros is one of the world's leading fantasy sports resources.
   The website features an aggregation of expert advice from around the web to
   help a bunch of nerds manage their fake sports teams.
 featuredimage: /img/temp-background-image.jpg
-logoWhite: /img/magic-pie-copy-work-fantasy-pros-feature-image.png
+logoWhite: /img/fantasypros-white.png
 tags:
   - website copywriting
   - blog
   - articles
 ---
+![](/img/magic-pie-copy-work-fantasy-pros-feature-image.png)
+
 ### Remember 2020? How could we forget, right?
 
 When the pandemic hit home that March, I needed to scratch my itch to write—more-so than usual. And because I'm somewhat of a fantasy football fanatic, **I thought I'd take a shot and see if I could write some articles for FantasyPros.** 
