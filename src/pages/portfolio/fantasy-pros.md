@@ -13,7 +13,7 @@ tags:
   - blog
   - articles
 ---
-![](/img/magic-pie-copy-work-fantasy-pros-feature-image.png)
+![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.png)
 
 ### Remember 2020? How could we forget, right?
 
