@@ -29,7 +29,7 @@ intro:
       serviceTitle: Blogs & Articles
       serviceSubtitle: >-
         This isn't the coolest sentence I've ever typed, but... I've written
-        well over a hundred blogs. For a lot of businesses in a lot of
+        well over a hundred blogs. For a many businesses in plenty of
         industries, too. 
 
 
