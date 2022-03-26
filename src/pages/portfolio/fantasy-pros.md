@@ -26,5 +26,3 @@ I was added to the FantasyPros writers email chain and Slack channel, granted ac
 It was fun. I got to crack open some cold ones and write about a subject I was both knowledgable in and passionate about. But it was also grueling. And as soon as fantasy football became work, it became less fun. I served as a FantasyPros featured writer for a year and then quietly dipped out. 
 
 All in all, I contributed to 46 articles at FantasyPros, some of which you're encouraged to explore here. Thanks for reading.
-
-static/img/fantasy-pros-1.png
