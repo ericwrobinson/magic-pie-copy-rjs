@@ -9,8 +9,7 @@ subtitle: Rise Collaborative is a news and entertainment platform in Buffalo,
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/rise-white.png
 tags:
-  - website copywriting
-  - blog
+  - blogs
   - articles
 ---
 ![flavor wheel](/img/flavor_wheel.jpg)
