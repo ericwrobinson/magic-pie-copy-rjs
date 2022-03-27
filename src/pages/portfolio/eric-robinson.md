@@ -6,6 +6,6 @@ subtitle: im so creative
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/thumbsupstudio-color.jpg
 tags:
-  - web copy
+  - website copywriting
 ---
 Write my conetent here.
