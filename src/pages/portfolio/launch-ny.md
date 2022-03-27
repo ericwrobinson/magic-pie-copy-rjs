@@ -7,6 +7,8 @@ featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/launchNY-white.png
 tags:
   - website copywriting
+  - startups
+  - entrepreneurship
 ---
 
 
