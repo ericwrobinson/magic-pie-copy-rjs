@@ -11,7 +11,7 @@ logoWhite: /img/fantasypros-white.png
 tags:
   - blogs
   - articles
-  - fantasyfootball
+  - fantasysports
 ---
 ![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.png)
 
