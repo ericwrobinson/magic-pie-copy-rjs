@@ -13,4 +13,4 @@ logoWhite: /img/blount-white.png
 tags:
   - website
 ---
-![](/img/blount-consulting-services.png)
+![](/img/blount-consulting-services-feature.png)
