@@ -15,13 +15,13 @@ tags:
 ---
 ![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.png "test")
 
-### Remember 2020? How could we forget, right?
+## When the pandemic hit home in March 2020, I needed to scratch the itch to write—more-so than usual.
 
-When the pandemic hit home that March, I needed to scratch my itch to write—more-so than usual. And because I'm somewhat of a fantasy football fanatic, **I thought I'd take a shot and see if I could write some articles for FantasyPros.** 
+And because I'm somewhat of a fantasy football fanatic, **I thought I'd take a shot and see if I could write some articles for FantasyPros.** 
 
 So I sent an email to the head content guy over there. I told him I was really good at fantasy football. I even showed him my virtual trophy case on Yahoo Sports, along with some writing samples, of course. 
 
-**He liked it, so he hired me.** 
+**He liked it, so he hired me.**
 
 I was added to the FantasyPros writers email chain and Slack channel, granted access to the company's WordPress account, and given regular assignments. By the summertime, I was invited to write a weekly column called "Heat Index." **In each article, I graded NFL players who were coming off of surprise fantasy performances from the week before.** It was my job to help readers determine whether to roster these players on their fantasy football teams moving forward. 
 
