@@ -4,14 +4,10 @@ path: /about
 hero:
   subheading: About us
   title: Okay, you got me.
-  subtitle: >-
-    I'm James, a professional copywriter since 2012. Magic Pie Copywriting is my
-    freelance copywriting business. Are you curious about me, my clients, and my
-    creative partners? You're in the right place.
-
-
-    ![](/img/jc-22.png)
-  image: /img/43north-black.png
+  subtitle: I'm James, a professional copywriter since 2012. Magic Pie Copywriting
+    is my freelance copywriting business. Are you curious about me, my clients,
+    and my creative partners? You're in the right place.
+  image: /img/jc-1-1-.png
   buttonTitle: ""
   buttonUrl: ""
 intro:
