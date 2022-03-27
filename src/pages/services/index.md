@@ -89,7 +89,7 @@ cta:
   buttonTitle1: see our work
   title2: Believe it.
   subtitle2: Creating incredible content takes more than just a writer’s touch.
-    Meet the graphic designers and web developers who help us make the magic
+    Meet the graphic designers and web developers who help make the magic
     happen.
   buttonTitle2: meet our partners
 ---
