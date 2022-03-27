@@ -15,7 +15,7 @@ tags:
   - articles
   - fantasysports
 ---
-![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.png)
+![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.png "test")
 
 ### Remember 2020? How could we forget, right?
 
