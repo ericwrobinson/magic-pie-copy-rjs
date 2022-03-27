@@ -9,8 +9,7 @@ subtitle: FantasyPros is one of the world's leading fantasy sports resources.
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/fantasypros-white.png
 tags:
-  - website copywriting
-  - blog
+  - blogs
   - articles
 ---
 ![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.png)
