@@ -3,8 +3,11 @@ templateKey: portfolio-post
 date: 2020-01-01T15:04:10.000Z
 featuredpost: false
 title: Blount Consulting Solutions
-subtitle: We’re proud to announce that we’ll be offering a small batch of
-  Jamaica Blue Mountain coffee beans in our store next week.
+subtitle: >-
+  • WEB COPY •
+
+
+  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue Mountain coffee beans in our store next week.
 featuredimage: ""
 logoWhite: /img/blount-white.png
 tags:
