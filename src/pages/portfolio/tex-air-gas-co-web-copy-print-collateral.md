@@ -11,4 +11,4 @@ featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/tex-air-gas-co-1-.png
 tags: []
 ---
-![](/img/tex-air-gas-1-.png)
+![](/img/tex-air-gas-co-feature.png)
