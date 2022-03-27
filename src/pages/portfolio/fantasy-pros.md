@@ -31,4 +31,6 @@ It was fun. **I got to crack open some cold ones and write about a subject I was
 
 All in all, **I contributed to 46 articles at FantasyPros**, some of which you're encouraged to explore here. Thanks for reading.
 
+[TEST LINK](https://www.fantasypros.com/news/correspondents/jim-colombo.php)
+
 ![]()
