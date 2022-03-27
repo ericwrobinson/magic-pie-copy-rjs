@@ -16,7 +16,7 @@ tags:
 ![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.png "test")
 <br>
 
-#### When the pandemic hit home in March 2020, I needed to scratch the itch to write—more-so than usual.
+## When the pandemic hit home in March 2020, I needed to scratch the itch to write—more-so than usual.
 
 And because I'm somewhat of a fantasy football fanatic, **I thought I'd take a shot and see if I could write some articles for FantasyPros.** 
 
@@ -34,4 +34,4 @@ It was fun. **I got to crack open some cold ones and write about a subject I was
 
 All in all, **I contributed to 46 articles at FantasyPros**, any number of which you're encouraged to explore here. Thanks for reading. 
 
-[\[READ ARTICLES AT FANTASY PROS]](https://www.fantasypros.com/news/correspondents/jim-colombo.php)
+\[[READ ARTICLES AT FANTASY PROS]](https://www.fantasypros.com/news/correspondents/jim-colombo.php)
