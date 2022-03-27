@@ -29,8 +29,8 @@ intro:
       serviceTitle: Blogs & Articles
       serviceSubtitle: >-
         This isn't the coolest sentence I've ever typed, but... I've written
-        well over a hundred blogs. For a many businesses in plenty of
-        industries, too. 
+        well over a hundred blogs. For many businesses in plenty of industries,
+        too. 
 
 
         But why do businesses need blogs? For at least four reasons:
@@ -48,7 +48,7 @@ intro:
         So when people visit your website, they can learn more about your brand, and–more to the point–fall in love with it. 
 
 
-        Put simply, the best blogs win customers and influence them. 
+        Put simply, the best blogs win customers and influence them.
       image: /img/magic-pie-copy-icon-blogs.svg
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: Print Collateral
