@@ -1,6 +1,6 @@
 ---
 templateKey: portfolio-post
-date: 2022-03-27T03:56:14.783Z
+date: 2022-03-27T04:02:13.185Z
 title: 43North
 subtitle: • VIDEO SCRIPT •
 featuredimage: /img/temp-background-image.jpg
