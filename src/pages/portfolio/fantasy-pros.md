@@ -26,7 +26,7 @@ So I sent an email to the head content guy over there. I told him I was really g
 
 I was quickly added to the FantasyPros writers email chain and Slack channel, given access to the company's WordPress account, and asked to contribute different articles every week.
 
-By the summertime, I was invited to write a recurring column called "Heat Index," which would span the entire fantasy football regular season (15 weeks). My own column! I hurdled into the opportunity. 
+By the summertime, I was invited to write a recurring column called "Heat Index," which would span the entire fantasy football regular season (15 weeks). My own column! I didn't jump at the opportunity. I *hurdled*. 
 
 **In each article, I graded NFL players who were coming off of surprise fantasy performances from the week before.** It was my job to help readers determine whether to roster these players on their fantasy football teams moving forward. 
 
