@@ -1,6 +1,6 @@
 ---
 templateKey: portfolio-post
-date: 2020-01-01T15:04:10.000Z
+date: 2022-03-19T14:04:10.000Z
 featuredpost: false
 title: Blount Consulting Solutions
 subtitle: >-
