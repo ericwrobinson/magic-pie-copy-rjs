@@ -5,6 +5,8 @@ title: Launch NY
 subtitle: Launch NY
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/launchNY-white.png
+tags:
+  - website copywriting
 ---
 
 
