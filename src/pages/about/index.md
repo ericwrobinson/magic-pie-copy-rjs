@@ -31,7 +31,7 @@ intro:
     Ten years later, I'm still here. I'm still writing.
 
 
-    As a freelance copywriter, I've written copy for clients in Amarillo, Buffalo, and Chicago. B2B. Websites. B2C. Videos. All sorts of stuff. I love it. Will you?
+    As a freelance copywriter, I've written copy for clients in Amarillo, Buffalo, and Chicago. B2B. B2C. Websites. Videos. All sorts of stuff. I love it. Will you?
 
 
     There's only one way to find out.
