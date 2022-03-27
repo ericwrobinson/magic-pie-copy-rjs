@@ -71,7 +71,6 @@ ServicesPageTemplate.propTypes = {
 
 const ServicesPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  console.log('ftont', frontmatter)
   return (
     <Layout>
       <ServicesPageTemplate
