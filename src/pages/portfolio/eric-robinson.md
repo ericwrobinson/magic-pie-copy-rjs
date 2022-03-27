@@ -11,4 +11,4 @@ featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/thumbsupstudio-color.jpg
 tags: []
 ---
-Write my conetent here.
+![](/img/thumbs-up-studio.png)
