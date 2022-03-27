@@ -77,10 +77,10 @@ intro:
         I get it. I've been there. I know how it feels.
 
 
-        Which is why I understand how nice it can be to pass off a project—such as writing a video script—to someone who can look at it from a fresh perspective. Someone who can take it, run with it, and bring it to life. Someone like me!
+        Which is why I understand how nice it can be to pass off a project—such as writing a video script—to someone who can look at it from a fresh perspective. Someone who can take it, run with it, and bring it to life. Someone like me.
 
 
-        If you're looking for a strong script that'll wow your team and hype the squad, I'm your guy.
+        If you're looking for a strong script that'll wow your team and entice your audience, I'm your guy.
       image: /img/magic-pie-copy-icon-video.svg
 cta:
   title1: See it.
