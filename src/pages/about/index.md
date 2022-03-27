@@ -7,7 +7,7 @@ hero:
   subtitle: I'm James, a professional copywriter since 2012. Magic Pie Copywriting
     is my freelance copywriting business. Are you curious about me, my clients,
     and my creative partners? You're in the right place.
-  image: /img/untitled-1324-×-681-px-.png
+  image: /img/screen-shot-2022-03-26-at-10.40.19-pm.png
   buttonTitle: ""
   buttonUrl: ""
 intro:
