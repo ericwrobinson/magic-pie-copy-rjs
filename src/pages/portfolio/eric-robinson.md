@@ -6,7 +6,7 @@ subtitle: >-
   • WEB COPY •
 
 
-  Thumbs Up Studio is a small creative agency owned and operated by Eric Robinson. Specializing in web design and development, the company helps businesses solve their UX, branding, and digital needs.  
+  Thumbs Up Studio is an independent creative agency in Tampa Bay, Florida. Specializing in web design and development, the agency helps businesses solve solve their UX, branding, and digital needs.  
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/thumbsupstudio-color.jpg
 tags: []
