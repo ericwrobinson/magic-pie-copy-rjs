@@ -10,4 +10,4 @@ logoWhite: /img/impact-2-.png
 tags:
   - website
 ---
-![](/img/impact.png)
+![](/img/impact-feature.png)
