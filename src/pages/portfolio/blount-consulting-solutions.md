@@ -8,7 +8,7 @@ subtitle: >-
 
 
   Blount Consulting Solutions is a team of experienced healthcare professionals, executive nurses, and trained consultants. The team helps healthcare providers implement new strategies that transform their healthcare communities. 
-featuredimage: ""
+featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/blount-white.png
 tags: []
 ---
