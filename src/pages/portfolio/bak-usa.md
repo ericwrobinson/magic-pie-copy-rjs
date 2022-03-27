@@ -2,7 +2,11 @@
 templateKey: portfolio-post
 date: 2022-03-27T16:32:31.073Z
 title: Bak USA
-subtitle: WEB COPY • BRANDING • PRINT COLLATERAL • CORPORATE ANTHEM • VIDEO SCRIPTS
+subtitle: >-
+  WEB COPY • BRANDING • PRINT COLLATERAL • CORPORATE ANTHEM • VIDEO SCRIPTS
+
+
+  Bak USA was a social enterprise that manufactured computers in downtown Buffalo, New York. Committed to empowering people and changing lives, the company employed a diverse workforce to handcraft laptops and tablets in urban America.
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/download.svg
 tags:
