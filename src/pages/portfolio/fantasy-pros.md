@@ -26,12 +26,12 @@ So I sent an email to the head content guy over there. I told him I was really g
 
 I was added to the FantasyPros writers email chain and Slack channel, given access to the company's WordPress account, and asked to contribute a fresh article every week.
 
-By the summertime, I was invited to write a recurring column called "Heat Index," which would span the entire fantasy football regular season (15 weeks). My own column! I didn't jump at the opportunity. I *hurdled*. 
+By the summertime, I was invited to write a recurring column called "Heat Index." This article would appear prominently on the FantasyPros homepage every week for the entire fantasy football regular season (15 weeks). My own column! I didn't jump at the opportunity. I *hurdled*. 
 
 **In each article, I graded NFL players who were coming off of surprise fantasy performances from the week before.** It was my job to help readers determine whether to roster these players on their fantasy football teams moving forward. 
 
-It was fun. **I got to crack open some cold ones and write about a subject I was both knowledgable in and passionate about.** But it was also grueling. And as soon as fantasy football became work, it became less fun. So I served as a FantasyPros featured writer for a year—met all of my obligations—and then quietly dipped out. 
+It was fun. **I got to crack open some cold ones and write about a subject I was both knowledgable in and passionate about.** But it was also grueling. And as soon as fantasy football became work, it became less fun. I served as a FantasyPros featured writer for one year—met all of my obligations—and then quietly dipped out. 
 
-All in all, **I contributed to 46 articles at FantasyPros**, any number of which you're encouraged to explore here. Thanks for reading. 
+All in all, **I contributed to 46 articles at FantasyPros**, which you're encouraged to explore on my FantasyPros profile page. Thanks for reading. 
 
 [READ ARTICLES AT FANTASY PROS](https://www.fantasypros.com/news/correspondents/jim-colombo.php)
