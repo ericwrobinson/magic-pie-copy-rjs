@@ -5,7 +5,7 @@ featuredpost: false
 title: 43North
 subtitle: VIDEO SCRIPT
 featuredimage: /img/temp-background-image.jpg
-logoWhite: /img/43n-2-.png
+logoWhite: /img/43north-white.png
 tags:
   - video script
 ---
