@@ -41,11 +41,9 @@ I'm probably forgetting a bunch of stuff, too, but you get the idea. And I'm so 
 ### Videos
 
 **<p style="text-align:center;">Corporate Anthem: "Making It in America"</p>**
-
 <p style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/SHVSGz_Nmrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 **<p style="text-align:center;">Atlas 2-in-1 Laptop: "Out of This World. Into Your Hands."</p>**
-
 <p style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/u7g7twDL8hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 **<p style="text-align:center;">Seal Rugged Tablet: "Strength of Spirit"</p>**
