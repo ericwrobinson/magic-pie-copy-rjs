@@ -32,8 +32,8 @@ With so many talented people on the team, we were able to produce a ton of creat
 * 12 Billboard Ads
 * 25+ Digital Ads
 * 50+ Print Pieces
+* 100+ Blogs
 * 127 Videos
-* 200+ Blogs
 
 I'm probably forgetting a bunch of stuff, too, but you get the idea. And I'm so proud to have helped work on all if it. 
 
