@@ -18,7 +18,7 @@ tags:
 
 ## In 2016, I got a job writing for this new startup in the city of Buffalo.
 
-The company was pretty new. It was so new that I was asked to help brand the business from the ground up. 
+The company was just getting started. It was so new that I was asked to help brand the business from the ground up. 
 
 **That meant creating a brand voice from scratch, developing a style guide, and writing nearly every word of the corporate website.** 
 
