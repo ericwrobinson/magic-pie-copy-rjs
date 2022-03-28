@@ -24,7 +24,7 @@ So I sent an email to the head content guy over there. I told him I was really g
 
 **He liked it, so he hired me.**
 
-I was quickly added to the FantasyPros writers email chain and Slack channel, given access to the company's WordPress account, and asked to contribute different articles every week.
+I was added to the FantasyPros writers email chain and Slack channel, given access to the company's WordPress account, and asked to contribute a fresh article every week.
 
 By the summertime, I was invited to write a recurring column called "Heat Index," which would span the entire fantasy football regular season (15 weeks). My own column! I didn't jump at the opportunity. I *hurdled*. 
 
