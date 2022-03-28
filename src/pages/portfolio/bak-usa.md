@@ -46,17 +46,17 @@ I'm probably forgetting a bunch of stuff, too, but you get the idea. And I'm so 
 **<p style="text-align:center;">Atlas 2-in-1 Laptop: "Out of This World. Into Your Hands."</p>**
 <p style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/u7g7twDL8hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-**<p style="text-align:center;">Seal Rugged Tablet: "Strength of Spirit"</p>**
+<p style="text-align:center;">Seal Rugged Tablet: "Strength of Spirit"</p>**
 
 <p style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/CFdfz1vOBoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Print Collateral
 
-**<p style="text-align:center;">Corporate Catalog**
+<p style="text-align:center;">Corporate Catalog**
 
 ![](/img/bak-usa-print.png)
 
-**<p style="text-align:center;">Print Collateral: Atlas 2-in-1 Laptop**
+<p style="text-align:center;">Print Collateral: Atlas 2-in-1 Laptop**
 
 ![](/img/bak-usa-print-atlas.jpeg)
 
