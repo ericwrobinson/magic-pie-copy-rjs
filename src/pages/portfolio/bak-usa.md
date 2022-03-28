@@ -17,26 +17,26 @@ tags:
 <br>
 <br>
 
-## In 2016, I got a job writing for this hot new startup in the city of Buffalo.
+## In 2016, I got a job writing for this new startup in the city of Buffalo.
 
 The company was pretty new. It was so new that I was asked to help brand the business from the ground up. 
 
-That meant creating a brand voice from scratch, developing a style guide, and writing nearly every word of the corporate website. 
+**That meant creating a brand voice from scratch, developing a style guide, and writing nearly every word of the corporate website.** 
 
-But none of that was possible without our phenomenal marketing team. The harder we worked, the bigger we got and the more we could do. 
+But none of that was possible without our phenomenal marketing team. The harder we worked, the bigger we got, and the more we could do. 
 
 With so many talented people on the team, we were able to produce a lot. Like, a lot:
 
 * 1 Corporate Catalog
 * 2 Websites
 * 3 Landing Pages
-* 10+ Billboards
+* 12 Billboard Ads
 * 25+ Digital Ads
 * 50+ Print Pieces
 * 127 Videos
 * 200+ Blogs
 
-I'm probably forgetting a bunch of stuff, too, but you get the idea. And I'm so proud to have helped work on all if it. With that, here's a few of my writing samples. Thanks for checking 'em out. 
+I'm probably forgetting a bunch of stuff, too, but you get the idea. And I'm so proud to have helped work on all if it. With that, here's a small sample of the work I've done at Bak USA. Thanks for checking it out! 
 
 ### Videos
 
@@ -58,4 +58,13 @@ I'm probably forgetting a bunch of stuff, too, but you get the idea. And I'm so 
 
 ![](/img/bak-usa-print.png)
 
-![]()
+**<p style="text-align:center;">Print Collateral: Atlas 2-in-1 Laptop**
+
+![](/img/bak-usa-print-atlas.jpeg)
+
+
+<br>
+
+**<p style="text-align:center;">Print Collateral: Seal Rugged Tablet**
+
+![](/img/bak-usa-print-seal.jpeg)
