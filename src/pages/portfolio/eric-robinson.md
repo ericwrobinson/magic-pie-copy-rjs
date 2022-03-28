@@ -8,7 +8,7 @@ subtitle: >-
 
   Thumbs Up Studio is an independent creative agency in Tampa Bay, Florida. Specializing in web design and development, the agency helps businesses solve solve their UX, branding, and digital needs.  
 featuredimage: /img/temp-background-image.jpg
-logoWhite: /img/thumbsupstudio-color.jpg
+logoWhite: /img/thumbsupstudio-black.png
 tags: []
 ---
 ![](/img/thumbs-up-studio.png)
