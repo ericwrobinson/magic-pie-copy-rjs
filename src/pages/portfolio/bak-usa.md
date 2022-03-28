@@ -29,6 +29,7 @@ With so many talented people on the team, we were able to produce a ton of creat
 * 2 Websites
 * 3 Landing Pages
 * 6 Taglines
+* 8 Case Studies
 * 12 Billboard Ads
 * 25+ Digital Ads
 * 50+ Print Pieces
