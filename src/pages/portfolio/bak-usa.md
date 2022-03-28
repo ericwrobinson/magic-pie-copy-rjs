@@ -13,7 +13,6 @@ tags:
   - website
 ---
 ![](/img/bak-usa.png)
-
 <br>
 
 ## In 2016, I got a job writing for this new startup in the city of Buffalo.
