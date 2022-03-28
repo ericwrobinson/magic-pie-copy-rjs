@@ -88,7 +88,7 @@ export default class Index extends React.Component {
   }
 
   render() {
-    let bodyCopy= 'Interested in working with Magic Pie? Let’s do it. Just want to say hi? That’s cool, too. Fill out the form below to let us know  who you are, what you’re looking for, and how we can help.'
+    let bodyCopy= 'Interested in working with Magic Pie Copywriting? Let’s do it! Text or call James at (716) 880.6014, or fill out the form to let us know what’s up.'
 
     return (
        <PageTransition>

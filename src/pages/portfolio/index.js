@@ -38,9 +38,9 @@ export default class PortfolioIndexPage extends React.Component {
           </SectionWrapper>
 
           <PortfolioServices
-            headerTitle={'Need some good copy? \nSee what we can do.'}
-            subtitle={'So now that you’ve read and seen the work we’ve done, check out the services we offer and then let us know how we can make your business better.'}
-            buttonTitle={'Our Services'}/>
+            headerTitle={'Like what you see? \nLet’s work together.'}
+            subtitle={'Check out our services and find out how we can help you, your marketing team, or your business.'}
+            buttonTitle={'see our services'}/>
         </Layout>
       </PageTransition>
     )
