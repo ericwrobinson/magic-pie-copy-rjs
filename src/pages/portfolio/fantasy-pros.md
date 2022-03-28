@@ -13,7 +13,7 @@ logoWhite: /img/fantasypros-white.png
 tags:
   - article
 ---
-![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.png "test")
+![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.jpg "test")
 <br>
 
 ## When the pandemic hit home in March 2020, I needed to scratch the itch to write—more-so than usual.

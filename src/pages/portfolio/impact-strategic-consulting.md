@@ -6,8 +6,8 @@ subtitle: IMPACT is a Chicago-based consulting firm that leverages its global
   network of industry experts to craft insights, ideas, and strategies that
   ignite long-term business growth for businesses.
 featuredimage: /img/temp-background-image.jpg
-logoWhite: /img/impact-2-.png
+logoWhite: /img/impact-logo-white.png
 tags:
   - website
 ---
-![](/img/impact-feature.png)
+![](/img/impact-feature.jpg)

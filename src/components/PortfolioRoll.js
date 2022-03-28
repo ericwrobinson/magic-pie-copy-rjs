@@ -47,7 +47,9 @@ const SectionHeader = styled.header`
 
 const Thumbnail = styled.div`
   width: 100%;
-  max-width: 250px;
+  padding: 4px;
+  /* max-width: 250px; */
+  /* max-height: 250px; */
   height: auto;
 `;
 

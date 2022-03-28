@@ -11,4 +11,4 @@ featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/launchNY-white.png
 tags: []
 ---
-![](/img/launch-ny-feature-image.png)
+![](/img/launch-ny-feature-image.jpg)
