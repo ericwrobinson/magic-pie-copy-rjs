@@ -8,7 +8,7 @@ subtitle: >-
 
   Bak USA was a social enterprise that manufactured computers in downtown Buffalo, New York. Committed to empowering people and changing lives, the company employed a diverse workforce in urban America.
 featuredimage: /img/temp-background-image.jpg
-logoWhite: /img/download.svg
+logoWhite: /img/bak-usa-white.png
 tags:
   - website
 ---
