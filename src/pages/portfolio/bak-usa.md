@@ -15,7 +15,6 @@ tags:
 ![](/img/bak-usa.png)
 
 <br>
-<br>
 
 ## In 2016, I got a job writing for this new startup in the city of Buffalo.
 
