@@ -13,8 +13,7 @@ const propTypes = {
 defaultProps = {
 }
 
-const Wrapper = styled.div`
-`;
+const Wrapper = styled.div``;
 
 const Divider = styled.img`
 	position: absolute;
@@ -29,8 +28,9 @@ const Divider = styled.img`
 
 const HeaderWrapper = styled.div`
 	position: relative;
-  min-height: 500px;
-  height: 40vh;
+	padding: 60px 0 120px 0;
+  min-height: 600px;
+  height: 100%;
   background-color: ${({ inverted }) => inverted ? 'black' : 'white' };
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,6 +50,8 @@ const HeaderWrapper = styled.div`
 	}
 
 	@media only screen and (max-width: 580px) {
+		padding: 30px 0 60px 0;
+		min-height: 500px;
 	}
 
 	@media only screen and (max-width: 400px) {
