@@ -11,8 +11,8 @@ const Button = styled.button`
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.2;
-  font-family: kansasnew, serif;
-  background-colr: black;
+  font-family: tuppence, serif;
+  background-color: black;
   border-radius: 50px;
 `;
 
@@ -88,7 +88,7 @@ export default class Index extends React.Component {
   }
 
   render() {
-    let bodyCopy= 'Interested in working with Magic Pie Copywriting? Let’s do it! Text or call James at (716) 880.6014, or fill out the form to let us know what’s up.'
+    let bodyCopy= 'Interested in working with Magic Pie Copywriting? Let’s do it! Fill out the form to let us know what’s up.'
 
     return (
        <PageTransition>

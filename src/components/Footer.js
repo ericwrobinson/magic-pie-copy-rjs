@@ -84,7 +84,7 @@ const Footer = class extends React.Component {
         <CallToAction>
           <SiteContent center>
             <CallToActionContent>
-              <Header h2 color={colors.white}>Call.&nbsp;Text.&nbsp;Email.</Header>
+              <Header h2 color={colors.white}>Let’s do something.</Header>
               <ButtonPrimary 
                 linkTo='/contact'>get in touch</ButtonPrimary>
             </CallToActionContent>
