@@ -12,6 +12,10 @@ logoWhite: /img/bak-usa-white.png
 tags:
   - website
 ---
+![]()
+
+![]()
+
 ![](/img/magic-pie-copy-work-bak-usa.png)
 <br>
 
@@ -58,7 +62,7 @@ With that, **here's a small sample of the content I created as the lead content 
 
 **Corporate Catalog**
 
-![](/img/bak-usa-print.jpg)
+![](/img/mp1.png)
 
 **Print Collateral: Atlas 2-in-1 Laptop**
 
