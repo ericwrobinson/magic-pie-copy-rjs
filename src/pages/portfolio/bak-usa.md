@@ -12,7 +12,7 @@ logoWhite: /img/bak-usa-white.png
 tags:
   - website
 ---
-![](/img/bak-usa.png)
+![](/img/magic-pie-copy-work-bak-usa.png)
 <br>
 
 ## In 2016, I got a job writing for this new startup in the city of Buffalo.
@@ -44,15 +44,15 @@ With that, **here's a small sample of the content I created as the lead content 
 
 **Corporate Anthem: "Making It in America"</p>**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SHVSGz_Nmrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<iframe width="1024" height="681" src="https://www.youtube.com/embed/SHVSGz_Nmrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 **Atlas 2-in-1 Laptop: "Out of This World. Into Your Hands."</p>**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u7g7twDL8hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<iframe width="1024" height="681" src="https://www.youtube.com/embed/u7g7twDL8hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 **Seal Rugged Tablet: "Strength of Spirit"</p>**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CFdfz1vOBoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<iframe width="1024" height="681" src="https://www.youtube.com/embed/CFdfz1vOBoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Print Collateral
 
