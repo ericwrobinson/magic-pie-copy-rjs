@@ -43,4 +43,4 @@ A week or two later, the video (made in partnership with Lemur Studios) was up a
 
 Was the video a success? I don't know. I think so. At the very least, it played a small role in helping 1,399 small businesses in Erie County receive $19.2 million in funding. And, well, that's something, right?
 
-### **Do *you* want to do something? Like make a video? Let me know and let's do it.**
+##### **Do *you* want to do something? Like make a video? Let me know and let's do it.**
