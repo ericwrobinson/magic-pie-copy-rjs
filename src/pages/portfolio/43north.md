@@ -23,11 +23,11 @@ Let me back up: It was October 2020. I had just come home from a golf outing wit
 
 So there I was—shacked up with a 12-pack of beer and an extra large pizza—when I got a notification from Maura Devlin, the VP of marketing strategy from 43North.
 
-"I was wondering if you wanted to help us write a script," she said. "We need to make a video for this campaign we're running for Erie County's "Back to Business" Grant Program. I remember collaborating with you when you were writing for Superior Jobs and Viaduct. What do you think?"
+"I was wondering if you wanted to help us write a script," she said. "We need to make a video for this campaign we're running for Erie County's 'Back to Business' Grant Program. I remember collaborating with you when you were writing for Superior Jobs and Viaduct. What do you think?"
 
-"Uh, yeah, sure! I'm down" I said.
+"Uh, yeah, sure! I'm down!" I replied.
 
-"Cool. The idea is to encourage small business owners to apply for b business grants from Erie County. We need a quick turn-around on this thing," she told me. "Could you have something for us to look at tomorrow? 
+"Cool. The idea is to encourage small business owners to apply for business grants from Erie County. They need assistance during the pandemic but want to be ready to roll when they open back up," she explained. "We need a quick turn-around on this thing. Could you have something for us to look at tomorrow? 
 
 "No problem," I said.
 
