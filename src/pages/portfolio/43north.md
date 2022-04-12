@@ -14,3 +14,25 @@ tags:
   - video script
 ---
 <iframe width="1024" height="681" src="https://www.youtube.com/embed/VeASx6hNwzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
+
+## I was sitting alone in a stranger's apartment when the email came through.
+
+Let me back up: It was October 2020. I had just come home from a golf outing with the guys. Had I been exposed to COVID? There was no way to know. Did my girlfriend make my quarantine for a week at an Airbnb until I tested negative? You bet she did.
+
+So there I was—shacked up with a 12-pack of beer and an extra large pizza—when I got a notification from Maura Devlin, the VP of marketing strategy from 43North.
+
+"I was wondering if you wanted to help us write a script," she said. "We need to make a video for this campaign we're running for Erie County's "Back to Business" Grant Program. I remember collaborating with you when you were writing for Superior Jobs and Viaduct. What do you think?"
+
+"Uh, yeah, sure! I'm down" I said.
+
+"Cool. The idea is to encourage small business owners to apply for b business grants from Erie County. We need a quick turn-around on this thing," she told me. "Could you have something for us to look at tomorrow? 
+
+"No problem," I said.
+
+And that was pretty much that. Maura hooked me up with some notes, and I drank my beer, ate my pizza, and cranked out a script that night. A quick back and forth the next day, maybe one more, and we were done. 
+
+The video was part of a fairly aggressive ad campaign, so it was played prominently on social media platforms, targeted YouTube ads, and local news channels. 
+
+Ultimately, the video played a small role in helping 1,399 small businesses in Erie County receive $19.2 million in funding.
