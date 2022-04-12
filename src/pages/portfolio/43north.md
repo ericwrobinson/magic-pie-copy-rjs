@@ -23,7 +23,7 @@ Let me back up: It was October 2020. I had just come home from an overnight golf
 
 So there I was—shacked up with a 12-pack of beer and an extra large pizza—when I got a notification from Maura Devlin, the VP of marketing strategy from 43North.
 
-"I was wondering if you wanted to help us write a script," she said. "We need to make a video for this campaign we're running for Erie County's 'Back to Business' Grant Program. I remember collaborating with you when you were writing for Superior Jobs and Viaduct, and I liked your stuff. Are you available?"
+"I was wondering if you wanted to help us write a script," she said. "We need to make a video for this campaign we're running for Erie County's 'Back to Business' Grant Program. I remember collaborating with you when you were writing for Superior Jobs and Viaduct, and I really liked your stuff. Are you available?"
 
 "Yeah, sure, I'm down!" I replied.
 
