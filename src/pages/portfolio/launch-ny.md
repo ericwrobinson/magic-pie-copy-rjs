@@ -27,20 +27,25 @@ We were like, "Hell yeah!" So we submitted a proposal to build it. And we won.
 
 Did we get the gig because we low-balled the living shit of the competition? Almost certainly. But we didn't care. We wanted the job. This was our moment. 
 
-**So here's what we did.** 
+### **So here's what we did.** We...
 
-* We worked directly with the president & CEO (Marnie LaVigne, PhD) and the director of marketing (our girl, Celine Krzan)
-* We agreed that the new Launch NY site would get a brand-new, modern look
-* We rehauled the entire website from the ground up:
+* Worked directly with the president & CEO (Marnie LaVigne, PhD) and the director of marketing (our girl, Celine Krzan)
+* Agreed that the new Launch NY site would get a brand-new, modern look
+* Rehauled the entire website from top to bottom:
 
   * New site architecture
   * New graphic design
   * New copy with branding guide
   * New web development
-* We enhanced the aesthetics, tone, and mood of the website
-* We developed three distinct pathways for the company's three specific users:
+* Enhanced the aesthetics, tone, and mood of the website
+* Developed three distinct pathways for the company's three specific users:
 
   * Entrepreneurs
   * Investors
   * Supporters
-* We created 25 all-new webpages and relocated them from an outdated CMS to WordPress, the world's most popular website management platform
+* Created 25 all-new webpages and relocated them from an outdated CMS to WordPress, the world's most popular website management platform
+* Offered WordPress training to key stakeholders who could update the website with ease moving forward
+
+### **You have to see it to believe it.**
+
+Who doesn't love a good before-and-after photo? Compare and contrast the old website with the new to see how we executed the transformation here.
