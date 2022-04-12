@@ -19,7 +19,7 @@ tags:
 
 ## I was sitting alone in a stranger's apartment when the email came through.
 
-It was October 2020. I had just come home from an overnight golf outing with the guys. Had I been exposed to COVID? There was no way to know, not immediately. Did my girlfriend make me quarantine for a week at an Airbnb in South Buffalo until I tested negative? You bet she did.
+It was October 2020. I had just come home from an overnight golf outing with the guys. Had I been exposed to COVID? There was no way to know. Did my girlfriend make me quarantine for a week at an Airbnb in South Buffalo until I tested negative? You bet she did.
 
 So there I was—shacked up with a case of beer and an extra large pizza—when I got a notification from Maura Devlin, the VP of marketing strategy from 43North.
 
