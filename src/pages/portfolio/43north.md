@@ -31,7 +31,7 @@ So there I was—shacked up with a 12-pack of beer and an extra large pizza—wh
 
 "Yep, no problem," I said.
 
-And that was pretty much that. Maura hooked me up with some notes, and I drank my beer, ate my pizza, and cranked out a script that night. A quick back and forth the next day, maybe one more, and we were done. 
+And that was pretty much that. Maura hooked me up with some notes right away, so I sat down, drank my beer, ate my pizza, and cranked out a script that night. A quick back and forth the next day, maybe a second exchange after that, and boom—we were done. 
 
 The video was part of a fairly aggressive ad campaign, so it was played prominently on social media platforms, targeted YouTube ads, and local news channels. 
 
