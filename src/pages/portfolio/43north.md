@@ -23,16 +23,22 @@ Let me back up: It was October 2020. I had just come home from an overnight golf
 
 So there I was—shacked up with a 12-pack of beer and an extra large pizza—when I got a notification from Maura Devlin, the VP of marketing strategy from 43North.
 
-"I was wondering if you wanted to help us write a script," she said. "We need to make a video for this campaign we're running for Erie County's 'Back to Business' Grant Program. I remember collaborating with you when you were writing for Superior Jobs and Viaduct, and I really liked your writing. What do you think?"
+"I was wondering if you wanted to help us write a script," she said. "We need to make a video for this campaign we're running for Erie County's 'Back to Business' Grant Program. I remember collaborating with you when you were writing for Superior Jobs and Viaduct, and I really liked your writing. Are you available?"
 
-"Uh, yeah, sure! I'm down!" I replied.
+"Yeah, sure, I'm down!" I replied.
 
-"Cool. The idea is to encourage small business owners to apply for business grants from Erie County. They need assistance during the pandemic but want to be ready to roll when they open back up," she explained. "We need a quick turn-around on this thing. Could you have something for us to look at tomorrow? 
+"Cool. The idea is to encourage small business owners to apply for business grants from Erie County. They need assistance during the pandemic, so this will help them get hyped and ready to open back up," she explained. "We need a quick turn-around on this thing. Could you have something for us to look at tomorrow? 
 
 "Yep, no problem," I said.
 
-And that was pretty much that. Maura hooked me up with some notes right away, so I sat down, drank my beer, ate my pizza, and cranked out a script that night. A quick back and forth the next day, maybe a second exchange after that, and boom—we were done. 
+And that was pretty much that. 
 
-The video was part of a fairly aggressive ad campaign, so it was played prominently on social media platforms, targeted YouTube ads, and local news channels. 
+Maura hooked me up with some notes right away.
 
-Ultimately, the video played a small role in helping 1,399 small businesses in Erie County receive $19.2 million in funding.
+I drank my beer, ate my pizza, and cranked out a script that night. 
+
+A quick back and forth the next day, maybe a second exchange after that, and boom—we were done. A week or two later, the video (made in partnership with Lemur Studios) was up and running. For the next few weeks, it was played prominently on social media platforms, targeted YouTube ads, and local news channels. 
+
+Was the video a success? I don't know. I think so. At the very least, it played a small role in helping 1,399 small businesses in Erie County receive $19.2 million in funding. 
+
+And, well, that's good enough for me.
