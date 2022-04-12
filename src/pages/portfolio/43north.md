@@ -29,7 +29,7 @@ So there I was—shacked up with a 12-pack of beer and an extra large pizza—wh
 
 "Cool. The idea is to encourage small business owners to apply for business grants from Erie County. They need assistance during the pandemic but want to be ready to roll when they open back up," she explained. "We need a quick turn-around on this thing. Could you have something for us to look at tomorrow? 
 
-"No problem," I said.
+"Yep, no problem," I said.
 
 And that was pretty much that. Maura hooked me up with some notes, and I drank my beer, ate my pizza, and cranked out a script that night. A quick back and forth the next day, maybe one more, and we were done. 
 
