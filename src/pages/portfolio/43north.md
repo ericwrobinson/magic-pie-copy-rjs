@@ -19,7 +19,7 @@ tags:
 
 ## I was sitting alone in a stranger's apartment when the email came through.
 
-Let me back up: It was October 2020. I had just come home from an overnight golf outing with the guys. Had I been exposed to COVID? There was no way to know—not immediately, anyway. Did my girlfriend make me quarantine for a week at an Airbnb in South Buffalo until I tested negative? You bet she did.
+Let me back up: It was October 2020. I had just come home from an overnight golf outing with the guys. Had I been exposed to COVID? There was no way to know, not immediately. Did my girlfriend make me quarantine for a week at an Airbnb in South Buffalo until I tested negative? You bet she did.
 
 So there I was—shacked up with a 12-pack of beer and an extra large pizza—when I got a notification from Maura Devlin, the VP of marketing strategy from 43North.
 
@@ -37,8 +37,10 @@ Maura hooked me up with some notes right away.
 
 I drank my beer, ate my pizza, and cranked out a script that night. 
 
-A quick back and forth the next day, maybe a second exchange after that, and boom—we were done. A week or two later, the video (made in partnership with Lemur Studios) was up and running. For the next few weeks, it was played prominently on social media platforms, targeted YouTube ads, and local news channels. 
+A quick back and forth the next day, maybe a second exchange after that, and boom—we were done. 
 
-Was the video a success? I don't know. I think so. At the very least, it played a small role in helping 1,399 small businesses in Erie County receive $19.2 million in funding. 
+A week or two later, the video (made in partnership with Lemur Studios) was up and running. For the next few weeks that followed, it was played prominently on social media platforms, targeted YouTube ads, and local news channels. 
 
-And, well, that's good enough for me.
+Was the video a success? I don't know. I think so. At the very least, it played a small role in helping 1,399 small businesses in Erie County receive $19.2 million in funding. And, well, that's something. 
+
+Do *you* want to do something? Like make a video? Let me know and let's do it.
