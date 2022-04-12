@@ -34,4 +34,11 @@ It was fun. **I got to crack open some cold ones and write about a subject I was
 
 All in all, **I contributed to 46 articles at FantasyPros**, which you're encouraged to explore on my FantasyPros profile page. Thanks for reading. 
 
-[READ MY ARTICLES AT FANTASY PROS](https://www.fantasypros.com/news/correspondents/jim-colombo.php)
+<br>
+
+##### [READ MY ARTICLES AT FANTASY PROS]((https://www.fantasypros.com/news/correspondents/jim-colombo.php))
+
+<br>
+<br>
+
+#### Looking for blogs or articles for your business? Let me know!
