@@ -27,22 +27,37 @@ Over a series of virtual meetings, we got together to discuss what the website s
 
 From a copywriting perspective, we need to accomplish the following:
 
-* Highlight key differentiators
+<br>
 
-  * Strong supply
-  * Transparent pricing
-  * Rapid response
-* Celebrate the founders and the legacy they built
+#### Highlight key differentiators
 
-  * Third-generation
-  * Family-owned
-  * Veteran-owned
+* Strong supply
+* Transparent pricing
+* Rapid response
+
+<br>
+
+#### Celebrate the founders and the legacy they built
+
+* Third-generationVeteran-owned
+* Family business
 * Showcase high-profile customers
-*
 
+<br>
 
+#### Illustrate a rich history of industry service and innovation
 
+* Create a timeline
+* Demonstrate growth
+* Present a vision for the future
 
+<br>
+
+**Here's another thing:** Them Prowell boys were good ol' fashioned Texas businessmen. Kind and courteous. Straight to the point. Supper funny and charming hell. The copy needed to paint a picture of these guys and their business on a way that would balance their prowess with humility. 
+
+<br>
+
+So, what do you think? Did we nail it? Check out the site at [**texaircorp.com**. ](https://www.texaircorp.com/)
 
 <br>
 
