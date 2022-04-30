@@ -11,7 +11,7 @@ featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/tex-air-gas-co-1-.png
 tags: []
 ---
-![](/img/tex-air-gas-co-feature.jpg)
+![](/img/tex-air-gas-co-feature-1-.png)
 
 # "You wanna write this website?"
 
