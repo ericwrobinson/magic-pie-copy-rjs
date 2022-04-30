@@ -23,7 +23,7 @@ And since this website project would involve working with our good friend and pa
 
 And that's when I was introduced to Jim and Joe Prowell, the father-son leadership team behind Tex-Air Gas Go. These guys—these true Texas gentlemen—represent a long legacy of fueling innovation in their industry. More than that, they're just super nice guys. 
 
-Over a series of virtual meetings, we got together to discuss what their all-new website should look like, how it should sound, and why people should visit it. 
+Over a series of virtual meetings in 2020, we got together to discuss what their all-new website should look like, how it should sound, and why people should visit it. 
 
 ## From a copywriting perspective, our goals were to:
 
@@ -64,7 +64,7 @@ Over a series of virtual meetings, we got together to discuss what their all-new
 
 <br>
 
-#### So, what do you think? 
+#### So, what do you think?
 
 Did we nail it? Check out the site at [**texaircorp.com**. ](https://www.texaircorp.com/)
 
