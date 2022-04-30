@@ -60,7 +60,7 @@ Over a series of virtual meetings, we got together to discuss what their all-new
 
 <br>
 
-**Here's another thing:** Them Prowell boys were good ol' fashioned Texas businessmen. Kind and courteous. Straight to the point. Super funny and charming hell. The copy needed to paint a picture of these guys and their business in a way that would balance their prowess with humility, their innovative spirit with an old-fashioned work ethic.
+**Here's another thing:** Them Prowell boys're good ol' fashioned Texas businessmen. Kind and courteous. Straight to the point. Super funny and charming as hell. The copy needed to paint a picture of these guys and their business in a way that would balance their prowess with humility, their innovative spirit with an old-fashioned work ethic.
 
 <br>
 
