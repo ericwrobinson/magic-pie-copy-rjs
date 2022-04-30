@@ -21,7 +21,28 @@ Now, I love writing copy for websites. *Love it*. It's my favorite.
 
 And since this website project would involve working with our good friend and partner, Eric, I was like, "Oh, yeah, let's do this."
 
-And that's when I was introduced to Jim and Joe Prowell, the father-son leadership team of Tex-Air Gas Go. These guys—these true Texas gentlemen—represent a long legacy of fueling innovation in their industry. As third-generation proprietors of Grade A 
+And that's when I was introduced to Jim and Joe Prowell, the father-son leadership team behind Tex-Air Gas Go. These guys—these true Texas gentlemen—represent a long legacy of fueling innovation in their industry. More than that, they're super nice guys. 
+
+Over a series of virtual meetings, we got together to discuss what the website should look like, how it should sound, and why people should visit it. 
+
+From a copywriting perspective, we need to accomplish the following:
+
+* Highlight key differentiators
+
+  * Strong supply
+  * Transparent pricing
+  * Rapid response
+* Celebrate the founders and the legacy they built
+
+  * Third-generation
+  * Family-owned
+  * Veteran-owned
+* Showcase high-profile customers
+*
+
+
+
+
 
 <br>
 
