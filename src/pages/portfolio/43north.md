@@ -29,7 +29,7 @@ So there I was—shacked up with a case of beer and an extra large pizza—when 
 
 "Cool. **The idea is to encourage small business owners to apply for business grants from Erie County.** They need assistance during the pandemic, so this will help them get ready to open back up," she explained. "We need a quick turn-around on this thing. **Could you have something for us to look at tomorrow?** 
 
-"Yep, no problem," I said.
+"Yep, no problem."
 
 And that was pretty much that. 
 
