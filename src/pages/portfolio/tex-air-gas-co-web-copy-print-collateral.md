@@ -21,11 +21,11 @@ Now, I love writing copy for websites. *Love it*. It's my favorite.
 
 And since this website project would involve working with our good friend and partner, Eric, I was like, "Oh, yeah, let's do this."
 
-And that's when I was introduced to Jim and Joe Prowell, the father-son leadership team behind Tex-Air Gas Go. These guys—these true Texas gentlemen—represent a long legacy of fueling innovation in their industry. More than that, they're super nice guys. 
+And that's when I was introduced to Jim and Joe Prowell, the father-son leadership team behind Tex-Air Gas Go. These guys—these true Texas gentlemen—represent a long legacy of fueling innovation in their industry. More than that, they're just super nice guys. 
 
-Over a series of virtual meetings, we got together to discuss what the website should look like, how it should sound, and why people should visit it. 
+Over a series of virtual meetings, we got together to discuss what their all-new website should look like, how it should sound, and why people should visit it. 
 
-From a copywriting perspective, we need to accomplish the following:
+## From a copywriting perspective, our goals were to:
 
 <br>
 
@@ -37,11 +37,18 @@ From a copywriting perspective, we need to accomplish the following:
 
 <br>
 
-#### Celebrate the founders and the legacy they built
+#### Celebrate the founders and the legacy they've built
 
-* Third-generationVeteran-owned
+* Third-generation
+* Veteran-owned
 * Family business
-* Showcase high-profile customers
+
+<br>
+
+#### Showcase high-profile customers
+
+* Red Bull
+* David Blaine
 
 <br>
 
@@ -53,12 +60,14 @@ From a copywriting perspective, we need to accomplish the following:
 
 <br>
 
-**Here's another thing:** Them Prowell boys were good ol' fashioned Texas businessmen. Kind and courteous. Straight to the point. Supper funny and charming hell. The copy needed to paint a picture of these guys and their business on a way that would balance their prowess with humility. 
+**Here's another thing:** Them Prowell boys were good ol' fashioned Texas businessmen. Kind and courteous. Straight to the point. Super funny and charming hell. The copy needed to paint a picture of these guys and their business in a way that would balance their prowess with humility, their innovative spirit with an old-fashioned work ethic.
 
 <br>
 
-So, what do you think? Did we nail it? Check out the site at [**texaircorp.com**. ](https://www.texaircorp.com/)
+#### So, what do you think? 
+
+Did we nail it? Check out the site at [**texaircorp.com**. ](https://www.texaircorp.com/)
 
 <br>
 
-##### **Do *you* want to do something? Like make a video? Let me know and let's do it!**
+##### **Looking for a fresh website? Let me know!**
