@@ -8,7 +8,7 @@ subtitle: >-
 
 
   FantasyPros is one of the world's leading fantasy sports resources. The website features an aggregation of expert advice from around the web to help a bunch of nerds manage their fake sports teams.
-featuredimage: /img/temp-background-image.jpg
+featuredimage: ""
 logoWhite: /img/fantasypros-white.png
 tags:
   - article
