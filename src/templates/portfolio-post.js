@@ -24,7 +24,7 @@ export const PortfolioPostTemplate = ({
   contentComponent,
   subtitle,
   tags,
-  featuredimage,
+  // featuredimage,
   title,
   helmet,
 }) => {
@@ -37,7 +37,7 @@ export const PortfolioPostTemplate = ({
           maxWidth='680px'
           center
           divider
-          featuredimage={featuredimage}
+          // featuredimage={featuredimage}
           headerTitle={title}
           subtitle={subtitle}/>
       <section className="section">
@@ -121,14 +121,15 @@ export const pageQuery = graphql`
         title
         subtitle
         tags
-        featuredimage {
-          childImageSharp {
-            fluid(maxWidth: 1200, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }
-`
+`;
+
+// featuredimage {
+//   childImageSharp {
+//     fluid(maxWidth: 1200, quality: 100) {
+//       ...GatsbyImageSharpFluid
+//     }
+//   }
+// }
