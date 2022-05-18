@@ -10,14 +10,14 @@ import facebook from '../img/social/facebook.svg'
 // import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import linkedin from '../img/social/linkedin.svg'
-import { colors } from '../theme';
+import { gradients, colors } from '../theme';
 
 const StyledLink = styled(Link)`
   color: ${colors.black};
 `;
 
 const CallToAction = styled.div`
-  background-color: ${colors.black};
+  background: ${gradients.purpleGradient};
   width: 100%;
   padding: 88px 0;
 `;
@@ -86,6 +86,7 @@ const Footer = class extends React.Component {
             <CallToActionContent>
               <Header h2 color={colors.white}>Let’s do something.</Header>
               <ButtonPrimary 
+                hoverWhite
                 linkTo='/contact'>get in touch</ButtonPrimary>
             </CallToActionContent>
           </SiteContent>

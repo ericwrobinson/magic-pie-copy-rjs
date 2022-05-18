@@ -35,13 +35,14 @@ const Wrapper = styled.div`
 const BodyCopy = styled.p`
   font-family: Sofia-Pro, sans-serif;
 	font-size: ${({ fontSize }) => fontSize}px;
-	opacity: 1;
-	/* opacity: ${({ opacity }) => opacity ? 1 : .8}; */
+	/* opacity: 1; */
+	opacity: ${({ opacity }) => opacity ? opacity : 1};
 	line-height: ${({ tight, lineHeight }) => _lineHeightAdjust(tight, lineHeight)}px;
 	color: ${({ color }) => color};
 	font-weight: ${({ bold }) => bold ? 700 : 400};
   white-space: pre-line;
 	text-align: ${({ align }) => align ?? null};
+	text-transform: ${({uppercase, capitalize}) => uppercase ? 'uppercase' : capitalize ? 'capitalize' : null} ;
 
 	::selection {
 	  background: ${colors.orange};
@@ -55,7 +56,22 @@ const BodyCopy = styled.p`
 
 
 
-const Body = ({ width, fontSize, children, center, color, maxWidth, bold, paddingBottom, style, opacity, tight, lineHeight }) => {
+const Body = ({ 
+		width, 
+		fontSize, 
+		children, 
+		center, 
+		color, 
+		maxWidth, 
+		bold, 
+		paddingBottom, 
+		style, 
+		opacity, 
+		tight, 
+		lineHeight,
+		uppercase,
+		capitalize
+	}) => {
 
 	return (
 		<Wrapper
@@ -65,6 +81,8 @@ const Body = ({ width, fontSize, children, center, color, maxWidth, bold, paddin
 			paddingBottom={paddingBottom}
 			style={style}>
 			<BodyCopy
+				uppercase={uppercase}
+				capitalize={capitalize}
 				fontSize={fontSize}
 				opacity={opacity}
 				bold={bold}

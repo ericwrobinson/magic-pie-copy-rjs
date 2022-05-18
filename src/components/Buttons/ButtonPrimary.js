@@ -16,14 +16,15 @@ const ButtonComponent = styled.div`
 	height: 40px;
 	min-width: 121px;
 	max-width: 400px;
-	background: ${({ inverted }) => inverted ? colors.white : gradients.orangeRed };
+	background: ${({ inverted }) => inverted ? colors.white : colors.orange };
 	color: ${({ inverted }) => inverted ? colors.black : colors.white };
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	align-self: flex-start;
-	padding: 6px 33px 11px 33px;
+	padding: 10px 28px 18px 28px;
 	text-align: center;
+	box-shadow: 0 0 2px ${colors.darkPurple + '36'};
 	transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
 
 	/* &:after {
@@ -34,8 +35,9 @@ const ButtonComponent = styled.div`
 	} */
 
 	&:hover {
-		background: ${({ inverted }) => inverted ? gradients.orangeRed  : colors.white };
-		color: ${({ inverted }) => inverted ? colors.white : colors.black };
+		background: ${({ inverted, hoverWhite }) => hoverWhite ? colors.white : inverted ? colors.orange  : colors.darkPurple };
+		color: ${({ inverted, hoverWhite }) => hoverWhite ? colors.orange : inverted ? colors.white : colors.white };
+		box-shadow: 0 8px 16px ${colors.orange + '36'};
 	}
 `;
 
@@ -43,7 +45,6 @@ const ButtonCopy = styled.span`
 	font-size: 24px;
 	font-weight: bold;
 	letter-spacing: 1px;
-	line-height: 1.2;
 	font-family: tuppence, serif;
 `;
 
@@ -95,6 +96,7 @@ const ButtonPrimary = ({ ...props }) => {
 			flexBox={props.flexBox}
 			to={props.linkTo}>
 			<ButtonComponent
+				hoverWhite={props.hoverWhite}
 				inverted={props.inverted} 
 				disabled={props.disabled} 
 				color={props.color}

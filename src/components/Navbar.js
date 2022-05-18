@@ -32,8 +32,46 @@ const LogoImage = styled.img`
 const NavMenu = styled.div`
   padding-right: 20px;
 
+  @media only screen and (max-width: 1023px) {
+    /* height: ${({active}) => active ? '100%' : '0'}; */
+    /* display: flex;
+    visibility: hidden;
+    height: 0;
+    transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0s; */
+
+    /* ${({active}) => active && `
+      display: flex;
+      visibility: visible;
+      height: 100%;
+    `} */
+
+  }
+
   @media only screen and (max-width: 580px) {
     padding-right: 10px;
+  }
+`;
+
+const NavList = styled.ul`
+  align-items: center;
+  display: flex;
+
+  @media only screen and (max-width: 1023px) {
+    flex-direction: column ;
+  }
+`;
+
+
+const NavItem = styled.li`
+  display: flex;
+  font-family: tuppence, serif;
+  font-size: 20px;
+  padding: 0 1.25rem;
+  height: fit-content ;
+  
+  @media only screen and (max-width: 1023px) {
+    font-size: 32px;
+    padding: 1.5rem 1.25rem;
   }
 `;
 
@@ -67,6 +105,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    console.log('state', this.state)
     return (
       <Nav
         className="navbar is-transparent"
@@ -99,21 +138,33 @@ const Navbar = class extends React.Component {
           </div>
         </NavWrapper>
 
-          <NavMenu id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
-            <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" to="/portfolio/">
-                work
-              </Link>
-              <Link className="navbar-item" to="/services/">
-                services
-              </Link>
-              <Link className="navbar-item" to="/about/">
-                about
-              </Link>
-              <Link className="navbar-item" to="/contact/">
-                contact
-              </Link>
-            </div>
+          <NavMenu 
+            active={this.state.active}
+            id="navMenu" 
+            className={`navbar-menu ${this.state.navBarActiveClass}`}>
+            <NavList className="has-text-centered">
+              <NavItem>
+                <Link className="navbar-item" to="/portfolio/">
+                  work
+                </Link>
+              </NavItem>
+              
+              <NavItem>
+                <Link className="navbar-item" to="/services/">
+                  services
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link className="navbar-item" to="/about/">
+                  about
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link className="navbar-item" to="/contact/">
+                  contact
+                </Link>
+              </NavItem>
+            </NavList>
           </NavMenu>
       </Nav>
     )

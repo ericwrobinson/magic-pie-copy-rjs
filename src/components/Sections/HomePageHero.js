@@ -6,7 +6,7 @@ import { Text,
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
 
-import curvesPurpleBottom from '../../img/curves/curves-purple-bottom.svg';
+// import curvesPurpleBottom from '../../img/curves/curves-purple-bottom.svg';
 
 const propTypes = {
 	linkTo: PropTypes.string,

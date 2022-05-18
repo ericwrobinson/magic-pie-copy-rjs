@@ -104,7 +104,7 @@ const HomePageServices = ({
 		<Wrapper>
 			<ServicesWrapper>
 				<SiteContent center>
-					<img width="110px" src={servicesIcon}/>
+					<img alt="icon for services" width="110px" src={servicesIcon}/>
 					<Text h2 size="xlarge" color='white' align="center">
 						{headerTitle}
 		      </Text>
@@ -162,6 +162,7 @@ const HomePageServices = ({
 		      </ServiceRowWrapper>
 
 		      <ButtonPrimary 
+					hoverWhite
 		      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 				</SiteContent>
 			</ServicesWrapper>

@@ -37,7 +37,7 @@ export const AboutPageTemplate = ({
         maxWidth='680px'
         center
         h2
-        height={'300px'}
+        // height={'300px'}
         backgroundColor={'white'}
         headerTitle={intro.title}
         subtitle={intro.subtitle}

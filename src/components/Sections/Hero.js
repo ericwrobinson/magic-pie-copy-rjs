@@ -64,7 +64,7 @@ const Divider = styled.img`
 const HeroWrapper = styled.div`
   /* min-height: ${({ minHeight }) => minHeight ? minHeight : '600px'}; */
 	padding: 40px 0 80px 0;
-  height: ${({ height }) => height ? height : '40vh'};
+  /* height: ${({ height }) => height ? height : '40vh'}; */
   background-color: ${({ inverted, backgroundColor }) => backgroundColor ? backgroundColor : inverted ? 'black' : 'white' };
   color: ${({ inverted }) => inverted ? '#f2f2f2' : 'black' };
   display: flex;

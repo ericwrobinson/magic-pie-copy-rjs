@@ -35,19 +35,19 @@ const SiteContent = ({
 	wrap, 
 	flexStart, 
 	style, 
-	aosType, 
-	aosOffset, 
-	aosEasing,
-	aosDuration,
-	aosDelay 
+	// aosType, 
+	// aosOffset, 
+	// aosEasing,
+	// aosDuration,
+	// aosDelay 
 }) => (
 	<Wrapper
-		data-aos={aosType}
-    data-aos-once={true}
-    data-aos-offset={aosOffset} 
-    data-aos-easing={aosEasing}
-    data-aos-duration={aosDuration}
-    data-aos-delay={aosDelay}
+		// data-aos={aosType}
+    // data-aos-once={true}
+    // data-aos-offset={aosOffset} 
+    // data-aos-easing={aosEasing}
+    // data-aos-duration={aosDuration}
+    // data-aos-delay={aosDelay}
     flexStart={flexStart}
     spaceBetween={spaceBetween}
     column={column}

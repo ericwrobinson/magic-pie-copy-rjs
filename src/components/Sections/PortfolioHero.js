@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { Header,
 				 Body } from '../Typography';
 import { ButtonPrimary } from '../Buttons';
+import { colors, gradients } from '../../theme'
 import { SiteContent } from '../Layouts';
 
 import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
@@ -28,10 +29,11 @@ const Divider = styled.img`
 
 const HeaderWrapper = styled.div`
 	position: relative;
-	padding: 60px 0 120px 0;
-  min-height: 600px;
+	padding: 62px 0 124px 0;
+  min-height: 800px;
   height: 100%;
-  background-color: black;
+  background: ${gradients.purpleGradient};
+  /* background-color: black; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -51,23 +53,24 @@ const HeaderWrapper = styled.div`
 
 	@media only screen and (max-width: 580px) {
 		padding: 30px 0 60px 0;
-		min-height: 500px;
+		min-height: 600px;
 	}
 
 	@media only screen and (max-width: 400px) {
 	}
 `;
 
-const BackgroundOverlay = styled.div`
-  position: absolute;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+const TagWrapper = styled.ul`
+	display: flex ;
+	align-self: center;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 32px ;
+`;
+
+const TagItem = styled.li`
+	display: flex;
+  padding-right: 16px;
 `;
 
 const PortfolioHero = ({ 
@@ -79,7 +82,8 @@ const PortfolioHero = ({
 	buttonTitle, 
 	divider,
 	maxWidth,
-	center
+	center,
+	tags
 	}) => {
 
 	let isInverted = featuredimage ? true : inverted;
@@ -96,6 +100,22 @@ const PortfolioHero = ({
 						{headerTitle}
 		      </Header>
 
+					{tags && tags.length ? (
+							<TagWrapper className="taglist">
+								{tags.map((tag, index) => {
+									console.log('index', (index === tags.length-1))
+									return (
+										<TagItem key={tag + `tag`}>
+											<Body color="white">{tag}</Body>
+											{index != (tags.length-1) && 
+												<span style={{paddingLeft: '16px', color: colors.orange}}> | </span>
+											}
+										</TagItem>
+									)
+								})}
+							</TagWrapper>
+					) : null}
+
 		      <Body 
 		      	paddingBottom
 		      	maxWidth={maxWidth}
@@ -109,6 +129,8 @@ const PortfolioHero = ({
 			      	// inverted={isInverted} 
 			      	linkTo={'#'}>{buttonTitle}</ButtonPrimary>
 		      }
+
+					
 
 				</SiteContent>
 			{ divider && 

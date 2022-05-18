@@ -99,13 +99,6 @@ export const servicesPageQuery = graphql`
   query ServicesPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         subheading
         title
         subtitle

@@ -17,6 +17,8 @@ import Content, { HTMLContent } from '../components/Content';
 
 const ContentWrapper = styled.div`
   margin-top: 44px;
+  max-width: 960px;
+  margin: 0 auto;
 `;
 
 export const PortfolioPostTemplate = ({
@@ -39,17 +41,18 @@ export const PortfolioPostTemplate = ({
           divider
           // featuredimage={featuredimage}
           headerTitle={title}
+          tags={tags}
           subtitle={subtitle}/>
       <section className="section">
         {helmet || ''}
         <div className="container content">
 
           <div className="columns">
-            <ContentWrapper className="column is-10 is-offset-1">
+            <ContentWrapper>
               
               <PostContent content={content} />
 
-              {tags && tags.length ? (
+              {/* {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>
                   <h4>Tags</h4>
                   <ul className="taglist">
@@ -60,7 +63,7 @@ export const PortfolioPostTemplate = ({
                     ))}
                   </ul>
                 </div>
-              ) : null}
+              ) : null} */}
 
             </ContentWrapper>
           </div>

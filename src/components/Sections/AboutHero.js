@@ -5,11 +5,12 @@ import { Header,
 				 Body } from '../Typography';
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
+import {gradients } from '../../theme'
 
 // import homeHero from '../../img/magic-pie-copy-home-hero.svg';
 import curvesBlackTop from '../../img/curves/curves-black-top.svg';
 import curvesWhiteBottom from '../../img/curves/curves-white-bottom.svg';
-import linkedinWhite from '../../img/social/linkedin-white.svg';
+// import linkedinWhite from '../../img/social/linkedin-white.svg';
 
 const propTypes = {
 	linkTo: PropTypes.string,
@@ -19,8 +20,6 @@ defaultProps = {
 }
 
 const Wrapper = styled.div`
-  background-color: ${({ inverted }) => inverted ? 'black' : '#f2f2f2' };
-
 `;
 
 const Subheading = styled.div`
@@ -35,54 +34,52 @@ const Subheading = styled.div`
 
 const Image = styled.div`
 	width:  80%;
-	min-height: 600px;
+	min-height: 500px;
 	background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
   background-position: center;
 	margin: 0 auto;
-	margin-bottom: -110px;
+	/* margin-bottom: -110px; */
 
 	@media only screen and (min-width: 1800px) {
 		width:  80%;
-		margin-bottom: -200px;
+		/* margin-bottom: -200px; */
 	}
 
 	@media only screen and (max-width: 980px) {
 		width:  70%;
-		margin-bottom: -80px;
+		/* margin-bottom: -80px; */
 	}
 
 	@media only screen and (max-width: 780px) {
 		width:  80%;
-		margin-bottom: -80px;
+		min-height: 300px;
+		/* margin-bottom: -80px; */
 	}
 
 	@media only screen and (max-width: 580px) {
-		width:  80%;
+		width:  100%;
 		margin: 0 auto;
-		min-height: 400px;
-		margin-bottom: -40px;
+		min-height: 300px;
+		/* margin-bottom: -40px; */
 	}
-`;
-
-const LinkedInWrapper = styled.img`
-	width: 24px;
-	height: 24px;
-	cursor: pointer;
 `;
 
 const Divider = styled.img`
 	width: 100%;
+	position: absolute;
 	transform: ${({ inverted }) => inverted ? null : 'rotate(180deg)' };
-	margin-bottom: -10px;
+	bottom: -10px;
 	z-index: 1;
 `;
 
 const HeroWrapper = styled.div`
+	position: relative;
   min-height: ${({ minHeight }) => minHeight ? minHeight : '300px'};
   padding-top: 240px;
-  background-color: ${({ inverted, backgroundColor }) => backgroundColor ? backgroundColor : inverted ? 'black' : '#f2f2f2' };
+  background: ${gradients.purpleGradient};
+  /* background-color: ${({ inverted, backgroundColor }) => backgroundColor ? backgroundColor : inverted ? 'black' : '#f2f2f2' }; */
   color: ${({ inverted }) => inverted ? '#f2f2f2' : 'black' };
   display: flex;
   flex-direction: column;
@@ -177,12 +174,12 @@ const AboutHero = ({
 	          backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`
 	        }}/>
 	      }
-			</HeroWrapper>
-			{ divider && 
+				{ divider && 
 				<Divider 
 					inverted={inverted} 
-					src={inverted ? curvesWhiteBottom : curvesBlackTop} />
+					src={curvesWhiteBottom} />
 			}
+			</HeroWrapper>
 		</Wrapper>
 	);
 }

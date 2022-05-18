@@ -79,14 +79,14 @@ const WorkWrapper = styled.div`
 
 `;
 
-const Divider = styled.img`
-	width: 100%;
-	margin-bottom: -8px;
+// const Divider = styled.img`
+// 	width: 100%;
+// 	margin-bottom: -8px;
 
-	@media only screen and (max-width: 580px) {
-		min-width:  100.1%;
-	}
-`;
+// 	@media only screen and (max-width: 580px) {
+// 		min-width:  100.1%;
+// 	}
+// `;
 
 // <WorkImage src={workLogo1}/>
 // <WorkImage src={workLogo2}/>
@@ -111,7 +111,7 @@ const HomePageWork = ({
 
 			<WorkWrapper>
 				<SiteContent center>
-					<img width="110px" src={workIcon}/>
+					<img alt={workIcon} width="110px" src={workIcon}/>
 					<Text h2 size="xlarge" align='center' color={colors.white}>
 						{headerTitle}
 		      </Text>
@@ -123,25 +123,26 @@ const HomePageWork = ({
 		      	{subtitle}
 		      </Body>
 		      <ImageRowWrapper>
-			      <WorkImage style={{
+			      <WorkImage alt={workLogo1} style={{
 			          backgroundImage: `url(${workLogo1})`
 			        }}>
 			      </WorkImage>
-			      <WorkImage style={{
+			      <WorkImage alt={workLogo2} style={{
 			          backgroundImage: `url(${workLogo2})`
 			        }}
 			      ></WorkImage>
-			      <WorkImage style={{
+			      <WorkImage alt={workLogo3} style={{
 			          backgroundImage: `url(${workLogo3})`
 			        }}
 			      ></WorkImage>
-				    <WorkImage style={{
+				    <WorkImage alt={workLogo4} style={{
 			        backgroundImage: `url(${workLogo4})`
 			      }}
 			    ></WorkImage>
 		      </ImageRowWrapper>
 
 		      <ButtonPrimary 
+					hoverWhite
 		      	linkTo={linkTo}>{buttonTitle}</ButtonPrimary>
 				</SiteContent>
 			</WorkWrapper>

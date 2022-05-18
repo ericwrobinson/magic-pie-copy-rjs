@@ -2,7 +2,6 @@
 templateKey: services-page
 path: /services
 subheading: Services
-image: /img/jumbotron.jpg
 title: So, what'll it be?
 subtitle: Websites. Blogs. Brochures. Articles. Anthems. Ads. Emails. Slogans.
   Tags. Mags. Mailers. Postcards. Catalogs. Case studies. Copy!
