@@ -31,9 +31,17 @@ const Wrapper = styled.div`
 	  color: white;
 	}
 
+	span {
+		padding-left: 2px;
+		transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
+	}
+
 	&:hover {
 		color: ${({ inverted }) => inverted ? '#a8a8a8' : '#f2f2f2' };
 		letter-spacing: 1.85px;
+		span {
+			padding-left: 4px;
+		}
 	}
 
   @media only screen and (max-width: 780px) {
@@ -56,7 +64,7 @@ const NewLink = ({ to, external, href, children, inverted }) => {
 	        target={external ? "_blank" : null}
 	        external={external} 
 	        to={to} 
-					>{children} →</SwitchLink>
+					>{children}<span>→</span></SwitchLink>
 
 		</Wrapper>
 	);

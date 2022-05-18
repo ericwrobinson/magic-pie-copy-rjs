@@ -6,15 +6,12 @@ import { Header,
 				} from '../Typography';
 import { NewLink } from '../Buttons';
 import { SiteContent } from '../Layouts';
+import { colors } from "../../theme";
 
 const propTypes = {
 },
 defaultProps = {
 }
-
-const Wrapper = styled.div`
-	background-color: #f2f2f2;
-`;
 
 const ContentWrapper = styled.div`
 	display: flex;
@@ -30,14 +27,14 @@ const ThirdWrapper = styled.div`
 	display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 30%;
+  width: 31%;
   min-height: 400px;
   padding: 50px 0px;
-  margin-left: 1.525%;
-  margin-right: 1.525%;
   background-color: white;
   text-align: center;
   align-items: center;
+	border: 3px solid ${colors.orange};
+	border-radius: 16px;
 
   @media only screen and (max-width: 980px) {
 	  width: 100%;
@@ -71,11 +68,11 @@ const Image = styled.div`
 `;
 
 const InnerWrapper = styled.div`
-  padding: 20px;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+	width: 100%;
 
 	::selection {
 	  background: #000;
@@ -112,9 +109,8 @@ const ThreeCol = ({
 }) => {
 
 	return (
-		<Wrapper>
-			<InnerWrapper>
-				<SiteContent>
+			<SiteContent>
+				<InnerWrapper>
 					<ContentWrapper>
 						<ThirdWrapper>
 							<Image style={{
@@ -150,9 +146,8 @@ const ThreeCol = ({
 				      	href={linkTo3}>{buttonTitle3}</NewLink>
 						</ThirdWrapper>
 					</ContentWrapper>
-				</SiteContent>
 			</InnerWrapper>
-		</Wrapper>
+			</SiteContent>
 	);
 }
 

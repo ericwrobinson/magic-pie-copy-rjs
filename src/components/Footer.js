@@ -17,9 +17,11 @@ const StyledLink = styled(Link)`
 `;
 
 const CallToAction = styled.div`
-  background: ${gradients.purpleGradient};
+  background: ${gradients.purpleGradient135};
   width: 100%;
-  padding: 88px 0;
+  padding: 128px 64px;
+  margin: 0 auto;
+  border-radius: 16px;
 `;
 
 const CallToActionContent = styled.div`
@@ -80,17 +82,17 @@ const Copyright2 = styled.span`
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer>
-        <CallToAction>
+      <footer style={{ marginTop: '64px'}}>
           <SiteContent center>
+        <CallToAction>
             <CallToActionContent>
               <Header h2 color={colors.white}>Let’s do something.</Header>
               <ButtonPrimary 
                 hoverWhite
                 linkTo='/contact'>get in touch</ButtonPrimary>
             </CallToActionContent>
-          </SiteContent>
         </CallToAction>
+        </SiteContent>
 
           <div className="content has-text-centered">
             <img

@@ -19,8 +19,10 @@ export const colors = {
 
 export const gradients = {
   triColorGradient: 'linear-gradient(112deg, ' + colors.pink + ' -5%,' + colors.purple + ' 41%,' + colors.babyBlue + ' 100%)',
+  orangeRed135: 'linear-gradient(135deg, ' + colors.orange + ' 0%,' + colors.red + ' 100%)',
   orangeRed: 'linear-gradient(90deg, ' + colors.orange + ' 0%,' + colors.red + ' 100%)',
   pinkPurple: 'linear-gradient(180deg, ' + colors.pink + ' 0%,' + colors.purple + ' 100%)',
   purpleGradient: 'linear-gradient(180deg, ' + colors.darkPurple + ' 0%,' + colors.darkestPurple + ' 100%)',
+  purpleGradient135: 'linear-gradient(135deg, ' + colors.darkPurple + ' 0%,' + colors.darkestPurple + ' 100%)',
   lightBlueGradient: 'linear-gradient(135deg, ' + colors.babyBlue + ' 0%, #0070F2 100%)'
 }

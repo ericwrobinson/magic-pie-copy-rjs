@@ -16,7 +16,7 @@ const ButtonComponent = styled.div`
 	height: 40px;
 	min-width: 121px;
 	max-width: 400px;
-	background: ${({ inverted }) => inverted ? colors.white : colors.orange };
+	background: ${({ inverted, darkPurple }) => inverted ? colors.white : darkPurple ? colors.darkPurple : colors.orange };
 	color: ${({ inverted }) => inverted ? colors.black : colors.white };
 	display: flex;
 	align-items: center;
@@ -96,6 +96,7 @@ const ButtonPrimary = ({ ...props }) => {
 			flexBox={props.flexBox}
 			to={props.linkTo}>
 			<ButtonComponent
+				darkPurple={props.darkPurple}
 				hoverWhite={props.hoverWhite}
 				inverted={props.inverted} 
 				disabled={props.disabled} 

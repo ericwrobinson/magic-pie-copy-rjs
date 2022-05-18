@@ -12,6 +12,7 @@ import Features from '../components/Features'
 
 import { Hero,
          SplitCTA } from '../components/Sections';
+import { SiteContent } from '../components/Layouts';
 
 const GridWrapper = styled.div`
   background-color: white;
@@ -20,7 +21,6 @@ const GridWrapper = styled.div`
 `;
 
 export const ServicesPageTemplate = ({
-  image,
   title,
   subtitle,
   subheading,
@@ -35,9 +35,9 @@ export const ServicesPageTemplate = ({
       headerTitle={title}
       subtitle={subtitle}/>
     <GridWrapper>
-      <div className="column is-10 is-offset-1">
+      <SiteContent center style={{paddingTop: '64px'}}>
         <Features gridItems={intro.services} />
-      </div>
+      </SiteContent>
     </GridWrapper>
     <SplitCTA
         headerTitle1={cta.title1}

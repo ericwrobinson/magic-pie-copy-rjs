@@ -7,6 +7,7 @@ import Layout from '../../components/Layout';
 import PortfolioRoll from '../../components/PortfolioRoll';
 import { PortfolioServices } from '../../components/Sections';
 import { gradients } from '../../theme';
+import { SiteContent } from '../../components/Layouts';
 
 const SectionWrapper = styled.section`
   background: ${gradients.purpleGradient};
@@ -32,15 +33,16 @@ export default class PortfolioIndexPage extends React.Component {
             subtitle={subtitle}/>
 
           <SectionWrapper className="section">
-            <div className="container">
+            <SiteContent center>
               <PortfolioRoll />
-            </div>
-          </SectionWrapper>
-
-          <PortfolioServices
+            </SiteContent>
+            <PortfolioServices
             headerTitle={'Like what you see? \nLet’s work together.'}
             subtitle={'Check out our services and find out how we can help you, your marketing team, or your business.'}
             buttonTitle={'see our services'}/>
+          </SectionWrapper>
+
+          
         </Layout>
       </PageTransition>
     )

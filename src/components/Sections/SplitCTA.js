@@ -5,6 +5,7 @@ import { Header,
 				 Body } from '../Typography';
 import { ButtonPrimary } from '../Buttons';
 import { SiteContent } from '../Layouts';
+import { colors, gradients } from "../../theme";
 
 const propTypes = {
 	linkTo1: PropTypes.string,
@@ -15,14 +16,11 @@ defaultProps = {
 	linkTo2: "#"
 };
 
-const Wrapper = styled.div``;
-
 const ContentWrapper = styled.div`
 	display: flex;
 	width: 100%;
 	background-color: white;
   justify-content: space-between;
-	padding: 44px;
 
 	@media only screen and (max-width: 780px) {
   	flex-direction: column;
@@ -34,10 +32,10 @@ const HalfWrapper = styled.div`
 	display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 45%;
-  margin-left: 1.5%;
-  margin-right: 1.5%;
-  background-color: white;
+  width: 49%;
+	border-radius: 16px;
+	padding: 32px;
+  background: ${({purple}) => purple ? gradients.purpleGradient : gradients.orangeRed135};
 
   @media only screen and (max-width: 780px) {
 	  width: 100%;
@@ -45,32 +43,6 @@ const HalfWrapper = styled.div`
 	  margin-left: 0;
 	  margin-right: 0;
 	}
-`;
-
-const WhyWrapper = styled.div`
-  padding: 20px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-	::selection {
-	  background: #000;
-	  color: black;
-	};
-
-  @media only screen and (max-width: 780px) {
-	  flex-direction: row;
-	}
-
-	@media only screen and (max-width: 580px) {
-
-	}
-
-	@media only screen and (max-width: 400px) {
-
-	}
-
 `;
 
 const SplitCTA = ({ 
@@ -84,36 +56,37 @@ const SplitCTA = ({
 	linkTo2
 }) => {
 	return (
-		<Wrapper>
-			<WhyWrapper>
 				<SiteContent>
 					<ContentWrapper>
-						<HalfWrapper>
-							<Header h3 color='black'>
+						<HalfWrapper >
+							<Header h3 color={colors.white}>
 								{headerTitle1}
 				      </Header>
-				      <Body paddingBottom>
+				      <Body color={colors.white} paddingBottom>
 				      	{subtitle1}
 				      </Body>
 				      <ButtonPrimary 
 				      	flexBox
+								darkPurple
+								hoverWhite
 				      	linkTo={linkTo1}>{buttonTitle1}</ButtonPrimary>
 						</HalfWrapper>
-						<HalfWrapper>
-							<Header h3 color='black'>
+
+						<HalfWrapper purple>
+							<Header h3 color={colors.white}>
 								{headerTitle2}
 				      </Header>
-				      <Body paddingBottom>
+				      <Body color={colors.white} paddingBottom>
 				      	{subtitle2}
 				      </Body>
 				      <ButtonPrimary 
 				      	flexBox
+								hoverWhite
 				      	linkTo={linkTo2}>{buttonTitle2}</ButtonPrimary>
 						</HalfWrapper>
+
 					</ContentWrapper>
 				</SiteContent>
-			</WhyWrapper>
-		</Wrapper>
 	);
 }
 

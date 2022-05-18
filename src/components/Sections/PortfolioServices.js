@@ -11,7 +11,6 @@ const propTypes = {
 defaultProps = {
 }
 
-const Wrapper = styled.div``;
 
 const ContentWrapper = styled.div`
 	display: flex;
@@ -19,13 +18,13 @@ const ContentWrapper = styled.div`
   flex-direction: column;
 	padding: 44px;
 	text-align: center;
+  border-radius: 16px;
   align-items: center;
 `;
 
-const SecondWrapper = styled.div`
+const Wrapper = styled.div`
   min-height: 450px;
-  padding: 20px;
-  background-color: #F2F2F2;
+  /* background-color: #F2F2F2; */
   color: white;
   display: flex;
   flex-direction: column;
@@ -51,8 +50,7 @@ const SecondWrapper = styled.div`
 
 const PortfolioServices = ({ children, headerTitle, subtitle, buttonTitle }) => {
 	return (
-		<Wrapper>
-			<SecondWrapper>
+			<Wrapper>
 				<SiteContent center>
 					<ContentWrapper>
 						<Header h2 color='black'>
@@ -66,8 +64,7 @@ const PortfolioServices = ({ children, headerTitle, subtitle, buttonTitle }) => 
 			      	linkTo={'/services/'}>{buttonTitle}</ButtonPrimary>
 					</ContentWrapper>
 				</SiteContent>
-			</SecondWrapper>
-		</Wrapper>
+			</Wrapper>
 	);
 }
 
