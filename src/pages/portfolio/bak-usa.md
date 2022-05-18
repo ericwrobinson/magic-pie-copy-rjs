@@ -11,6 +11,8 @@ featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/bak-usa-white.png
 tags:
   - website
+  - print
+  - ads
 ---
 ![](/img/magic-pie-copy-work-bak-usa.png)
 <br>
