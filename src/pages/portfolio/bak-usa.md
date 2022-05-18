@@ -2,8 +2,9 @@
 templateKey: portfolio-post
 date: 2022-05-10T16:32:31.073Z
 title: Bak USA
-subtitle: >-
-  Bak USA was a social enterprise that manufactured computers in downtown Buffalo, New York. Committed to empowering people and changing lives, the company employed a diverse workforce in urban America.
+subtitle: Bak USA was a social enterprise that manufactured computers in
+  downtown Buffalo, New York. Committed to empowering people and changing lives,
+  the company employed a diverse workforce in urban America.
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/bak-usa-white.png
 tags:
@@ -63,10 +64,10 @@ With that, **here's a small sample of the content I created as the lead content 
 
 **Print Collateral: Atlas 2-in-1 Laptop**
 
-![](/img/bak-usa-print-atlas.jpeg)
+![](/img/thumbsupstudio-bakusa-print-atlas-white.jpg)
 
 <br>
 
 **Print Collateral: Seal Rugged Tablet**
 
-![](/img/bak-usa-print-seal.jpeg)
+![](/img/thumbsupstudio-bakusa-print-seal-white.jpg)
