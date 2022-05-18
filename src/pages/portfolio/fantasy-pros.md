@@ -38,10 +38,7 @@ All in all, **I contributed to 46 articles at FantasyPros**, which you're encour
 
 #### Check me out on FantasyPros!
 
-You can see all of my articles **[here.](https://www.fantasypros.com/news/correspondents/jim-colombo.php)** Thanks for reading!
-
-You can see all of my articles
-<a target="_blank" href="https://www.fantasypros.com/news/correspondents/jim-colombo.php">here<a/>
+You can see all of my articles <a target="_blank" href="https://www.fantasypros.com/news/correspondents/jim-colombo.php">here<a/>. Thanks for reading!
 
 <br>
 <br>
