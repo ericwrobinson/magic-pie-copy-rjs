@@ -9,7 +9,9 @@ subtitle: >-
   Launch NY is a nonprofit venture development organization in Upstate New York. The company provides pro bono mentoring and access to risk capital for high-growth startups.
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/launchNY-white.png
-tags: []
+tags:
+  - website
+  - information architecture
 ---
 ![](/img/launch-ny-feature-image.jpg)
 <br>
