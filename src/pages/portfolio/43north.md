@@ -1,14 +1,13 @@
 ---
 templateKey: portfolio-post
+featuredimage: /img/temp-background-image.jpg
 date: 2022-05-10T04:02:00.000Z
 featuredpost: false
 title: 43North
-subtitle: >-
-  VIDEO SCRIPT
-
-
-  43North is an accelerator program, founded by Empire State Development and the State of New York, that hosts an annual startup competition. The company invests $5 million per year to attract and cultivate high-growth companies in Buffalo, New York.
-featuredimage: /img/temp-background-image.jpg
+subtitle: 43North is an accelerator program, founded by Empire State Development
+  and the State of New York, that hosts an annual startup competition. The
+  company invests $5 million per year to attract and cultivate high-growth
+  companies in Buffalo, New York.
 logoWhite: /img/43north-white-wide.png
 tags:
   - video script
