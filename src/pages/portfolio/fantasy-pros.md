@@ -1,5 +1,6 @@
 ---
 templateKey: portfolio-post
+featuredimage: ""
 date: 2020-01-01T15:06:11.000Z
 featuredpost: false
 title: FantasyPros
@@ -8,10 +9,9 @@ subtitle: >-
 
 
   FantasyPros is one of the world's leading fantasy sports resources. The website features an aggregation of expert advice from around the web to help a bunch of nerds manage their fake sports teams.
-featuredimage: ""
 logoWhite: /img/fantasypros-white.png
 tags:
-  - article
+  - articles
 ---
 ![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.jpg "test")
 <br>
