@@ -4,11 +4,9 @@ featuredimage: ""
 date: 2020-01-01T15:06:11.000Z
 featuredpost: false
 title: FantasyPros
-subtitle: >-
-  ARTICLES
-
-
-  FantasyPros is one of the world's leading fantasy sports resources. The website features an aggregation of expert advice from around the web to help a bunch of nerds manage their fake sports teams.
+subtitle: FantasyPros is one of the world's leading fantasy sports resources.
+  The website features an aggregation of expert advice from around the web to
+  help a bunch of nerds manage their fake sports teams.
 logoWhite: /img/fantasypros-white.png
 tags:
   - articles
