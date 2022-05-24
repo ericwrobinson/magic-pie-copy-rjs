@@ -60,7 +60,7 @@ With that, **here's a small sample of the content I created as the lead content 
 
 **Corporate Catalog**
 
-![](/img/mp1.png)
+![]()
 
 **Print Collateral: Atlas 2-in-1 Laptop**
 
