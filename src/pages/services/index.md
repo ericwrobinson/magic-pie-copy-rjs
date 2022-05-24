@@ -18,7 +18,7 @@ intro:
 
         2. Pinpoint your target audience(s)
 
-        3. Define (or re-define) your brand voice
+        3. Define your brand voice
 
         4. Design information architecture
 
@@ -49,7 +49,7 @@ intro:
         5. Celebrate company culture
 
 
-        So when people visit your website, they won't just learn more about your brand—they'll fall in love with it.
+        So when people visit your website, they won't just learn more about your brand—they'll have no choice but to fall in love with it.
       image: /img/magic-pie-copy-icon-blogs.svg
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: Print Collateral
