@@ -10,19 +10,22 @@ intro:
     - serviceImage: /img/magic-pie-copy-icon-web.svg
       serviceTitle: Websites
       serviceSubtitle: >-
-        Whether you're starting up or starting over, building your new website
-        has never been easier. As your freelance copywriter, I'll work with you
-        to: 
+        Whether you're starting up or starting over, building your website has
+        never been easier. As your freelance copywriter, I'll work with you to: 
 
 
-        1. Outline a site structure
+        1. Identify the purpose of your website
 
-        2. Define your brand voice
+        2. Pinpoint your target audience(s)
 
-        3. Write fresh copy for every page
+        3. Define (or re-define) your brand voice
+
+        4. Design information architecture
+
+        5. Write fresh copy for every page
 
 
-        Throughout the process, I'll introduce you to my web design and development partners. These guys—they're wizards. Together, we'll customize a website that invites, engages, and inspires your audience.
+        Throughout the process, I'll introduce you to my web design and development partners. Together, we'll customize a website that invites, engages, and inspires your audience.
       image: /img/magic-pie-copy-icon-web.svg
     - serviceImage: /img/magic-pie-copy-icon-blogs.svg
       serviceTitle: Blogs & Articles
@@ -46,7 +49,7 @@ intro:
         5. Celebrate company culture
 
 
-        So when people visit your website, they won't just learn about your brand—they'll fall in love with it.
+        So when people visit your website, they won't just learn more about your brand—they'll fall in love with it.
       image: /img/magic-pie-copy-icon-blogs.svg
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: Print Collateral
@@ -54,13 +57,13 @@ intro:
         Who says print is dead? 
 
 
-        When you sit down with customers or talk to people at trade shows, you've got to leave something behind. Something memorable. Something to touch. To read. To experience. Same thing goes for your storefront, your food truck, or even your e-commerce business. 
+        When you sit down with customers or talk to people at trade shows, you've got to leave something behind.  Something to touch. To read. To experience. Something *memorable*.
 
 
         With high-quality print materials, your products pop off the page. Your story is sensational. Your brand? It's unbeatable! 
 
 
-        With well-written (and beautifully designed) print collateral, you can attract, captivate, and activate your audience. Sound good? Let's do it.
+        With well-written (and beautifully designed) print collateral, you can attract, captivate, and activate your audience.
       image: /img/magic-pie-copy-icon-marketing.svg
     - serviceImage: /img/magic-pie-copy-icon-video.svg
       serviceTitle: Video Scripts
