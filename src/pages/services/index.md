@@ -46,7 +46,7 @@ intro:
         5. To celebrate company culture
 
 
-        So when people visit your website, they can learn more about your brand, and–more to the point–fall in love with it. 
+        So when people visit your website, they can learn more about your brand, and—more to the point—fall in love with it. 
 
 
         Put simply, the best blogs win customers and influence them.
