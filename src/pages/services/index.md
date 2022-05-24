@@ -57,10 +57,10 @@ intro:
         Who says print is dead? 
 
 
-        When you sit down with customers or talk to people at trade shows, you've got to leave something behind.  Something to touch. To read. To experience. Something *memorable*.
+        When you sit down with customers or talk to people at trade shows, you've got to leave something behind.  Something to touch. Something to read. Something to experience.
 
 
-        With high-quality print materials, your products pop off the page. Your story is sensational. Your brand? It's unbeatable! 
+        With high-quality print materials, your products pop off the page. Your story is sensational. Your business? It's unbeatable! 
 
 
         With well-written (and beautifully designed) print collateral, you can attract, captivate, and activate your audience.
