@@ -68,8 +68,8 @@ intro:
     - serviceImage: /img/magic-pie-copy-icon-video.svg
       serviceTitle: Video Scripts
       serviceSubtitle: >-
-        What's your team look like right now? Understaffed and overworked? Burnt
-        out? Up against a hard-and-fast deadline that's creeping ever closer?
+        What's your team look like? Understaffed and overworked? Burnt out? Up
+        against a hard-and-fast deadline that's creeping ever closer?
 
 
         I get it. I've been there. I know how it feels.
