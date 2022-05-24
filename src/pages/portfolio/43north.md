@@ -44,4 +44,4 @@ Was the video a success? I don't know. I think so. At the very least, it played 
 
 <br>
 
-##### **Do *you* want to do something? Like make a video? Let me know and let's do it!**
+##### **Do *you* want to do something? Like make a video? [Let me know ](https://magicpiecopy.com/contact/)and let's do it!**
