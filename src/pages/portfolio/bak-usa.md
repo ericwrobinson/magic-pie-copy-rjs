@@ -4,7 +4,7 @@ date: 2022-05-10T16:32:31.073Z
 title: Bak USA
 subtitle: Bak USA was a social enterprise that manufactured computers in
   downtown Buffalo, New York. Committed to empowering people and changing lives,
-  the company employed a diverse workforce in urban America.
+  the startup employed a diverse workforce in urban America.
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/bak-usa-white.png
 tags:
