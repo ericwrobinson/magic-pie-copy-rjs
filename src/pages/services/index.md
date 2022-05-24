@@ -69,13 +69,16 @@ intro:
       serviceTitle: Video Scripts
       serviceSubtitle: >-
         What's your team look like? Understaffed and overworked? Burnt out? Up
-        against a hard-and-fast deadline that's creeping ever closer?
+        against a cold-blooded deadline that's creeping ever closer?
 
 
         I get it. I've been there. I know how it feels.
 
 
-        Which is why I understand how nice it can be to pass off a project—such as writing a video script—to someone who can look at it from a fresh perspective. Someone who can take your concept, run with it, and bring it to life. Someone like me.
+        Which is why I understand how nice it can be to pass off a project—such as writing a video script—to someone who can look at it from a fresh perspective. Someone who can take your concept, run with it, and bring it to life. 
+
+
+        Someone like me!
       image: /img/magic-pie-copy-icon-video.svg
 cta:
   title1: See it.
