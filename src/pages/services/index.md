@@ -27,29 +27,26 @@ intro:
     - serviceImage: /img/magic-pie-copy-icon-blogs.svg
       serviceTitle: Blogs & Articles
       serviceSubtitle: >-
-        This isn't the coolest sentence I've ever typed, but... I've written
-        well over a hundred blogs. For many businesses in plenty of industries,
-        too. 
+        This isn't the coolest sentence I've ever typed, but I've written well
+        over a hundred blogs. For a bunch of businesses in a lot of different
+        industries, too. 
 
 
-        But why do businesses need blogs? For at least five reasons:
+        But why does a business need a blog? In most cases, to accomplish at least one of five goals:
 
 
-        1. To establish employees as thought leaders
+        1. Establish employees as thought leaders
 
-        2. To share insights or advice to customers
+        2. Offer insights or advice to customers
 
-        3. To promote products or services
+        3. Promote products or services
 
-        4. To share company news
+        4. Share company news
 
-        5. To celebrate company culture
-
-
-        So when people visit your website, they can learn more about your brand, and—more to the point—fall in love with it. 
+        5. Celebrate company culture
 
 
-        Put simply, the best blogs win customers and influence them.
+        So when people visit your website, they won't just learn about your brand—they'll fall in love with it.
       image: /img/magic-pie-copy-icon-blogs.svg
     - serviceImage: /img/magic-pie-copy-icon-marketing.svg
       serviceTitle: Print Collateral
