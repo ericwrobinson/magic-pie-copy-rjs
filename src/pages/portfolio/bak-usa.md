@@ -14,6 +14,8 @@ tags:
   - scripts
   - ads
 ---
+![]()
+
 ![](/img/magic-pie-copy-work-bak-usa.png)
 <br>
 
@@ -62,12 +64,16 @@ With that, **here's a small sample of the content I created as the lead content 
 
 ![](/img/bak-usa-print.jpg)
 
-**Print Collateral: Atlas 2-in-1 Laptop**
+**Atlas 2-in-1 Laptop Collection**
 
 ![](/img/thumbsupstudio-bakusa-print-atlas-white.jpg)
 
 <br>
 
-**Print Collateral: Seal Rugged Tablet**
+**Seal Rugged Tablet Collection**
 
 ![](/img/thumbsupstudio-bakusa-print-seal-white.jpg)
+
+**43North Print Ad**
+
+![](/img/bakusa-43n-ad2017.jpg)
