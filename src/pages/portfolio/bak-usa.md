@@ -77,3 +77,7 @@ With that, **here's a small sample of the content I created as the lead content 
 **43North Print Ad**
 
 ![](/img/bakusa-43n-ad2017.jpg)
+
+**American Airlines In-Flight Magazine**
+
+![](/img/bakusa-americanairlinesad-print-share.jpg)
