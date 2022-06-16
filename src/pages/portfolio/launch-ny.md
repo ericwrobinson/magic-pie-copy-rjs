@@ -48,7 +48,7 @@ Did we get the gig because we low-balled the living shit of the competition? Alm
 
 ### **You have to see it to believe it.**
 
-Who doesn't love a good before-and-after photo? Compare and contrast the old website with the new to see how we executed the transformation here.
+Who doesn't love a good before-and-after photo? Compare and contrast the old website with the new to see how we executed the transformation **[here](https://thumbsupstudio.com/work/launchny/)**.
 
 <br>
 
