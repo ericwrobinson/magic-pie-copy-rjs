@@ -30,10 +30,4 @@ By the summertime, I was invited to write a recurring column called "Heat Index.
 
 It was fun. **I got to crack open some cold ones and write about a subject I was both knowledgable in and passionate about.** But it was also grueling. And as soon as fantasy football became work, it became less fun. I served as a FantasyPros featured writer for one year—met all of my obligations—and then quietly dipped out. 
 
-All in all, **I contributed to 46 articles at FantasyPros**, which you're encouraged to explore on my FantasyPros profile page. Thanks for reading. 
-
-<br>
-
-#### Check me out on FantasyPros!
-
-You can see all of my articles <a target="_blank" href="https://www.fantasypros.com/news/correspondents/jim-colombo.php">here</a>.
+All in all, **I contributed to 46 articles at FantasyPros**, which you're encouraged to explore <a target="_blank" href="https://www.fantasypros.com/news/correspondents/jim-colombo.php">here</a>.
