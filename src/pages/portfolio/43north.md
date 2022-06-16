@@ -22,8 +22,6 @@ It was October 2020. I had just come home from an overnight golf outing with the
 
 So there I was—shacked up with a case of beer and an extra large pizza—when I got a notification from Maura Devlin, the VP of marketing strategy from 43North.
 
-
-
 **"I was wondering if you wanted to help us write a script,"** she said. "We need to make a video for this campaign we're running for Erie County's 'Back to Business' Grant Program. I remember collaborating with you when you were writing for Superior Jobs and Viaduct, and I really liked your stuff. Are you available?"
 
 "Yeah, sure, I'm down!" I replied.
@@ -46,4 +44,4 @@ Was the video a success? I don't know. I think so. At the very least, it played 
 
 <br>
 
-##### **Do *you* want to do something? Like make a video? [Let me know ](https://magicpiecopy.com/contact/)and let's do it!**
+##### **Do *you* want to do something? Like make a video? [Let me know](https://magicpiecopy.com/contact/) and let's do it!**
