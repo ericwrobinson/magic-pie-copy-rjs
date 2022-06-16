@@ -66,8 +66,4 @@ Over a series of virtual meetings in 2020, we got together to discuss what their
 
 #### So, what do you think?
 
-Did we nail it? Check out the site at [**texaircorp.com**. ](https://www.texaircorp.com/)
-
-<br>
-
-##### **Looking for a fresh website? Let me know!**
+Did we nail it? Check out the site at [**texaircorp.com**.](https://www.texaircorp.com/)
