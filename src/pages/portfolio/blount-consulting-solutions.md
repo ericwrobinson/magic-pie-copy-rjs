@@ -12,7 +12,7 @@ subtitle: >+
 
 logoWhite: /img/upstartny-white.png
 tags:
-  - website
+  - articles
 ---
 
 
