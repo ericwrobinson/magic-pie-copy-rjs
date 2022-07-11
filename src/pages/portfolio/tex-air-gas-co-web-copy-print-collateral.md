@@ -19,7 +19,7 @@ My dude [Bertholt](https://bertholt.design/), a master of graphic design, asked 
 
 **Now, I love writing copy for websites.** *Love it*. It's my favorite. 
 
-And since this website project would involve working with our good friend and partner, Eric, I was like, "Oh, yeah, let's do this."
+And since this website project would involve working with our good friend and partner, [Eric](https://thumbsupstudio.com/), I was like, "Oh, yeah, let's do this."
 
 And that's when I was introduced to Jim and Joe Prowell, the father-son leadership team behind [Tex-Air Gas Co](https://www.texaircorp.com/). These guys—these true Texas gentlemen—represent a long legacy of fueling innovation in their industry. More than that, they're just super nice people. 
 
