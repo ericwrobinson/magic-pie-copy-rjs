@@ -34,7 +34,7 @@ But none of that was possible without our phenomenal marketing team. The harder 
 * 25+ Digital Ads
 * 50+ Print Pieces
 * 100+ Blogs
-* 127 Videos
+* [127 Videos](https://www.youtube.com/c/BakUSABuffalo)
 
 I'm probably forgetting a bunch of stuff, too, but you get the idea. And I'm so proud to have helped work on all if it. 
 
