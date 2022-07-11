@@ -3,19 +3,16 @@ templateKey: portfolio-post
 featuredimage: /img/temp-background-image.jpg
 date: 2022-03-19T14:04:10.000Z
 featuredpost: false
-title: Upstart NY
-subtitle: >+
-  UpstartNY tells stories about people who are changing Western New York through
-  entrepreneurship. The organization is committed to covering the full
-  entrepreneurial ecosystem in the region—from venture capital-backed,
-  high-growth startups—to grassroots, neighborhood small businesses.
-
-logoWhite: /img/upstartny-white.png
+title: IMPACT Strategic Consulting
+subtitle: >
+  IMPACT Strategic Consulting is a Chicago-based agency that works with some of
+  the world's biggest brands. The company leverages its global network of
+  industry experts to craft insights, ideas, and strategies that ignite
+  long-term business growth for clients.
+logoWhite: /img/impact-logo-white.png
 tags:
-  - articles
+  - website
 ---
-
-
-![](/img/upstart-ny-feature.jpg)
+![](/img/impact-feature.jpg)
 
 [Check out my articles at Upstart NY!](https://www.upstartny.org/authors/james.aspx)
