@@ -13,8 +13,6 @@ tags:
   - video script
 ---
 <iframe width="1024" height="681" src="https://www.youtube.com/embed/VeASx6hNwzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br>
-<br>
 
 ## I was sitting alone in a stranger's apartment when the email came through.
 
