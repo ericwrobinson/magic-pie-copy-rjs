@@ -22,7 +22,7 @@ Fortunately, I'd be working with two old co-workers from my days at a startup ca
 1. [Eric](https://thumbsupstudio.com/), a web designer
 2. [Mike](https://michaelsmealstudios.com/), a web developer
 
-We worked on a ton of cool stuff together. And made a lot of fun connections, too. That's probably why—a couple years removed from Bak USA—we got this message from *another* friendly face from our startup life: Celine, a marketing director at [Launch NY](https://launchny.org/). 
+We worked on a ton of cool stuff together. And we made a lot of fun connections, too. That's probably why—a couple years removed from Bak USA—we got this message from *another* friendly face from our startup life: Celine, a marketing director at [Launch NY](https://launchny.org/). 
 
 Celine came to us and was like, "Yo, I work at this place called Launch NY. We deal with startups and we need a new website. Are you interested?!"
 
