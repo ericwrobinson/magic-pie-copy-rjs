@@ -13,7 +13,7 @@ tags:
 ---
 ![](/img/tex-air-gas-co-feature-1-.png)
 
-# "You wanna write this website?"
+## "You wanna write this website?"
 
 My dude Bertholt, a master of graphic design, asked me if I wanted to team up on a new website project. 
 
@@ -25,7 +25,7 @@ And that's when I was introduced to Jim and Joe Prowell, the father-son leadersh
 
 Over a series of virtual meetings in 2020, we got together to discuss what their all-new website should look like, how it should sound, and why people should visit it. 
 
-## From a copywriting perspective, our goals were to:
+### From a copywriting perspective, our goals were to:
 
 <br>
 
@@ -66,4 +66,4 @@ Over a series of virtual meetings in 2020, we got together to discuss what their
 
 #### So, what do you think?
 
-Did we nail it? Check out the site at [**texaircorp.com**.](https://www.texaircorp.com/)
+Did we nail it? Check out the site at [texaircorp.com.](https://www.texaircorp.com/)
