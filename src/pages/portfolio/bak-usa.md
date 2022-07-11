@@ -8,8 +8,8 @@ subtitle: Bak USA was a social enterprise that manufactured computers in
 featuredimage: /img/temp-background-image.jpg
 logoWhite: /img/bak-usa-white.png
 tags:
-  - web copy
-  - print ads
+  - website
+  - print
   - anthem
   - scripts
 ---
