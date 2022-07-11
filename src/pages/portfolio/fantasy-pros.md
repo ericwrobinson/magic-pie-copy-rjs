@@ -29,4 +29,4 @@ By the summertime, I was invited to write a recurring column called "Heat Index.
 
 It was fun. **I got to crack open some cold ones and write about a subject I was both knowledgable in and passionate about.** But it was also grueling. And as soon as fantasy football became work, it became less fun. I served as a FantasyPros featured writer for one year—**contributed to a total of 46 articles**—and then quietly dipped out. 
 
-**[READ ARTICLES AT FANTASYPROS](https://www.fantasypros.com/news/correspondents/jim-colombo.php)**
+[Check out my articles at FantasyPros!](https://www.fantasypros.com/news/correspondents/jim-colombo.php)
