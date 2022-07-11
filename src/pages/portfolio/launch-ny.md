@@ -17,22 +17,24 @@ tags:
 
 Sure, I'd written a handful of websites in [full-time writing positions](https://www.linkedin.com/in/james-a-colombo/) before... And I'd written a [freelance article or two](https://risecollaborative.com/?post_type=post&s=james+colombo&submit=submit)... But this was my first BIG opportunity. 
 
-Fortunately, I'd be working with two of my current freelance partners: 
+Fortunately, I'd be working with two old co-workers from my days at a startup called [Bak USA](https://magicpiecopy.com/portfolio/bak-usa/):
 
-1. Eric, a web designer
-2. Mike, a web developer
+1. [Eric](https://thumbsupstudio.com/), a web designer
+2. [Mike](https://michaelsmealstudios.com/), a web developer
 
-Anyway, we had previous experience building all sorts of killer web content for a startup called Bak USA. That place eventually flamed out hard, but that's not the point. A couple years later, this super cool girl who used to intern there, Celine, came to us and was like, "Yo, I just got this new job at a place called Launch NY. We deal with startups and we need a new website. Are you interested?!"
+We worked on a ton of cool stuff together. But anyway, a couple years later, we got this message from *another* friendly face from Bak USA: Celine, a marketing director at [Launch NY](https://launchny.org/). 
+
+Celine came to us and was like, "Yo, I work at this place called Launch NY. We deal with startups and we need a new website. Are you interested?!"
 
 We were like, "Hell yeah!" So we submitted a proposal to build it. And we won.
 
-Did we get the gig because we low-balled the living shit of the competition? Almost certainly. But we didn't care. We wanted the job. This was our moment. 
+Did we get the gig because we low-balled the bejesus out of the competition? Almost certainly. But we didn't care. We wanted the job. This was our moment. 
 
 ### **So here's what we did.** We...
 
-* Worked directly with the president & CEO (Marnie LaVigne, PhD) and the director of marketing (our girl, Celine Krzan)
+* Worked directly with: the president & CEO ([Marnie LaVigne, PhD](https://www.linkedin.com/in/marnie-lavigne-ph-d-9a74b35)) and the director of marketing at the time (our girl, [Celine Krzan](https://www.linkedin.com/in/celinekrzan))
 * Agreed that the new Launch NY site would get a brand-new, modern look
-* Rehauled the entire website from top to bottom:
+* [Rebuilt the entire website ](https://thumbsupstudio.com/work/launchny/)from top to bottom:
 
   * New site architecture
   * New graphic design
