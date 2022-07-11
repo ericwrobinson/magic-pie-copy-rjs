@@ -15,4 +15,4 @@ tags:
 ---
 ![](/img/impact-feature.jpg)
 
-[Check out my articles at Upstart NY!](https://www.upstartny.org/authors/james.aspx)
+[See the site at mpact-strat.com!](https://www.impact-strat.com/)
