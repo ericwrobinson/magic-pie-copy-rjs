@@ -35,7 +35,7 @@ intro:
         industries, too. 
 
 
-        But why does a business need a blog? For at least one of five reasons:
+        But why does a business need a blog? Usually to:
 
 
         1. Establish employees as thought leaders
