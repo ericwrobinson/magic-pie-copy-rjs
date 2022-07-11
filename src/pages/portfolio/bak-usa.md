@@ -18,8 +18,6 @@ tags:
 
 <iframe width="100%" height="681" src="https://www.youtube.com/embed/SHVSGz_Nmrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<br>
-
 ## In 2016, I got a job writing for this new startup in the city of Buffalo.
 
 The company was so new that I was asked to help develop its brand from the ground up. 
@@ -47,7 +45,7 @@ With that, **here's a small sample of the content I created as the lead content 
 
 ### Videos
 
-**Atlas 2-in-1 Laptop: "Out of This World. Into Your Hands."</p>**
+**Atlas 2-in-1 Laptop: "Out of This World. Into Your Hands."**
 
 <iframe width="100%" height="681" src="https://www.youtube.com/embed/u7g7twDL8hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
@@ -57,11 +55,9 @@ With that, **here's a small sample of the content I created as the lead content 
 
 ### Print Collateral
 
-**Corporate Catalog – [CLICK HERE TO VIEW](https://drive.google.com/drive/u/0/search?q=bak%20usa/export/pdf)**
+**Corporate Catalog**
 
 ![](/img/bak-usa-print.jpg)
-
-
 
 **Atlas 2-in-1 Laptop Collection**
 
@@ -78,6 +74,6 @@ With that, **here's a small sample of the content I created as the lead content 
 
 ![](/img/bakusa-43n-ad2017.jpg)
 
-**American Airlines In-Flight Magazine**
+**American Airlines In-Flight Magazine Ad**
 
 ![](/img/bakusa-americanairlinesad-print-share.jpg)
