@@ -34,7 +34,7 @@ Did we get the gig because we low-balled the bejesus out of the competition? Alm
 
 * Worked directly with: the president & CEO ([Marnie LaVigne, PhD](https://www.linkedin.com/in/marnie-lavigne-ph-d-9a74b35)) and the director of marketing at the time (our girl, [Celine Krzan](https://www.linkedin.com/in/celinekrzan))
 * Agreed that the new Launch NY site would get a brand-new, modern look
-* [Rebuilt the entire website ](https://thumbsupstudio.com/work/launchny/)from top to bottom:
+* Rebuilt the entire website from top to bottom:
 
   * New site architecture
   * New graphic design
