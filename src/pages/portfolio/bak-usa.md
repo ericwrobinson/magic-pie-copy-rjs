@@ -46,31 +46,31 @@ With that, **here's a small sample of the content I created as the lead content 
 
 <iframe width="100%" height="681" src="https://www.youtube.com/embed/u7g7twDL8hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-**Seal Rugged Tablet: "Strength of Spirit"</p>**
+#### Seal Rugged Tablet: "Strength of Spirit"</p>**
 
 <iframe width="100%" height="681" src="https://www.youtube.com/embed/CFdfz1vOBoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ### Print Collateral
 
-**Corporate Catalog**
+#### Corporate Catalog
 
 ![](/img/bak-usa-print.jpg)
 
-**Atlas 2-in-1 Laptop Collection**
+#### Atlas 2-in-1 Laptop Collection
 
 ![](/img/thumbsupstudio-bakusa-print-atlas-white.jpg)
 
 <br>
 
-**Seal Rugged Tablet Collection**
+#### Seal Rugged Tablet Collection
 
 ![](/img/thumbsupstudio-bakusa-print-seal-white.jpg)
 <br>
-<br>
-**43North Print Ad**
+
+#### 43North Print Ad
 
 ![](/img/bakusa-43n-ad2017.jpg)
 
-**American Airlines In-Flight Magazine Ad**
+#### American Airlines In-Flight Magazine Ad
 
 ![](/img/bakusa-americanairlinesad-print-share.jpg)
