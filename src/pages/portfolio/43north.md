@@ -38,4 +38,4 @@ A quick back and forth the next day, maybe a second exchange after that, and boo
 
 A week or two later, the video (made in partnership with Lemur Studios) was up and running. For the next few weeks that followed, it was played prominently on social media platforms, targeted YouTube ads, and local news channels. 
 
-Was the video a success? I don't know. I think so. At the very least, it played a small role in helping 1,399 small businesses in Erie County receive $19.2 million in funding. And, well, that's something, right?
+Was the video a success? I don't know. I think so. At the very least, it played a small role in helping 1,399 small businesses in Erie County receive [$19.2 million in funding](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www2.erie.gov/environment/sites/www2.erie.gov.environment/files/uploads/Back_to_Business_Report-Final.pdf). And, well, that's something, right?
