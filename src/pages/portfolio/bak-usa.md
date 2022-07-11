@@ -10,7 +10,7 @@ logoWhite: /img/bak-usa-white.png
 tags:
   - website
   - print
-  - anthem
+  - ""
   - scripts
   - ads
 ---
