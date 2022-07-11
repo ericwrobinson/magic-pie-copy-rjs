@@ -60,9 +60,11 @@ With that, **here's a small sample of the content I created as the lead content 
 
 ### Print Collateral
 
-**Corporate Catalog**
+**Corporate Catalog – [CLICK HERE TO VIEW](https://drive.google.com/drive/u/0/search?q=bak%20usa)**
 
 ![](/img/bak-usa-print.jpg)
+
+
 
 **Atlas 2-in-1 Laptop Collection**
 
