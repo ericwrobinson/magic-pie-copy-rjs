@@ -15,7 +15,7 @@ tags:
 
 ## When the pandemic hit home in March 2020, I needed to scratch the itch to write—more-so than usual.
 
-And because I'm somewhat of a fantasy football fanatic, **I thought I'd take a shot and see if I could write some articles for FantasyPros.** 
+And because I'm somewhat of a fantasy football fanatic, **I thought I'd take a shot and see if I could write some articles for [FantasyPros](https://www.fantasypros.com/).** 
 
 So I sent an email to the head content guy over there. I told him I was really good at fantasy football. I even showed him my virtual trophy case on Yahoo Sports (along with some writing samples, of course). 
 
