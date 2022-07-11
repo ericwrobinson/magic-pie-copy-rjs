@@ -24,9 +24,7 @@ The company was so new that I was asked to help develop its brand from the groun
 
 That meant **creating a brand voice from scratch, developing a style guide, and writing nearly every word of the corporate website.** 
 
-But none of that was possible without our phenomenal marketing team. The harder we worked, the bigger we got, and the more we could do. 
-
-With so many talented people on the team, we were able to produce a ton of creative content:
+But none of that was possible without our phenomenal marketing team. The harder we worked, the bigger we got, and the more we could do. With so many talented people on the team, we were able to produce a ton of creative content:
 
 * 1 Corporate Catalog
 * 2 Websites
