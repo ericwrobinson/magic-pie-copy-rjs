@@ -16,7 +16,8 @@ tags:
 ---
 ![]()
 
-![](/img/magic-pie-copy-work-bak-usa.png)
+<iframe width="100%" height="681" src="https://www.youtube.com/embed/SHVSGz_Nmrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <br>
 
 ## In 2016, I got a job writing for this new startup in the city of Buffalo.
@@ -45,10 +46,6 @@ I'm probably forgetting a bunch of stuff, too, but you get the idea. And I'm so 
 With that, **here's a small sample of the content I created as the lead content creator at Bak USA**. Thanks for checking it out! 
 
 ### Videos
-
-**Corporate Anthem: "Making It in America"</p>**
-
-<iframe width="100%" height="681" src="https://www.youtube.com/embed/SHVSGz_Nmrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 **Atlas 2-in-1 Laptop: "Out of This World. Into Your Hands."</p>**
 
