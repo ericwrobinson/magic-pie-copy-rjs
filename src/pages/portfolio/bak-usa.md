@@ -58,7 +58,7 @@ With that, **here's a small sample of the content I created as the lead content 
 
 <iframe width="100%" height="681" src="https://www.youtube.com/embed/CFdfz1vOBoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## Print Collateral
+### Print Collateral
 
 **Corporate Catalog**
 
@@ -73,7 +73,8 @@ With that, **here's a small sample of the content I created as the lead content 
 **Seal Rugged Tablet Collection**
 
 ![](/img/thumbsupstudio-bakusa-print-seal-white.jpg)
-
+<br>
+<br>
 **43North Print Ad**
 
 ![](/img/bakusa-43n-ad2017.jpg)
@@ -81,9 +82,3 @@ With that, **here's a small sample of the content I created as the lead content 
 **American Airlines In-Flight Magazine**
 
 ![](/img/bakusa-americanairlinesad-print-share.jpg)
-
-## Billboards
-
-#### Brand Awareness
-
-![](/img/bakusa-2018-rock-buffalo-campaign-1.jpg)
