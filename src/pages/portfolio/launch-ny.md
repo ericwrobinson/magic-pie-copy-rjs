@@ -12,14 +12,15 @@ tags:
   - information architecture
 ---
 ![](/img/launch-ny-feature-image.jpg)
-<br>
-<br>
 
 ## I'd never worked on a website as a freelancer before, so this was kind of a big deal.
 
-Sure, I'd written a handful of websites in full-time writing positions before... And I had written a freelance article or two... But this was my first BIG opportunity. 
+Sure, I'd written a handful of websites in [full-time writing positions](https://www.linkedin.com/in/james-a-colombo/) before... And I'd written a [freelance article or two](https://risecollaborative.com/?post_type=post&s=james+colombo&submit=submit)... But this was my first BIG opportunity. 
 
-Fortunately, I'd be working with two dudes I've worked with before: a web designer, Eric, and a web developer, Mike. I still work with them, actually. They're my current freelance partners. 
+Fortunately, I'd be working with two of my current freelance partners: 
+
+1. Eric, a web designer
+2. Mike, a web developer
 
 Anyway, we had previous experience building all sorts of killer web content for a startup called Bak USA. That place eventually flamed out hard, but that's not the point. A couple years later, this super cool girl who used to intern there, Celine, came to us and was like, "Yo, I just got this new job at a place called Launch NY. We deal with startups and we need a new website. Are you interested?!"
 
