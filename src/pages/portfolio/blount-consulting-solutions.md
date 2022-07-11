@@ -4,11 +4,13 @@ featuredimage: /img/temp-background-image.jpg
 date: 2022-03-19T14:04:10.000Z
 featuredpost: false
 title: Blount Consulting Solutions
-subtitle: "Blount Consulting Solutions is a team of experienced healthcare
-  professionals, executive nurses, and trained consultants. The team helps
-  healthcare providers implement new strategies that transform their healthcare
-  communities. "
-logoWhite: /img/blount-white.png
+subtitle: >+
+  UpstartNY tells stories about people who are changing Western New York through
+  entrepreneurship. The organization is committed to covering the full
+  entrepreneurial ecosystem in the region—from venture capital-backed,
+  high-growth startups—to grassroots, neighborhood small businesses.
+
+logoWhite: /img/upstartny-white.png
 tags:
   - website
 ---
