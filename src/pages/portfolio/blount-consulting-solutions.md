@@ -14,6 +14,6 @@ tags:
 ---
 
 
-![](/img/blount-consulting-services-feature.png)
+![](/img/upstart-ny-feature.jpg)
 
-See the site at [blountcs.com](http://blountcs.com/).
+[Check out my articles at Upstart NY!](https://www.upstartny.org/authors/james.aspx)
