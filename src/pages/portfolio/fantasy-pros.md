@@ -12,7 +12,6 @@ tags:
   - articles
 ---
 ![](/img/magic-pie-copy-work-fantasy-pros-feature-image-1.jpg "test")
-<br>
 
 ## When the pandemic hit home in March 2020, I needed to scratch the itch to write—more-so than usual.
 
@@ -28,6 +27,6 @@ By the summertime, I was invited to write a recurring column called "Heat Index.
 
 **In each article, I graded NFL players who were coming off of surprise fantasy performances from the week before.** It was my job to help readers determine whether to roster these players on their fantasy football teams moving forward. 
 
-It was fun. **I got to crack open some cold ones and write about a subject I was both knowledgable in and passionate about.** But it was also grueling. And as soon as fantasy football became work, it became less fun. I served as a FantasyPros featured writer for one year—met all of my obligations—and then quietly dipped out. 
+It was fun. **I got to crack open some cold ones and write about a subject I was both knowledgable in and passionate about.** But it was also grueling. And as soon as fantasy football became work, it became less fun. I served as a FantasyPros featured writer for one year—**contributed to 46 articles at FantasyPros**—and then quietly dipped out. 
 
-All in all, **I contributed to 46 articles at FantasyPros**, which you're encouraged to explore <a target="_blank" href="https://www.fantasypros.com/news/correspondents/jim-colombo.php">here</a>.
+**[READ ARTICLES AT FANTASYPROS](https://www.fantasypros.com/news/correspondents/jim-colombo.php)**
