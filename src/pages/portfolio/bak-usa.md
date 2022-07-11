@@ -57,7 +57,7 @@ With that, **here's a small sample of the content I created as the lead content 
 
 ### Print Collateral
 
-**Corporate Catalog – [CLICK HERE TO VIEW](https://drive.google.com/drive/u/0/search?q=bak%20usa)**
+**Corporate Catalog – [CLICK HERE TO VIEW](https://drive.google.com/drive/u/0/search?q=bak%20usa/export/pdf)**
 
 ![](/img/bak-usa-print.jpg)
 
