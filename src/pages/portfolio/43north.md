@@ -20,7 +20,7 @@ It was October 2020. I had just come home from an overnight golf outing with the
 
 So there I was—shacked up with a case of beer and an extra large pizza—when I got a notification from [Maura Comerford Devlin](https://www.linkedin.com/in/maura-comerford-devlin-0308598/), the VP of marketing strategy from 43North.
 
-**"I was wondering if you wanted to help us write a script,"** she said. "We need to make a video for this campaign we're running for [Erie County's 'Back to Business' Grant Program](https://www2.erie.gov/exec/index.php?q=press/erie-county-back-business-grant-program-delivers-millions-dollars-aid-local-small-businesses). I remember collaborating with you when you were writing for Superior Jobs and Viaduct, and I really liked your stuff. Are you available?"
+**"I was wondering if you wanted to help us write a script,"** she said. "We need to make a video for this campaign we're running for [Erie County's 'Back to Business' Grant Program](https://www2.erie.gov/exec/index.php?q=press/erie-county-back-business-grant-program-delivers-millions-dollars-aid-local-small-businesses). I remember collaborating with you when you were writing for [Superior Jobs](https://www.superiorjobs.com/), [Viaduct](https://viaduct.com/), and [Forge Buffalo](https://forgebuffalo.com/). I really liked your stuff. Are you available?"
 
 "Yeah, sure, I'm down!" I replied.
 
