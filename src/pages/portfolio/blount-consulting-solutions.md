@@ -15,4 +15,4 @@ tags:
 ---
 ![](/img/impact-feature.jpg)
 
-[See the site at impact-strat.com!](https://www.impact-strat.com/)
+See the site at [impact-strat.com!](https://www.impact-strat.com/)
